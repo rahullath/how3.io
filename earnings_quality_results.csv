@@ -1,0 +1,800 @@
+Project,Market Sector,Revenue Stability Score,Revenue Diversification Score,Earnings Quality Score,Metrics Used,Complete Score
+Tether,Stablecoin issuers,0.0,,0.0,stability,False
+Tron,Blockchains (L1),0.0,,0.0,stability,False
+Circle,Stablecoin issuers,0.0,,0.0,stability,False
+Uniswap,Exchanges (DEX),0.0,77.32625257125247,23.197875771375738,"stability, diversification",True
+Lido Finance,Liquid staking,0.0,50.052158651036926,15.015647595311076,"stability, diversification",True
+Aave,Lending,0.0,,0.0,stability,False
+PancakeSwap,Exchanges (DEX),0.0,,0.0,stability,False
+Jito,Liquid staking,0.0,,0.0,stability,False
+Flashbots,Infrastructure,0.0,,0.0,stability,False
+Solana,Blockchains (L1),0.0,,0.0,stability,False
+Ethereum,Blockchains (L1),0.0,,0.0,stability,False
+Sky,Stablecoin issuers,0.0,,0.0,stability,False
+BNB Chain,Blockchains (L1),0.0,,0.0,stability,False
+Ethena,Stablecoin issuers,0.0,62.69308246339604,18.807924739018812,"stability, diversification",True
+Bitcoin,Blockchains (L1),0.0,,0.0,stability,False
+Aerodrome,Exchanges (DEX),0.0,,0.0,stability,False
+Morpho,Lending,0.0,,0.0,stability,False
+Fluid,Lending,0.0,,0.0,stability,False
+Venus,Lending,0.0,,0.0,stability,False
+Base,Blockchains (L2),0.0,64.9856734930213,19.495702047906388,"stability, diversification",True
+GMX,Derivative exchanges,0.0,,0.0,stability,False
+Uniswap Labs,Exchanges (DEX),0.0,,0.0,stability,False
+Convex Finance,Asset management,0.0,,0.0,stability,False
+Curve,Exchanges (DEX),0.0,,0.0,stability,False
+Compound,Lending,0.0,,0.0,stability,False
+Usual,Stablecoin issuers,0.0,,0.0,stability,False
+Thena,Exchanges (DEX),0.0,,0.0,stability,False
+LFJ,Exchanges (DEX),0.0,,0.0,stability,False
+Euler,Lending,0.0,,0.0,stability,False
+Maple Finance,Lending,0.0,,0.0,stability,False
+Pharaoh,Exchanges (DEX),0.0,,0.0,stability,False
+SynFutures,Derivative exchanges,0.0,,0.0,stability,False
+Arbitrum One,Blockchains (L2),0.0,58.28152874982261,17.484458624946782,"stability, diversification",True
+Internet Computer,Blockchains (L1),0.0,,0.0,stability,False
+QuickSwap,Exchanges (DEX),0.0,,0.0,stability,False
+Solv Protocol,Derivative exchanges,0.0,,0.0,stability,False
+OpenSea,NFT marketplaces,0.0,,0.0,stability,False
+OP Mainnet,Blockchains (L2),0.0,45.81432477759322,13.744297433277966,"stability, diversification",True
+ParaSwap,Exchanges (DEX),0.0,63.83424306490888,19.150272919472663,"stability, diversification",True
+Velodrome,Exchanges (DEX),0.0,,0.0,stability,False
+BENQI Liquid Staking,Liquid staking,0.0,,0.0,stability,False
+SushiSwap,Exchanges (DEX),0.0,,0.0,stability,False
+Vertex,Derivative exchanges,0.0,,0.0,stability,False
+StakeWise,Liquid staking,0.0,,0.0,stability,False
+Moonwell,Lending,0.0,,0.0,stability,False
+Tokenlon,Exchanges (DEX),0.0,,0.0,stability,False
+Balancer,Exchanges (DEX),0.0,,0.0,stability,False
+TON,Blockchains (L1),0.0,,0.0,stability,False
+Immutable,Blockchains (L2),0.0,,0.0,stability,False
+ApolloX,Derivative exchanges,0.0,,0.0,stability,False
+Aura Finance,Asset management,0.0,,0.0,stability,False
+DeFi Saver,Infrastructure,0.0,,0.0,stability,False
+Frax Ether,Liquid staking,0.0,,0.0,stability,False
+Camelot,Exchanges (DEX),0.0,,0.0,stability,False
+Avalanche,Blockchains (L1),0.0,,0.0,stability,False
+Layer3,Infrastructure,0.0,54.20313106365239,16.260939319095716,"stability, diversification",True
+Merkle Trade,Derivative exchanges,0.0,,0.0,stability,False
+KyberSwap,Exchanges (DEX),0.0,,0.0,stability,False
+Polygon,Blockchains (L1),0.0,,0.0,stability,False
+BENQI,Lending,0.0,,0.0,stability,False
+deBridge DLN,Bridges,0.0,,0.0,stability,False
+StakeStone,Liquid staking,0.0,,0.0,stability,False
+NEAR Protocol,Blockchains (L1),0.0,,0.0,stability,False
+Houdini Swap,Exchanges (DEX),0.0,,0.0,stability,False
+Katana,Exchanges (DEX),0.0,,0.0,stability,False
+Origin Protocol,Stablecoin issuers,0.0,,0.0,stability,False
+DODO,Exchanges (DEX),0.0,,0.0,stability,False
+HMX,Derivative exchanges,0.0,,0.0,stability,False
+Cardano,Blockchains (L1),0.0,,0.0,stability,False
+BMX,Derivative exchanges,0.0,,0.0,stability,False
+Pendle,Derivative exchanges,0.0,,0.0,stability,False
+Sonic,Blockchains (L1),0.0,,0.0,stability,False
+Manifold.xyz,NFT marketplaces,0.0,,0.0,stability,False
+Allbridge Core,Bridges,0.0,,0.0,stability,False
+Helium,Infrastructure,0.0,,0.0,stability,False
+Tokemak,Asset management,0.0,,0.0,stability,False
+BendDAO,Lending,0.0,,0.0,stability,False
+Gamma Strategies,Asset management,0.0,,0.0,stability,False
+Cronos,Blockchains (L1),0.0,,0.0,stability,False
+Synthetix,Derivative exchanges,0.0,,0.0,stability,False
+ZeroLend,Lending,0.0,,0.0,stability,False
+Tornado Cash,Infrastructure,0.0,,0.0,stability,False
+Injective,Blockchains (L1),0.0,,0.0,stability,False
+SyncSwap,Exchanges (DEX),0.0,,0.0,stability,False
+Stader,Liquid staking,0.0,,0.0,stability,False
+Gearbox,Lending,0.0,,0.0,stability,False
+Blur,NFT marketplaces,0.0,,0.0,stability,False
+Hegic,Derivative exchanges,0.0,,0.0,stability,False
+Dogecoin,Blockchains (L1),0.0,,0.0,stability,False
+Nexus Mutual,Insurance,0.0,,0.0,stability,False
+Aptos,Blockchains (L1),0.0,,0.0,stability,False
+Liquity,Stablecoin issuers,0.0,,0.0,stability,False
+Thruster,Exchanges (DEX),0.0,,0.0,stability,False
+Filecoin,Blockchains (L1),0.0,,0.0,stability,False
+Bancor,Exchanges (DEX),0.0,,0.0,stability,False
+Goldfinch,Lending,0.0,,0.0,stability,False
+MUX,Derivative exchanges,0.0,,0.0,stability,False
+Biswap,Exchanges (DEX),0.0,,0.0,stability,False
+Kwenta,Derivative exchanges,0.0,,0.0,stability,False
+Thetanuts,Asset management,0.0,,0.0,stability,False
+Seamless Protocol,Lending,0.0,,0.0,stability,False
+Gravity Alpha Mainnet,Blockchains (L2),0.0,54.7609680737004,16.42829042211012,"stability, diversification",True
+Ribbon Finance,Asset management,0.0,,0.0,stability,False
+Ronin,Blockchains (L1),0.0,,0.0,stability,False
+zkSync Era,Blockchains (L2),0.0,50.938113524618366,15.281434057385509,"stability, diversification",True
+Blast,Blockchains (L2),0.0,15.090878351573608,4.5272635054720824,"stability, diversification",True
+Livepeer,Infrastructure,0.0,,0.0,stability,False
+Celo,Blockchains (L1),0.0,,0.0,stability,False
+Pangolin,Exchanges (DEX),0.0,,0.0,stability,False
+MultiversX,Blockchains (L1),0.0,,0.0,stability,False
+Litecoin,Blockchains (L1),0.0,,0.0,stability,False
+Ramses Exchange,Exchanges (DEX),0.0,,0.0,stability,False
+deBridge,Interoperability,0.0,,0.0,stability,False
+Polkadot,Blockchains (L1),0.0,,0.0,stability,False
+Stargate,Bridges,0.0,,0.0,stability,False
+Stellar,Blockchains (L1),0.0,,0.0,stability,False
+Cosmos Hub,Blockchains (L1),0.0,,0.0,stability,False
+Integral,Exchanges (DEX),0.0,,0.0,stability,False
+The Graph,Infrastructure,0.0,,0.0,stability,False
+Index Cooperative,Asset management,0.0,,0.0,stability,False
+Synapse,Bridges,0.0,,0.0,stability,False
+Algorand,Blockchains (L1),0.0,,0.0,stability,False
+Ink,Blockchains (L2),0.0,75.36144601043182,22.608433803129547,"stability, diversification",True
+Abracadabra.money,Stablecoin issuers,0.0,,0.0,stability,False
+Maverick Protocol,Exchanges (DEX),0.0,,0.0,stability,False
+Manta,Blockchains (L2),0.0,,0.0,stability,False
+ApeSwap,Exchanges (DEX),0.0,,0.0,stability,False
+Beets,Exchanges (DEX),0.0,34.469352394811395,10.340805718443418,"stability, diversification",True
+Zcash,Blockchains (L1),0.0,,0.0,stability,False
+Holdstation,Derivative exchanges,0.0,,0.0,stability,False
+Starknet,Blockchains (L2),0.0,,0.0,stability,False
+Clipper,Exchanges (DEX),0.0,,0.0,stability,False
+Rarible,NFT marketplaces,0.0,,0.0,stability,False
+Chainlink,Infrastructure,0.0,,0.0,stability,False
+Radiant Capital,Lending,0.0,,0.0,stability,False
+Zerion,Infrastructure,0.0,,0.0,stability,False
+NFTX,NFT marketplaces,0.0,,0.0,stability,False
+Angle,Stablecoin issuers,0.0,,0.0,stability,False
+Hop Protocol,Bridges,0.0,,0.0,stability,False
+Perpetual Protocol,Derivative exchanges,0.0,,0.0,stability,False
+Fantom,Blockchains (L1),0.0,,0.0,stability,False
+Foundation,NFT marketplaces,0.0,,0.0,stability,False
+Equalizer Exchange,Exchanges (DEX),0.0,,0.0,stability,False
+SpookySwap,Exchanges (DEX),0.0,,0.0,stability,False
+X2Y2,NFT marketplaces,0.0,,0.0,stability,False
+Gnosis,Blockchains (L1),0.0,,0.0,stability,False
+OpenChat,Social,0.0,,0.0,stability,False
+IPOR Protocol,Derivative exchanges,0.0,,0.0,stability,False
+Verse,Exchanges (DEX),0.0,,0.0,stability,False
+Level Finance,Derivative exchanges,0.0,,0.0,stability,False
+Unichain,Blockchains (L2),0.0,77.32625257125247,23.197875771375738,"stability, diversification",True
+friend.tech,Social,0.0,,0.0,stability,False
+Kusama,Blockchains (L1),0.0,,0.0,stability,False
+Tezos,Blockchains (L1),0.0,,0.0,stability,False
+1inch,Exchanges (DEX),0.0,,0.0,stability,False
+Axelar Network,Interoperability,0.0,,0.0,stability,False
+Reflexer,Stablecoin issuers,0.0,,0.0,stability,False
+Mean Finance,Exchanges (DEX),0.0,,0.0,stability,False
+Sudoswap,NFT marketplaces,0.0,,0.0,stability,False
+Kleros,Infrastructure,0.0,,0.0,stability,False
+AirSwap,Exchanges (DEX),0.0,,0.0,stability,False
+Shoebill Finance,Lending,0.0,,0.0,stability,False
+Aperture,Exchanges (DEX),0.0,,0.0,stability,False
+Mina Protocol,Blockchains (L1),0.0,,0.0,stability,False
+Zyberswap,Exchanges (DEX),0.0,,0.0,stability,False
+Mummy Finance,Derivative exchanges,0.0,,0.0,stability,False
+Wombat Exchange,Exchanges (DEX),0.0,,0.0,stability,False
+Aleph Zero EVM,Blockchains (L2),0.0,,0.0,stability,False
+Conflux Core Space,Blockchains (L1),0.0,,0.0,stability,False
+Everclear,Bridges,0.0,,0.0,stability,False
+Zora,NFT marketplaces,0.0,,0.0,stability,False
+Cap,Derivative exchanges,0.0,,0.0,stability,False
+SolidLizard,Exchanges (DEX),0.0,,0.0,stability,False
+Thales,Derivative exchanges,0.0,,0.0,stability,False
+Viction,Blockchains (L1),0.0,,0.0,stability,False
+Sound.xyz,NFT marketplaces,0.0,,0.0,stability,False
+Cryptex,Asset management,0.0,,0.0,stability,False
+Polynomial Protocol,Derivative exchanges,0.0,,0.0,stability,False
+XAI,Blockchains (L3),0.0,,0.0,stability,False
+DFX Finance,Exchanges (DEX),0.0,,0.0,stability,False
+Volmex,Derivative exchanges,0.0,,0.0,stability,False
+Deri Protocol,Derivative exchanges,0.0,,0.0,stability,False
+Karura,Blockchains (L1),0.0,,0.0,stability,False
+Pika Protocol,Derivative exchanges,0.0,,0.0,stability,False
+dYdX,Derivative exchanges,0.0,,0.0,stability,False
+Premia,Derivative exchanges,,,,,False
+Lighter,Exchanges (DEX),,,,,False
+Osmosis,Exchanges (DEX),,,,,False
+Aragon,Infrastructure,,,,,False
+Optimism Gateway,Bridges,,,,,False
+Pocket Network,Infrastructure,,,,,False
+Swarm,Infrastructure,,,,,False
+XOXNO,NFT marketplaces,,,,,False
+IDEX,Exchanges (DEX),,,,,False
+TrueFi,Lending,,,,,False
+Toucan Protocol,Infrastructure,,,,,False
+Opyn,Derivative exchanges,,,,,False
+Alongside,Asset management,,,,,False
+Ren,Bridges,,,,,False
+Notional Finance,Lending,,,,,False
+CoW Protocol,Exchanges (DEX),,31.44841037678708,31.44841037678708,diversification,False
+PoolTogether,Asset management,,,,,False
+Across,Bridges,0.0,,0.0,stability,False
+LooksRare,NFT marketplaces,,,,,False
+Metavault.Trade,Derivative exchanges,0.0,,0.0,stability,False
+zkSync Era Bridge,Bridges,,,,,False
+Lens Protocol,Social,,,,,False
+Hashflow,Exchanges (DEX),,,,,False
+Voltz,Derivative exchanges,,,,,False
+KAP Games,Gaming,,,,,False
+0x,Exchanges (DEX),,,,,False
+Dopex,Derivative exchanges,,,,,False
+BetSwirl,Prediction markets,0.0,,0.0,stability,False
+Arbitrum Bridge,Bridges,,,,,False
+Buffer Finance,Derivative exchanges,,,,,False
+xExchange,Exchanges (DEX),,,,,False
+Polymarket,Prediction markets,,,,,False
+Bounce Finance,Infrastructure,0.0,,0.0,stability,False
+SX,Prediction markets,,,,,False
+Axie Infinity,Gaming,,,,,False
+Vesta Finance,Stablecoin issuers,,,,,False
+Rhino.fi,Exchanges (DEX),,,,,False
+zkLend,Lending,,,,,False
+PayPal,Stablecoin issuers,,,,,False
+ApeX Protocol,Derivative exchanges,,,,,False
+LI.FI,Infrastructure,,,,,False
+peaq,Blockchains (L1),,,,,False
+Mereo,Social,,,,,False
+DeGate,Exchanges (DEX),,,,,False
+Ocean Protocol,Infrastructure,,,,,False
+WELL3,Social,,,,,False
+VibrantX,Asset management,,,,,False
+xNINJA,Social,,,,,False
+Berachain,Blockchains (L1),,,,,False
+Zeitgeist,Blockchains (L2),,,,,False
+M^0,Stablecoin issuers,,,,,False
+XCAD Network,Social,,,,,False
+STON.fi,Exchanges (DEX),,,,,False
+TrueMarkets,Prediction markets,,,,,False
+Typus Finance,Asset management,,,,,False
+Hedera,Blockchains (L1),,,,,False
+Taiko,Blockchains (L2),,,,,False
+AlienX,Blockchains (L2),,,,,False
+Movement,Blockchains (L1),,,,,False
+Ankr,Liquid staking,,,,,False
+ZKX,Derivative exchanges,,,,,False
+RabbitHole,Gaming,,,,,False
+KiloEx,Derivative exchanges,,,,,False
+WOO,Exchanges (DEX),,,,,False
+SideShift,Infrastructure,,,,,False
+Kadena,Blockchains (L1),,,,,False
+Metis,Blockchains (L2),,,,,False
+PRDT,Prediction markets,,,,,False
+Hypr,Blockchains (L2),,,,,False
+Star Atlas,Gaming,,,,,False
+B3,Blockchains (L3),,,,,False
+Dymension,Blockchains (L1),,,,,False
+Litentry,Blockchains (L2),,,,,False
+Superform,Asset management,,,,,False
+Neptune Finance,Lending,,,,,False
+Photon,Derivative exchanges,,,,,False
+Cat Town,Gaming,,,,,False
+AVNU,Exchanges (DEX),,,,,False
+Venice,Infrastructure,,,,,False
+Pyth Network,Oracles,,,,,False
+Succinct,Infrastructure,,,,,False
+InterCrone Swap,Exchanges (DEX),,,,,False
+Lagoon,Asset management,,,,,False
+Scallop,Lending,,,,,False
+ABEL Finance,Lending,,,,,False
+Econia,Exchanges (DEX),,,,,False
+Ethervista,Exchanges (DEX),,,,,False
+Overtake,Gaming,,,,,False
+inkySwap,Exchanges (DEX),,,,,False
+Solayer,Liquid staking,,,,,False
+Astar,Blockchains (L2),,,,,False
+Render Network,Infrastructure,,,,,False
+Hedgey Finance,Infrastructure,,,,,False
+zkMe,Infrastructure,,,,,False
+Banana Gun,Infrastructure,,,,,False
+Ethereum Attestation Service,Infrastructure,,,,,False
+Derivio,Derivative exchanges,,,,,False
+Sophon,Blockchains (L2),,,,,False
+Layerswap,Bridges,,,,,False
+FlowX Finance,Exchanges (DEX),,,,,False
+Coinally,Infrastructure,,,,,False
+LUKSO,Blockchains (L1),,,,,False
+Echelon Prime Foundation,Infrastructure,,,,,False
+Energy Web X,Blockchains (L2),,,,,False
+Infrared Finance,Liquid staking,,,,,False
+StarryNift,Gaming,,,,,False
+Pixels,Gaming,,,,,False
+Global Dollar Network,Stablecoin issuers,,,,,False
+Metropolis,Exchanges (DEX),,,,,False
+Burrow,Lending,,,,,False
+Hinkal Protocol,Bridges,,,,,False
+unshETH,Asset management,,,,,False
+Sellix,Infrastructure,,,,,False
+Time.fun,Social,,,,,False
+Raydium,Exchanges (DEX),,,,,False
+Orderly Network,Derivative exchanges,,,,,False
+Efi Hub,Gaming,,,,,False
+Metal,Blockchains (L2),,,,,False
+ICHI,Asset management,,,,,False
+HunnyFinance,Asset management,,,,,False
+Robonomics Network,Blockchains (L2),,,,,False
+WhiteSwap,Exchanges (DEX),,,,,False
+Avalon Finance,Lending,,,,,False
+Orca,Exchanges (DEX),,,,,False
+iZUMi Finance,Exchanges (DEX),,,,,False
+Nibiru,Blockchains (L1),,,,,False
+ReactorFusion,Lending,,,,,False
+Mint Club,Infrastructure,,,,,False
+Kodiak Finance,Exchanges (DEX),,,,,False
+Beam,Blockchains (L1),,,,,False
+Mountain Protocol,Stablecoin issuers,,,,,False
+PlayEmber,Gaming,,,,,False
+Mansa Finance,Lending,,,,,False
+Amnis Finance,Liquid staking,,,,,False
+Eclipse,Blockchains (L2),,,,,False
+Mole,Asset management,,,,,False
+Hyperbridge,Blockchains (L2),,,,,False
+Ondo Finance,Asset management,,,,,False
+Levana,Derivative exchanges,,,,,False
+Shuffle,Prediction markets,,,,,False
+Shadow,Exchanges (DEX),,,,,False
+Arbitrum Nova,Blockchains (L2),,,,,False
+Agora,Stablecoin issuers,,,,,False
+Zyfi,Infrastructure,,,,,False
+Trojan,Infrastructure,,,,,False
+Spark Protocol,Lending,,,,,False
+Scroll,Blockchains (L2),,,,,False
+Gemini,Stablecoin issuers,,,,,False
+Alkimi Exchange,Infrastructure,,,,,False
+BitDAO,Asset management,,,,,False
+Moonbeam,Blockchains (L2),,,,,False
+Coin98,Exchanges (CEX),,,,,False
+Wild Forest,Gaming,,,,,False
+XPLA,Blockchains (L1),,,,,False
+Fableborne,Gaming,,,,,False
+Kana,Exchanges (DEX),,,,,False
+PACT,Lending,,,,,False
+Silo Finance,Lending,,,,,False
+Frax Stablecoin,Stablecoin issuers,,,,,False
+Polkadex,Blockchains (L2),,,,,False
+Blitz,Blockchains (L1),,,,,False
+Rubic,Infrastructure,,,,,False
+UniDex,Derivative exchanges,,,,,False
+Ninja Blaze,Gaming,,,,,False
+Mito Finance,Asset management,,,,,False
+WigoSwap,Infrastructure,,,,,False
+REVOX (ex ReadON),Social,,,,,False
+Rebalance,Asset management,,,,,False
+Glo Dollar,Stablecoin issuers,,,,,False
+Evmos,Blockchains (L1),,,,,False
+Baki Exchange,Exchanges (DEX),,,,,False
+Argent,Infrastructure,,,,,False
+Fuul Protocol,Infrastructure,,,,,False
+XGamble,Prediction markets,,,,,False
+Talent Protocol,Social,,,,,False
+Nillion,Blockchains (L1),,,,,False
+Decentral Games,Gaming,,,,,False
+Extra Finance,Lending,,,,,False
+Ubeswap,Exchanges (DEX),,,,,False
+vfat.io,Asset management,,,,,False
+Hyperliquid,Derivative exchanges,,,,,False
+SPACE ID,Infrastructure,,,,,False
+Coinbase Wrapped Staked Ether,Liquid staking,,,,,False
+SingSing,Social,,,,,False
+Clave,Infrastructure,,,,,False
+Ref Finance,Exchanges (DEX),,,,,False
+Lisk,Blockchains (L2),,,,,False
+Symbiosis,Exchanges (DEX),,,,,False
+Astar zkEVM,Blockchains (L2),,,,,False
+Shrapnel,Gaming,,,,,False
+Spin,Derivative exchanges,,,,,False
+QuestN,Infrastructure,,,,,False
+Hydration,Blockchains (L2),,,,,False
+HYCHAIN,Blockchains (L2),,,,,False
+Lifinity,Exchanges (DEX),,,,,False
+Chingari,Social,,,,,False
+Bittensor,Blockchains (L1),,,,,False
+Merlin Chain,Blockchains (L2),,,,,False
+Membrane Finance,Stablecoin issuers,,,,,False
+Stride,Liquid staking,,,,,False
+Arrow Markets,Derivative exchanges,,,,,False
+DojoSwap,Exchanges (DEX),,,,,False
+zkDX,Derivative exchanges,,,,,False
+KlimaDAO,Infrastructure,,,,,False
+Turbos Finance,Exchanges (DEX),,,,,False
+Brave,Infrastructure,,,,,False
+Invarch,Blockchains (L2),,,,,False
+Sofamon,Social,,,,,False
+Level,Stablecoin issuers,,,,,False
+Renzo,Liquid staking,,,,,False
+Azuro,Prediction markets,,,,,False
+SKALE,Blockchains (L1),,,,,False
+briq,Infrastructure,,,,,False
+DeSo,Blockchains (L1),,,,,False
+Hook,Blockchains (L3),,,,,False
+SuperSwap,Exchanges (DEX),,,,,False
+defi.money,Stablecoin issuers,,,,,False
+Fren Pet,Gaming,,,,,False
+NinjaVault,Asset management,,,,,False
+Eigenpie,Liquid staking,,,,,False
+Mantle,Blockchains (L2),,,,,False
+Valeria Games,Gaming,,,,,False
+Swell,Liquid staking,,,,,False
+ERA Name Service,Infrastructure,,,,,False
+Marinade,Liquid staking,,,,,False
+Alien Base,Exchanges (DEX),,,,,False
+Element,NFT marketplaces,,,,,False
+Kroma Network,Blockchains (L2),,,,,False
+Suilend,Lending,,,,,False
+BaseSwap,Exchanges (DEX),,,,,False
+SwapX,Exchanges (DEX),,,,,False
+Ionic Protocol,Lending,,,,,False
+Yield Guild Games,Gaming,,,,,False
+Primex Finance,Exchanges (DEX),,,,,False
+Baryon,Exchanges (DEX),,,,,False
+Bucket Protocol,Lending,,,,,False
+OpenOcean,Exchanges (DEX),,,,,False
+Aurora,Blockchains (L2),,,,,False
+Meta Pool DAO,Liquid staking,,,,,False
+Odos,Exchanges (DEX),,,,,False
+Kine Protocol,Derivative exchanges,,,,,False
+Hooked Protocol,Social,,,,,False
+Openbook,Exchanges (DEX),,,,,False
+ZKEX,Exchanges (DEX),,,,,False
+Magic Eden,NFT marketplaces,,,,,False
+Sei Network,Blockchains (L1),,,,,False
+Ether.fi,Liquid staking,,,,,False
+COTI,Blockchains (L2),,,,,False
+Panora Exchange,Exchanges (DEX),,,,,False
+Carv,Infrastructure,,,,,False
+Numerai,Asset management,,,,,False
+API3,Infrastructure,,,,,False
+Reya,Blockchains (L2),,,,,False
+BadgerDAO,Asset management,,,,,False
+zkSwap Finance,Exchanges (DEX),,,,,False
+Nodle,Blockchains (L2),,,,,False
+Sanko,Blockchains (L3),,,,,False
+Opus,Stablecoin issuers,,,,,False
+Stacks,Blockchains (L2),,,,,False
+Dinero,Liquid staking,,,,,False
+Folks Finance,Lending,,,,,False
+Wormhole,Infrastructure,,,,,False
+Sanctum,Liquid staking,,,,,False
+Squid,Infrastructure,,,,,False
+Merkly,Bridges,,,,,False
+Mellow Protocol,Infrastructure,,,,,False
+MyShell,Infrastructure,,,,,False
+Karak,Blockchains (L2),,,,,False
+Lista DAO,Stablecoin issuers,,,,,False
+Ready Games Network,Gaming,,,,,False
+Term Structure,Blockchains (L2),,,,,False
+Harmony,Blockchains (L1),,,,,False
+Enzyme Finance,Asset management,,,,,False
+MetaDAO,Infrastructure,,,,,False
+Koi Finance,Exchanges (DEX),,,,,False
+Mimic,Infrastructure,,,,,False
+Nostra,Lending,,,,,False
+Inverse Finance,Stablecoin issuers,,,,,False
+Satori Finance,Derivative exchanges,,,,,False
+re.al,Blockchains (L2),,,,,False
+Zircuit,Blockchains (L2),,,,,False
+Subsocial,Blockchains (L2),,,,,False
+Reservoir.xyz,Stablecoin issuers,,,,,False
+B.Protocol,Infrastructure,,,,,False
+SPOT Protocol (ex Ampleforth),Stablecoin issuers,,,,,False
+Aspect,NFT marketplaces,,,,,False
+Illuvium,Gaming,,,,,False
+ERAGON,Gaming,,,,,False
+Tapos,Gaming,,,,,False
+Veax,Exchanges (DEX),,,,,False
+Phala,Blockchains (L2),,,,,False
+Celo Dollar,Stablecoin issuers,,,,,False
+Homora,Lending,,,,,False
+BOB,Blockchains (L2),,,,,False
+Slingshot,Exchanges (DEX),,,,,False
+Ajuna Network,Blockchains (L2),,,,,False
+Mars Protocol,Blockchains (L1),,,,,False
+usdx.money,Stablecoin issuers,,,,,False
+Polimec,Blockchains (L2),,,,,False
+Black Panther,Asset management,,,,,False
+Blackbird,Social,,,,,False
+X Layer,Blockchains (L2),,,,,False
+Ring Protocol,Exchanges (DEX),,,,,False
+EYWA,Bridges,,,,,False
+Meteor Wallet,Infrastructure,,,,,False
+Wapal,NFT marketplaces,,,,,False
+Meso Finance,Lending,,,,,False
+Monerium,Stablecoin issuers,,,,,False
+Lynex,Exchanges (DEX),,,,,False
+Alchemix Finance,Asset management,,,,,False
+The Standard,Lending,,,,,False
+Metaplex,NFT marketplaces,,,,,False
+Sologenic,Exchanges (DEX),,,,,False
+Coinshift,Stablecoin issuers,,,,,False
+Rootstock,Blockchains (L2),,,,,False
+Zeta Markets,Derivative exchanges,,,,,False
+Hydro Protocol,Liquid staking,,,,,False
+Blast Bridge,Bridges,,,,,False
+Allstake,Liquid staking,,,,,False
+MANTRA,Blockchains (L1),,,,,False
+Anzen,Stablecoin issuers,,,,,False
+MYX.Finance,Derivative exchanges,,,,,False
+Rhea Finance,Exchanges (DEX),,,,,False
+Baseline,Infrastructure,,,,,False
+Pac Finance,Lending,,,,,False
+Planet IX,Gaming,,,,,False
+UXUY,Exchanges (DEX),,,,,False
+Aave GHO,Stablecoin issuers,,,,,False
+KAI-CHING,Gaming,,,,,False
+Predict Fun,Prediction markets,,,,,False
+TrueUSD,Stablecoin issuers,,,,,False
+Kamino,Lending,,,,,False
+Fraxtal,Blockchains (L2),,,,,False
+Impermax Finance,Asset management,,,,,False
+UXLINK,Social,,,,,False
+AptoSwap,Exchanges (DEX),,,,,False
+Fluxbeam,Exchanges (DEX),,,,,False
+Micro3,Social,,,,,False
+Degen,Blockchains (L3),,,,,False
+Celestia,Blockchains (L1),,,,,False
+Frequency,Blockchains (L2),,,,,False
+Acala Network,Blockchains (L2),,,,,False
+Nile Exchange,Exchanges (DEX),,,,,False
+Switchboard,Infrastructure,,,,,False
+Idle Finance,Asset management,,,,,False
+Aptin Finance,Lending,,,,,False
+karpatkey,Infrastructure,,,,,False
+Alaya AI,Infrastructure,,,,,False
+Arkham,Infrastructure,,,,,False
+Botto,NFT marketplaces,,,,,False
+Out,Social,,,,,False
+MELD,Blockchains (L1),,,,,False
+Juice Finance,Asset management,,,,,False
+Hercules,Exchanges (DEX),,,,,False
+Garden Finance,Bridges,,,,,False
+Akash Network,Infrastructure,,,,,False
+Universal,Infrastructure,,,,,False
+Spectra,Asset management,,,,,False
+Barnbridge,Asset management,,,,,False
+Meridian,Stablecoin issuers,,,,,False
+marginfi,Lending,,,,,False
+Kaito,Infrastructure,,,,,False
+StaFi,Liquid staking,,,,,False
+Pragma,Infrastructure,,,,,False
+Socket,Infrastructure,,,,,False
+PumpBTC,Liquid staking,,,,,False
+Phoenix Bonds,Asset management,,,,,False
+Linea,Blockchains (L2),,,,,False
+Archblock,Stablecoin issuers,,,,,False
+Privy,Infrastructure,,,,,False
+ParagonsDAO,Gaming,,,,,False
+Mythos,Blockchains (L2),,,,,False
+ApePro,Exchanges (DEX),,,,,False
+Gyroscope (Gyro Finance),Stablecoin issuers,,,,,False
+Ambient,Exchanges (DEX),,,,,False
+Lava Network,Blockchains (L1),,,,,False
+Dexalot,Exchanges (DEX),,,,,False
+The Lost Glitches,Gaming,,,,,False
+Robots.Farm,Gaming,,,,,False
+Stabble,Exchanges (DEX),,,,,False
+DeDust,Exchanges (DEX),,,,,False
+Aethir,Infrastructure,,,,,False
+pump.fun,Exchanges (DEX),,,,,False
+BlackRock (BUIDL),Asset management,,,,,False
+StarkGate,Bridges,,,,,False
+Galxe,Infrastructure,,,,,False
+Paradise Tycoon,Gaming,,,,,False
+Revert Finance,Infrastructure,,,,,False
+Echelon Market,Lending,,,,,False
+ResearchHub,Infrastructure,,,,,False
+Polygon zkEVM,Blockchains (L2),,,,,False
+IO.net,Infrastructure,,,,,False
+Impossible Finance,Infrastructure,,,,,False
+Fibrous,Exchanges (DEX),,,,,False
+Term Finance,Lending,,,,,False
+SendingMe,Social,,,,,False
+Baby Shark Universe,Gaming,,,,,False
+Unique Network,Blockchains (L2),,,,,False
+Reservoir,Infrastructure,,,,,False
+Synonym Finance,Lending,,,,,False
+DIN (ex Web3Go),Infrastructure,,,,,False
+Mento,Stablecoin issuers,,,,,False
+Europe Fantasy League,Gaming,,,,,False
+Rain.fi,Lending,,,,,False
+Limitless,Prediction markets,,,,,False
+Worldcoin,Blockchains (L2),,,,,False
+Stake DAO,Asset management,,,,,False
+HOT Protocol,Gaming,,,,,False
+Axiom,Infrastructure,,,,,False
+Midas,Asset management,,,,,False
+Lybra Finance,Stablecoin issuers,,,,,False
+Nouns DAO,Asset management,,,,,False
+UMA,Infrastructure,,,,,False
+Router Protocol,Bridges,,,,,False
+JOJO,Derivative exchanges,,,,,False
+Bedrock,Liquid staking,,,,,False
+Aventus,Blockchains (L2),,,,,False
+Fraxlend,Lending,,,,,False
+Hippo Labs,Exchanges (DEX),,,,,False
+OpenLeverage,Derivative exchanges,,,,,False
+WAGMI (ex Popsicle Finance),Exchanges (DEX),,,,,False
+Injera,Stablecoin issuers,,,,,False
+Liquidswap,Exchanges (DEX),,,,,False
+MOOAR,NFT marketplaces,,,,,False
+Resolv,Stablecoin issuers,,,,,False
+Unipilot,Asset management,,,,,False
+Arrakis Finance,Asset management,,,,,False
+BounceBit,Blockchains (L1),,,,,False
+UWON Coin,ERC20 Tokens,,,,,False
+Slime Revolution,Gaming,,,,,False
+Avantis,Exchanges (DEX),,,,,False
+Darwinia Network,Blockchains (L2),,,,,False
+RabbitX,Derivative exchanges,,,,,False
+Echo Protocol,Asset management,,,,,False
+Biconomy,Infrastructure,,,,,False
+Hyperlane,Bridges,,,,,False
+Virtuals Protocol,Infrastructure,,,,,False
+Proof of Play,Blockchains (L3),,,,,False
+Dmail Network,Infrastructure,,,,,False
+Paradex,Exchanges (DEX),,,,,False
+Overnight,Stablecoin issuers,,,,,False
+SwapX,Infrastructure,,,,,False
+Fenix,Exchanges (DEX),,,,,False
+Shape,Blockchains (L2),,,,,False
+JustLend DAO,Lending,,,,,False
+Tevi,Social,,,,,False
+Kilt,Blockchains (L2),,,,,False
+Ethereum Name Service,Infrastructure,,,,,False
+Arweave,Blockchains (L1),,,,,False
+Prisma Finance,Stablecoin issuers,,,,,False
+Cellana Finance,Exchanges (DEX),,,,,False
+MySwap,Exchanges (DEX),,,,,False
+BSX Exchange,Derivative exchanges,,,,,False
+zkSync Lite,Blockchains (L2),,,,,False
+Redstone,Blockchains (L2),,,,,False
+IPMB,Asset management,,,,,False
+Gains Network,Derivative exchanges,,,,,False
+Superstate,Asset management,,,,,False
+WINR Protocol,Prediction markets,,,,,False
+Wasabi,Derivative exchanges,,,,,False
+Chiliz,Blockchains (L1),,,,,False
+KGen,Gaming,,,,,False
+Superposition,Lending,,,,,False
+ImmortalX,Derivative exchanges,,,,,False
+Raft,Stablecoin issuers,,,,,False
+Gitcoin,Infrastructure,,,,,False
+Cygnus Finance,Infrastructure,,,,,False
+Aries Markets,Lending,,,,,False
+Mint Blockchain,Blockchains (L2),,,,,False
+Mendi Finance,Lending,,,,,False
+Goat Protocol,Asset management,,,,,False
+GoodDollar,Infrastructure,,,,,False
+BladeSwap,Exchanges (DEX),,,,,False
+ZetaChain,Blockchains (L1),,,,,False
+World of Dypians,Gaming,,,,,False
+Stability,Asset management,,,,,False
+Crust Network,Blockchains (L2),,,,,False
+SUN,Exchanges (DEX),,,,,False
+Sun Swap,Exchanges (DEX),,,,,False
+The Arena,Social,,,,,False
+Terra,Blockchains (L1),100.0,34.42089399349575,80.32626819804872,"stability, diversification",True
+SmarDex,Exchanges (DEX),,,,,False
+SatLayer,Liquid staking,,,,,False
+Parallel,Blockchains (L2),,,,,False
+TapiocaDAO,Stablecoin issuers,,,,,False
+Octopus Network,Asset management,,,,,False
+Save,Lending,,,,,False
+OmniBTC (OmniSwap),Exchanges (DEX),,,,,False
+Super Champs,Gaming,,,,,False
+NeuroWeb,Blockchains (L2),,,,,False
+Boba Network,Blockchains (L2),,,,,False
+EigenLayer,Liquid staking,,,,,False
+Bluefin,Derivative exchanges,,,,,False
+Moola Market,Lending,,,,,False
+YOLO Games,Gaming,,,,,False
+Clique,Infrastructure,,,,,False
+BoomLand,Gaming,,,,,False
+Ekubo Protocol,Exchanges (DEX),,,,,False
+Catalyst,Bridges,,,,,False
+Thorchain,Exchanges (DEX),,,,,False
+pods.media,Social,,,,,False
+Starbase,Exchanges (DEX),,,,,False
+Loopring,Exchanges (DEX),,,,,False
+Nearlend DAO,Lending,,,,,False
+Stryke,Derivative exchanges,,,,,False
+Drift Protocol,Derivative exchanges,,,,,False
+LogX,Derivative exchanges,,,,,False
+Kiln,Liquid staking,,,,,False
+Cetus,Exchanges (DEX),,,,,False
+Celer Network,Infrastructure,,,,,False
+Aark,Derivative exchanges,,,,,False
+Ancient8,Blockchains (L2),,,,,False
+Storj,Infrastructure,,,,,False
+Magpie XYZ,Asset management,,,,,False
+Jupiter,Exchanges (DEX),,,,,False
+Rings,Stablecoin issuers,,,,,False
+Soneium,Blockchains (L2),,,,,False
+Puffer Finance,Liquid staking,,,,,False
+Thetis Market,Exchanges (DEX),,,,,False
+Lombard Finance,Liquid staking,,,,,False
+Reserve,Stablecoin issuers,,,,,False
+Superseed,Blockchains (L2),,,,,False
+RARI Chain,Blockchains (L3),,,,,False
+Sorare,Gaming,,,,,False
+Abstract,Blockchains (L2),,,,,False
+TruFin,Liquid staking,,,,,False
+Meteora,Exchanges (DEX),,,,,False
+XDC Network,Blockchains (L1),,,,,False
+Ion Protocol,Lending,,,,,False
+Paxos,Stablecoin issuers,,,,,False
+Talis Protocol,NFT marketplaces,,,,,False
+Optopia,Blockchains (L2),,,,,False
+Gram,ERC20 Tokens,,,,,False
+Guild of Guardians,Gaming,,,,,False
+Eggs Finance,Asset management,,,,,False
+Astroport,Exchanges (DEX),,,,,False
+ZNS Connect Name Service,Infrastructure,,,,,False
+Pendulum,Blockchains (L2),,,,,False
+Particle,Derivative exchanges,,,,,False
+Coreum,Blockchains (L1),,,,,False
+Sui,Blockchains (L1),,,,,False
+Apeiron,Gaming,,,,,False
+ShapeShift,Exchanges (DEX),,,,,False
+Dypius,Infrastructure,,,,,False
+DYORSWAP,Exchanges (DEX),,,,,False
+Bifrost,Blockchains (L2),,,,,False
+Polter Finance,Lending,,,,,False
+Gamic,Infrastructure,,,,,False
+Definitive,Derivative exchanges,,,,,False
+Liquid Collective,Liquid staking,,,,,False
+Rocket Pool,Liquid staking,,,,,False
+Jumbo Exchange,Exchanges (DEX),,,,,False
+FD121 Limited,Stablecoin issuers,,,,,False
+Emojicoin.fun,Exchanges (DEX),,,,,False
+4EVERLAND,Infrastructure,,,,,False
+Bitwise (ETHW),Asset management,,,,,False
+Pichi Finance,Derivative exchanges,,,,,False
+Aftermath Finance,Exchanges (DEX),,,,,False
+Stake.com,Prediction markets,,,,,False
+Secret Network,Blockchains (L1),,,,,False
+Spacebar,Gaming,,,,,False
+RabbitSwap,Exchanges (DEX),,,,,False
+NAVI Protocol,Lending,,,,,False
+Beefy,Asset management,,,,,False
+Rho Protocol,Derivative exchanges,,,,,False
+Exactly Protocol,Lending,,,,,False
+XY Finance,Bridges,,,,,False
+yearn.finance,Asset management,,,,,False
+Colony,Infrastructure,,,,,False
+Helix,Exchanges (DEX),,,,,False
+Bungee,Bridges,,,,,False
+Vana,Blockchains (L1),,,,,False
+Everyworld,Infrastructure,,,,,False
+Synthswap,Exchanges (DEX),,,,,False
+Alkimiya,Infrastructure,,,,,False
+MetaMask,Exchanges (DEX),,,,,False
+Interlay,Blockchains (L2),,,,,False
+Fuel Ignition,Blockchains (L2),,,,,False
+Phoenix,Exchanges (DEX),,,,,False
+Vaultka,Derivative exchanges,,,,,False
+Sweatcoin,Social,,,,,False
+Plume Network,Blockchains (L1),,,,,False
+Kage Finance,Derivative exchanges,,,,,False
+Thala,Exchanges (DEX),,,,,False
+Sakai Vault,Derivative exchanges,,,,,False
+Aevo,Derivative exchanges,,,,,False
+Dolomite,Lending,,,,,False
+Symbiotic,Liquid staking,,,,,False
+AI Protocol,Infrastructure,,,,,False
+XRP,Blockchains (L1),,,,,False
+Skip Protocol,Infrastructure,,,,,False
+Lagrange,Infrastructure,,,,,False
+RealT,Asset management,,,,,False
+Navigator,Derivative exchanges,,,,,False
+Seraph,Gaming,,,,,False
+Franklin Templeton (FOBXX),Asset management,,,,,False
+Fantasy,Gaming,,,,,False
+dHedge,Asset management,,,,,False
+Mode Network,Blockchains (L2),,,,,False
+Ellipsis Finance,Exchanges (DEX),,,,,False
+nftperp,Derivative exchanges,,,,,False
+dForce,Lending,,,,,False
+Safe,Infrastructure,,,,,False
+Centrifuge,Blockchains (L2),,,,,False
+Getgems,NFT marketplaces,,,,,False
+Forgotten Runiverse,Gaming,,,,,False
+Flow,Blockchains (L1),,,,,False
+AZERO ID,Infrastructure,,,,,False
+Fragmetric,Liquid staking,,,,,False
+Orbiter Finance,Bridges,,,,,False
+ZKFair,Blockchains (L2),,,,,False
+BasePaint,NFT marketplaces,,,,,False
+White Whale,Exchanges (DEX),,,,,False
+STEPN,Gaming,,,,,False

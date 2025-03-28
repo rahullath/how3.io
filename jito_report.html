@@ -1,0 +1,266 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Score Analysis: Jito</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    line-height: 1.6;
+                    margin: 0;
+                    padding: 20px;
+                    color: #333;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+                h1, h2, h3, h4 {
+                    color: #2c3e50;
+                }
+                .header {
+                    background-color: #34495e;
+                    color: white;
+                    padding: 15px;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+                }
+                .card {
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    padding: 15px;
+                    margin-bottom: 20px;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                }
+                .score-container {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+                }
+                .score-circle {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-right: 15px;
+                }
+                .excellent {
+                    background-color: #27ae60;
+                }
+                .strong {
+                    background-color: #2ecc71;
+                }
+                .average {
+                    background-color: #f1c40f;
+                }
+                .weak {
+                    background-color: #e67e22;
+                }
+                .poor {
+                    background-color: #e74c3c;
+                }
+                .score-details {
+                    flex: 1;
+                }
+                .metric-row {
+                    display: flex;
+                    border-bottom: 1px solid #eee;
+                    padding: 10px 0;
+                }
+                .metric-name {
+                    flex: 1;
+                    font-weight: bold;
+                }
+                .metric-value {
+                    flex: 1;
+                    text-align: center;
+                }
+                .metric-score {
+                    flex: 1;
+                    text-align: right;
+                }
+                .valuation {
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding: 10px;
+                    border-radius: 5px;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .undervalued {
+                    background-color: #d5f5e3;
+                    color: #27ae60;
+                }
+                .aptly-valued {
+                    background-color: #fef9e7;
+                    color: #f39c12;
+                }
+                .overvalued {
+                    background-color: #fadbd8;
+                    color: #e74c3c;
+                }
+                .score-bar-container {
+                    width: 100%;
+                    background-color: #f1f1f1;
+                    border-radius: 5px;
+                    margin: 5px 0;
+                }
+                .score-bar {
+                    height: 25px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-weight: bold;
+                }
+                .percentile-box {
+                    background-color: #f8f9fa;
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-top: 5px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Score Analysis: Jito</h1>
+                <p>Market Sector: Liquid staking</p>
+            </div>
+        
+            <div class="card">
+                <h2>Overall Score</h2>
+                <div class="score-container">
+                    <div class="score-circle strong">74.2</div>
+                    <div class="score-details">
+                        <p>Based on analysis across multiple categories</p>
+                        <div class="score-bar-container">
+                            <div class="score-bar strong" style="width: 74.16666666666667%;">
+                                74.2/100
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="valuation aptly-valued">
+                    Valuation Classification: Aptly Valued
+                </div>
+                
+                    <p>Thresholds: 
+                       Undervalued ≥ 75.00, 
+                       Overvalued ≤ 43.67
+                    </p>
+                    </div><h2>Category Scores</h2>
+                <div class="card">
+                    <h3>User Growth</h3>
+                    <div class="score-container">
+                        <div class="score-circle average">67.5</div>
+                        <div class="score-details">
+                            <p>Based on 1 metrics</p>
+                            <div class="score-bar-container">
+                                <div class="score-bar average" style="width: 67.5%;">
+                                    67.5/100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h4>Metrics Used:</h4>
+                
+                        <div class="metric-row">
+                            <div class="metric-name">daily_active_addresses</div>
+                            <div class="metric-value">1250.0</div>
+                            <div class="metric-score">
+                                <div class="score-bar-container" style="width: 100px; display: inline-block;">
+                                    <div class="score-bar average" style="width: 67.5%; font-size: 0.8em;">
+                                        67.5
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="percentile-box">
+                                <p><strong>Percentile:</strong> 66.67%</p>
+                                <p><strong>Comparison:</strong> Better than 20 out of 30 Liquid staking projects</p>
+                                <p><strong>Direction:</strong> Higher is better</p>
+                                <p><strong>Score Range:</strong> 40-69 (Average)</p>
+                            </div>
+                            </div>
+                <div class="card">
+                    <h3>Earnings Quality</h3>
+                    <div class="score-container">
+                        <div class="score-circle excellent">100.0</div>
+                        <div class="score-details">
+                            <p>Based on 1 metrics</p>
+                            <div class="score-bar-container">
+                                <div class="score-bar excellent" style="width: 100.0%;">
+                                    100.0/100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h4>Metrics Used:</h4>
+                
+                        <div class="metric-row">
+                            <div class="metric-name">protocol_fees</div>
+                            <div class="metric-value">2061810.659205843</div>
+                            <div class="metric-score">
+                                <div class="score-bar-container" style="width: 100px; display: inline-block;">
+                                    <div class="score-bar excellent" style="width: 100.0%; font-size: 0.8em;">
+                                        100.0
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="percentile-box">
+                                <p><strong>Percentile:</strong> 100.00%</p>
+                                <p><strong>Comparison:</strong> Better than 7 out of 7 Liquid staking projects</p>
+                                <p><strong>Direction:</strong> Higher is better</p>
+                                <p><strong>Score Range:</strong> 90-100 (Excellent)</p>
+                            </div>
+                            </div>
+                <div class="card">
+                    <h3>Fair Value</h3>
+                    <div class="score-container">
+                        <div class="score-circle average">55.0</div>
+                        <div class="score-details">
+                            <p>Based on 1 metrics</p>
+                            <div class="score-bar-container">
+                                <div class="score-bar average" style="width: 55.0%;">
+                                    55.0/100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h4>Metrics Used:</h4>
+                
+                        <div class="metric-row">
+                            <div class="metric-name">market_cap_to_revenue</div>
+                            <div class="metric-value">101.89091474662632</div>
+                            <div class="metric-score">
+                                <div class="score-bar-container" style="width: 100px; display: inline-block;">
+                                    <div class="score-bar average" style="width: 55.0%; font-size: 0.8em;">
+                                        55.0
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="percentile-box">
+                                <p><strong>Percentile:</strong> 50.00%</p>
+                                <p><strong>Comparison:</strong> Better than 2 out of 4 Liquid staking projects</p>
+                                <p><strong>Direction:</strong> Lower is better</p>
+                                <p><strong>Score Range:</strong> 40-69 (Average)</p>
+                            </div>
+                            </div>
+        </body>
+        </html>
+        
