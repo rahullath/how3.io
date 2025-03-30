@@ -1,0 +1,800 @@
+Project,Market Sector,Valuation Category
+Tether,Stablecoin issuers,
+Tron,Blockchains (L1),Undervalued
+Circle,Stablecoin issuers,
+Uniswap,Exchanges (DEX),Fairly Valued
+Lido Finance,Liquid staking,Undervalued
+Aave,Lending,Undervalued
+PancakeSwap,Exchanges (DEX),Undervalued
+Jito,Liquid staking,Fairly Valued
+Flashbots,Infrastructure,
+Solana,Blockchains (L1),Undervalued
+Ethereum,Blockchains (L1),Fairly Valued
+Sky,Stablecoin issuers,Fairly Valued
+BNB Chain,Blockchains (L1),Fairly Valued
+Ethena,Stablecoin issuers,Fairly Valued
+Bitcoin,Blockchains (L1),Fairly Valued
+Aerodrome,Exchanges (DEX),Undervalued
+Morpho,Lending,Undervalued
+Fluid,Lending,Fairly Valued
+Venus,Lending,Undervalued
+Base,Blockchains (L2),
+GMX,Derivative exchanges,Undervalued
+Uniswap Labs,Exchanges (DEX),
+Convex Finance,Asset management,Fairly Valued
+Curve,Exchanges (DEX),Fairly Valued
+Compound,Lending,Fairly Valued
+Usual,Stablecoin issuers,Undervalued
+Thena,Exchanges (DEX),Undervalued
+LFJ,Exchanges (DEX),Fairly Valued
+Euler,Lending,Fairly Valued
+Maple Finance,Lending,Fairly Valued
+Pharaoh,Exchanges (DEX),Undervalued
+SynFutures,Derivative exchanges,Undervalued
+Arbitrum One,Blockchains (L2),Undervalued
+Internet Computer,Blockchains (L1),Undervalued
+QuickSwap,Exchanges (DEX),Undervalued
+Solv Protocol,Derivative exchanges,Fairly Valued
+OpenSea,NFT marketplaces,
+OP Mainnet,Blockchains (L2),Fairly Valued
+ParaSwap,Exchanges (DEX),Undervalued
+Velodrome,Exchanges (DEX),Undervalued
+BENQI Liquid Staking,Liquid staking,
+SushiSwap,Exchanges (DEX),Fairly Valued
+Vertex,Derivative exchanges,Undervalued
+StakeWise,Liquid staking,Undervalued
+Moonwell,Lending,Fairly Valued
+Tokenlon,Exchanges (DEX),Fairly Valued
+Balancer,Exchanges (DEX),Fairly Valued
+TON,Blockchains (L1),Fairly Valued
+Immutable,Blockchains (L2),Undervalued
+ApolloX,Derivative exchanges,Fairly Valued
+Aura Finance,Asset management,Undervalued
+DeFi Saver,Infrastructure,
+Frax Ether,Liquid staking,
+Camelot,Exchanges (DEX),Fairly Valued
+Avalanche,Blockchains (L1),Fairly Valued
+Layer3,Infrastructure,Undervalued
+Merkle Trade,Derivative exchanges,Undervalued
+KyberSwap,Exchanges (DEX),Fairly Valued
+Polygon,Blockchains (L1),Fairly Valued
+BENQI,Lending,Fairly Valued
+deBridge DLN,Bridges,
+StakeStone,Liquid staking,
+NEAR Protocol,Blockchains (L1),Fairly Valued
+Houdini Swap,Exchanges (DEX),Fairly Valued
+Katana,Exchanges (DEX),
+Origin Protocol,Stablecoin issuers,Fairly Valued
+DODO,Exchanges (DEX),Fairly Valued
+HMX,Derivative exchanges,Undervalued
+Cardano,Blockchains (L1),Fairly Valued
+BMX,Derivative exchanges,Undervalued
+Pendle,Derivative exchanges,Fairly Valued
+Sonic,Blockchains (L1),Undervalued
+Manifold.xyz,NFT marketplaces,
+Allbridge Core,Bridges,
+Helium,Infrastructure,Fairly Valued
+Tokemak,Asset management,Fairly Valued
+BendDAO,Lending,Undervalued
+Gamma Strategies,Asset management,Undervalued
+Cronos,Blockchains (L1),Undervalued
+Synthetix,Derivative exchanges,Fairly Valued
+ZeroLend,Lending,Fairly Valued
+Tornado Cash,Infrastructure,Undervalued
+Injective,Blockchains (L1),Undervalued
+SyncSwap,Exchanges (DEX),
+Stader,Liquid staking,Overvalued
+Gearbox,Lending,Fairly Valued
+Blur,NFT marketplaces,Undervalued
+Hegic,Derivative exchanges,Fairly Valued
+Dogecoin,Blockchains (L1),Overvalued
+Nexus Mutual,Insurance,
+Aptos,Blockchains (L1),Fairly Valued
+Liquity,Stablecoin issuers,Fairly Valued
+Thruster,Exchanges (DEX),Fairly Valued
+Filecoin,Blockchains (L1),Overvalued
+Bancor,Exchanges (DEX),Fairly Valued
+Goldfinch,Lending,Overvalued
+MUX,Derivative exchanges,Fairly Valued
+Biswap,Exchanges (DEX),Fairly Valued
+Kwenta,Derivative exchanges,Fairly Valued
+Thetanuts,Asset management,
+Seamless Protocol,Lending,Fairly Valued
+Gravity Alpha Mainnet,Blockchains (L2),Undervalued
+Ribbon Finance,Asset management,Overvalued
+Ronin,Blockchains (L1),Fairly Valued
+zkSync Era,Blockchains (L2),Overvalued
+Blast,Blockchains (L2),Fairly Valued
+Livepeer,Infrastructure,Fairly Valued
+Celo,Blockchains (L1),Undervalued
+Pangolin,Exchanges (DEX),Overvalued
+MultiversX,Blockchains (L1),Fairly Valued
+Litecoin,Blockchains (L1),Overvalued
+Ramses Exchange,Exchanges (DEX),Fairly Valued
+deBridge,Interoperability,
+Polkadot,Blockchains (L1),Overvalued
+Stargate,Bridges,Overvalued
+Stellar,Blockchains (L1),Overvalued
+Cosmos Hub,Blockchains (L1),Overvalued
+Integral,Exchanges (DEX),Undervalued
+The Graph,Infrastructure,Fairly Valued
+Index Cooperative,Asset management,Fairly Valued
+Synapse,Bridges,Fairly Valued
+Algorand,Blockchains (L1),Fairly Valued
+Ink,Blockchains (L2),
+Abracadabra.money,Stablecoin issuers,Overvalued
+Maverick Protocol,Exchanges (DEX),Overvalued
+Manta,Blockchains (L2),Fairly Valued
+ApeSwap,Exchanges (DEX),Undervalued
+Beets,Exchanges (DEX),Fairly Valued
+Zcash,Blockchains (L1),Undervalued
+Holdstation,Derivative exchanges,Fairly Valued
+Starknet,Blockchains (L2),Overvalued
+Clipper,Exchanges (DEX),Fairly Valued
+Rarible,NFT marketplaces,Fairly Valued
+Chainlink,Infrastructure,Overvalued
+Radiant Capital,Lending,Overvalued
+Zerion,Infrastructure,Fairly Valued
+NFTX,NFT marketplaces,Fairly Valued
+Angle,Stablecoin issuers,Fairly Valued
+Hop Protocol,Bridges,Undervalued
+Perpetual Protocol,Derivative exchanges,Overvalued
+Fantom,Blockchains (L1),Overvalued
+Foundation,NFT marketplaces,
+Equalizer Exchange,Exchanges (DEX),Undervalued
+SpookySwap,Exchanges (DEX),Fairly Valued
+X2Y2,NFT marketplaces,Fairly Valued
+Gnosis,Blockchains (L1),Overvalued
+OpenChat,Social,Undervalued
+IPOR Protocol,Derivative exchanges,Overvalued
+Verse,Exchanges (DEX),Overvalued
+Level Finance,Derivative exchanges,Fairly Valued
+Unichain,Blockchains (L2),
+friend.tech,Social,Overvalued
+Kusama,Blockchains (L1),Fairly Valued
+Tezos,Blockchains (L1),Overvalued
+1inch,Exchanges (DEX),Overvalued
+Axelar Network,Interoperability,
+Reflexer,Stablecoin issuers,Fairly Valued
+Mean Finance,Exchanges (DEX),
+Sudoswap,NFT marketplaces,Overvalued
+Kleros,Infrastructure,Fairly Valued
+AirSwap,Exchanges (DEX),Overvalued
+Shoebill Finance,Lending,
+Aperture,Exchanges (DEX),
+Mina Protocol,Blockchains (L1),Overvalued
+Zyberswap,Exchanges (DEX),Fairly Valued
+Mummy Finance,Derivative exchanges,
+Wombat Exchange,Exchanges (DEX),Overvalued
+Aleph Zero EVM,Blockchains (L2),Overvalued
+Conflux Core Space,Blockchains (L1),Overvalued
+Everclear,Bridges,Overvalued
+Zora,NFT marketplaces,
+Cap,Derivative exchanges,Fairly Valued
+SolidLizard,Exchanges (DEX),Overvalued
+Thales,Derivative exchanges,Overvalued
+Viction,Blockchains (L1),Overvalued
+Sound.xyz,NFT marketplaces,
+Cryptex,Asset management,Overvalued
+Polynomial Protocol,Derivative exchanges,
+XAI,Blockchains (L3),Fairly Valued
+DFX Finance,Exchanges (DEX),Overvalued
+Volmex,Derivative exchanges,
+Deri Protocol,Derivative exchanges,Overvalued
+Karura,Blockchains (L1),Overvalued
+Pika Protocol,Derivative exchanges,Overvalued
+dYdX,Derivative exchanges,Overvalued
+Premia,Derivative exchanges,Fairly Valued
+Lighter,Exchanges (DEX),
+Osmosis,Exchanges (DEX),Overvalued
+Aragon,Infrastructure,Fairly Valued
+Optimism Gateway,Bridges,
+Pocket Network,Infrastructure,Fairly Valued
+Swarm,Infrastructure,Fairly Valued
+XOXNO,NFT marketplaces,
+IDEX,Exchanges (DEX),Overvalued
+TrueFi,Lending,Overvalued
+Toucan Protocol,Infrastructure,
+Opyn,Derivative exchanges,Fairly Valued
+Alongside,Asset management,Fairly Valued
+Ren,Bridges,Fairly Valued
+Notional Finance,Lending,Overvalued
+CoW Protocol,Exchanges (DEX),Overvalued
+PoolTogether,Asset management,Overvalued
+Across,Bridges,Overvalued
+LooksRare,NFT marketplaces,Overvalued
+Metavault.Trade,Derivative exchanges,Overvalued
+zkSync Era Bridge,Bridges,
+Lens Protocol,Social,
+Hashflow,Exchanges (DEX),Overvalued
+Voltz,Derivative exchanges,
+KAP Games,Gaming,Undervalued
+0x,Exchanges (DEX),Overvalued
+Dopex,Derivative exchanges,Fairly Valued
+BetSwirl,Prediction markets,Undervalued
+Arbitrum Bridge,Bridges,
+Buffer Finance,Derivative exchanges,Fairly Valued
+xExchange,Exchanges (DEX),Overvalued
+Polymarket,Prediction markets,
+Bounce Finance,Infrastructure,Fairly Valued
+SX,Prediction markets,Undervalued
+Axie Infinity,Gaming,Undervalued
+Vesta Finance,Stablecoin issuers,Overvalued
+Rhino.fi,Exchanges (DEX),
+zkLend,Lending,Fairly Valued
+PayPal,Stablecoin issuers,Fairly Valued
+ApeX Protocol,Derivative exchanges,Fairly Valued
+LI.FI,Infrastructure,
+peaq,Blockchains (L1),
+Mereo,Social,
+DeGate,Exchanges (DEX),Fairly Valued
+Ocean Protocol,Infrastructure,Fairly Valued
+WELL3,Social,Fairly Valued
+VibrantX,Asset management,
+xNINJA,Social,
+Berachain,Blockchains (L1),Fairly Valued
+Zeitgeist,Blockchains (L2),
+M^0,Stablecoin issuers,
+XCAD Network,Social,Fairly Valued
+STON.fi,Exchanges (DEX),
+TrueMarkets,Prediction markets,
+Typus Finance,Asset management,
+Hedera,Blockchains (L1),
+Taiko,Blockchains (L2),Fairly Valued
+AlienX,Blockchains (L2),
+Movement,Blockchains (L1),
+Ankr,Liquid staking,Fairly Valued
+ZKX,Derivative exchanges,Fairly Valued
+RabbitHole,Gaming,
+KiloEx,Derivative exchanges,
+WOO,Exchanges (DEX),Fairly Valued
+SideShift,Infrastructure,Fairly Valued
+Kadena,Blockchains (L1),
+Metis,Blockchains (L2),
+PRDT,Prediction markets,
+Hypr,Blockchains (L2),
+Star Atlas,Gaming,
+B3,Blockchains (L3),Fairly Valued
+Dymension,Blockchains (L1),
+Litentry,Blockchains (L2),Fairly Valued
+Superform,Asset management,
+Neptune Finance,Lending,
+Photon,Derivative exchanges,
+Cat Town,Gaming,Fairly Valued
+AVNU,Exchanges (DEX),
+Venice,Infrastructure,Fairly Valued
+Pyth Network,Oracles,
+Succinct,Infrastructure,
+InterCrone Swap,Exchanges (DEX),
+Lagoon,Asset management,
+Scallop,Lending,
+ABEL Finance,Lending,
+Econia,Exchanges (DEX),
+Ethervista,Exchanges (DEX),Fairly Valued
+Overtake,Gaming,
+inkySwap,Exchanges (DEX),
+Solayer,Liquid staking,
+Astar,Blockchains (L2),
+Render Network,Infrastructure,Fairly Valued
+Hedgey Finance,Infrastructure,
+zkMe,Infrastructure,
+Banana Gun,Infrastructure,Fairly Valued
+Ethereum Attestation Service,Infrastructure,
+Derivio,Derivative exchanges,
+Sophon,Blockchains (L2),
+Layerswap,Bridges,
+FlowX Finance,Exchanges (DEX),
+Coinally,Infrastructure,
+LUKSO,Blockchains (L1),
+Echelon Prime Foundation,Infrastructure,Fairly Valued
+Energy Web X,Blockchains (L2),
+Infrared Finance,Liquid staking,
+StarryNift,Gaming,Fairly Valued
+Pixels,Gaming,Fairly Valued
+Global Dollar Network,Stablecoin issuers,
+Metropolis,Exchanges (DEX),Fairly Valued
+Burrow,Lending,
+Hinkal Protocol,Bridges,
+unshETH,Asset management,Fairly Valued
+Sellix,Infrastructure,
+Time.fun,Social,
+Raydium,Exchanges (DEX),
+Orderly Network,Derivative exchanges,Fairly Valued
+Efi Hub,Gaming,
+Metal,Blockchains (L2),Fairly Valued
+ICHI,Asset management,Fairly Valued
+HunnyFinance,Asset management,Fairly Valued
+Robonomics Network,Blockchains (L2),Fairly Valued
+WhiteSwap,Exchanges (DEX),
+Avalon Finance,Lending,Fairly Valued
+Orca,Exchanges (DEX),Fairly Valued
+iZUMi Finance,Exchanges (DEX),Fairly Valued
+Nibiru,Blockchains (L1),
+ReactorFusion,Lending,Fairly Valued
+Mint Club,Infrastructure,
+Kodiak Finance,Exchanges (DEX),
+Beam,Blockchains (L1),Fairly Valued
+Mountain Protocol,Stablecoin issuers,
+PlayEmber,Gaming,
+Mansa Finance,Lending,
+Amnis Finance,Liquid staking,
+Eclipse,Blockchains (L2),
+Mole,Asset management,
+Hyperbridge,Blockchains (L2),
+Ondo Finance,Asset management,Fairly Valued
+Levana,Derivative exchanges,
+Shuffle,Prediction markets,Fairly Valued
+Shadow,Exchanges (DEX),Fairly Valued
+Arbitrum Nova,Blockchains (L2),
+Agora,Stablecoin issuers,
+Zyfi,Infrastructure,
+Trojan,Infrastructure,
+Spark Protocol,Lending,
+Scroll,Blockchains (L2),
+Gemini,Stablecoin issuers,
+Alkimi Exchange,Infrastructure,Fairly Valued
+BitDAO,Asset management,Fairly Valued
+Moonbeam,Blockchains (L2),
+Coin98,Exchanges (CEX),
+Wild Forest,Gaming,
+XPLA,Blockchains (L1),Fairly Valued
+Fableborne,Gaming,
+Kana,Exchanges (DEX),
+PACT,Lending,Fairly Valued
+Silo Finance,Lending,Overvalued
+Frax Stablecoin,Stablecoin issuers,
+Polkadex,Blockchains (L2),
+Blitz,Blockchains (L1),
+Rubic,Infrastructure,Fairly Valued
+UniDex,Derivative exchanges,Fairly Valued
+Ninja Blaze,Gaming,
+Mito Finance,Asset management,
+WigoSwap,Infrastructure,Fairly Valued
+REVOX (ex ReadON),Social,
+Rebalance,Asset management,
+Glo Dollar,Stablecoin issuers,
+Evmos,Blockchains (L1),
+Baki Exchange,Exchanges (DEX),
+Argent,Infrastructure,
+Fuul Protocol,Infrastructure,
+XGamble,Prediction markets,
+Talent Protocol,Social,Fairly Valued
+Nillion,Blockchains (L1),
+Decentral Games,Gaming,Fairly Valued
+Extra Finance,Lending,Fairly Valued
+Ubeswap,Exchanges (DEX),Fairly Valued
+vfat.io,Asset management,
+Hyperliquid,Derivative exchanges,
+SPACE ID,Infrastructure,Fairly Valued
+Coinbase Wrapped Staked Ether,Liquid staking,
+SingSing,Social,
+Clave,Infrastructure,
+Ref Finance,Exchanges (DEX),
+Lisk,Blockchains (L2),Fairly Valued
+Symbiosis,Exchanges (DEX),Fairly Valued
+Astar zkEVM,Blockchains (L2),
+Shrapnel,Gaming,Fairly Valued
+Spin,Derivative exchanges,
+QuestN,Infrastructure,
+Hydration,Blockchains (L2),
+HYCHAIN,Blockchains (L2),
+Lifinity,Exchanges (DEX),
+Chingari,Social,
+Bittensor,Blockchains (L1),
+Merlin Chain,Blockchains (L2),
+Membrane Finance,Stablecoin issuers,
+Stride,Liquid staking,Fairly Valued
+Arrow Markets,Derivative exchanges,Fairly Valued
+DojoSwap,Exchanges (DEX),
+zkDX,Derivative exchanges,Fairly Valued
+KlimaDAO,Infrastructure,Fairly Valued
+Turbos Finance,Exchanges (DEX),
+Brave,Infrastructure,Fairly Valued
+Invarch,Blockchains (L2),
+Sofamon,Social,
+Level,Stablecoin issuers,
+Renzo,Liquid staking,Fairly Valued
+Azuro,Prediction markets,Fairly Valued
+SKALE,Blockchains (L1),Fairly Valued
+briq,Infrastructure,
+DeSo,Blockchains (L1),Fairly Valued
+Hook,Blockchains (L3),
+SuperSwap,Exchanges (DEX),
+defi.money,Stablecoin issuers,
+Fren Pet,Gaming,Fairly Valued
+NinjaVault,Asset management,
+Eigenpie,Liquid staking,
+Mantle,Blockchains (L2),Fairly Valued
+Valeria Games,Gaming,
+Swell,Liquid staking,Fairly Valued
+ERA Name Service,Infrastructure,Fairly Valued
+Marinade,Liquid staking,
+Alien Base,Exchanges (DEX),Fairly Valued
+Element,NFT marketplaces,
+Kroma Network,Blockchains (L2),
+Suilend,Lending,
+BaseSwap,Exchanges (DEX),Fairly Valued
+SwapX,Exchanges (DEX),Fairly Valued
+Ionic Protocol,Lending,
+Yield Guild Games,Gaming,Fairly Valued
+Primex Finance,Exchanges (DEX),
+Baryon,Exchanges (DEX),
+Bucket Protocol,Lending,
+OpenOcean,Exchanges (DEX),Fairly Valued
+Aurora,Blockchains (L2),Fairly Valued
+Meta Pool DAO,Liquid staking,
+Odos,Exchanges (DEX),
+Kine Protocol,Derivative exchanges,Fairly Valued
+Hooked Protocol,Social,Fairly Valued
+Openbook,Exchanges (DEX),
+ZKEX,Exchanges (DEX),
+Magic Eden,NFT marketplaces,
+Sei Network,Blockchains (L1),
+Ether.fi,Liquid staking,Fairly Valued
+COTI,Blockchains (L2),
+Panora Exchange,Exchanges (DEX),
+Carv,Infrastructure,Fairly Valued
+Numerai,Asset management,Fairly Valued
+API3,Infrastructure,Fairly Valued
+Reya,Blockchains (L2),
+BadgerDAO,Asset management,Fairly Valued
+zkSwap Finance,Exchanges (DEX),Fairly Valued
+Nodle,Blockchains (L2),Fairly Valued
+Sanko,Blockchains (L3),
+Opus,Stablecoin issuers,
+Stacks,Blockchains (L2),
+Dinero,Liquid staking,Fairly Valued
+Folks Finance,Lending,
+Wormhole,Infrastructure,
+Sanctum,Liquid staking,
+Squid,Infrastructure,
+Merkly,Bridges,
+Mellow Protocol,Infrastructure,
+MyShell,Infrastructure,
+Karak,Blockchains (L2),
+Lista DAO,Stablecoin issuers,
+Ready Games Network,Gaming,
+Term Structure,Blockchains (L2),
+Harmony,Blockchains (L1),
+Enzyme Finance,Asset management,Fairly Valued
+MetaDAO,Infrastructure,
+Koi Finance,Exchanges (DEX),Fairly Valued
+Mimic,Infrastructure,
+Nostra,Lending,Fairly Valued
+Inverse Finance,Stablecoin issuers,
+Satori Finance,Derivative exchanges,
+re.al,Blockchains (L2),
+Zircuit,Blockchains (L2),Fairly Valued
+Subsocial,Blockchains (L2),
+Reservoir.xyz,Stablecoin issuers,
+B.Protocol,Infrastructure,
+SPOT Protocol (ex Ampleforth),Stablecoin issuers,Fairly Valued
+Aspect,NFT marketplaces,
+Illuvium,Gaming,Fairly Valued
+ERAGON,Gaming,
+Tapos,Gaming,
+Veax,Exchanges (DEX),
+Phala,Blockchains (L2),
+Celo Dollar,Stablecoin issuers,
+Homora,Lending,Fairly Valued
+BOB,Blockchains (L2),
+Slingshot,Exchanges (DEX),
+Ajuna Network,Blockchains (L2),
+Mars Protocol,Blockchains (L1),
+usdx.money,Stablecoin issuers,
+Polimec,Blockchains (L2),
+Black Panther,Asset management,
+Blackbird,Social,
+X Layer,Blockchains (L2),
+Ring Protocol,Exchanges (DEX),Fairly Valued
+EYWA,Bridges,
+Meteor Wallet,Infrastructure,
+Wapal,NFT marketplaces,
+Meso Finance,Lending,
+Monerium,Stablecoin issuers,
+Lynex,Exchanges (DEX),
+Alchemix Finance,Asset management,Fairly Valued
+The Standard,Lending,
+Metaplex,NFT marketplaces,
+Sologenic,Exchanges (DEX),
+Coinshift,Stablecoin issuers,
+Rootstock,Blockchains (L2),
+Zeta Markets,Derivative exchanges,
+Hydro Protocol,Liquid staking,
+Blast Bridge,Bridges,
+Allstake,Liquid staking,
+MANTRA,Blockchains (L1),Fairly Valued
+Anzen,Stablecoin issuers,
+MYX.Finance,Derivative exchanges,
+Rhea Finance,Exchanges (DEX),
+Baseline,Infrastructure,
+Pac Finance,Lending,
+Planet IX,Gaming,Fairly Valued
+UXUY,Exchanges (DEX),
+Aave GHO,Stablecoin issuers,
+KAI-CHING,Gaming,
+Predict Fun,Prediction markets,
+TrueUSD,Stablecoin issuers,Fairly Valued
+Kamino,Lending,
+Fraxtal,Blockchains (L2),
+Impermax Finance,Asset management,Fairly Valued
+UXLINK,Social,Fairly Valued
+AptoSwap,Exchanges (DEX),
+Fluxbeam,Exchanges (DEX),
+Micro3,Social,
+Degen,Blockchains (L3),Fairly Valued
+Celestia,Blockchains (L1),
+Frequency,Blockchains (L2),
+Acala Network,Blockchains (L2),
+Nile Exchange,Exchanges (DEX),
+Switchboard,Infrastructure,
+Idle Finance,Asset management,Fairly Valued
+Aptin Finance,Lending,
+karpatkey,Infrastructure,
+Alaya AI,Infrastructure,
+Arkham,Infrastructure,Fairly Valued
+Botto,NFT marketplaces,Fairly Valued
+Out,Social,
+MELD,Blockchains (L1),
+Juice Finance,Asset management,Fairly Valued
+Hercules,Exchanges (DEX),
+Garden Finance,Bridges,Fairly Valued
+Akash Network,Infrastructure,
+Universal,Infrastructure,
+Spectra,Asset management,Fairly Valued
+Barnbridge,Asset management,Fairly Valued
+Meridian,Stablecoin issuers,Fairly Valued
+marginfi,Lending,
+Kaito,Infrastructure,Fairly Valued
+StaFi,Liquid staking,
+Pragma,Infrastructure,
+Socket,Infrastructure,
+PumpBTC,Liquid staking,
+Phoenix Bonds,Asset management,
+Linea,Blockchains (L2),
+Archblock,Stablecoin issuers,
+Privy,Infrastructure,
+ParagonsDAO,Gaming,Fairly Valued
+Mythos,Blockchains (L2),
+ApePro,Exchanges (DEX),
+Gyroscope (Gyro Finance),Stablecoin issuers,
+Ambient,Exchanges (DEX),
+Lava Network,Blockchains (L1),
+Dexalot,Exchanges (DEX),Fairly Valued
+The Lost Glitches,Gaming,
+Robots.Farm,Gaming,Fairly Valued
+Stabble,Exchanges (DEX),
+DeDust,Exchanges (DEX),
+Aethir,Infrastructure,Fairly Valued
+pump.fun,Exchanges (DEX),
+BlackRock (BUIDL),Asset management,
+StarkGate,Bridges,
+Galxe,Infrastructure,
+Paradise Tycoon,Gaming,
+Revert Finance,Infrastructure,
+Echelon Market,Lending,
+ResearchHub,Infrastructure,Fairly Valued
+Polygon zkEVM,Blockchains (L2),
+IO.net,Infrastructure,
+Impossible Finance,Infrastructure,
+Fibrous,Exchanges (DEX),
+Term Finance,Lending,Fairly Valued
+SendingMe,Social,
+Baby Shark Universe,Gaming,
+Unique Network,Blockchains (L2),
+Reservoir,Infrastructure,
+Synonym Finance,Lending,Fairly Valued
+DIN (ex Web3Go),Infrastructure,
+Mento,Stablecoin issuers,
+Europe Fantasy League,Gaming,Fairly Valued
+Rain.fi,Lending,
+Limitless,Prediction markets,
+Worldcoin,Blockchains (L2),Fairly Valued
+Stake DAO,Asset management,Fairly Valued
+HOT Protocol,Gaming,
+Axiom,Infrastructure,
+Midas,Asset management,
+Lybra Finance,Stablecoin issuers,Fairly Valued
+Nouns DAO,Asset management,Fairly Valued
+UMA,Infrastructure,Fairly Valued
+Router Protocol,Bridges,Fairly Valued
+JOJO,Derivative exchanges,Fairly Valued
+Bedrock,Liquid staking,
+Aventus,Blockchains (L2),Fairly Valued
+Fraxlend,Lending,
+Hippo Labs,Exchanges (DEX),
+OpenLeverage,Derivative exchanges,Fairly Valued
+WAGMI (ex Popsicle Finance),Exchanges (DEX),Fairly Valued
+Injera,Stablecoin issuers,
+Liquidswap,Exchanges (DEX),
+MOOAR,NFT marketplaces,
+Resolv,Stablecoin issuers,
+Unipilot,Asset management,Fairly Valued
+Arrakis Finance,Asset management,
+BounceBit,Blockchains (L1),
+UWON Coin,ERC20 Tokens,
+Slime Revolution,Gaming,
+Avantis,Exchanges (DEX),
+Darwinia Network,Blockchains (L2),Fairly Valued
+RabbitX,Derivative exchanges,Fairly Valued
+Echo Protocol,Asset management,
+Biconomy,Infrastructure,Fairly Valued
+Hyperlane,Bridges,
+Virtuals Protocol,Infrastructure,
+Proof of Play,Blockchains (L3),
+Dmail Network,Infrastructure,Fairly Valued
+Paradex,Exchanges (DEX),
+Overnight,Stablecoin issuers,
+SwapX,Infrastructure,Fairly Valued
+Fenix,Exchanges (DEX),Fairly Valued
+Shape,Blockchains (L2),
+JustLend DAO,Lending,Fairly Valued
+Tevi,Social,
+Kilt,Blockchains (L2),
+Ethereum Name Service,Infrastructure,Fairly Valued
+Arweave,Blockchains (L1),Fairly Valued
+Prisma Finance,Stablecoin issuers,Fairly Valued
+Cellana Finance,Exchanges (DEX),
+MySwap,Exchanges (DEX),
+BSX Exchange,Derivative exchanges,
+zkSync Lite,Blockchains (L2),
+Redstone,Blockchains (L2),
+IPMB,Asset management,Fairly Valued
+Gains Network,Derivative exchanges,Fairly Valued
+Superstate,Asset management,
+WINR Protocol,Prediction markets,
+Wasabi,Derivative exchanges,
+Chiliz,Blockchains (L1),
+KGen,Gaming,
+Superposition,Lending,
+ImmortalX,Derivative exchanges,
+Raft,Stablecoin issuers,Fairly Valued
+Gitcoin,Infrastructure,Fairly Valued
+Cygnus Finance,Infrastructure,
+Aries Markets,Lending,
+Mint Blockchain,Blockchains (L2),
+Mendi Finance,Lending,
+Goat Protocol,Asset management,
+GoodDollar,Infrastructure,Fairly Valued
+BladeSwap,Exchanges (DEX),Fairly Valued
+ZetaChain,Blockchains (L1),
+World of Dypians,Gaming,
+Stability,Asset management,
+Crust Network,Blockchains (L2),Fairly Valued
+SUN,Exchanges (DEX),Fairly Valued
+Sun Swap,Exchanges (DEX),
+The Arena,Social,
+Terra,Blockchains (L1),Overvalued
+SmarDex,Exchanges (DEX),Fairly Valued
+SatLayer,Liquid staking,
+Parallel,Blockchains (L2),
+TapiocaDAO,Stablecoin issuers,Fairly Valued
+Octopus Network,Asset management,Fairly Valued
+Save,Lending,
+OmniBTC (OmniSwap),Exchanges (DEX),
+Super Champs,Gaming,
+NeuroWeb,Blockchains (L2),
+Boba Network,Blockchains (L2),
+EigenLayer,Liquid staking,Fairly Valued
+Bluefin,Derivative exchanges,
+Moola Market,Lending,Fairly Valued
+YOLO Games,Gaming,Fairly Valued
+Clique,Infrastructure,
+BoomLand,Gaming,
+Ekubo Protocol,Exchanges (DEX),
+Catalyst,Bridges,
+Thorchain,Exchanges (DEX),Fairly Valued
+pods.media,Social,
+Starbase,Exchanges (DEX),
+Loopring,Exchanges (DEX),Fairly Valued
+Nearlend DAO,Lending,
+Stryke,Derivative exchanges,Fairly Valued
+Drift Protocol,Derivative exchanges,
+LogX,Derivative exchanges,
+Kiln,Liquid staking,
+Cetus,Exchanges (DEX),
+Celer Network,Infrastructure,Fairly Valued
+Aark,Derivative exchanges,Fairly Valued
+Ancient8,Blockchains (L2),Fairly Valued
+Storj,Infrastructure,Fairly Valued
+Magpie XYZ,Asset management,Fairly Valued
+Jupiter,Exchanges (DEX),
+Rings,Stablecoin issuers,
+Soneium,Blockchains (L2),
+Puffer Finance,Liquid staking,
+Thetis Market,Exchanges (DEX),
+Lombard Finance,Liquid staking,
+Reserve,Stablecoin issuers,
+Superseed,Blockchains (L2),
+RARI Chain,Blockchains (L3),
+Sorare,Gaming,
+Abstract,Blockchains (L2),
+TruFin,Liquid staking,
+Meteora,Exchanges (DEX),
+XDC Network,Blockchains (L1),
+Ion Protocol,Lending,
+Paxos,Stablecoin issuers,
+Talis Protocol,NFT marketplaces,
+Optopia,Blockchains (L2),Fairly Valued
+Gram,ERC20 Tokens,
+Guild of Guardians,Gaming,Fairly Valued
+Eggs Finance,Asset management,Fairly Valued
+Astroport,Exchanges (DEX),
+ZNS Connect Name Service,Infrastructure,
+Pendulum,Blockchains (L2),
+Particle,Derivative exchanges,Fairly Valued
+Coreum,Blockchains (L1),
+Sui,Blockchains (L1),Fairly Valued
+Apeiron,Gaming,Fairly Valued
+ShapeShift,Exchanges (DEX),Fairly Valued
+Dypius,Infrastructure,Fairly Valued
+DYORSWAP,Exchanges (DEX),
+Bifrost,Blockchains (L2),
+Polter Finance,Lending,
+Gamic,Infrastructure,
+Definitive,Derivative exchanges,
+Liquid Collective,Liquid staking,
+Rocket Pool,Liquid staking,Fairly Valued
+Jumbo Exchange,Exchanges (DEX),
+FD121 Limited,Stablecoin issuers,
+Emojicoin.fun,Exchanges (DEX),
+4EVERLAND,Infrastructure,
+Bitwise (ETHW),Asset management,
+Pichi Finance,Derivative exchanges,Fairly Valued
+Aftermath Finance,Exchanges (DEX),
+Stake.com,Prediction markets,
+Secret Network,Blockchains (L1),
+Spacebar,Gaming,
+RabbitSwap,Exchanges (DEX),
+NAVI Protocol,Lending,
+Beefy,Asset management,Fairly Valued
+Rho Protocol,Derivative exchanges,
+Exactly Protocol,Lending,Fairly Valued
+XY Finance,Bridges,Fairly Valued
+yearn.finance,Asset management,Fairly Valued
+Colony,Infrastructure,Fairly Valued
+Helix,Exchanges (DEX),
+Bungee,Bridges,
+Vana,Blockchains (L1),
+Everyworld,Infrastructure,Fairly Valued
+Synthswap,Exchanges (DEX),Fairly Valued
+Alkimiya,Infrastructure,
+MetaMask,Exchanges (DEX),
+Interlay,Blockchains (L2),
+Fuel Ignition,Blockchains (L2),Fairly Valued
+Phoenix,Exchanges (DEX),
+Vaultka,Derivative exchanges,Fairly Valued
+Sweatcoin,Social,Fairly Valued
+Plume Network,Blockchains (L1),Fairly Valued
+Kage Finance,Derivative exchanges,
+Thala,Exchanges (DEX),
+Sakai Vault,Derivative exchanges,Fairly Valued
+Aevo,Derivative exchanges,Fairly Valued
+Dolomite,Lending,
+Symbiotic,Liquid staking,
+AI Protocol,Infrastructure,Fairly Valued
+XRP,Blockchains (L1),
+Skip Protocol,Infrastructure,
+Lagrange,Infrastructure,
+RealT,Asset management,Fairly Valued
+Navigator,Derivative exchanges,Fairly Valued
+Seraph,Gaming,Fairly Valued
+Franklin Templeton (FOBXX),Asset management,
+Fantasy,Gaming,
+dHedge,Asset management,Fairly Valued
+Mode Network,Blockchains (L2),
+Ellipsis Finance,Exchanges (DEX),
+nftperp,Derivative exchanges,
+dForce,Lending,Fairly Valued
+Safe,Infrastructure,Fairly Valued
+Centrifuge,Blockchains (L2),Fairly Valued
+Getgems,NFT marketplaces,
+Forgotten Runiverse,Gaming,
+Flow,Blockchains (L1),
+AZERO ID,Infrastructure,
+Fragmetric,Liquid staking,
+Orbiter Finance,Bridges,
+ZKFair,Blockchains (L2),
+BasePaint,NFT marketplaces,
+White Whale,Exchanges (DEX),
+STEPN,Gaming,

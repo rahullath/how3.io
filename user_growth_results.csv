@@ -1,0 +1,800 @@
+Project,Market Sector,User Growth Score,Growth Category
+Tether,Stablecoin issuers,,
+Tron,Blockchains (L1),88.24044011544011,Exceptional Growth
+Circle,Stablecoin issuers,,
+Uniswap,Exchanges (DEX),98.44734890619209,Exceptional Growth
+Lido Finance,Liquid staking,79.24632352941175,Strong Growth
+Aave,Lending,99.07407407407409,Exceptional Growth
+PancakeSwap,Exchanges (DEX),99.14772727272728,Exceptional Growth
+Jito,Liquid staking,92.94117647058823,Exceptional Growth
+Flashbots,Infrastructure,50.83333333333333,Steady Growth
+Solana,Blockchains (L1),96.22273151684917,Exceptional Growth
+Ethereum,Blockchains (L1),80.74585137085137,Exceptional Growth
+Sky,Stablecoin issuers,63.81696428571428,Steady Growth
+BNB Chain,Blockchains (L1),94.40882034632034,Exceptional Growth
+Ethena,Stablecoin issuers,85.625,Exceptional Growth
+Bitcoin,Blockchains (L1),73.61458333333334,Strong Growth
+Aerodrome,Exchanges (DEX),88.64047173627264,Exceptional Growth
+Morpho,Lending,81.08004385964914,Exceptional Growth
+Fluid,Lending,74.63084795321639,Strong Growth
+Venus,Lending,86.17202729044836,Exceptional Growth
+Base,Blockchains (L2),100.00000000000001,Exceptional Growth
+GMX,Derivative exchanges,95.64567206192824,Exceptional Growth
+Uniswap Labs,Exchanges (DEX),90.9090909090909,Exceptional Growth
+Convex Finance,Asset management,94.95356793743892,Exceptional Growth
+Curve,Exchanges (DEX),80.46152922439074,Exceptional Growth
+Compound,Lending,79.99756335282652,Strong Growth
+Usual,Stablecoin issuers,84.4047619047619,Exceptional Growth
+Thena,Exchanges (DEX),80.8611946775879,Exceptional Growth
+LFJ,Exchanges (DEX),76.7520519432366,Strong Growth
+Euler,Lending,61.46686159844056,Steady Growth
+Maple Finance,Lending,63.62573099415204,Steady Growth
+Pharaoh,Exchanges (DEX),57.98437658003843,Steady Growth
+SynFutures,Derivative exchanges,81.21869202226347,Exceptional Growth
+Arbitrum One,Blockchains (L2),96.30346290771793,Exceptional Growth
+Internet Computer,Blockchains (L1),74.21487603305783,Strong Growth
+QuickSwap,Exchanges (DEX),80.12711935820948,Exceptional Growth
+Solv Protocol,Derivative exchanges,86.00297485765468,Exceptional Growth
+OpenSea,NFT marketplaces,100.0,Exceptional Growth
+OP Mainnet,Blockchains (L2),89.78010324775966,Exceptional Growth
+ParaSwap,Exchanges (DEX),44.934539007988676,Slow Growth
+Velodrome,Exchanges (DEX),71.53864668655409,Strong Growth
+BENQI Liquid Staking,Liquid staking,57.5,Steady Growth
+SushiSwap,Exchanges (DEX),88.87737216435771,Exceptional Growth
+Vertex,Derivative exchanges,76.62141737572772,Strong Growth
+StakeWise,Liquid staking,27.604166666666664,Slow Growth
+Moonwell,Lending,75.56390977443608,Strong Growth
+Tokenlon,Exchanges (DEX),41.16273974449726,Slow Growth
+Balancer,Exchanges (DEX),72.5522044696127,Strong Growth
+TON,Blockchains (L1),68.9659090909091,Strong Growth
+Immutable,Blockchains (L2),90.02038225560229,Exceptional Growth
+ApolloX,Derivative exchanges,77.00079169598875,Strong Growth
+Aura Finance,Asset management,65.0293255131965,Strong Growth
+DeFi Saver,Infrastructure,,
+Frax Ether,Liquid staking,36.66666666666667,Slow Growth
+Camelot,Exchanges (DEX),67.31728435635556,Strong Growth
+Avalanche,Blockchains (L1),63.59943977591037,Steady Growth
+Layer3,Infrastructure,75.34213062495367,Strong Growth
+Merkle Trade,Derivative exchanges,52.532421835729366,Steady Growth
+KyberSwap,Exchanges (DEX),76.79375442410759,Strong Growth
+Polygon,Blockchains (L1),72.31752795815297,Strong Growth
+BENQI,Lending,70.427022417154,Strong Growth
+deBridge DLN,Bridges,28.571428571428573,Slow Growth
+StakeStone,Liquid staking,62.5,Steady Growth
+NEAR Protocol,Blockchains (L1),34.00568181818182,Slow Growth
+Houdini Swap,Exchanges (DEX),40.2825361512792,Slow Growth
+Katana,Exchanges (DEX),75.0,Strong Growth
+Origin Protocol,Stablecoin issuers,71.47321428571428,Strong Growth
+DODO,Exchanges (DEX),70.11326768800352,Strong Growth
+HMX,Derivative exchanges,45.89105783379183,Steady Growth
+Cardano,Blockchains (L1),90.9090909090909,Exceptional Growth
+BMX,Derivative exchanges,65.88605975305484,Strong Growth
+Pendle,Derivative exchanges,94.40474857654661,Exceptional Growth
+Sonic,Blockchains (L1),60.70600967659791,Steady Growth
+Manifold.xyz,NFT marketplaces,,
+Allbridge Core,Bridges,65.22727272727272,Strong Growth
+Helium,Infrastructure,51.01063829787234,Steady Growth
+Tokemak,Asset management,60.27126099706746,Steady Growth
+BendDAO,Lending,37.61208576998051,Slow Growth
+Gamma Strategies,Asset management,60.570931085043995,Steady Growth
+Cronos,Blockchains (L1),58.11447811447811,Steady Growth
+Synthetix,Derivative exchanges,80.07145256221611,Exceptional Growth
+ZeroLend,Lending,57.25563909774437,Steady Growth
+Tornado Cash,Infrastructure,54.8802728148862,Steady Growth
+Injective,Blockchains (L1),64.14820473644002,Steady Growth
+SyncSwap,Exchanges (DEX),43.06818181818181,Slow Growth
+Stader,Liquid staking,44.74264705882353,Slow Growth
+Gearbox,Lending,39.782529239766085,Slow Growth
+Blur,NFT marketplaces,88.75000000000001,Exceptional Growth
+Hegic,Derivative exchanges,56.719839581600674,Steady Growth
+Dogecoin,Blockchains (L1),93.93939393939394,Exceptional Growth
+Nexus Mutual,Insurance,,
+Aptos,Blockchains (L1),74.57650162337663,Strong Growth
+Liquity,Stablecoin issuers,65.0,Strong Growth
+Thruster,Exchanges (DEX),45.255429012033574,Steady Growth
+Filecoin,Blockchains (L1),64.0909090909091,Steady Growth
+Bancor,Exchanges (DEX),44.69622181211448,Slow Growth
+Goldfinch,Lending,39.736842105263165,Slow Growth
+MUX,Derivative exchanges,54.74643736805068,Steady Growth
+Biswap,Exchanges (DEX),66.92248015471738,Strong Growth
+Kwenta,Derivative exchanges,50.46015330113237,Steady Growth
+Thetanuts,Asset management,45.625,Steady Growth
+Seamless Protocol,Lending,62.473806042885,Steady Growth
+Gravity Alpha Mainnet,Blockchains (L2),81.36211567178466,Exceptional Growth
+Ribbon Finance,Asset management,51.90134714076247,Steady Growth
+Ronin,Blockchains (L1),54.890713861302096,Steady Growth
+zkSync Era,Blockchains (L2),76.67636131763253,Strong Growth
+Blast,Blockchains (L2),77.59650708517357,Strong Growth
+Livepeer,Infrastructure,85.63829787234042,Exceptional Growth
+Celo,Blockchains (L1),56.73683261183261,Steady Growth
+Pangolin,Exchanges (DEX),56.60579305288705,Steady Growth
+MultiversX,Blockchains (L1),52.53787878787879,Steady Growth
+Litecoin,Blockchains (L1),84.84848484848484,Exceptional Growth
+Ramses Exchange,Exchanges (DEX),44.565305094886575,Slow Growth
+deBridge,Interoperability,0.0,Stagnant/Declining
+Polkadot,Blockchains (L1),43.33908279220779,Slow Growth
+Stargate,Bridges,53.22646103896104,Steady Growth
+Stellar,Blockchains (L1),75.75757575757575,Strong Growth
+Cosmos Hub,Blockchains (L1),55.0,Steady Growth
+Integral,Exchanges (DEX),16.09936967000371,Stagnant/Declining
+The Graph,Infrastructure,66.66858180739862,Strong Growth
+Index Cooperative,Asset management,60.26484604105573,Steady Growth
+Synapse,Bridges,37.82771915584416,Slow Growth
+Algorand,Blockchains (L1),57.272727272727266,Steady Growth
+Ink,Blockchains (L2),85.55942702284166,Exceptional Growth
+Abracadabra.money,Stablecoin issuers,83.48214285714286,Exceptional Growth
+Maverick Protocol,Exchanges (DEX),65.4337837496208,Strong Growth
+Manta,Blockchains (L2),63.147381515621184,Steady Growth
+ApeSwap,Exchanges (DEX),38.49936903798834,Slow Growth
+Beets,Exchanges (DEX),41.18094178717094,Slow Growth
+Zcash,Blockchains (L1),62.95454545454546,Steady Growth
+Holdstation,Derivative exchanges,70.3653597018745,Strong Growth
+Starknet,Blockchains (L2),74.82779415706244,Strong Growth
+Clipper,Exchanges (DEX),41.877844069167764,Slow Growth
+Rarible,NFT marketplaces,65.625,Strong Growth
+Chainlink,Infrastructure,85.72299651567945,Exceptional Growth
+Radiant Capital,Lending,51.703216374269005,Steady Growth
+Zerion,Infrastructure,77.77777777777779,Strong Growth
+NFTX,NFT marketplaces,34.583333333333336,Slow Growth
+Angle,Stablecoin issuers,49.52380952380952,Steady Growth
+Hop Protocol,Bridges,79.54545454545455,Strong Growth
+Perpetual Protocol,Derivative exchanges,70.24213701938456,Strong Growth
+Fantom,Blockchains (L1),32.89152024446142,Slow Growth
+Foundation,NFT marketplaces,55.0,Steady Growth
+Equalizer Exchange,Exchanges (DEX),24.451758266761047,Stagnant/Declining
+SpookySwap,Exchanges (DEX),48.97434965618364,Steady Growth
+X2Y2,NFT marketplaces,40.9375,Slow Growth
+Gnosis,Blockchains (L1),40.53518377047789,Slow Growth
+OpenChat,Social,90.31746031746032,Exceptional Growth
+IPOR Protocol,Derivative exchanges,39.93004686200499,Slow Growth
+Verse,Exchanges (DEX),40.23071721104258,Slow Growth
+Level Finance,Derivative exchanges,53.56381149638539,Steady Growth
+Unichain,Blockchains (L2),77.58420441347272,Strong Growth
+friend.tech,Social,48.4567901234568,Steady Growth
+Kusama,Blockchains (L1),20.56198142135642,Stagnant/Declining
+Tezos,Blockchains (L1),38.78787878787879,Slow Growth
+1inch,Exchanges (DEX),87.7843015808811,Exceptional Growth
+Axelar Network,Interoperability,99.99999999999999,Exceptional Growth
+Reflexer,Stablecoin issuers,48.30357142857142,Steady Growth
+Mean Finance,Exchanges (DEX),,
+Sudoswap,NFT marketplaces,35.833333333333336,Slow Growth
+Kleros,Infrastructure,29.23975090814738,Slow Growth
+AirSwap,Exchanges (DEX),59.36675219941349,Steady Growth
+Shoebill Finance,Lending,56.973684210526315,Steady Growth
+Aperture,Exchanges (DEX),30.454545454545457,Slow Growth
+Mina Protocol,Blockchains (L1),28.089225589225588,Slow Growth
+Zyberswap,Exchanges (DEX),30.674507870698083,Slow Growth
+Mummy Finance,Derivative exchanges,48.53448275862069,Steady Growth
+Wombat Exchange,Exchanges (DEX),37.895894428152495,Slow Growth
+Aleph Zero EVM,Blockchains (L2),59.28015077115355,Steady Growth
+Conflux Core Space,Blockchains (L1),36.4983164983165,Slow Growth
+Everclear,Bridges,40.05681818181817,Slow Growth
+Zora,NFT marketplaces,80.0,Exceptional Growth
+Cap,Derivative exchanges,33.142303355511494,Slow Growth
+SolidLizard,Exchanges (DEX),20.327636768126204,Stagnant/Declining
+Thales,Derivative exchanges,57.49369242210991,Steady Growth
+Viction,Blockchains (L1),43.755411255411246,Slow Growth
+Sound.xyz,NFT marketplaces,20.0,Stagnant/Declining
+Cryptex,Asset management,59.46396933040078,Steady Growth
+Polynomial Protocol,Derivative exchanges,45.94827586206897,Steady Growth
+XAI,Blockchains (L3),85.00000000000001,Exceptional Growth
+DFX Finance,Exchanges (DEX),13.774985674318266,Stagnant/Declining
+Volmex,Derivative exchanges,45.94827586206897,Steady Growth
+Deri Protocol,Derivative exchanges,45.48431402341501,Steady Growth
+Karura,Blockchains (L1),6.0606060606060606,Stagnant/Declining
+Pika Protocol,Derivative exchanges,30.003098810056944,Slow Growth
+dYdX,Derivative exchanges,84.93506493506493,Exceptional Growth
+Premia,Derivative exchanges,43.760056138442856,Slow Growth
+Lighter,Exchanges (DEX),18.181818181818183,Stagnant/Declining
+Osmosis,Exchanges (DEX),47.34885803851322,Steady Growth
+Aragon,Infrastructure,11.789050337311883,Stagnant/Declining
+Optimism Gateway,Bridges,75.9647495361781,Strong Growth
+Pocket Network,Infrastructure,39.787234042553195,Slow Growth
+Swarm,Infrastructure,41.41417698371513,Slow Growth
+XOXNO,NFT marketplaces,20.0,Stagnant/Declining
+IDEX,Exchanges (DEX),70.77011494252874,Strong Growth
+TrueFi,Lending,43.94554093567252,Slow Growth
+Toucan Protocol,Infrastructure,32.22222222222222,Slow Growth
+Opyn,Derivative exchanges,48.63734326018809,Steady Growth
+Alongside,Asset management,,
+Ren,Bridges,45.454545454545446,Steady Growth
+Notional Finance,Lending,17.975146198830412,Stagnant/Declining
+CoW Protocol,Exchanges (DEX),69.21655901338188,Strong Growth
+PoolTogether,Asset management,49.80014357282502,Steady Growth
+Across,Bridges,42.44724025974026,Slow Growth
+LooksRare,NFT marketplaces,57.81250000000001,Steady Growth
+Metavault.Trade,Derivative exchanges,45.439671166272156,Steady Growth
+zkSync Era Bridge,Bridges,59.07235621521336,Steady Growth
+Lens Protocol,Social,0.0,Stagnant/Declining
+Hashflow,Exchanges (DEX),55.768288418107666,Steady Growth
+Voltz,Derivative exchanges,45.94827586206897,Steady Growth
+KAP Games,Gaming,33.88888888888888,Slow Growth
+0x,Exchanges (DEX),64.69035460275727,Steady Growth
+Dopex,Derivative exchanges,41.589369682042104,Slow Growth
+BetSwirl,Prediction markets,31.718750000000004,Slow Growth
+Arbitrum Bridge,Bridges,97.40259740259742,Exceptional Growth
+Buffer Finance,Derivative exchanges,35.486053355511494,Slow Growth
+xExchange,Exchanges (DEX),41.63793103448276,Slow Growth
+Polymarket,Prediction markets,100.0,Exceptional Growth
+Bounce Finance,Infrastructure,53.94864951689031,Steady Growth
+SX,Prediction markets,42.1875,Slow Growth
+Axie Infinity,Gaming,94.11764705882351,Exceptional Growth
+Vesta Finance,Stablecoin issuers,43.660714285714285,Slow Growth
+Rhino.fi,Exchanges (DEX),6.8965517241379315,Stagnant/Declining
+zkLend,Lending,41.621588693957115,Slow Growth
+PayPal,Stablecoin issuers,,
+ApeX Protocol,Derivative exchanges,77.65862708719851,Strong Growth
+LI.FI,Infrastructure,,
+peaq,Blockchains (L1),29.149477973007382,Slow Growth
+Mereo,Social,,
+DeGate,Exchanges (DEX),32.55320726733408,Slow Growth
+Ocean Protocol,Infrastructure,39.72269071094966,Slow Growth
+WELL3,Social,56.388888888888886,Steady Growth
+VibrantX,Asset management,,
+xNINJA,Social,0.0,Stagnant/Declining
+Berachain,Blockchains (L1),53.580627705627705,Steady Growth
+Zeitgeist,Blockchains (L2),17.00908412145346,Stagnant/Declining
+M^0,Stablecoin issuers,,
+XCAD Network,Social,40.277777777777764,Slow Growth
+STON.fi,Exchanges (DEX),32.98850574712644,Slow Growth
+TrueMarkets,Prediction markets,,
+Typus Finance,Asset management,,
+Hedera,Blockchains (L1),78.78787878787878,Strong Growth
+Taiko,Blockchains (L2),58.54037267080746,Steady Growth
+AlienX,Blockchains (L2),,
+Movement,Blockchains (L1),89.39393939393939,Exceptional Growth
+Ankr,Liquid staking,60.091911764705884,Steady Growth
+ZKX,Derivative exchanges,20.890538033395178,Stagnant/Declining
+RabbitHole,Gaming,,
+KiloEx,Derivative exchanges,,
+WOO,Exchanges (DEX),77.25509825732296,Strong Growth
+SideShift,Infrastructure,15.204981837052411,Stagnant/Declining
+Kadena,Blockchains (L1),31.21212121212121,Slow Growth
+Metis,Blockchains (L2),66.53846153846155,Strong Growth
+PRDT,Prediction markets,,
+Hypr,Blockchains (L2),,
+Star Atlas,Gaming,67.5,Strong Growth
+B3,Blockchains (L3),70.0,Strong Growth
+Dymension,Blockchains (L1),65.22727272727272,Strong Growth
+Litentry,Blockchains (L2),22.55829354235372,Stagnant/Declining
+Superform,Asset management,,
+Neptune Finance,Lending,,
+Photon,Derivative exchanges,,
+Cat Town,Gaming,45.010893246187365,Steady Growth
+AVNU,Exchanges (DEX),,
+Venice,Infrastructure,60.16379086663207,Steady Growth
+Pyth Network,Oracles,,
+Succinct,Infrastructure,,
+InterCrone Swap,Exchanges (DEX),,
+Lagoon,Asset management,,
+Scallop,Lending,55.0,Steady Growth
+ABEL Finance,Lending,45.13157894736842,Steady Growth
+Econia,Exchanges (DEX),,
+Ethervista,Exchanges (DEX),58.962736373748605,Steady Growth
+Overtake,Gaming,,
+inkySwap,Exchanges (DEX),,
+Solayer,Liquid staking,100.0,Exceptional Growth
+Astar,Blockchains (L2),48.94308943089431,Steady Growth
+Render Network,Infrastructure,91.69693824597819,Exceptional Growth
+Hedgey Finance,Infrastructure,,
+zkMe,Infrastructure,,
+Banana Gun,Infrastructure,69.36267514270888,Strong Growth
+Ethereum Attestation Service,Infrastructure,,
+Derivio,Derivative exchanges,,
+Sophon,Blockchains (L2),,
+Layerswap,Bridges,,
+FlowX Finance,Exchanges (DEX),26.091954022988507,Slow Growth
+Coinally,Infrastructure,,
+LUKSO,Blockchains (L1),9.090909090909092,Stagnant/Declining
+Echelon Prime Foundation,Infrastructure,61.07161390762844,Steady Growth
+Energy Web X,Blockchains (L2),48.943599954052914,Steady Growth
+Infrared Finance,Liquid staking,,
+StarryNift,Gaming,81.2636165577342,Exceptional Growth
+Pixels,Gaming,64.77124183006535,Steady Growth
+Global Dollar Network,Stablecoin issuers,,
+Metropolis,Exchanges (DEX),62.721542454579165,Steady Growth
+Burrow,Lending,,
+Hinkal Protocol,Bridges,,
+unshETH,Asset management,5.225806451612904,Stagnant/Declining
+Sellix,Infrastructure,,
+Time.fun,Social,,
+Raydium,Exchanges (DEX),94.25287356321839,Exceptional Growth
+Orderly Network,Derivative exchanges,80.76066790352505,Exceptional Growth
+Efi Hub,Gaming,,
+Metal,Blockchains (L2),54.435618729096994,Steady Growth
+ICHI,Asset management,25.12609970674487,Slow Growth
+HunnyFinance,Asset management,27.239002932551323,Slow Growth
+Robonomics Network,Blockchains (L2),45.459268991877686,Steady Growth
+WhiteSwap,Exchanges (DEX),,
+Avalon Finance,Lending,72.38304093567251,Strong Growth
+Orca,Exchanges (DEX),93.10344827586206,Exceptional Growth
+iZUMi Finance,Exchanges (DEX),50.94994438264739,Steady Growth
+Nibiru,Blockchains (L1),18.181818181818183,Stagnant/Declining
+ReactorFusion,Lending,23.391812865497077,Stagnant/Declining
+Mint Club,Infrastructure,,
+Kodiak Finance,Exchanges (DEX),,
+Beam,Blockchains (L1),58.181818181818194,Steady Growth
+Mountain Protocol,Stablecoin issuers,,
+PlayEmber,Gaming,,
+Mansa Finance,Lending,,
+Amnis Finance,Liquid staking,,
+Eclipse,Blockchains (L2),,
+Mole,Asset management,,
+Hyperbridge,Blockchains (L2),19.98354626403407,Stagnant/Declining
+Ondo Finance,Asset management,100.0,Exceptional Growth
+Levana,Derivative exchanges,75.51020408163265,Strong Growth
+Shuffle,Prediction markets,80.83333333333334,Exceptional Growth
+Shadow,Exchanges (DEX),72.51279199110122,Strong Growth
+Arbitrum Nova,Blockchains (L2),,
+Agora,Stablecoin issuers,,
+Zyfi,Infrastructure,,
+Trojan,Infrastructure,,
+Spark Protocol,Lending,45.13157894736841,Steady Growth
+Scroll,Blockchains (L2),65.94895087490904,Strong Growth
+Gemini,Stablecoin issuers,,
+Alkimi Exchange,Infrastructure,37.23566424494032,Slow Growth
+BitDAO,Asset management,51.94721407624634,Steady Growth
+Moonbeam,Blockchains (L2),63.06155952061874,Steady Growth
+Coin98,Exchanges (CEX),,
+Wild Forest,Gaming,,
+XPLA,Blockchains (L1),28.699494949494948,Slow Growth
+Fableborne,Gaming,,
+Kana,Exchanges (DEX),,
+PACT,Lending,23.045808966861596,Stagnant/Declining
+Silo Finance,Lending,45.29605263157895,Steady Growth
+Frax Stablecoin,Stablecoin issuers,,
+Polkadex,Blockchains (L2),22.35264735264735,Stagnant/Declining
+Blitz,Blockchains (L1),,
+Rubic,Infrastructure,31.52698495070057,Slow Growth
+UniDex,Derivative exchanges,28.181818181818183,Slow Growth
+Ninja Blaze,Gaming,,
+Mito Finance,Asset management,,
+WigoSwap,Infrastructure,48.59756097560975,Steady Growth
+REVOX (ex ReadON),Social,,
+Rebalance,Asset management,,
+Glo Dollar,Stablecoin issuers,,
+Evmos,Blockchains (L1),26.666666666666664,Slow Growth
+Baki Exchange,Exchanges (DEX),,
+Argent,Infrastructure,,
+Fuul Protocol,Infrastructure,,
+XGamble,Prediction markets,,
+Talent Protocol,Social,59.16666666666666,Steady Growth
+Nillion,Blockchains (L1),81.81818181818183,Exceptional Growth
+Decentral Games,Gaming,32.4400871459695,Slow Growth
+Extra Finance,Lending,48.03728070175438,Steady Growth
+Ubeswap,Exchanges (DEX),36.26251390433816,Slow Growth
+vfat.io,Asset management,,
+Hyperliquid,Derivative exchanges,100.0,Exceptional Growth
+SPACE ID,Infrastructure,71.54482355993773,Strong Growth
+Coinbase Wrapped Staked Ether,Liquid staking,,
+SingSing,Social,,
+Clave,Infrastructure,,
+Ref Finance,Exchanges (DEX),43.362068965517246,Slow Growth
+Lisk,Blockchains (L2),57.4295269947444,Steady Growth
+Symbiosis,Exchanges (DEX),56.37819799777531,Steady Growth
+Astar zkEVM,Blockchains (L2),,
+Shrapnel,Gaming,57.04248366013072,Steady Growth
+Spin,Derivative exchanges,,
+QuestN,Infrastructure,,
+Hydration,Blockchains (L2),47.478246927288744,Steady Growth
+HYCHAIN,Blockchains (L2),36.92307692307692,Slow Growth
+Lifinity,Exchanges (DEX),36.43678160919541,Slow Growth
+Chingari,Social,50.83333333333333,Steady Growth
+Bittensor,Blockchains (L1),55.0,Steady Growth
+Merlin Chain,Blockchains (L2),69.42307692307692,Strong Growth
+Membrane Finance,Stablecoin issuers,,
+Stride,Liquid staking,33.529411764705884,Slow Growth
+Arrow Markets,Derivative exchanges,29.333951762523192,Slow Growth
+DojoSwap,Exchanges (DEX),20.344827586206897,Stagnant/Declining
+zkDX,Derivative exchanges,26.82235621521336,Slow Growth
+KlimaDAO,Infrastructure,36.073884276076804,Slow Growth
+Turbos Finance,Exchanges (DEX),53.706896551724135,Steady Growth
+Brave,Infrastructure,74.00655163466527,Strong Growth
+Invarch,Blockchains (L2),28.96631823461092,Slow Growth
+Sofamon,Social,,
+Level,Stablecoin issuers,,
+Renzo,Liquid staking,73.07843137254903,Strong Growth
+Azuro,Prediction markets,65.46875,Strong Growth
+SKALE,Blockchains (L1),34.015151515151516,Slow Growth
+briq,Infrastructure,,
+DeSo,Blockchains (L1),25.151515151515152,Slow Growth
+Hook,Blockchains (L3),,
+SuperSwap,Exchanges (DEX),,
+defi.money,Stablecoin issuers,,
+Fren Pet,Gaming,50.1797385620915,Steady Growth
+NinjaVault,Asset management,,
+Eigenpie,Liquid staking,,
+Mantle,Blockchains (L2),89.472049689441,Exceptional Growth
+Valeria Games,Gaming,,
+Swell,Liquid staking,38.36397058823529,Slow Growth
+ERA Name Service,Infrastructure,16.722560975609756,Stagnant/Declining
+Marinade,Liquid staking,65.11764705882352,Strong Growth
+Alien Base,Exchanges (DEX),53.53281423804228,Steady Growth
+Element,NFT marketplaces,,
+Kroma Network,Blockchains (L2),,
+Suilend,Lending,,
+BaseSwap,Exchanges (DEX),40.728958101594365,Slow Growth
+SwapX,Exchanges (DEX),49.2035595105673,Steady Growth
+Ionic Protocol,Lending,38.94736842105263,Slow Growth
+Yield Guild Games,Gaming,79.79847494553377,Strong Growth
+Primex Finance,Exchanges (DEX),,
+Baryon,Exchanges (DEX),,
+Bucket Protocol,Lending,,
+OpenOcean,Exchanges (DEX),49.75973303670746,Steady Growth
+Aurora,Blockchains (L2),47.61825131390349,Steady Growth
+Meta Pool DAO,Liquid staking,11.76470588235294,Stagnant/Declining
+Odos,Exchanges (DEX),,
+Kine Protocol,Derivative exchanges,44.65445269016698,Slow Growth
+Hooked Protocol,Social,81.48148148148148,Exceptional Growth
+Openbook,Exchanges (DEX),,
+ZKEX,Exchanges (DEX),,
+Magic Eden,NFT marketplaces,100.0,Exceptional Growth
+Sei Network,Blockchains (L1),56.13636363636363,Steady Growth
+Ether.fi,Liquid staking,68.38848039215686,Strong Growth
+COTI,Blockchains (L2),86.53846153846155,Exceptional Growth
+Panora Exchange,Exchanges (DEX),,
+Carv,Infrastructure,59.012389724961075,Steady Growth
+Numerai,Asset management,88.36754643206255,Exceptional Growth
+API3,Infrastructure,84.19142449403218,Exceptional Growth
+Reya,Blockchains (L2),,
+BadgerDAO,Asset management,90.14662756598241,Exceptional Growth
+zkSwap Finance,Exchanges (DEX),48.15270935960592,Steady Growth
+Nodle,Blockchains (L2),29.314763643037764,Slow Growth
+Sanko,Blockchains (L3),,
+Opus,Stablecoin issuers,40.9375,Slow Growth
+Stacks,Blockchains (L2),90.38461538461539,Exceptional Growth
+Dinero,Liquid staking,8.705882352941178,Stagnant/Declining
+Folks Finance,Lending,,
+Wormhole,Infrastructure,,
+Sanctum,Liquid staking,39.411764705882355,Slow Growth
+Squid,Infrastructure,,
+Merkly,Bridges,,
+Mellow Protocol,Infrastructure,,
+MyShell,Infrastructure,,
+Karak,Blockchains (L2),,
+Lista DAO,Stablecoin issuers,,
+Ready Games Network,Gaming,,
+Term Structure,Blockchains (L2),,
+Harmony,Blockchains (L1),,
+Enzyme Finance,Asset management,78.63196480938419,Strong Growth
+MetaDAO,Infrastructure,24.893617021276597,Stagnant/Declining
+Koi Finance,Exchanges (DEX),22.71264367816092,Stagnant/Declining
+Mimic,Infrastructure,,
+Nostra,Lending,38.57212475633528,Slow Growth
+Inverse Finance,Stablecoin issuers,,
+Satori Finance,Derivative exchanges,,
+re.al,Blockchains (L2),11.538461538461538,Stagnant/Declining
+Zircuit,Blockchains (L2),78.14077227120704,Strong Growth
+Subsocial,Blockchains (L2),14.867902132710494,Stagnant/Declining
+Reservoir.xyz,Stablecoin issuers,,
+B.Protocol,Infrastructure,,
+SPOT Protocol (ex Ampleforth),Stablecoin issuers,31.428571428571423,Slow Growth
+Aspect,NFT marketplaces,,
+Illuvium,Gaming,88.45315904139433,Exceptional Growth
+ERAGON,Gaming,,
+Tapos,Gaming,,
+Veax,Exchanges (DEX),,
+Phala,Blockchains (L2),65.98589998851321,Strong Growth
+Celo Dollar,Stablecoin issuers,,
+Homora,Lending,73.68421052631578,Strong Growth
+BOB,Blockchains (L2),65.438443670151,Strong Growth
+Slingshot,Exchanges (DEX),,
+Ajuna Network,Blockchains (L2),25.384615384615387,Slow Growth
+Mars Protocol,Blockchains (L1),3.0303030303030303,Stagnant/Declining
+usdx.money,Stablecoin issuers,,
+Polimec,Blockchains (L2),31.74589347934295,Slow Growth
+Black Panther,Asset management,25.151515151515156,Slow Growth
+Blackbird,Social,,
+X Layer,Blockchains (L2),,
+Ring Protocol,Exchanges (DEX),9.775305895439377,Stagnant/Declining
+EYWA,Bridges,,
+Meteor Wallet,Infrastructure,,
+Wapal,NFT marketplaces,,
+Meso Finance,Lending,,
+Monerium,Stablecoin issuers,,
+Lynex,Exchanges (DEX),51.12068965517242,Steady Growth
+Alchemix Finance,Asset management,77.2238514173998,Strong Growth
+The Standard,Lending,36.315789473684205,Slow Growth
+Metaplex,NFT marketplaces,77.77777777777779,Strong Growth
+Sologenic,Exchanges (DEX),66.63793103448276,Strong Growth
+Coinshift,Stablecoin issuers,,
+Rootstock,Blockchains (L2),,
+Zeta Markets,Derivative exchanges,66.4795918367347,Strong Growth
+Hydro Protocol,Liquid staking,27.647058823529413,Slow Growth
+Blast Bridge,Bridges,55.90445269016698,Steady Growth
+Allstake,Liquid staking,,
+MANTRA,Blockchains (L1),49.280303030303024,Steady Growth
+Anzen,Stablecoin issuers,,
+MYX.Finance,Derivative exchanges,,
+Rhea Finance,Exchanges (DEX),,
+Baseline,Infrastructure,,
+Pac Finance,Lending,,
+Planet IX,Gaming,61.66666666666666,Steady Growth
+UXUY,Exchanges (DEX),,
+Aave GHO,Stablecoin issuers,,
+KAI-CHING,Gaming,,
+Predict Fun,Prediction markets,,
+TrueUSD,Stablecoin issuers,84.52380952380952,Exceptional Growth
+Kamino,Lending,78.94736842105263,Strong Growth
+Fraxtal,Blockchains (L2),,
+Impermax Finance,Asset management,17.6969696969697,Stagnant/Declining
+UXLINK,Social,99.99999999999999,Exceptional Growth
+AptoSwap,Exchanges (DEX),,
+Fluxbeam,Exchanges (DEX),,
+Micro3,Social,,
+Degen,Blockchains (L3),0.0,Stagnant/Declining
+Celestia,Blockchains (L1),53.86363636363636,Steady Growth
+Frequency,Blockchains (L2),32.36546651180798,Slow Growth
+Acala Network,Blockchains (L2),51.09837462189378,Steady Growth
+Nile Exchange,Exchanges (DEX),31.839080459770116,Slow Growth
+Switchboard,Infrastructure,,
+Idle Finance,Asset management,14.154936461388075,Stagnant/Declining
+Aptin Finance,Lending,,
+karpatkey,Infrastructure,,
+Alaya AI,Infrastructure,,
+Arkham,Infrastructure,80.31882459782044,Exceptional Growth
+Botto,NFT marketplaces,42.5,Slow Growth
+Out,Social,,
+MELD,Blockchains (L1),0.0,Stagnant/Declining
+Juice Finance,Asset management,51.5366568914956,Steady Growth
+Hercules,Exchanges (DEX),23.79310344827586,Stagnant/Declining
+Garden Finance,Bridges,0.0,Stagnant/Declining
+Akash Network,Infrastructure,65.37234042553192,Strong Growth
+Universal,Infrastructure,,
+Spectra,Asset management,34.39882697947213,Slow Growth
+Barnbridge,Asset management,73.66568914956012,Strong Growth
+Meridian,Stablecoin issuers,23.928571428571427,Stagnant/Declining
+marginfi,Lending,,
+Kaito,Infrastructure,85.92371562013491,Exceptional Growth
+StaFi,Liquid staking,19.352941176470587,Stagnant/Declining
+Pragma,Infrastructure,,
+Socket,Infrastructure,,
+PumpBTC,Liquid staking,,
+Phoenix Bonds,Asset management,,
+Linea,Blockchains (L2),,
+Archblock,Stablecoin issuers,,
+Privy,Infrastructure,,
+ParagonsDAO,Gaming,11.328976034858387,Stagnant/Declining
+Mythos,Blockchains (L2),60.21319925718879,Steady Growth
+ApePro,Exchanges (DEX),,
+Gyroscope (Gyro Finance),Stablecoin issuers,,
+Ambient,Exchanges (DEX),,
+Lava Network,Blockchains (L1),20.606060606060606,Stagnant/Declining
+Dexalot,Exchanges (DEX),53.07007786429366,Steady Growth
+The Lost Glitches,Gaming,,
+Robots.Farm,Gaming,28.73093681917211,Slow Growth
+Stabble,Exchanges (DEX),,
+DeDust,Exchanges (DEX),,
+Aethir,Infrastructure,69.83945251686559,Strong Growth
+pump.fun,Exchanges (DEX),,
+BlackRock (BUIDL),Asset management,,
+StarkGate,Bridges,,
+Galxe,Infrastructure,,
+Paradise Tycoon,Gaming,,
+Revert Finance,Infrastructure,,
+Echelon Market,Lending,,
+ResearchHub,Infrastructure,36.23248572911261,Slow Growth
+Polygon zkEVM,Blockchains (L2),,
+IO.net,Infrastructure,76.59574468085107,Strong Growth
+Impossible Finance,Infrastructure,20.638297872340424,Stagnant/Declining
+Fibrous,Exchanges (DEX),,
+Term Finance,Lending,0.0,Stagnant/Declining
+SendingMe,Social,,
+Baby Shark Universe,Gaming,,
+Unique Network,Blockchains (L2),30.869452846804755,Slow Growth
+Reservoir,Infrastructure,,
+Synonym Finance,Lending,18.971734892787524,Stagnant/Declining
+DIN (ex Web3Go),Infrastructure,,
+Mento,Stablecoin issuers,,
+Europe Fantasy League,Gaming,16.127450980392155,Stagnant/Declining
+Rain.fi,Lending,,
+Limitless,Prediction markets,,
+Worldcoin,Blockchains (L2),89.51227887965693,Exceptional Growth
+Stake DAO,Asset management,47.4266862170088,Steady Growth
+HOT Protocol,Gaming,,
+Axiom,Infrastructure,,
+Midas,Asset management,,
+Lybra Finance,Stablecoin issuers,63.60119047619047,Steady Growth
+Nouns DAO,Asset management,,
+UMA,Infrastructure,67.77666061235081,Strong Growth
+Router Protocol,Bridges,22.5,Stagnant/Declining
+JOJO,Derivative exchanges,29.477736549165122,Slow Growth
+Bedrock,Liquid staking,,
+Aventus,Blockchains (L2),31.452460582895373,Slow Growth
+Fraxlend,Lending,41.18421052631579,Slow Growth
+Hippo Labs,Exchanges (DEX),,
+OpenLeverage,Derivative exchanges,48.285714285714285,Steady Growth
+WAGMI (ex Popsicle Finance),Exchanges (DEX),54.511679644048954,Steady Growth
+Injera,Stablecoin issuers,,
+Liquidswap,Exchanges (DEX),55.431034482758626,Steady Growth
+MOOAR,NFT marketplaces,,
+Resolv,Stablecoin issuers,,
+Unipilot,Asset management,42.36391129032258,Slow Growth
+Arrakis Finance,Asset management,,
+BounceBit,Blockchains (L1),35.75757575757576,Slow Growth
+UWON Coin,ERC20 Tokens,0.0,Stagnant/Declining
+Slime Revolution,Gaming,,
+Avantis,Exchanges (DEX),,
+Darwinia Network,Blockchains (L2),38.50515437637654,Slow Growth
+RabbitX,Derivative exchanges,56.0556586270872,Steady Growth
+Echo Protocol,Asset management,,
+Biconomy,Infrastructure,57.130902957965745,Steady Growth
+Hyperlane,Bridges,,
+Virtuals Protocol,Infrastructure,91.48936170212765,Exceptional Growth
+Proof of Play,Blockchains (L3),,
+Dmail Network,Infrastructure,51.214971458225214,Steady Growth
+Paradex,Exchanges (DEX),,
+Overnight,Stablecoin issuers,,
+SwapX,Infrastructure,30.601971977166578,Slow Growth
+Fenix,Exchanges (DEX),23.083426028921025,Stagnant/Declining
+Shape,Blockchains (L2),55.885598141695716,Steady Growth
+JustLend DAO,Lending,90.13157894736842,Exceptional Growth
+Tevi,Social,,
+Kilt,Blockchains (L2),32.67706378986866,Slow Growth
+Ethereum Name Service,Infrastructure,84.67393184570145,Exceptional Growth
+Arweave,Blockchains (L1),50.45454545454545,Steady Growth
+Prisma Finance,Stablecoin issuers,47.63392857142858,Steady Growth
+Cellana Finance,Exchanges (DEX),34.13793103448276,Slow Growth
+MySwap,Exchanges (DEX),,
+BSX Exchange,Derivative exchanges,,
+zkSync Lite,Blockchains (L2),,
+Redstone,Blockchains (L2),,
+IPMB,Asset management,51.65395894428153,Steady Growth
+Gains Network,Derivative exchanges,70.17810760667903,Strong Growth
+Superstate,Asset management,,
+WINR Protocol,Prediction markets,55.0,Steady Growth
+Wasabi,Derivative exchanges,,
+Chiliz,Blockchains (L1),51.59090909090909,Steady Growth
+KGen,Gaming,,
+Superposition,Lending,,
+ImmortalX,Derivative exchanges,,
+Raft,Stablecoin issuers,14.999999999999998,Stagnant/Declining
+Gitcoin,Infrastructure,60.18649455111572,Steady Growth
+Cygnus Finance,Infrastructure,,
+Aries Markets,Lending,,
+Mint Blockchain,Blockchains (L2),,
+Mendi Finance,Lending,31.052631578947363,Slow Growth
+Goat Protocol,Asset management,12.121212121212121,Stagnant/Declining
+GoodDollar,Infrastructure,6.382978723404254,Stagnant/Declining
+BladeSwap,Exchanges (DEX),28.87300704486467,Slow Growth
+ZetaChain,Blockchains (L1),58.4090909090909,Steady Growth
+World of Dypians,Gaming,,
+Stability,Asset management,31.21212121212121,Slow Growth
+Crust Network,Blockchains (L2),47.42116579073102,Steady Growth
+SUN,Exchanges (DEX),87.20800889877643,Exceptional Growth
+Sun Swap,Exchanges (DEX),,
+The Arena,Social,,
+Terra,Blockchains (L1),34.2293771043771,Slow Growth
+SmarDex,Exchanges (DEX),46.63403781979978,Steady Growth
+SatLayer,Liquid staking,,
+Parallel,Blockchains (L2),,
+TapiocaDAO,Stablecoin issuers,26.666666666666664,Slow Growth
+Octopus Network,Asset management,52.59824046920821,Steady Growth
+Save,Lending,20.526315789473685,Stagnant/Declining
+OmniBTC (OmniSwap),Exchanges (DEX),,
+Super Champs,Gaming,,
+NeuroWeb,Blockchains (L2),33.57607114140215,Slow Growth
+Boba Network,Blockchains (L2),57.88461538461539,Steady Growth
+EigenLayer,Liquid staking,87.64705882352942,Exceptional Growth
+Bluefin,Derivative exchanges,73.46938775510205,Strong Growth
+Moola Market,Lending,21.297514619883035,Stagnant/Declining
+YOLO Games,Gaming,39.787581699346404,Slow Growth
+Clique,Infrastructure,,
+BoomLand,Gaming,,
+Ekubo Protocol,Exchanges (DEX),63.189655172413794,Steady Growth
+Catalyst,Bridges,,
+Thorchain,Exchanges (DEX),98.85057471264368,Exceptional Growth
+pods.media,Social,,
+Starbase,Exchanges (DEX),,
+Loopring,Exchanges (DEX),84.91657397107898,Exceptional Growth
+Nearlend DAO,Lending,,
+Stryke,Derivative exchanges,36.00371057513915,Slow Growth
+Drift Protocol,Derivative exchanges,95.91836734693875,Exceptional Growth
+LogX,Derivative exchanges,,
+Kiln,Liquid staking,,
+Cetus,Exchanges (DEX),80.45977011494253,Exceptional Growth
+Celer Network,Infrastructure,56.10923715620135,Steady Growth
+Aark,Derivative exchanges,56.83673469387756,Steady Growth
+Ancient8,Blockchains (L2),61.54861442904921,Steady Growth
+Storj,Infrastructure,77.19252724442137,Strong Growth
+Magpie XYZ,Asset management,68.83870967741936,Strong Growth
+Jupiter,Exchanges (DEX),95.40229885057471,Exceptional Growth
+Rings,Stablecoin issuers,,
+Soneium,Blockchains (L2),93.61207897793265,Exceptional Growth
+Puffer Finance,Liquid staking,,
+Thetis Market,Exchanges (DEX),,
+Lombard Finance,Liquid staking,,
+Reserve,Stablecoin issuers,,
+Superseed,Blockchains (L2),46.91347270615563,Steady Growth
+RARI Chain,Blockchains (L3),,
+Sorare,Gaming,,
+Abstract,Blockchains (L2),,
+TruFin,Liquid staking,,
+Meteora,Exchanges (DEX),,
+XDC Network,Blockchains (L1),42.5,Slow Growth
+Ion Protocol,Lending,,
+Paxos,Stablecoin issuers,,
+Talis Protocol,NFT marketplaces,21.11111111111111,Stagnant/Declining
+Optopia,Blockchains (L2),22.252747252747255,Stagnant/Declining
+Gram,ERC20 Tokens,100.0,Exceptional Growth
+Guild of Guardians,Gaming,49.803921568627445,Steady Growth
+Eggs Finance,Asset management,75.6852394916911,Strong Growth
+Astroport,Exchanges (DEX),30.689655172413794,Slow Growth
+ZNS Connect Name Service,Infrastructure,,
+Pendulum,Blockchains (L2),22.881456522571504,Stagnant/Declining
+Particle,Derivative exchanges,51.73701298701299,Steady Growth
+Coreum,Blockchains (L1),15.151515151515154,Stagnant/Declining
+Sui,Blockchains (L1),87.87878787878788,Exceptional Growth
+Apeiron,Gaming,53.39869281045752,Steady Growth
+ShapeShift,Exchanges (DEX),61.212458286985544,Steady Growth
+Dypius,Infrastructure,35.932472755578615,Slow Growth
+DYORSWAP,Exchanges (DEX),,
+Bifrost,Blockchains (L2),53.28021499406516,Steady Growth
+Polter Finance,Lending,0.0,Stagnant/Declining
+Gamic,Infrastructure,,
+Definitive,Derivative exchanges,,
+Liquid Collective,Liquid staking,30.0,Slow Growth
+Rocket Pool,Liquid staking,52.80024509803921,Steady Growth
+Jumbo Exchange,Exchanges (DEX),6.8965517241379315,Stagnant/Declining
+FD121 Limited,Stablecoin issuers,,
+Emojicoin.fun,Exchanges (DEX),,
+4EVERLAND,Infrastructure,,
+Bitwise (ETHW),Asset management,,
+Pichi Finance,Derivative exchanges,23.60296846011132,Stagnant/Declining
+Aftermath Finance,Exchanges (DEX),,
+Stake.com,Prediction markets,,
+Secret Network,Blockchains (L1),28.181818181818183,Slow Growth
+Spacebar,Gaming,,
+RabbitSwap,Exchanges (DEX),,
+NAVI Protocol,Lending,97.36842105263158,Exceptional Growth
+Beefy,Asset management,59.689149560117315,Steady Growth
+Rho Protocol,Derivative exchanges,,
+Exactly Protocol,Lending,36.582602339181285,Slow Growth
+XY Finance,Bridges,35.0,Slow Growth
+yearn.finance,Asset management,96.28543499511241,Exceptional Growth
+Colony,Infrastructure,27.851907109496626,Slow Growth
+Helix,Exchanges (DEX),,
+Bungee,Bridges,,
+Vana,Blockchains (L1),,
+Everyworld,Infrastructure,10.793980280228332,Stagnant/Declining
+Synthswap,Exchanges (DEX),32.35669262143122,Slow Growth
+Alkimiya,Infrastructure,,
+MetaMask,Exchanges (DEX),81.81818181818183,Exceptional Growth
+Interlay,Blockchains (L2),33.93259179844545,Slow Growth
+Fuel Ignition,Blockchains (L2),49.59627329192547,Steady Growth
+Phoenix,Exchanges (DEX),,
+Vaultka,Derivative exchanges,33.962894248608535,Slow Growth
+Sweatcoin,Social,29.629629629629626,Slow Growth
+Plume Network,Blockchains (L1),40.378787878787875,Slow Growth
+Kage Finance,Derivative exchanges,20.20408163265306,Stagnant/Declining
+Thala,Exchanges (DEX),45.08620689655172,Steady Growth
+Sakai Vault,Derivative exchanges,49.493506493506494,Steady Growth
+Aevo,Derivative exchanges,89.37847866419295,Exceptional Growth
+Dolomite,Lending,,
+Symbiotic,Liquid staking,80.0,Exceptional Growth
+AI Protocol,Infrastructure,45.902309289050336,Steady Growth
+XRP,Blockchains (L1),95.45454545454545,Exceptional Growth
+Skip Protocol,Infrastructure,,
+Lagrange,Infrastructure,,
+RealT,Asset management,46.20967741935484,Steady Growth
+Navigator,Derivative exchanges,56.82560296846012,Steady Growth
+Seraph,Gaming,79.52069716775598,Strong Growth
+Franklin Templeton (FOBXX),Asset management,,
+Fantasy,Gaming,,
+dHedge,Asset management,47.79325513196481,Steady Growth
+Mode Network,Blockchains (L2),61.870883907033736,Steady Growth
+Ellipsis Finance,Exchanges (DEX),,
+nftperp,Derivative exchanges,,
+dForce,Lending,78.06042884990252,Strong Growth
+Safe,Infrastructure,57.03976388168137,Steady Growth
+Centrifuge,Blockchains (L2),28.965898232202576,Slow Growth
+Getgems,NFT marketplaces,,
+Forgotten Runiverse,Gaming,,
+Flow,Blockchains (L1),43.63636363636364,Slow Growth
+AZERO ID,Infrastructure,,
+Fragmetric,Liquid staking,,
+Orbiter Finance,Bridges,,
+ZKFair,Blockchains (L2),52.11538461538461,Steady Growth
+BasePaint,NFT marketplaces,,
+White Whale,Exchanges (DEX),,
+STEPN,Gaming,,
