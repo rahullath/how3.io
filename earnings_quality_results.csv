@@ -1,800 +1,800 @@
-Project,Market Sector,Revenue Stability Score,Revenue Diversification Score,Earnings Quality Score,Metrics Used,Complete Score
-Tether,Stablecoin issuers,0.0,,0.0,stability,False
-Tron,Blockchains (L1),0.0,,0.0,stability,False
-Circle,Stablecoin issuers,0.0,,0.0,stability,False
-Uniswap,Exchanges (DEX),0.0,77.32625257125247,23.197875771375738,"stability, diversification",True
-Lido Finance,Liquid staking,0.0,50.052158651036926,15.015647595311076,"stability, diversification",True
-Aave,Lending,0.0,,0.0,stability,False
-PancakeSwap,Exchanges (DEX),0.0,,0.0,stability,False
-Jito,Liquid staking,0.0,,0.0,stability,False
-Flashbots,Infrastructure,0.0,,0.0,stability,False
-Solana,Blockchains (L1),0.0,,0.0,stability,False
-Ethereum,Blockchains (L1),0.0,,0.0,stability,False
-Sky,Stablecoin issuers,0.0,,0.0,stability,False
-BNB Chain,Blockchains (L1),0.0,,0.0,stability,False
-Ethena,Stablecoin issuers,0.0,62.69308246339604,18.807924739018812,"stability, diversification",True
-Bitcoin,Blockchains (L1),0.0,,0.0,stability,False
-Aerodrome,Exchanges (DEX),0.0,,0.0,stability,False
-Morpho,Lending,0.0,,0.0,stability,False
-Fluid,Lending,0.0,,0.0,stability,False
-Venus,Lending,0.0,,0.0,stability,False
-Base,Blockchains (L2),0.0,64.9856734930213,19.495702047906388,"stability, diversification",True
-GMX,Derivative exchanges,0.0,,0.0,stability,False
-Uniswap Labs,Exchanges (DEX),0.0,,0.0,stability,False
-Convex Finance,Asset management,0.0,,0.0,stability,False
-Curve,Exchanges (DEX),0.0,,0.0,stability,False
-Compound,Lending,0.0,,0.0,stability,False
-Usual,Stablecoin issuers,0.0,,0.0,stability,False
-Thena,Exchanges (DEX),0.0,,0.0,stability,False
-LFJ,Exchanges (DEX),0.0,,0.0,stability,False
-Euler,Lending,0.0,,0.0,stability,False
-Maple Finance,Lending,0.0,,0.0,stability,False
-Pharaoh,Exchanges (DEX),0.0,,0.0,stability,False
-SynFutures,Derivative exchanges,0.0,,0.0,stability,False
-Arbitrum One,Blockchains (L2),0.0,58.28152874982261,17.484458624946782,"stability, diversification",True
-Internet Computer,Blockchains (L1),0.0,,0.0,stability,False
-QuickSwap,Exchanges (DEX),0.0,,0.0,stability,False
-Solv Protocol,Derivative exchanges,0.0,,0.0,stability,False
-OpenSea,NFT marketplaces,0.0,,0.0,stability,False
-OP Mainnet,Blockchains (L2),0.0,45.81432477759322,13.744297433277966,"stability, diversification",True
-ParaSwap,Exchanges (DEX),0.0,63.83424306490888,19.150272919472663,"stability, diversification",True
-Velodrome,Exchanges (DEX),0.0,,0.0,stability,False
-BENQI Liquid Staking,Liquid staking,0.0,,0.0,stability,False
-SushiSwap,Exchanges (DEX),0.0,,0.0,stability,False
-Vertex,Derivative exchanges,0.0,,0.0,stability,False
-StakeWise,Liquid staking,0.0,,0.0,stability,False
-Moonwell,Lending,0.0,,0.0,stability,False
-Tokenlon,Exchanges (DEX),0.0,,0.0,stability,False
-Balancer,Exchanges (DEX),0.0,,0.0,stability,False
-TON,Blockchains (L1),0.0,,0.0,stability,False
-Immutable,Blockchains (L2),0.0,,0.0,stability,False
-ApolloX,Derivative exchanges,0.0,,0.0,stability,False
-Aura Finance,Asset management,0.0,,0.0,stability,False
-DeFi Saver,Infrastructure,0.0,,0.0,stability,False
-Frax Ether,Liquid staking,0.0,,0.0,stability,False
-Camelot,Exchanges (DEX),0.0,,0.0,stability,False
-Avalanche,Blockchains (L1),0.0,,0.0,stability,False
-Layer3,Infrastructure,0.0,54.20313106365239,16.260939319095716,"stability, diversification",True
-Merkle Trade,Derivative exchanges,0.0,,0.0,stability,False
-KyberSwap,Exchanges (DEX),0.0,,0.0,stability,False
-Polygon,Blockchains (L1),0.0,,0.0,stability,False
-BENQI,Lending,0.0,,0.0,stability,False
-deBridge DLN,Bridges,0.0,,0.0,stability,False
-StakeStone,Liquid staking,0.0,,0.0,stability,False
-NEAR Protocol,Blockchains (L1),0.0,,0.0,stability,False
-Houdini Swap,Exchanges (DEX),0.0,,0.0,stability,False
-Katana,Exchanges (DEX),0.0,,0.0,stability,False
-Origin Protocol,Stablecoin issuers,0.0,,0.0,stability,False
-DODO,Exchanges (DEX),0.0,,0.0,stability,False
-HMX,Derivative exchanges,0.0,,0.0,stability,False
-Cardano,Blockchains (L1),0.0,,0.0,stability,False
-BMX,Derivative exchanges,0.0,,0.0,stability,False
-Pendle,Derivative exchanges,0.0,,0.0,stability,False
-Sonic,Blockchains (L1),0.0,,0.0,stability,False
-Manifold.xyz,NFT marketplaces,0.0,,0.0,stability,False
-Allbridge Core,Bridges,0.0,,0.0,stability,False
-Helium,Infrastructure,0.0,,0.0,stability,False
-Tokemak,Asset management,0.0,,0.0,stability,False
-BendDAO,Lending,0.0,,0.0,stability,False
-Gamma Strategies,Asset management,0.0,,0.0,stability,False
-Cronos,Blockchains (L1),0.0,,0.0,stability,False
-Synthetix,Derivative exchanges,0.0,,0.0,stability,False
-ZeroLend,Lending,0.0,,0.0,stability,False
-Tornado Cash,Infrastructure,0.0,,0.0,stability,False
-Injective,Blockchains (L1),0.0,,0.0,stability,False
-SyncSwap,Exchanges (DEX),0.0,,0.0,stability,False
-Stader,Liquid staking,0.0,,0.0,stability,False
-Gearbox,Lending,0.0,,0.0,stability,False
-Blur,NFT marketplaces,0.0,,0.0,stability,False
-Hegic,Derivative exchanges,0.0,,0.0,stability,False
-Dogecoin,Blockchains (L1),0.0,,0.0,stability,False
-Nexus Mutual,Insurance,0.0,,0.0,stability,False
-Aptos,Blockchains (L1),0.0,,0.0,stability,False
-Liquity,Stablecoin issuers,0.0,,0.0,stability,False
-Thruster,Exchanges (DEX),0.0,,0.0,stability,False
-Filecoin,Blockchains (L1),0.0,,0.0,stability,False
-Bancor,Exchanges (DEX),0.0,,0.0,stability,False
-Goldfinch,Lending,0.0,,0.0,stability,False
-MUX,Derivative exchanges,0.0,,0.0,stability,False
-Biswap,Exchanges (DEX),0.0,,0.0,stability,False
-Kwenta,Derivative exchanges,0.0,,0.0,stability,False
-Thetanuts,Asset management,0.0,,0.0,stability,False
-Seamless Protocol,Lending,0.0,,0.0,stability,False
-Gravity Alpha Mainnet,Blockchains (L2),0.0,54.7609680737004,16.42829042211012,"stability, diversification",True
-Ribbon Finance,Asset management,0.0,,0.0,stability,False
-Ronin,Blockchains (L1),0.0,,0.0,stability,False
-zkSync Era,Blockchains (L2),0.0,50.938113524618366,15.281434057385509,"stability, diversification",True
-Blast,Blockchains (L2),0.0,15.090878351573608,4.5272635054720824,"stability, diversification",True
-Livepeer,Infrastructure,0.0,,0.0,stability,False
-Celo,Blockchains (L1),0.0,,0.0,stability,False
-Pangolin,Exchanges (DEX),0.0,,0.0,stability,False
-MultiversX,Blockchains (L1),0.0,,0.0,stability,False
-Litecoin,Blockchains (L1),0.0,,0.0,stability,False
-Ramses Exchange,Exchanges (DEX),0.0,,0.0,stability,False
-deBridge,Interoperability,0.0,,0.0,stability,False
-Polkadot,Blockchains (L1),0.0,,0.0,stability,False
-Stargate,Bridges,0.0,,0.0,stability,False
-Stellar,Blockchains (L1),0.0,,0.0,stability,False
-Cosmos Hub,Blockchains (L1),0.0,,0.0,stability,False
-Integral,Exchanges (DEX),0.0,,0.0,stability,False
-The Graph,Infrastructure,0.0,,0.0,stability,False
-Index Cooperative,Asset management,0.0,,0.0,stability,False
-Synapse,Bridges,0.0,,0.0,stability,False
-Algorand,Blockchains (L1),0.0,,0.0,stability,False
-Ink,Blockchains (L2),0.0,75.36144601043182,22.608433803129547,"stability, diversification",True
-Abracadabra.money,Stablecoin issuers,0.0,,0.0,stability,False
-Maverick Protocol,Exchanges (DEX),0.0,,0.0,stability,False
-Manta,Blockchains (L2),0.0,,0.0,stability,False
-ApeSwap,Exchanges (DEX),0.0,,0.0,stability,False
-Beets,Exchanges (DEX),0.0,34.469352394811395,10.340805718443418,"stability, diversification",True
-Zcash,Blockchains (L1),0.0,,0.0,stability,False
-Holdstation,Derivative exchanges,0.0,,0.0,stability,False
-Starknet,Blockchains (L2),0.0,,0.0,stability,False
-Clipper,Exchanges (DEX),0.0,,0.0,stability,False
-Rarible,NFT marketplaces,0.0,,0.0,stability,False
-Chainlink,Infrastructure,0.0,,0.0,stability,False
-Radiant Capital,Lending,0.0,,0.0,stability,False
-Zerion,Infrastructure,0.0,,0.0,stability,False
-NFTX,NFT marketplaces,0.0,,0.0,stability,False
-Angle,Stablecoin issuers,0.0,,0.0,stability,False
-Hop Protocol,Bridges,0.0,,0.0,stability,False
-Perpetual Protocol,Derivative exchanges,0.0,,0.0,stability,False
-Fantom,Blockchains (L1),0.0,,0.0,stability,False
-Foundation,NFT marketplaces,0.0,,0.0,stability,False
-Equalizer Exchange,Exchanges (DEX),0.0,,0.0,stability,False
-SpookySwap,Exchanges (DEX),0.0,,0.0,stability,False
-X2Y2,NFT marketplaces,0.0,,0.0,stability,False
-Gnosis,Blockchains (L1),0.0,,0.0,stability,False
-OpenChat,Social,0.0,,0.0,stability,False
-IPOR Protocol,Derivative exchanges,0.0,,0.0,stability,False
-Verse,Exchanges (DEX),0.0,,0.0,stability,False
-Level Finance,Derivative exchanges,0.0,,0.0,stability,False
-Unichain,Blockchains (L2),0.0,77.32625257125247,23.197875771375738,"stability, diversification",True
-friend.tech,Social,0.0,,0.0,stability,False
-Kusama,Blockchains (L1),0.0,,0.0,stability,False
-Tezos,Blockchains (L1),0.0,,0.0,stability,False
-1inch,Exchanges (DEX),0.0,,0.0,stability,False
-Axelar Network,Interoperability,0.0,,0.0,stability,False
-Reflexer,Stablecoin issuers,0.0,,0.0,stability,False
-Mean Finance,Exchanges (DEX),0.0,,0.0,stability,False
-Sudoswap,NFT marketplaces,0.0,,0.0,stability,False
-Kleros,Infrastructure,0.0,,0.0,stability,False
-AirSwap,Exchanges (DEX),0.0,,0.0,stability,False
-Shoebill Finance,Lending,0.0,,0.0,stability,False
-Aperture,Exchanges (DEX),0.0,,0.0,stability,False
-Mina Protocol,Blockchains (L1),0.0,,0.0,stability,False
-Zyberswap,Exchanges (DEX),0.0,,0.0,stability,False
-Mummy Finance,Derivative exchanges,0.0,,0.0,stability,False
-Wombat Exchange,Exchanges (DEX),0.0,,0.0,stability,False
-Aleph Zero EVM,Blockchains (L2),0.0,,0.0,stability,False
-Conflux Core Space,Blockchains (L1),0.0,,0.0,stability,False
-Everclear,Bridges,0.0,,0.0,stability,False
-Zora,NFT marketplaces,0.0,,0.0,stability,False
-Cap,Derivative exchanges,0.0,,0.0,stability,False
-SolidLizard,Exchanges (DEX),0.0,,0.0,stability,False
-Thales,Derivative exchanges,0.0,,0.0,stability,False
-Viction,Blockchains (L1),0.0,,0.0,stability,False
-Sound.xyz,NFT marketplaces,0.0,,0.0,stability,False
-Cryptex,Asset management,0.0,,0.0,stability,False
-Polynomial Protocol,Derivative exchanges,0.0,,0.0,stability,False
-XAI,Blockchains (L3),0.0,,0.0,stability,False
-DFX Finance,Exchanges (DEX),0.0,,0.0,stability,False
-Volmex,Derivative exchanges,0.0,,0.0,stability,False
-Deri Protocol,Derivative exchanges,0.0,,0.0,stability,False
-Karura,Blockchains (L1),0.0,,0.0,stability,False
-Pika Protocol,Derivative exchanges,0.0,,0.0,stability,False
-dYdX,Derivative exchanges,0.0,,0.0,stability,False
-Premia,Derivative exchanges,,,,,False
-Lighter,Exchanges (DEX),,,,,False
-Osmosis,Exchanges (DEX),,,,,False
-Aragon,Infrastructure,,,,,False
-Optimism Gateway,Bridges,,,,,False
-Pocket Network,Infrastructure,,,,,False
-Swarm,Infrastructure,,,,,False
-XOXNO,NFT marketplaces,,,,,False
-IDEX,Exchanges (DEX),,,,,False
-TrueFi,Lending,,,,,False
-Toucan Protocol,Infrastructure,,,,,False
-Opyn,Derivative exchanges,,,,,False
-Alongside,Asset management,,,,,False
-Ren,Bridges,,,,,False
-Notional Finance,Lending,,,,,False
-CoW Protocol,Exchanges (DEX),,31.44841037678708,31.44841037678708,diversification,False
-PoolTogether,Asset management,,,,,False
-Across,Bridges,0.0,,0.0,stability,False
-LooksRare,NFT marketplaces,,,,,False
-Metavault.Trade,Derivative exchanges,0.0,,0.0,stability,False
-zkSync Era Bridge,Bridges,,,,,False
-Lens Protocol,Social,,,,,False
-Hashflow,Exchanges (DEX),,,,,False
-Voltz,Derivative exchanges,,,,,False
-KAP Games,Gaming,,,,,False
-0x,Exchanges (DEX),,,,,False
-Dopex,Derivative exchanges,,,,,False
-BetSwirl,Prediction markets,0.0,,0.0,stability,False
-Arbitrum Bridge,Bridges,,,,,False
-Buffer Finance,Derivative exchanges,,,,,False
-xExchange,Exchanges (DEX),,,,,False
-Polymarket,Prediction markets,,,,,False
-Bounce Finance,Infrastructure,0.0,,0.0,stability,False
-SX,Prediction markets,,,,,False
-Axie Infinity,Gaming,,,,,False
-Vesta Finance,Stablecoin issuers,,,,,False
-Rhino.fi,Exchanges (DEX),,,,,False
-zkLend,Lending,,,,,False
-PayPal,Stablecoin issuers,,,,,False
-ApeX Protocol,Derivative exchanges,,,,,False
-LI.FI,Infrastructure,,,,,False
-peaq,Blockchains (L1),,,,,False
-Mereo,Social,,,,,False
-DeGate,Exchanges (DEX),,,,,False
-Ocean Protocol,Infrastructure,,,,,False
-WELL3,Social,,,,,False
-VibrantX,Asset management,,,,,False
-xNINJA,Social,,,,,False
-Berachain,Blockchains (L1),,,,,False
-Zeitgeist,Blockchains (L2),,,,,False
-M^0,Stablecoin issuers,,,,,False
-XCAD Network,Social,,,,,False
-STON.fi,Exchanges (DEX),,,,,False
-TrueMarkets,Prediction markets,,,,,False
-Typus Finance,Asset management,,,,,False
-Hedera,Blockchains (L1),,,,,False
-Taiko,Blockchains (L2),,,,,False
-AlienX,Blockchains (L2),,,,,False
-Movement,Blockchains (L1),,,,,False
-Ankr,Liquid staking,,,,,False
-ZKX,Derivative exchanges,,,,,False
-RabbitHole,Gaming,,,,,False
-KiloEx,Derivative exchanges,,,,,False
-WOO,Exchanges (DEX),,,,,False
-SideShift,Infrastructure,,,,,False
-Kadena,Blockchains (L1),,,,,False
-Metis,Blockchains (L2),,,,,False
-PRDT,Prediction markets,,,,,False
-Hypr,Blockchains (L2),,,,,False
-Star Atlas,Gaming,,,,,False
-B3,Blockchains (L3),,,,,False
-Dymension,Blockchains (L1),,,,,False
-Litentry,Blockchains (L2),,,,,False
-Superform,Asset management,,,,,False
-Neptune Finance,Lending,,,,,False
-Photon,Derivative exchanges,,,,,False
-Cat Town,Gaming,,,,,False
-AVNU,Exchanges (DEX),,,,,False
-Venice,Infrastructure,,,,,False
-Pyth Network,Oracles,,,,,False
-Succinct,Infrastructure,,,,,False
-InterCrone Swap,Exchanges (DEX),,,,,False
-Lagoon,Asset management,,,,,False
-Scallop,Lending,,,,,False
-ABEL Finance,Lending,,,,,False
-Econia,Exchanges (DEX),,,,,False
-Ethervista,Exchanges (DEX),,,,,False
-Overtake,Gaming,,,,,False
-inkySwap,Exchanges (DEX),,,,,False
-Solayer,Liquid staking,,,,,False
-Astar,Blockchains (L2),,,,,False
-Render Network,Infrastructure,,,,,False
-Hedgey Finance,Infrastructure,,,,,False
-zkMe,Infrastructure,,,,,False
-Banana Gun,Infrastructure,,,,,False
-Ethereum Attestation Service,Infrastructure,,,,,False
-Derivio,Derivative exchanges,,,,,False
-Sophon,Blockchains (L2),,,,,False
-Layerswap,Bridges,,,,,False
-FlowX Finance,Exchanges (DEX),,,,,False
-Coinally,Infrastructure,,,,,False
-LUKSO,Blockchains (L1),,,,,False
-Echelon Prime Foundation,Infrastructure,,,,,False
-Energy Web X,Blockchains (L2),,,,,False
-Infrared Finance,Liquid staking,,,,,False
-StarryNift,Gaming,,,,,False
-Pixels,Gaming,,,,,False
-Global Dollar Network,Stablecoin issuers,,,,,False
-Metropolis,Exchanges (DEX),,,,,False
-Burrow,Lending,,,,,False
-Hinkal Protocol,Bridges,,,,,False
-unshETH,Asset management,,,,,False
-Sellix,Infrastructure,,,,,False
-Time.fun,Social,,,,,False
-Raydium,Exchanges (DEX),,,,,False
-Orderly Network,Derivative exchanges,,,,,False
-Efi Hub,Gaming,,,,,False
-Metal,Blockchains (L2),,,,,False
-ICHI,Asset management,,,,,False
-HunnyFinance,Asset management,,,,,False
-Robonomics Network,Blockchains (L2),,,,,False
-WhiteSwap,Exchanges (DEX),,,,,False
-Avalon Finance,Lending,,,,,False
-Orca,Exchanges (DEX),,,,,False
-iZUMi Finance,Exchanges (DEX),,,,,False
-Nibiru,Blockchains (L1),,,,,False
-ReactorFusion,Lending,,,,,False
-Mint Club,Infrastructure,,,,,False
-Kodiak Finance,Exchanges (DEX),,,,,False
-Beam,Blockchains (L1),,,,,False
-Mountain Protocol,Stablecoin issuers,,,,,False
-PlayEmber,Gaming,,,,,False
-Mansa Finance,Lending,,,,,False
-Amnis Finance,Liquid staking,,,,,False
-Eclipse,Blockchains (L2),,,,,False
-Mole,Asset management,,,,,False
-Hyperbridge,Blockchains (L2),,,,,False
-Ondo Finance,Asset management,,,,,False
-Levana,Derivative exchanges,,,,,False
-Shuffle,Prediction markets,,,,,False
-Shadow,Exchanges (DEX),,,,,False
-Arbitrum Nova,Blockchains (L2),,,,,False
-Agora,Stablecoin issuers,,,,,False
-Zyfi,Infrastructure,,,,,False
-Trojan,Infrastructure,,,,,False
-Spark Protocol,Lending,,,,,False
-Scroll,Blockchains (L2),,,,,False
-Gemini,Stablecoin issuers,,,,,False
-Alkimi Exchange,Infrastructure,,,,,False
-BitDAO,Asset management,,,,,False
-Moonbeam,Blockchains (L2),,,,,False
-Coin98,Exchanges (CEX),,,,,False
-Wild Forest,Gaming,,,,,False
-XPLA,Blockchains (L1),,,,,False
-Fableborne,Gaming,,,,,False
-Kana,Exchanges (DEX),,,,,False
-PACT,Lending,,,,,False
-Silo Finance,Lending,,,,,False
-Frax Stablecoin,Stablecoin issuers,,,,,False
-Polkadex,Blockchains (L2),,,,,False
-Blitz,Blockchains (L1),,,,,False
-Rubic,Infrastructure,,,,,False
-UniDex,Derivative exchanges,,,,,False
-Ninja Blaze,Gaming,,,,,False
-Mito Finance,Asset management,,,,,False
-WigoSwap,Infrastructure,,,,,False
-REVOX (ex ReadON),Social,,,,,False
-Rebalance,Asset management,,,,,False
-Glo Dollar,Stablecoin issuers,,,,,False
-Evmos,Blockchains (L1),,,,,False
-Baki Exchange,Exchanges (DEX),,,,,False
-Argent,Infrastructure,,,,,False
-Fuul Protocol,Infrastructure,,,,,False
-XGamble,Prediction markets,,,,,False
-Talent Protocol,Social,,,,,False
-Nillion,Blockchains (L1),,,,,False
-Decentral Games,Gaming,,,,,False
-Extra Finance,Lending,,,,,False
-Ubeswap,Exchanges (DEX),,,,,False
-vfat.io,Asset management,,,,,False
-Hyperliquid,Derivative exchanges,,,,,False
-SPACE ID,Infrastructure,,,,,False
-Coinbase Wrapped Staked Ether,Liquid staking,,,,,False
-SingSing,Social,,,,,False
-Clave,Infrastructure,,,,,False
-Ref Finance,Exchanges (DEX),,,,,False
-Lisk,Blockchains (L2),,,,,False
-Symbiosis,Exchanges (DEX),,,,,False
-Astar zkEVM,Blockchains (L2),,,,,False
-Shrapnel,Gaming,,,,,False
-Spin,Derivative exchanges,,,,,False
-QuestN,Infrastructure,,,,,False
-Hydration,Blockchains (L2),,,,,False
-HYCHAIN,Blockchains (L2),,,,,False
-Lifinity,Exchanges (DEX),,,,,False
-Chingari,Social,,,,,False
-Bittensor,Blockchains (L1),,,,,False
-Merlin Chain,Blockchains (L2),,,,,False
-Membrane Finance,Stablecoin issuers,,,,,False
-Stride,Liquid staking,,,,,False
-Arrow Markets,Derivative exchanges,,,,,False
-DojoSwap,Exchanges (DEX),,,,,False
-zkDX,Derivative exchanges,,,,,False
-KlimaDAO,Infrastructure,,,,,False
-Turbos Finance,Exchanges (DEX),,,,,False
-Brave,Infrastructure,,,,,False
-Invarch,Blockchains (L2),,,,,False
-Sofamon,Social,,,,,False
-Level,Stablecoin issuers,,,,,False
-Renzo,Liquid staking,,,,,False
-Azuro,Prediction markets,,,,,False
-SKALE,Blockchains (L1),,,,,False
-briq,Infrastructure,,,,,False
-DeSo,Blockchains (L1),,,,,False
-Hook,Blockchains (L3),,,,,False
-SuperSwap,Exchanges (DEX),,,,,False
-defi.money,Stablecoin issuers,,,,,False
-Fren Pet,Gaming,,,,,False
-NinjaVault,Asset management,,,,,False
-Eigenpie,Liquid staking,,,,,False
-Mantle,Blockchains (L2),,,,,False
-Valeria Games,Gaming,,,,,False
-Swell,Liquid staking,,,,,False
-ERA Name Service,Infrastructure,,,,,False
-Marinade,Liquid staking,,,,,False
-Alien Base,Exchanges (DEX),,,,,False
-Element,NFT marketplaces,,,,,False
-Kroma Network,Blockchains (L2),,,,,False
-Suilend,Lending,,,,,False
-BaseSwap,Exchanges (DEX),,,,,False
-SwapX,Exchanges (DEX),,,,,False
-Ionic Protocol,Lending,,,,,False
-Yield Guild Games,Gaming,,,,,False
-Primex Finance,Exchanges (DEX),,,,,False
-Baryon,Exchanges (DEX),,,,,False
-Bucket Protocol,Lending,,,,,False
-OpenOcean,Exchanges (DEX),,,,,False
-Aurora,Blockchains (L2),,,,,False
-Meta Pool DAO,Liquid staking,,,,,False
-Odos,Exchanges (DEX),,,,,False
-Kine Protocol,Derivative exchanges,,,,,False
-Hooked Protocol,Social,,,,,False
-Openbook,Exchanges (DEX),,,,,False
-ZKEX,Exchanges (DEX),,,,,False
-Magic Eden,NFT marketplaces,,,,,False
-Sei Network,Blockchains (L1),,,,,False
-Ether.fi,Liquid staking,,,,,False
-COTI,Blockchains (L2),,,,,False
-Panora Exchange,Exchanges (DEX),,,,,False
-Carv,Infrastructure,,,,,False
-Numerai,Asset management,,,,,False
-API3,Infrastructure,,,,,False
-Reya,Blockchains (L2),,,,,False
-BadgerDAO,Asset management,,,,,False
-zkSwap Finance,Exchanges (DEX),,,,,False
-Nodle,Blockchains (L2),,,,,False
-Sanko,Blockchains (L3),,,,,False
-Opus,Stablecoin issuers,,,,,False
-Stacks,Blockchains (L2),,,,,False
-Dinero,Liquid staking,,,,,False
-Folks Finance,Lending,,,,,False
-Wormhole,Infrastructure,,,,,False
-Sanctum,Liquid staking,,,,,False
-Squid,Infrastructure,,,,,False
-Merkly,Bridges,,,,,False
-Mellow Protocol,Infrastructure,,,,,False
-MyShell,Infrastructure,,,,,False
-Karak,Blockchains (L2),,,,,False
-Lista DAO,Stablecoin issuers,,,,,False
-Ready Games Network,Gaming,,,,,False
-Term Structure,Blockchains (L2),,,,,False
-Harmony,Blockchains (L1),,,,,False
-Enzyme Finance,Asset management,,,,,False
-MetaDAO,Infrastructure,,,,,False
-Koi Finance,Exchanges (DEX),,,,,False
-Mimic,Infrastructure,,,,,False
-Nostra,Lending,,,,,False
-Inverse Finance,Stablecoin issuers,,,,,False
-Satori Finance,Derivative exchanges,,,,,False
-re.al,Blockchains (L2),,,,,False
-Zircuit,Blockchains (L2),,,,,False
-Subsocial,Blockchains (L2),,,,,False
-Reservoir.xyz,Stablecoin issuers,,,,,False
-B.Protocol,Infrastructure,,,,,False
-SPOT Protocol (ex Ampleforth),Stablecoin issuers,,,,,False
-Aspect,NFT marketplaces,,,,,False
-Illuvium,Gaming,,,,,False
-ERAGON,Gaming,,,,,False
-Tapos,Gaming,,,,,False
-Veax,Exchanges (DEX),,,,,False
-Phala,Blockchains (L2),,,,,False
-Celo Dollar,Stablecoin issuers,,,,,False
-Homora,Lending,,,,,False
-BOB,Blockchains (L2),,,,,False
-Slingshot,Exchanges (DEX),,,,,False
-Ajuna Network,Blockchains (L2),,,,,False
-Mars Protocol,Blockchains (L1),,,,,False
-usdx.money,Stablecoin issuers,,,,,False
-Polimec,Blockchains (L2),,,,,False
-Black Panther,Asset management,,,,,False
-Blackbird,Social,,,,,False
-X Layer,Blockchains (L2),,,,,False
-Ring Protocol,Exchanges (DEX),,,,,False
-EYWA,Bridges,,,,,False
-Meteor Wallet,Infrastructure,,,,,False
-Wapal,NFT marketplaces,,,,,False
-Meso Finance,Lending,,,,,False
-Monerium,Stablecoin issuers,,,,,False
-Lynex,Exchanges (DEX),,,,,False
-Alchemix Finance,Asset management,,,,,False
-The Standard,Lending,,,,,False
-Metaplex,NFT marketplaces,,,,,False
-Sologenic,Exchanges (DEX),,,,,False
-Coinshift,Stablecoin issuers,,,,,False
-Rootstock,Blockchains (L2),,,,,False
-Zeta Markets,Derivative exchanges,,,,,False
-Hydro Protocol,Liquid staking,,,,,False
-Blast Bridge,Bridges,,,,,False
-Allstake,Liquid staking,,,,,False
-MANTRA,Blockchains (L1),,,,,False
-Anzen,Stablecoin issuers,,,,,False
-MYX.Finance,Derivative exchanges,,,,,False
-Rhea Finance,Exchanges (DEX),,,,,False
-Baseline,Infrastructure,,,,,False
-Pac Finance,Lending,,,,,False
-Planet IX,Gaming,,,,,False
-UXUY,Exchanges (DEX),,,,,False
-Aave GHO,Stablecoin issuers,,,,,False
-KAI-CHING,Gaming,,,,,False
-Predict Fun,Prediction markets,,,,,False
-TrueUSD,Stablecoin issuers,,,,,False
-Kamino,Lending,,,,,False
-Fraxtal,Blockchains (L2),,,,,False
-Impermax Finance,Asset management,,,,,False
-UXLINK,Social,,,,,False
-AptoSwap,Exchanges (DEX),,,,,False
-Fluxbeam,Exchanges (DEX),,,,,False
-Micro3,Social,,,,,False
-Degen,Blockchains (L3),,,,,False
-Celestia,Blockchains (L1),,,,,False
-Frequency,Blockchains (L2),,,,,False
-Acala Network,Blockchains (L2),,,,,False
-Nile Exchange,Exchanges (DEX),,,,,False
-Switchboard,Infrastructure,,,,,False
-Idle Finance,Asset management,,,,,False
-Aptin Finance,Lending,,,,,False
-karpatkey,Infrastructure,,,,,False
-Alaya AI,Infrastructure,,,,,False
-Arkham,Infrastructure,,,,,False
-Botto,NFT marketplaces,,,,,False
-Out,Social,,,,,False
-MELD,Blockchains (L1),,,,,False
-Juice Finance,Asset management,,,,,False
-Hercules,Exchanges (DEX),,,,,False
-Garden Finance,Bridges,,,,,False
-Akash Network,Infrastructure,,,,,False
-Universal,Infrastructure,,,,,False
-Spectra,Asset management,,,,,False
-Barnbridge,Asset management,,,,,False
-Meridian,Stablecoin issuers,,,,,False
-marginfi,Lending,,,,,False
-Kaito,Infrastructure,,,,,False
-StaFi,Liquid staking,,,,,False
-Pragma,Infrastructure,,,,,False
-Socket,Infrastructure,,,,,False
-PumpBTC,Liquid staking,,,,,False
-Phoenix Bonds,Asset management,,,,,False
-Linea,Blockchains (L2),,,,,False
-Archblock,Stablecoin issuers,,,,,False
-Privy,Infrastructure,,,,,False
-ParagonsDAO,Gaming,,,,,False
-Mythos,Blockchains (L2),,,,,False
-ApePro,Exchanges (DEX),,,,,False
-Gyroscope (Gyro Finance),Stablecoin issuers,,,,,False
-Ambient,Exchanges (DEX),,,,,False
-Lava Network,Blockchains (L1),,,,,False
-Dexalot,Exchanges (DEX),,,,,False
-The Lost Glitches,Gaming,,,,,False
-Robots.Farm,Gaming,,,,,False
-Stabble,Exchanges (DEX),,,,,False
-DeDust,Exchanges (DEX),,,,,False
-Aethir,Infrastructure,,,,,False
-pump.fun,Exchanges (DEX),,,,,False
-BlackRock (BUIDL),Asset management,,,,,False
-StarkGate,Bridges,,,,,False
-Galxe,Infrastructure,,,,,False
-Paradise Tycoon,Gaming,,,,,False
-Revert Finance,Infrastructure,,,,,False
-Echelon Market,Lending,,,,,False
-ResearchHub,Infrastructure,,,,,False
-Polygon zkEVM,Blockchains (L2),,,,,False
-IO.net,Infrastructure,,,,,False
-Impossible Finance,Infrastructure,,,,,False
-Fibrous,Exchanges (DEX),,,,,False
-Term Finance,Lending,,,,,False
-SendingMe,Social,,,,,False
-Baby Shark Universe,Gaming,,,,,False
-Unique Network,Blockchains (L2),,,,,False
-Reservoir,Infrastructure,,,,,False
-Synonym Finance,Lending,,,,,False
-DIN (ex Web3Go),Infrastructure,,,,,False
-Mento,Stablecoin issuers,,,,,False
-Europe Fantasy League,Gaming,,,,,False
-Rain.fi,Lending,,,,,False
-Limitless,Prediction markets,,,,,False
-Worldcoin,Blockchains (L2),,,,,False
-Stake DAO,Asset management,,,,,False
-HOT Protocol,Gaming,,,,,False
-Axiom,Infrastructure,,,,,False
-Midas,Asset management,,,,,False
-Lybra Finance,Stablecoin issuers,,,,,False
-Nouns DAO,Asset management,,,,,False
-UMA,Infrastructure,,,,,False
-Router Protocol,Bridges,,,,,False
-JOJO,Derivative exchanges,,,,,False
-Bedrock,Liquid staking,,,,,False
-Aventus,Blockchains (L2),,,,,False
-Fraxlend,Lending,,,,,False
-Hippo Labs,Exchanges (DEX),,,,,False
-OpenLeverage,Derivative exchanges,,,,,False
-WAGMI (ex Popsicle Finance),Exchanges (DEX),,,,,False
-Injera,Stablecoin issuers,,,,,False
-Liquidswap,Exchanges (DEX),,,,,False
-MOOAR,NFT marketplaces,,,,,False
-Resolv,Stablecoin issuers,,,,,False
-Unipilot,Asset management,,,,,False
-Arrakis Finance,Asset management,,,,,False
-BounceBit,Blockchains (L1),,,,,False
-UWON Coin,ERC20 Tokens,,,,,False
-Slime Revolution,Gaming,,,,,False
-Avantis,Exchanges (DEX),,,,,False
-Darwinia Network,Blockchains (L2),,,,,False
-RabbitX,Derivative exchanges,,,,,False
-Echo Protocol,Asset management,,,,,False
-Biconomy,Infrastructure,,,,,False
-Hyperlane,Bridges,,,,,False
-Virtuals Protocol,Infrastructure,,,,,False
-Proof of Play,Blockchains (L3),,,,,False
-Dmail Network,Infrastructure,,,,,False
-Paradex,Exchanges (DEX),,,,,False
-Overnight,Stablecoin issuers,,,,,False
-SwapX,Infrastructure,,,,,False
-Fenix,Exchanges (DEX),,,,,False
-Shape,Blockchains (L2),,,,,False
-JustLend DAO,Lending,,,,,False
-Tevi,Social,,,,,False
-Kilt,Blockchains (L2),,,,,False
-Ethereum Name Service,Infrastructure,,,,,False
-Arweave,Blockchains (L1),,,,,False
-Prisma Finance,Stablecoin issuers,,,,,False
-Cellana Finance,Exchanges (DEX),,,,,False
-MySwap,Exchanges (DEX),,,,,False
-BSX Exchange,Derivative exchanges,,,,,False
-zkSync Lite,Blockchains (L2),,,,,False
-Redstone,Blockchains (L2),,,,,False
-IPMB,Asset management,,,,,False
-Gains Network,Derivative exchanges,,,,,False
-Superstate,Asset management,,,,,False
-WINR Protocol,Prediction markets,,,,,False
-Wasabi,Derivative exchanges,,,,,False
-Chiliz,Blockchains (L1),,,,,False
-KGen,Gaming,,,,,False
-Superposition,Lending,,,,,False
-ImmortalX,Derivative exchanges,,,,,False
-Raft,Stablecoin issuers,,,,,False
-Gitcoin,Infrastructure,,,,,False
-Cygnus Finance,Infrastructure,,,,,False
-Aries Markets,Lending,,,,,False
-Mint Blockchain,Blockchains (L2),,,,,False
-Mendi Finance,Lending,,,,,False
-Goat Protocol,Asset management,,,,,False
-GoodDollar,Infrastructure,,,,,False
-BladeSwap,Exchanges (DEX),,,,,False
-ZetaChain,Blockchains (L1),,,,,False
-World of Dypians,Gaming,,,,,False
-Stability,Asset management,,,,,False
-Crust Network,Blockchains (L2),,,,,False
-SUN,Exchanges (DEX),,,,,False
-Sun Swap,Exchanges (DEX),,,,,False
-The Arena,Social,,,,,False
-Terra,Blockchains (L1),100.0,34.42089399349575,80.32626819804872,"stability, diversification",True
-SmarDex,Exchanges (DEX),,,,,False
-SatLayer,Liquid staking,,,,,False
-Parallel,Blockchains (L2),,,,,False
-TapiocaDAO,Stablecoin issuers,,,,,False
-Octopus Network,Asset management,,,,,False
-Save,Lending,,,,,False
-OmniBTC (OmniSwap),Exchanges (DEX),,,,,False
-Super Champs,Gaming,,,,,False
-NeuroWeb,Blockchains (L2),,,,,False
-Boba Network,Blockchains (L2),,,,,False
-EigenLayer,Liquid staking,,,,,False
-Bluefin,Derivative exchanges,,,,,False
-Moola Market,Lending,,,,,False
-YOLO Games,Gaming,,,,,False
-Clique,Infrastructure,,,,,False
-BoomLand,Gaming,,,,,False
-Ekubo Protocol,Exchanges (DEX),,,,,False
-Catalyst,Bridges,,,,,False
-Thorchain,Exchanges (DEX),,,,,False
-pods.media,Social,,,,,False
-Starbase,Exchanges (DEX),,,,,False
-Loopring,Exchanges (DEX),,,,,False
-Nearlend DAO,Lending,,,,,False
-Stryke,Derivative exchanges,,,,,False
-Drift Protocol,Derivative exchanges,,,,,False
-LogX,Derivative exchanges,,,,,False
-Kiln,Liquid staking,,,,,False
-Cetus,Exchanges (DEX),,,,,False
-Celer Network,Infrastructure,,,,,False
-Aark,Derivative exchanges,,,,,False
-Ancient8,Blockchains (L2),,,,,False
-Storj,Infrastructure,,,,,False
-Magpie XYZ,Asset management,,,,,False
-Jupiter,Exchanges (DEX),,,,,False
-Rings,Stablecoin issuers,,,,,False
-Soneium,Blockchains (L2),,,,,False
-Puffer Finance,Liquid staking,,,,,False
-Thetis Market,Exchanges (DEX),,,,,False
-Lombard Finance,Liquid staking,,,,,False
-Reserve,Stablecoin issuers,,,,,False
-Superseed,Blockchains (L2),,,,,False
-RARI Chain,Blockchains (L3),,,,,False
-Sorare,Gaming,,,,,False
-Abstract,Blockchains (L2),,,,,False
-TruFin,Liquid staking,,,,,False
-Meteora,Exchanges (DEX),,,,,False
-XDC Network,Blockchains (L1),,,,,False
-Ion Protocol,Lending,,,,,False
-Paxos,Stablecoin issuers,,,,,False
-Talis Protocol,NFT marketplaces,,,,,False
-Optopia,Blockchains (L2),,,,,False
-Gram,ERC20 Tokens,,,,,False
-Guild of Guardians,Gaming,,,,,False
-Eggs Finance,Asset management,,,,,False
-Astroport,Exchanges (DEX),,,,,False
-ZNS Connect Name Service,Infrastructure,,,,,False
-Pendulum,Blockchains (L2),,,,,False
-Particle,Derivative exchanges,,,,,False
-Coreum,Blockchains (L1),,,,,False
-Sui,Blockchains (L1),,,,,False
-Apeiron,Gaming,,,,,False
-ShapeShift,Exchanges (DEX),,,,,False
-Dypius,Infrastructure,,,,,False
-DYORSWAP,Exchanges (DEX),,,,,False
-Bifrost,Blockchains (L2),,,,,False
-Polter Finance,Lending,,,,,False
-Gamic,Infrastructure,,,,,False
-Definitive,Derivative exchanges,,,,,False
-Liquid Collective,Liquid staking,,,,,False
-Rocket Pool,Liquid staking,,,,,False
-Jumbo Exchange,Exchanges (DEX),,,,,False
-FD121 Limited,Stablecoin issuers,,,,,False
-Emojicoin.fun,Exchanges (DEX),,,,,False
-4EVERLAND,Infrastructure,,,,,False
-Bitwise (ETHW),Asset management,,,,,False
-Pichi Finance,Derivative exchanges,,,,,False
-Aftermath Finance,Exchanges (DEX),,,,,False
-Stake.com,Prediction markets,,,,,False
-Secret Network,Blockchains (L1),,,,,False
-Spacebar,Gaming,,,,,False
-RabbitSwap,Exchanges (DEX),,,,,False
-NAVI Protocol,Lending,,,,,False
-Beefy,Asset management,,,,,False
-Rho Protocol,Derivative exchanges,,,,,False
-Exactly Protocol,Lending,,,,,False
-XY Finance,Bridges,,,,,False
-yearn.finance,Asset management,,,,,False
-Colony,Infrastructure,,,,,False
-Helix,Exchanges (DEX),,,,,False
-Bungee,Bridges,,,,,False
-Vana,Blockchains (L1),,,,,False
-Everyworld,Infrastructure,,,,,False
-Synthswap,Exchanges (DEX),,,,,False
-Alkimiya,Infrastructure,,,,,False
-MetaMask,Exchanges (DEX),,,,,False
-Interlay,Blockchains (L2),,,,,False
-Fuel Ignition,Blockchains (L2),,,,,False
-Phoenix,Exchanges (DEX),,,,,False
-Vaultka,Derivative exchanges,,,,,False
-Sweatcoin,Social,,,,,False
-Plume Network,Blockchains (L1),,,,,False
-Kage Finance,Derivative exchanges,,,,,False
-Thala,Exchanges (DEX),,,,,False
-Sakai Vault,Derivative exchanges,,,,,False
-Aevo,Derivative exchanges,,,,,False
-Dolomite,Lending,,,,,False
-Symbiotic,Liquid staking,,,,,False
-AI Protocol,Infrastructure,,,,,False
-XRP,Blockchains (L1),,,,,False
-Skip Protocol,Infrastructure,,,,,False
-Lagrange,Infrastructure,,,,,False
-RealT,Asset management,,,,,False
-Navigator,Derivative exchanges,,,,,False
-Seraph,Gaming,,,,,False
-Franklin Templeton (FOBXX),Asset management,,,,,False
-Fantasy,Gaming,,,,,False
-dHedge,Asset management,,,,,False
-Mode Network,Blockchains (L2),,,,,False
-Ellipsis Finance,Exchanges (DEX),,,,,False
-nftperp,Derivative exchanges,,,,,False
-dForce,Lending,,,,,False
-Safe,Infrastructure,,,,,False
-Centrifuge,Blockchains (L2),,,,,False
-Getgems,NFT marketplaces,,,,,False
-Forgotten Runiverse,Gaming,,,,,False
-Flow,Blockchains (L1),,,,,False
-AZERO ID,Infrastructure,,,,,False
-Fragmetric,Liquid staking,,,,,False
-Orbiter Finance,Bridges,,,,,False
-ZKFair,Blockchains (L2),,,,,False
-BasePaint,NFT marketplaces,,,,,False
-White Whale,Exchanges (DEX),,,,,False
-STEPN,Gaming,,,,,False
+Project,Market Sector,Revenue Quality Score,Quality Explanation
+Tether,Stablecoin issuers,97.6930345904363,"{'stability_score': 97.69303459043628, 'magnitude_score': 100.0, 'revenue_quality_score': 97.69, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Tron,Blockchains (L1),89.21328539488609,"{'stability_score': 91.07113658114136, 'magnitude_score': 97.96, 'revenue_quality_score': 89.21, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Circle,Stablecoin issuers,76.87753988671372,"{'stability_score': 80.29824512921843, 'magnitude_score': 95.74, 'revenue_quality_score': 76.88, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Uniswap,Exchanges (DEX),0.0,"{'stability_score': 82.09277898547886, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lido Finance,Liquid staking,62.601000532616915,"{'stability_score': 80.18573143668108, 'magnitude_score': 78.07, 'revenue_quality_score': 62.6, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aave,Lending,62.67057362728197,"{'stability_score': 79.7436997420562, 'magnitude_score': 78.59, 'revenue_quality_score': 62.67, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+PancakeSwap,Exchanges (DEX),20.610528563344047,"{'stability_score': 24.754418163997173, 'magnitude_score': 83.26, 'revenue_quality_score': 20.61, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Jito,Liquid staking,40.579812647303875,"{'stability_score': 55.626885054563225, 'magnitude_score': 72.95, 'revenue_quality_score': 40.58, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Flashbots,Infrastructure,0.0,"{'stability_score': 83.65847892856915, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Solana,Blockchains (L1),36.12038312840085,"{'stability_score': 47.27180097945407, 'magnitude_score': 76.41, 'revenue_quality_score': 36.12, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ethereum,Blockchains (L1),26.402623193032213,"{'stability_score': 32.56366945366578, 'magnitude_score': 81.08, 'revenue_quality_score': 26.4, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sky,Stablecoin issuers,77.66717859436147,"{'stability_score': 90.55284900823304, 'magnitude_score': 85.77, 'revenue_quality_score': 77.67, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BNB Chain,Blockchains (L1),48.5009231754041,"{'stability_score': 65.5417880748704, 'magnitude_score': 74.0, 'revenue_quality_score': 48.5, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ethena,Stablecoin issuers,58.22851700086348,"{'stability_score': 69.41055787443494, 'magnitude_score': 83.89, 'revenue_quality_score': 58.23, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bitcoin,Blockchains (L1),0.0,"{'stability_score': 67.3327550273475, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aerodrome,Exchanges (DEX),60.788622351381406,"{'stability_score': 73.50498470541888, 'magnitude_score': 82.7, 'revenue_quality_score': 60.79, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Morpho,Lending,0.0,"{'stability_score': 46.41404877556942, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fluid,Lending,43.228796453893736,"{'stability_score': 65.55777442204085, 'magnitude_score': 65.94, 'revenue_quality_score': 43.23, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Venus,Lending,58.729369995647765,"{'stability_score': 83.38686638598291, 'magnitude_score': 70.43, 'revenue_quality_score': 58.73, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Base,Blockchains (L2),64.80864859965831,"{'stability_score': 83.08801102520296, 'magnitude_score': 78.0, 'revenue_quality_score': 64.81, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+GMX,Derivative exchanges,50.319127872574335,"{'stability_score': 69.24332994712307, 'magnitude_score': 72.67, 'revenue_quality_score': 50.32, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Uniswap Labs,Exchanges (DEX),53.83258939454786,"{'stability_score': 70.25918741131278, 'magnitude_score': 76.62, 'revenue_quality_score': 53.83, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Convex Finance,Asset management,52.470637147080396,"{'stability_score': 77.86116211170855, 'magnitude_score': 67.39, 'revenue_quality_score': 52.47, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Curve,Exchanges (DEX),56.84522301549867,"{'stability_score': 78.65673587311286, 'magnitude_score': 72.27, 'revenue_quality_score': 56.85, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Compound,Lending,32.43084976560476,"{'stability_score': 53.91662471422238, 'magnitude_score': 60.15, 'revenue_quality_score': 32.43, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Usual,Stablecoin issuers,22.917172470675563,"{'stability_score': 30.720070336026225, 'magnitude_score': 74.6, 'revenue_quality_score': 22.92, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Thena,Exchanges (DEX),57.15610750876476,"{'stability_score': 80.44490852746624, 'magnitude_score': 71.05, 'revenue_quality_score': 57.16, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+LFJ,Exchanges (DEX),42.240542034091284,"{'stability_score': 66.32209457385977, 'magnitude_score': 63.69, 'revenue_quality_score': 42.24, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Euler,Lending,0.0,"{'stability_score': 0, 'magnitude_score': 61.12, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Maple Finance,Lending,54.32192715059285,"{'stability_score': 85.49248843341651, 'magnitude_score': 63.54, 'revenue_quality_score': 54.32, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pharaoh,Exchanges (DEX),11.785450357889486,"{'stability_score': 16.20215886429679, 'magnitude_score': 72.74, 'revenue_quality_score': 11.79, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SynFutures,Derivative exchanges,44.47377406233293,"{'stability_score': 64.71736621410497, 'magnitude_score': 68.72, 'revenue_quality_score': 44.47, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Arbitrum One,Blockchains (L2),64.9549137112815,"{'stability_score': 90.51688086856396, 'magnitude_score': 71.76, 'revenue_quality_score': 64.95, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Internet Computer,Blockchains (L1),34.99216143098731,"{'stability_score': 48.85808633201244, 'magnitude_score': 71.62, 'revenue_quality_score': 34.99, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+QuickSwap,Exchanges (DEX),51.750236701782995,"{'stability_score': 84.37997179485244, 'magnitude_score': 61.33, 'revenue_quality_score': 51.75, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Solv Protocol,Derivative exchanges,0.0,"{'stability_score': 67.3601280803197, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+OpenSea,NFT marketplaces,28.24235782237205,"{'stability_score': 44.0323633027316, 'magnitude_score': 64.14, 'revenue_quality_score': 28.24, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+OP Mainnet,Blockchains (L2),52.06600120572876,"{'stability_score': 74.12585593070725, 'magnitude_score': 70.24, 'revenue_quality_score': 52.07, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ParaSwap,Exchanges (DEX),58.46796562852716,"{'stability_score': 83.47796349018726, 'magnitude_score': 70.04, 'revenue_quality_score': 58.47, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Velodrome,Exchanges (DEX),50.95855686758603,"{'stability_score': 73.05886289259647, 'magnitude_score': 69.75, 'revenue_quality_score': 50.96, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BENQI Liquid Staking,Liquid staking,0.0,"{'stability_score': 75.57525219603033, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SushiSwap,Exchanges (DEX),47.83216668659891,"{'stability_score': 77.53633763429877, 'magnitude_score': 61.69, 'revenue_quality_score': 47.83, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Vertex,Derivative exchanges,0.0,"{'stability_score': 0, 'magnitude_score': 69.27, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+StakeWise,Liquid staking,31.52352037258972,"{'stability_score': 58.420163774258185, 'magnitude_score': 53.96, 'revenue_quality_score': 31.52, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Moonwell,Lending,42.359734228324896,"{'stability_score': 69.26052032100212, 'magnitude_score': 61.16, 'revenue_quality_score': 42.36, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Tokenlon,Exchanges (DEX),62.00461353030645,"{'stability_score': 90.47805855874282, 'magnitude_score': 68.53, 'revenue_quality_score': 62.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Balancer,Exchanges (DEX),49.78915794019274,"{'stability_score': 76.68128436807751, 'magnitude_score': 64.93, 'revenue_quality_score': 49.79, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+TON,Blockchains (L1),32.063232086680955,"{'stability_score': 49.61812455382382, 'magnitude_score': 64.62, 'revenue_quality_score': 32.06, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Immutable,Blockchains (L2),62.73696331707027,"{'stability_score': 92.19245160480568, 'magnitude_score': 68.05, 'revenue_quality_score': 62.74, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ApolloX,Derivative exchanges,37.940421981877215,"{'stability_score': 59.07882588271133, 'magnitude_score': 64.22, 'revenue_quality_score': 37.94, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aura Finance,Asset management,46.983308486486656,"{'stability_score': 78.17522210729894, 'magnitude_score': 60.1, 'revenue_quality_score': 46.98, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DeFi Saver,Infrastructure,1.9493315945355973,"{'stability_score': 2.9137990949709973, 'magnitude_score': 66.9, 'revenue_quality_score': 1.95, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Frax Ether,Liquid staking,43.881970856862736,"{'stability_score': 79.58282708897849, 'magnitude_score': 55.14, 'revenue_quality_score': 43.88, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Camelot,Exchanges (DEX),37.0107715941185,"{'stability_score': 64.45623753764977, 'magnitude_score': 57.42, 'revenue_quality_score': 37.01, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Avalanche,Blockchains (L1),39.96282983690581,"{'stability_score': 60.385055661689044, 'magnitude_score': 66.18, 'revenue_quality_score': 39.96, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Layer3,Infrastructure,46.27089996011394,"{'stability_score': 70.03314660226116, 'magnitude_score': 66.07, 'revenue_quality_score': 46.27, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Merkle Trade,Derivative exchanges,43.99207475840234,"{'stability_score': 70.31981259335413, 'magnitude_score': 62.56, 'revenue_quality_score': 43.99, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+KyberSwap,Exchanges (DEX),0.0,"{'stability_score': 0, 'magnitude_score': 65.81, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polygon,Blockchains (L1),44.83821236047309,"{'stability_score': 74.00266109997209, 'magnitude_score': 60.59, 'revenue_quality_score': 44.84, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BENQI,Lending,40.20428212006127,"{'stability_score': 70.74482160841329, 'magnitude_score': 56.83, 'revenue_quality_score': 40.2, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+deBridge DLN,Bridges,42.24018962723634,"{'stability_score': 64.75577131264194, 'magnitude_score': 65.23, 'revenue_quality_score': 42.24, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+StakeStone,Liquid staking,0.0,"{'stability_score': 63.28281338055521, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+NEAR Protocol,Blockchains (L1),45.6083744084649,"{'stability_score': 70.91956835401166, 'magnitude_score': 64.31, 'revenue_quality_score': 45.61, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Houdini Swap,Exchanges (DEX),35.93598183098257,"{'stability_score': 55.81854897636311, 'magnitude_score': 64.38, 'revenue_quality_score': 35.94, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Katana,Exchanges (DEX),34.76674251409991,"{'stability_score': 62.94901776950916, 'magnitude_score': 55.23, 'revenue_quality_score': 34.77, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Origin Protocol,Stablecoin issuers,41.770573128435935,"{'stability_score': 75.09991572893912, 'magnitude_score': 55.62, 'revenue_quality_score': 41.77, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DODO,Exchanges (DEX),47.69027388994144,"{'stability_score': 85.40521828427907, 'magnitude_score': 55.84, 'revenue_quality_score': 47.69, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+HMX,Derivative exchanges,40.962158371962786,"{'stability_score': 70.03275495291979, 'magnitude_score': 58.49, 'revenue_quality_score': 40.96, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cardano,Blockchains (L1),0.0,"{'stability_score': 78.30762868347323, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BMX,Derivative exchanges,44.40244942680416,"{'stability_score': 70.35723249374767, 'magnitude_score': 63.11, 'revenue_quality_score': 44.4, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pendle,Derivative exchanges,44.20295270085844,"{'stability_score': 70.7926852992608, 'magnitude_score': 62.44, 'revenue_quality_score': 44.2, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sonic,Blockchains (L1),,"{'stability_score': nan, 'magnitude_score': 62.31, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Manifold.xyz,NFT marketplaces,0.0,"{'stability_score': 0, 'magnitude_score': 27.85, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Allbridge Core,Bridges,46.13065102827046,"{'stability_score': 84.7834056759244, 'magnitude_score': 54.41, 'revenue_quality_score': 46.13, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Helium,Infrastructure,53.575124466986615,"{'stability_score': 86.25845188695318, 'magnitude_score': 62.11, 'revenue_quality_score': 53.58, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Tokemak,Asset management,37.32349428436831,"{'stability_score': 74.06924843097501, 'magnitude_score': 50.39, 'revenue_quality_score': 37.32, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BendDAO,Lending,0.0,"{'stability_score': 0, 'magnitude_score': 54.99, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gamma Strategies,Asset management,22.3638589499679,"{'stability_score': 42.44421892193566, 'magnitude_score': 52.69, 'revenue_quality_score': 22.36, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cronos,Blockchains (L1),0.0,"{'stability_score': 81.42764935405899, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Synthetix,Derivative exchanges,30.536112044822108,"{'stability_score': 50.65712018052771, 'magnitude_score': 60.28, 'revenue_quality_score': 30.54, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ZeroLend,Lending,0.0,"{'stability_score': 0, 'magnitude_score': 56.0, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Tornado Cash,Infrastructure,40.6421287830892,"{'stability_score': 67.9634260586776, 'magnitude_score': 59.8, 'revenue_quality_score': 40.64, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Injective,Blockchains (L1),49.72054028597943,"{'stability_score': 74.13230995374897, 'magnitude_score': 67.07, 'revenue_quality_score': 49.72, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SyncSwap,Exchanges (DEX),19.91686098163186,"{'stability_score': 36.59842150244737, 'magnitude_score': 54.42, 'revenue_quality_score': 19.92, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stader,Liquid staking,39.25070817974617,"{'stability_score': 81.84050913208125, 'magnitude_score': 47.96, 'revenue_quality_score': 39.25, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gearbox,Lending,24.165608219299408,"{'stability_score': 46.95086112162309, 'magnitude_score': 51.47, 'revenue_quality_score': 24.17, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Blur,NFT marketplaces,0.0,"{'stability_score': 44.80008307553618, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hegic,Derivative exchanges,54.79070870679547,"{'stability_score': 92.77126431898995, 'magnitude_score': 59.06, 'revenue_quality_score': 54.79, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dogecoin,Blockchains (L1),0.0,"{'stability_score': 61.17527580001126, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nexus Mutual,Insurance,34.314439797837025,"{'stability_score': 58.36781731219089, 'magnitude_score': 58.79, 'revenue_quality_score': 34.31, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aptos,Blockchains (L1),43.49478334281707,"{'stability_score': 74.19785626546755, 'magnitude_score': 58.62, 'revenue_quality_score': 43.49, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Liquity,Stablecoin issuers,56.19766082534869,"{'stability_score': 96.84242775348731, 'magnitude_score': 58.03, 'revenue_quality_score': 56.2, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Thruster,Exchanges (DEX),20.190706320205766,"{'stability_score': 37.0403711616323, 'magnitude_score': 54.51, 'revenue_quality_score': 20.19, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Filecoin,Blockchains (L1),22.236848055760632,"{'stability_score': 39.273839731120866, 'magnitude_score': 56.62, 'revenue_quality_score': 22.24, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bancor,Exchanges (DEX),33.46962471598141,"{'stability_score': 60.25134962372892, 'magnitude_score': 55.55, 'revenue_quality_score': 33.47, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Goldfinch,Lending,31.438592058525273,"{'stability_score': 68.62822977193903, 'magnitude_score': 45.81, 'revenue_quality_score': 31.44, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MUX,Derivative exchanges,31.49169524545232,"{'stability_score': 56.21509326214266, 'magnitude_score': 56.02, 'revenue_quality_score': 31.49, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Biswap,Exchanges (DEX),28.737180739732462,"{'stability_score': 58.37331046055751, 'magnitude_score': 49.23, 'revenue_quality_score': 28.74, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kwenta,Derivative exchanges,0.0,"{'stability_score': 49.333532447116625, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Thetanuts,Asset management,0.0,"{'stability_score': 89.88253006327425, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Seamless Protocol,Lending,37.87502872258241,"{'stability_score': 72.99099773093545, 'magnitude_score': 51.89, 'revenue_quality_score': 37.88, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gravity Alpha Mainnet,Blockchains (L2),33.303054003849226,"{'stability_score': 59.865277734764014, 'magnitude_score': 55.63, 'revenue_quality_score': 33.3, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ribbon Finance,Asset management,40.50989099012236,"{'stability_score': 88.02670793160007, 'magnitude_score': 46.02, 'revenue_quality_score': 40.51, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ronin,Blockchains (L1),19.76231383028733,"{'stability_score': 60.844562285367395, 'magnitude_score': 32.48, 'revenue_quality_score': 19.76, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+zkSync Era,Blockchains (L2),37.328038422891304,"{'stability_score': 68.15416911245445, 'magnitude_score': 54.77, 'revenue_quality_score': 37.33, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Blast,Blockchains (L2),30.36496380874365,"{'stability_score': 55.521967103206535, 'magnitude_score': 54.69, 'revenue_quality_score': 30.36, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Livepeer,Infrastructure,0.0,"{'stability_score': 57.855233468597646, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Celo,Blockchains (L1),35.305556571473666,"{'stability_score': 67.77799303412107, 'magnitude_score': 52.09, 'revenue_quality_score': 35.31, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pangolin,Exchanges (DEX),35.80482073590884,"{'stability_score': 80.95143734096506, 'magnitude_score': 44.23, 'revenue_quality_score': 35.8, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MultiversX,Blockchains (L1),30.990860415515332,"{'stability_score': 74.26518192071731, 'magnitude_score': 41.73, 'revenue_quality_score': 30.99, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Litecoin,Blockchains (L1),0.0,"{'stability_score': 77.91730442306735, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ramses Exchange,Exchanges (DEX),23.84486766445177,"{'stability_score': 46.59020645652944, 'magnitude_score': 51.18, 'revenue_quality_score': 23.84, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+deBridge,Interoperability,34.073654235107256,"{'stability_score': 65.23770674920019, 'magnitude_score': 52.23, 'revenue_quality_score': 34.07, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polkadot,Blockchains (L1),29.471915624065332,"{'stability_score': 58.24489253767852, 'magnitude_score': 50.6, 'revenue_quality_score': 29.47, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stargate,Bridges,36.967717218299924,"{'stability_score': 71.93562408698176, 'magnitude_score': 51.39, 'revenue_quality_score': 36.97, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stellar,Blockchains (L1),0.0,"{'stability_score': 0, 'magnitude_score': 51.43, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cosmos Hub,Blockchains (L1),26.157892238239448,"{'stability_score': 66.55952223470598, 'magnitude_score': 39.3, 'revenue_quality_score': 26.16, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Integral,Exchanges (DEX),42.29887048257745,"{'stability_score': 83.21634956241874, 'magnitude_score': 50.83, 'revenue_quality_score': 42.3, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+The Graph,Infrastructure,27.467094877159166,"{'stability_score': 54.058442978073536, 'magnitude_score': 50.81, 'revenue_quality_score': 27.47, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Index Cooperative,Asset management,41.69345088455628,"{'stability_score': 82.07372221369347, 'magnitude_score': 50.8, 'revenue_quality_score': 41.69, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Synapse,Bridges,23.61587787204373,"{'stability_score': 46.52458209622484, 'magnitude_score': 50.76, 'revenue_quality_score': 23.62, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Algorand,Blockchains (L1),38.517054285532666,"{'stability_score': 75.91063122887793, 'magnitude_score': 50.74, 'revenue_quality_score': 38.52, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ink,Blockchains (L2),,"{'stability_score': nan, 'magnitude_score': 50.37, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Abracadabra.money,Stablecoin issuers,46.56595159447018,"{'stability_score': 92.63169205186031, 'magnitude_score': 50.27, 'revenue_quality_score': 46.57, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Maverick Protocol,Exchanges (DEX),0.0,"{'stability_score': 84.81067207761029, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Manta,Blockchains (L2),36.557992817136686,"{'stability_score': 73.02835161233855, 'magnitude_score': 50.06, 'revenue_quality_score': 36.56, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ApeSwap,Exchanges (DEX),27.394800990132406,"{'stability_score': 63.57577393857602, 'magnitude_score': 43.09, 'revenue_quality_score': 27.39, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Beets,Exchanges (DEX),24.740945624026317,"{'stability_score': 53.80805920840869, 'magnitude_score': 45.98, 'revenue_quality_score': 24.74, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zcash,Blockchains (L1),0.0,"{'stability_score': 0, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Holdstation,Derivative exchanges,17.760285004271626,"{'stability_score': 45.37630302573231, 'magnitude_score': 39.14, 'revenue_quality_score': 17.76, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Starknet,Blockchains (L2),0.0,"{'stability_score': 42.24436401176522, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Clipper,Exchanges (DEX),40.825793796009826,"{'stability_score': 91.72274499215868, 'magnitude_score': 44.51, 'revenue_quality_score': 40.83, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rarible,NFT marketplaces,36.22271618026297,"{'stability_score': 77.28337141084484, 'magnitude_score': 46.87, 'revenue_quality_score': 36.22, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Chainlink,Infrastructure,26.852148943528682,"{'stability_score': 55.8837647107777, 'magnitude_score': 48.05, 'revenue_quality_score': 26.85, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Radiant Capital,Lending,14.170985570883188,"{'stability_score': 30.50147561533187, 'magnitude_score': 46.46, 'revenue_quality_score': 14.17, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zerion,Infrastructure,35.11925409569828,"{'stability_score': 73.37913517697092, 'magnitude_score': 47.86, 'revenue_quality_score': 35.12, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+NFTX,NFT marketplaces,0.0,"{'stability_score': 65.8032794115731, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Angle,Stablecoin issuers,28.18419007292008,"{'stability_score': 59.410181435329015, 'magnitude_score': 47.44, 'revenue_quality_score': 28.18, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hop Protocol,Bridges,10.915853513560123,"{'stability_score': 24.04902734866738, 'magnitude_score': 45.39, 'revenue_quality_score': 10.92, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Perpetual Protocol,Derivative exchanges,17.289241196842003,"{'stability_score': 53.19766522105231, 'magnitude_score': 32.5, 'revenue_quality_score': 17.29, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fantom,Blockchains (L1),21.674435342567936,"{'stability_score': 53.609783187157895, 'magnitude_score': 40.43, 'revenue_quality_score': 21.67, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Foundation,NFT marketplaces,22.291658391851808,"{'stability_score': 49.07894846290578, 'magnitude_score': 45.42, 'revenue_quality_score': 22.29, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Equalizer Exchange,Exchanges (DEX),11.935898594579323,"{'stability_score': 26.541913708203964, 'magnitude_score': 44.97, 'revenue_quality_score': 11.94, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SpookySwap,Exchanges (DEX),20.87234771202789,"{'stability_score': 57.12191492071125, 'magnitude_score': 36.54, 'revenue_quality_score': 20.87, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+X2Y2,NFT marketplaces,39.0952594610098,"{'stability_score': 86.34112071777783, 'magnitude_score': 45.28, 'revenue_quality_score': 39.1, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gnosis,Blockchains (L1),0.0,"{'stability_score': 0, 'magnitude_score': 22.96, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+OpenChat,Social,31.713175130262343,"{'stability_score': 72.35495124403911, 'magnitude_score': 43.83, 'revenue_quality_score': 31.71, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+IPOR Protocol,Derivative exchanges,23.526516451015077,"{'stability_score': 80.87492764185313, 'magnitude_score': 29.09, 'revenue_quality_score': 23.53, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Verse,Exchanges (DEX),27.030231384788603,"{'stability_score': 79.97109877156392, 'magnitude_score': 33.8, 'revenue_quality_score': 27.03, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Level Finance,Derivative exchanges,14.076985216916428,"{'stability_score': 36.141168721223174, 'magnitude_score': 38.95, 'revenue_quality_score': 14.08, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Unichain,Blockchains (L2),,"{'stability_score': nan, 'magnitude_score': 41.46, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+friend.tech,Social,0.795246210771698,"{'stability_score': 17.59394271618801, 'magnitude_score': 4.52, 'revenue_quality_score': 0.8, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kusama,Blockchains (L1),20.89199337228766,"{'stability_score': 54.90668428984931, 'magnitude_score': 38.05, 'revenue_quality_score': 20.89, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Tezos,Blockchains (L1),0.0,"{'stability_score': 82.07762194987184, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+1inch,Exchanges (DEX),0.0,"{'stability_score': 0, 'magnitude_score': 38.99, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Axelar Network,Interoperability,0.0,"{'stability_score': 60.08935399606585, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Reflexer,Stablecoin issuers,34.77475120969868,"{'stability_score': 91.6330730163338, 'magnitude_score': 37.95, 'revenue_quality_score': 34.77, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mean Finance,Exchanges (DEX),10.694342498423671,"{'stability_score': 34.93741423856149, 'magnitude_score': 30.61, 'revenue_quality_score': 10.69, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sudoswap,NFT marketplaces,5.512477450205861,"{'stability_score': 22.713133292978412, 'magnitude_score': 24.27, 'revenue_quality_score': 5.51, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kleros,Infrastructure,0.0,"{'stability_score': 45.596929646157804, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+AirSwap,Exchanges (DEX),26.124929979396992,"{'stability_score': 73.90362087523901, 'magnitude_score': 35.35, 'revenue_quality_score': 26.12, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Shoebill Finance,Lending,20.95127825728343,"{'stability_score': 68.4011696287412, 'magnitude_score': 30.63, 'revenue_quality_score': 20.95, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aperture,Exchanges (DEX),0.0,"{'stability_score': 43.037923856132295, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mina Protocol,Blockchains (L1),0.0,"{'stability_score': 26.98010127478608, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zyberswap,Exchanges (DEX),14.20027212765285,"{'stability_score': 66.41848516208069, 'magnitude_score': 21.38, 'revenue_quality_score': 14.2, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mummy Finance,Derivative exchanges,10.67366478037054,"{'stability_score': 38.98343601304069, 'magnitude_score': 27.38, 'revenue_quality_score': 10.67, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Wombat Exchange,Exchanges (DEX),16.964873845336847,"{'stability_score': 61.915597975681926, 'magnitude_score': 27.4, 'revenue_quality_score': 16.96, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aleph Zero EVM,Blockchains (L2),23.0080774522824,"{'stability_score': 85.85103526971045, 'magnitude_score': 26.8, 'revenue_quality_score': 23.01, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Conflux Core Space,Blockchains (L1),0.0,"{'stability_score': 0, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Everclear,Bridges,0.0,"{'stability_score': 27.521561434297126, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zora,NFT marketplaces,12.76051336616128,"{'stability_score': 52.34008763806924, 'magnitude_score': 24.38, 'revenue_quality_score': 12.76, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cap,Derivative exchanges,,"{'stability_score': nan, 'magnitude_score': 19.83, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SolidLizard,Exchanges (DEX),4.575468576928085,"{'stability_score': 39.477727152097366, 'magnitude_score': 11.59, 'revenue_quality_score': 4.58, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Thales,Derivative exchanges,5.54738572289759,"{'stability_score': 27.503151823984084, 'magnitude_score': 20.17, 'revenue_quality_score': 5.55, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Viction,Blockchains (L1),0.0,"{'stability_score': 2.479681912825626, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sound.xyz,NFT marketplaces,,"{'stability_score': nan, 'magnitude_score': 13.9, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cryptex,Asset management,11.430996091177656,"{'stability_score': 68.49009042047726, 'magnitude_score': 16.69, 'revenue_quality_score': 11.43, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polynomial Protocol,Derivative exchanges,0.0,"{'stability_score': 11.534381275545627, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XAI,Blockchains (L3),4.112146204819793,"{'stability_score': 28.556570866804122, 'magnitude_score': 14.4, 'revenue_quality_score': 4.11, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DFX Finance,Exchanges (DEX),0.0,"{'stability_score': 0, 'magnitude_score': 6.32, 'revenue_quality_score': 0.0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Volmex,Derivative exchanges,,"{'stability_score': nan, 'magnitude_score': 7.97, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Deri Protocol,Derivative exchanges,,"{'stability_score': nan, 'magnitude_score': 2.47, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Karura,Blockchains (L1),2.093756615479769,"{'stability_score': 71.45927015289314, 'magnitude_score': 2.93, 'revenue_quality_score': 2.09, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pika Protocol,Derivative exchanges,,"{'stability_score': nan, 'magnitude_score': 0.1, 'revenue_quality_score': nan, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+dYdX,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Premia,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lighter,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Osmosis,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aragon,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Optimism Gateway,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pocket Network,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Swarm,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XOXNO,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+IDEX,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+TrueFi,Lending,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Toucan Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Opyn,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Alongside,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ren,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Notional Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+CoW Protocol,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+PoolTogether,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Across,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+LooksRare,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Metavault.Trade,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+zkSync Era Bridge,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lens Protocol,Social,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hashflow,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Voltz,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+KAP Games,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+0x,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dopex,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BetSwirl,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Arbitrum Bridge,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Buffer Finance,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+xExchange,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polymarket,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bounce Finance,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SX,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Axie Infinity,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Vesta Finance,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rhino.fi,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+zkLend,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+PayPal,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ApeX Protocol,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+LI.FI,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+peaq,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mereo,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DeGate,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ocean Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+WELL3,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+VibrantX,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+xNINJA,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Berachain,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zeitgeist,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+M^0,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XCAD Network,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+STON.fi,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+TrueMarkets,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Typus Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hedera,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Taiko,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+AlienX,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Movement,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ankr,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ZKX,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+RabbitHole,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+KiloEx,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+WOO,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SideShift,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kadena,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Metis,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+PRDT,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hypr,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Star Atlas,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+B3,Blockchains (L3),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dymension,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Litentry,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Superform,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Neptune Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Photon,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cat Town,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+AVNU,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Venice,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pyth Network,Oracles,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Succinct,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+InterCrone Swap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lagoon,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Scallop,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ABEL Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Econia,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ethervista,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Overtake,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+inkySwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Solayer,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Astar,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Render Network,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hedgey Finance,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+zkMe,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Banana Gun,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ethereum Attestation Service,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Derivio,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sophon,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Layerswap,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+FlowX Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Coinally,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+LUKSO,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Echelon Prime Foundation,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Energy Web X,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Infrared Finance,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+StarryNift,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pixels,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Global Dollar Network,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Metropolis,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Burrow,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hinkal Protocol,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+unshETH,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sellix,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Time.fun,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Raydium,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Orderly Network,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Efi Hub,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Metal,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ICHI,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+HunnyFinance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Robonomics Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+WhiteSwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Avalon Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Orca,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+iZUMi Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nibiru,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ReactorFusion,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mint Club,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kodiak Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Beam,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mountain Protocol,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+PlayEmber,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mansa Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Amnis Finance,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Eclipse,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mole,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hyperbridge,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ondo Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Levana,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Shuffle,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Shadow,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Arbitrum Nova,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Agora,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zyfi,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Trojan,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Spark Protocol,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Scroll,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gemini,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Alkimi Exchange,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BitDAO,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Moonbeam,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Coin98,Exchanges (CEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Wild Forest,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XPLA,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fableborne,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kana,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+PACT,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Silo Finance,Lending,43.021249268778234,"{'stability_score': 83.63384383510544, 'magnitude_score': 51.44, 'revenue_quality_score': 43.02, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Frax Stablecoin,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polkadex,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Blitz,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rubic,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+UniDex,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ninja Blaze,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mito Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+WigoSwap,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+REVOX (ex ReadON),Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rebalance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Glo Dollar,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Evmos,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Baki Exchange,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Argent,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fuul Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XGamble,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Talent Protocol,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nillion,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Decentral Games,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Extra Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ubeswap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+vfat.io,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hyperliquid,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SPACE ID,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Coinbase Wrapped Staked Ether,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SingSing,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Clave,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ref Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lisk,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Symbiosis,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Astar zkEVM,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Shrapnel,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Spin,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+QuestN,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hydration,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+HYCHAIN,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lifinity,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Chingari,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bittensor,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Merlin Chain,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Membrane Finance,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stride,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Arrow Markets,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DojoSwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+zkDX,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+KlimaDAO,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Turbos Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Brave,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Invarch,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sofamon,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Level,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Renzo,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Azuro,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SKALE,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+briq,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DeSo,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hook,Blockchains (L3),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SuperSwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+defi.money,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fren Pet,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+NinjaVault,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Eigenpie,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mantle,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Valeria Games,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Swell,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ERA Name Service,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Marinade,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Alien Base,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Element,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kroma Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Suilend,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BaseSwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SwapX,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ionic Protocol,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Yield Guild Games,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Primex Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Baryon,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bucket Protocol,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+OpenOcean,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aurora,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Meta Pool DAO,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Odos,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kine Protocol,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hooked Protocol,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Openbook,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ZKEX,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Magic Eden,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sei Network,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ether.fi,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+COTI,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Panora Exchange,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Carv,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Numerai,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+API3,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Reya,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BadgerDAO,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+zkSwap Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nodle,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sanko,Blockchains (L3),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Opus,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stacks,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dinero,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Folks Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Wormhole,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sanctum,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Squid,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Merkly,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mellow Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MyShell,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Karak,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lista DAO,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ready Games Network,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Term Structure,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Harmony,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Enzyme Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MetaDAO,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Koi Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mimic,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nostra,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Inverse Finance,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Satori Finance,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+re.al,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zircuit,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Subsocial,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Reservoir.xyz,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+B.Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SPOT Protocol (ex Ampleforth),Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aspect,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Illuvium,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ERAGON,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Tapos,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Veax,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Phala,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Celo Dollar,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Homora,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BOB,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Slingshot,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ajuna Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mars Protocol,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+usdx.money,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polimec,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Black Panther,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Blackbird,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+X Layer,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ring Protocol,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+EYWA,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Meteor Wallet,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Wapal,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Meso Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Monerium,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lynex,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Alchemix Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+The Standard,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Metaplex,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sologenic,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Coinshift,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rootstock,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Zeta Markets,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hydro Protocol,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Blast Bridge,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Allstake,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MANTRA,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Anzen,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MYX.Finance,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rhea Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Baseline,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pac Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Planet IX,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+UXUY,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aave GHO,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+KAI-CHING,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Predict Fun,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+TrueUSD,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kamino,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fraxtal,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Impermax Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+UXLINK,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+AptoSwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fluxbeam,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Micro3,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Degen,Blockchains (L3),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Celestia,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Frequency,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Acala Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nile Exchange,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Switchboard,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Idle Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aptin Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+karpatkey,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Alaya AI,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Arkham,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Botto,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Out,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MELD,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Juice Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hercules,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Garden Finance,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Akash Network,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Universal,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Spectra,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Barnbridge,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Meridian,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+marginfi,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kaito,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+StaFi,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pragma,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Socket,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+PumpBTC,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Phoenix Bonds,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Linea,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Archblock,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Privy,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ParagonsDAO,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mythos,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ApePro,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gyroscope (Gyro Finance),Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ambient,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lava Network,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dexalot,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+The Lost Glitches,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Robots.Farm,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stabble,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DeDust,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aethir,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+pump.fun,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BlackRock (BUIDL),Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+StarkGate,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Galxe,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Paradise Tycoon,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Revert Finance,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Echelon Market,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ResearchHub,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polygon zkEVM,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+IO.net,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Impossible Finance,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fibrous,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Term Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SendingMe,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Baby Shark Universe,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Unique Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Reservoir,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Synonym Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DIN (ex Web3Go),Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mento,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Europe Fantasy League,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rain.fi,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Limitless,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Worldcoin,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stake DAO,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+HOT Protocol,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Axiom,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Midas,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lybra Finance,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nouns DAO,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+UMA,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Router Protocol,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+JOJO,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bedrock,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aventus,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fraxlend,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hippo Labs,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+OpenLeverage,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+WAGMI (ex Popsicle Finance),Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Injera,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Liquidswap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MOOAR,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Resolv,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Unipilot,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': 0, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Arrakis Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BounceBit,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+UWON Coin,ERC20 Tokens,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Slime Revolution,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Avantis,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Darwinia Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+RabbitX,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Echo Protocol,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Biconomy,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Hyperlane,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Virtuals Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Proof of Play,Blockchains (L3),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dmail Network,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Paradex,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Overnight,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SwapX,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fenix,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Shape,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+JustLend DAO,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Tevi,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kilt,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ethereum Name Service,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Arweave,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Prisma Finance,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cellana Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MySwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BSX Exchange,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+zkSync Lite,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Redstone,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+IPMB,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gains Network,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Superstate,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+WINR Protocol,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Wasabi,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Chiliz,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+KGen,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Superposition,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ImmortalX,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Raft,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gitcoin,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cygnus Finance,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aries Markets,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mint Blockchain,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mendi Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Goat Protocol,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+GoodDollar,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BladeSwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ZetaChain,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+World of Dypians,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stability,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Crust Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SUN,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sun Swap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+The Arena,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Terra,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SmarDex,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+SatLayer,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Parallel,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+TapiocaDAO,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Octopus Network,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Save,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+OmniBTC (OmniSwap),Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Super Champs,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+NeuroWeb,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Boba Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+EigenLayer,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bluefin,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Moola Market,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+YOLO Games,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Clique,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BoomLand,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ekubo Protocol,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Catalyst,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Thorchain,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+pods.media,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Starbase,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Loopring,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Nearlend DAO,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stryke,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Drift Protocol,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+LogX,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kiln,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Cetus,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Celer Network,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aark,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ancient8,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Storj,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Magpie XYZ,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Jupiter,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rings,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Soneium,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Puffer Finance,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Thetis Market,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lombard Finance,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Reserve,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Superseed,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+RARI Chain,Blockchains (L3),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sorare,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Abstract,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+TruFin,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Meteora,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XDC Network,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ion Protocol,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Paxos,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Talis Protocol,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Optopia,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gram,ERC20 Tokens,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Guild of Guardians,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Eggs Finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Astroport,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ZNS Connect Name Service,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pendulum,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Particle,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Coreum,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sui,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Apeiron,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ShapeShift,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dypius,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+DYORSWAP,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bifrost,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Polter Finance,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Gamic,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Definitive,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Liquid Collective,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rocket Pool,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Jumbo Exchange,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+FD121 Limited,Stablecoin issuers,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Emojicoin.fun,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+4EVERLAND,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bitwise (ETHW),Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Pichi Finance,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aftermath Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Stake.com,Prediction markets,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Secret Network,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Spacebar,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+RabbitSwap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+NAVI Protocol,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Beefy,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Rho Protocol,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Exactly Protocol,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XY Finance,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+yearn.finance,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Colony,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Helix,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Bungee,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Vana,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Everyworld,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Synthswap,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Alkimiya,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+MetaMask,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Interlay,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fuel Ignition,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Phoenix,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Vaultka,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sweatcoin,Social,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Plume Network,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Kage Finance,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Thala,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Sakai Vault,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Aevo,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Dolomite,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Symbiotic,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+AI Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+XRP,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Skip Protocol,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Lagrange,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+RealT,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Navigator,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Seraph,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Franklin Templeton (FOBXX),Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fantasy,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+dHedge,Asset management,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Mode Network,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Ellipsis Finance,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+nftperp,Derivative exchanges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+dForce,Lending,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Safe,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Centrifuge,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Getgems,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Forgotten Runiverse,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Flow,Blockchains (L1),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+AZERO ID,Infrastructure,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Fragmetric,Liquid staking,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+Orbiter Finance,Bridges,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+ZKFair,Blockchains (L2),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+BasePaint,NFT marketplaces,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+White Whale,Exchanges (DEX),0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"
+STEPN,Gaming,0.0,"{'stability_score': nan, 'magnitude_score': nan, 'revenue_quality_score': 0, 'method': 'Combined magnitude (log-scaled) and stability (trend-based)'}"

@@ -157,54 +157,29 @@ class EarningsQualityAnalyzer:
     
     def _find_revenue_columns(self) -> Dict[str, List[str]]:
         """
-        Find columns related to revenue and fee metrics.
+        Find columns specifically for revenue stability calculations.
 
         Returns:
-            A dictionary with primary, secondary, and tertiary revenue columns.
+            Dict with explicitly defined stability columns.
         """
         revenue_cols = {
-            'primary': [],
-            'secondary': [],
-            'tertiary': []
+            'stability': []
         }
 
-        # Primary revenue/fee columns - these are the main metrics
-        primary_keywords = ['revenue', 'fees', 'earnings', 'protocol fees']
+        # Define stability-specific keywords and periods
+        stability_keywords = ['fees', 'supply-side fees', 'earnings']
+        stability_periods = ['30d trend', '90d trend', '180d trend', '365d trend']
 
-        # Secondary columns - alternative revenue metrics
-        secondary_keywords = ['supply-side fees', 'transaction fees', 'trading fees', 'average fee per user']
-
-        # Tertiary columns - related metrics that could be used if others aren't available
-        tertiary_keywords = ['average transaction fee', 'fee per transaction', 'gross profit', 'p/s ratio']
-
-        # Check all columns
         for col in self.df.columns:
-            col_str = str(col).lower()
+            col_lower = col.lower()
+            if any(keyword in col_lower for keyword in stability_keywords) \
+                    and any(period in col_lower for period in stability_periods):
+                revenue_cols['stability'].append(col)
 
-            # Check primary metrics first
-            if any(keyword in col_str for keyword in primary_keywords):
-                if any(period in col_str for period in ['24h', '7d', '30d', '90d', '180d', '365d']):
-                    revenue_cols['primary'].append(col)
-
-            # Check secondary metrics
-            elif any(keyword in col_str for keyword in secondary_keywords):
-                if any(period in col_str for period in ['24h', '7d', '30d', '90d', '180d', '365d']):
-                    revenue_cols['secondary'].append(col)
-
-            # Check tertiary metrics
-            elif any(keyword in col_str for keyword in tertiary_keywords):
-                if any(period in col_str for period in ['24h', '7d', '30d', '90d', '180d', '365d']):
-                    revenue_cols['tertiary'].append(col)
-
-        # Sort columns by time period to help with stability calculations
-        for category in revenue_cols:
-            revenue_cols[category] = sorted(revenue_cols[category], key=lambda x: self._get_time_period_order(x))
-
-        # Print found columns
-        for category, cols in revenue_cols.items():
-            print(f"Found {len(cols)} {category} revenue columns")
-            if cols:
-                print(f"Sample columns: {cols[:3]}")
+        # Print found stability columns for debugging
+        print(f"Found {len(revenue_cols['stability'])} stability columns")
+        if revenue_cols['stability']:
+            print(f"Sample stability columns: {revenue_cols['stability'][:3]}")
 
         return revenue_cols
     
@@ -330,9 +305,9 @@ class EarningsQualityAnalyzer:
 
         return None
     
-    def calculate_revenue_stability(self, row: pd.Series) -> Tuple[Optional[float], Dict[str, Any]]:
+    def calculate_stability_score(self, row: pd.Series) -> Tuple[Optional[float], Dict[str, Any]]:
         """
-        Calculate revenue stability score (0-100) based on quarter-over-quarter volatility.
+        Calculate revenue stability score (0-100) based on prioritized metrics.
 
         Args:
             row: A pandas Series representing a single row of the DataFrame.
@@ -340,104 +315,86 @@ class EarningsQualityAnalyzer:
         Returns:
             Tuple of (stability_score, explanation_dict).
         """
+        # Define priority metrics
+        priority_metrics = [
+            ("Revenue", ["Revenue_7d sum", "Revenue_30d sum"], ["Revenue_30d trend", "Revenue_90d trend"]),
+            ("Earnings", ["Earnings_7d sum", "Earnings_30d sum"], ["Earnings_30d trend", "Earnings_90d trend"]),
+            ("Supply-side fees", ["Supply-side fees_7d sum", "Supply-side fees_30d sum"], ["Supply-side fees_30d trend", "Supply-side fees_90d trend"]),
+            ("Fees", ["Fees_7d sum", "Fees_30d sum"], ["Fees_30d trend", "Fees_90d trend"]),
+        ]
+
         explanation = {
-            'quarterly_values': {},
-            'quarterly_changes': {},
-            'volatility_measure': None,
-            'has_high_volatility': False,
-            'stability_score': None,
-            'data_completeness': 0.0,
-            'method_used': 'No valid data found'
+            "chosen_metric": None,
+            "metric_values": {},
+            "trends": {},
+            "stability_score": None,
+            "method": "No sufficient data"
         }
 
-        # Example logic for stability calculation
-        quarterly_values = self.calculate_quarterly_values(row)
-        explanation['quarterly_values'] = quarterly_values
+        # Iterate through priority metrics
+        for metric_name, sums, trends in priority_metrics:
+            # Check if sum and trend data are available
+            sums_available = all(pd.notna(row.get(col)) and row.get(col, 0) > 0 for col in sums)
+            trends_available = all(pd.notna(row.get(trend)) for trend in trends)
 
-        if len(quarterly_values) < 2:
-            explanation['method_used'] = 'Insufficient quarterly data'
-            return None, explanation
+            if sums_available and trends_available:
+                # Use this metric for stability calculation
+                explanation["chosen_metric"] = metric_name
+                explanation["metric_values"] = {col: row.get(col) for col in sums}
+                explanation["trends"] = {trend: row.get(trend) for trend in trends}
 
-        # Calculate quarter-over-quarter changes
-        quarters = sorted(quarterly_values.keys())
-        qoq_changes = []
-        for i in range(1, len(quarters)):
-            current = quarterly_values[quarters[i]]
-            previous = quarterly_values[quarters[i - 1]]
-            if previous != 0:
-                change_pct = abs((current - previous) / previous) * 100
-                qoq_changes.append(change_pct)
-                explanation['quarterly_changes'][f"{quarters[i-1]} to {quarters[i]}"] = change_pct
+                # Calculate stability score from trends
+                trend_values = np.array([abs(row.get(trend)) for trend in trends])
+                avg_trend = np.mean(trend_values)
 
-        if not qoq_changes:
-            explanation['method_used'] = 'Could not calculate quarterly changes'
-            return None, explanation
+                # Stability is inversely proportional to trend volatility
+                stability_score = max(0, 100 - (avg_trend * 100))
+                explanation["stability_score"] = round(stability_score, 2)
+                explanation["method"] = "Calculated from trends and sums"
+                return stability_score, explanation
 
-        # Average volatility
-        avg_volatility = sum(qoq_changes) / len(qoq_changes)
-        explanation['volatility_measure'] = avg_volatility
-        explanation['data_completeness'] = len(quarterly_values) / 4.0
-
-        # Convert to stability score (inverse of volatility)
-        stability_score = 100 - min(avg_volatility * 2, 100)
-        explanation['stability_score'] = stability_score
-        explanation['method_used'] = 'Calculated from quarterly revenue changes'
-
-        return stability_score, explanation
+        # If no metric is fully available, return NaN
+        return np.nan, explanation
     
-    def calculate_revenue_diversification(self, row: pd.Series) -> Tuple[float, Dict[str, Any]]:
+    def calculate_revenue_diversification(self, row: pd.Series, cols: List[str]) -> Tuple[Optional[float], Dict[str, Any]]:
         """
         Calculate revenue diversification score (0-100) based on distribution of revenue sources.
 
         Args:
             row: A pandas Series representing a single row of the DataFrame.
+            cols: List of diversification-related columns to analyze.
 
         Returns:
             Tuple of (diversification_score, explanation_dict).
         """
         explanation = {
-            'revenue_sources': {},
-            'largest_source_pct': None,
-            'num_significant_sources': 0,
+            'diversification_values': {},
             'diversification_score': None,
-            'method_used': 'No valid data found'
+            'method_used': 'No valid data'
         }
 
-        # Method 1: Use direct diversification columns if available
-        if self.diversification_columns:
-            # Extract revenue breakdown by source
-            source_values = {}
-            for col in self.diversification_columns:
-                value = self._get_numeric_value(row, col)
-                if value is not None and value > 0:
-                    source_name = str(col).split('_')[-1] if '_' in str(col) else col
-                    source_values[source_name] = value
+        # Handle missing data explicitly
+        if row[cols].isnull().all():
+            explanation['method_used'] = 'No diversification data available'
+            return np.nan, explanation
 
-            if source_values:
-                explanation['revenue_sources'] = source_values
-                explanation['method_used'] = 'Direct measurement from revenue source columns'
+        # Calculate standard deviation and mean
+        diversification_std = row[cols].std()
+        diversification_mean = row[cols].mean()
 
-                # Calculate largest source percentage
-                total_revenue = sum(source_values.values())
-                largest_source = max(source_values.values())
-                largest_pct = (largest_source / total_revenue) * 100 if total_revenue > 0 else 100
+        # Handle zero mean explicitly
+        if diversification_mean <= 0:
+            explanation['method_used'] = 'No diversification (mean is zero)'
+            return 0, explanation
 
-                explanation['largest_source_pct'] = largest_pct
+        # Diversification score scales with standard deviation
+        diversification_score = 100 * (diversification_std / diversification_mean)
+        diversification_score = max(0, min(100, diversification_score))
+        explanation['diversification_values'] = row[cols].to_dict()
+        explanation['diversification_score'] = round(diversification_score, 2)
+        explanation['method_used'] = 'Calculated from diversification data'
 
-                # Count significant sources (>5% of total)
-                significant_sources = sum(1 for v in source_values.values() if v / total_revenue > 0.05)
-                explanation['num_significant_sources'] = significant_sources
-
-                # Calculate diversification score
-                theoretical_even_pct = 100 / len(source_values)
-                diversification_score = 100 - (largest_pct - theoretical_even_pct)
-                diversification_score = max(0, min(100, diversification_score))
-
-                explanation['diversification_score'] = diversification_score
-                return diversification_score, explanation
-
-        # No direct data available
-        return None, explanation
+        return round(diversification_score, 2), explanation
     
     def calculate_earnings_quality(self, row: pd.Series, min_projects_for_percentile: int = 3) -> Dict[str, Any]:
         """
@@ -470,7 +427,7 @@ class EarningsQualityAnalyzer:
         }
 
         # Stability calculation
-        stability_score, stability_explanation = self.calculate_revenue_stability(row)
+        stability_score, stability_explanation = self.calculate_stability_score(row)
         result['stability']['score'] = stability_score
         result['stability']['explanation'] = stability_explanation
 
@@ -478,7 +435,7 @@ class EarningsQualityAnalyzer:
             result['metrics_used'].append('stability')
 
         # Diversification calculation
-        diversification_score, diversification_explanation = self.calculate_revenue_diversification(row)
+        diversification_score, diversification_explanation = self.calculate_revenue_diversification(row, self.diversification_columns)
         result['diversification']['score'] = diversification_score
         result['diversification']['explanation'] = diversification_explanation
 
@@ -504,22 +461,77 @@ class EarningsQualityAnalyzer:
         return result
 
 
+def calculate_revenue_magnitude(row: pd.Series, max_revenue_sum: float) -> float:
+    """
+    Calculate the revenue magnitude score (0-100) based on the project's revenue sum.
+
+    Args:
+        row: A pandas Series representing a single row of the DataFrame.
+        max_revenue_sum: The maximum revenue sum across all projects.
+
+    Returns:
+        Revenue Magnitude Score (0-100).
+    """
+    revenue_sum = row.get('Revenue_30d sum', 0)  # Use 30d sum as the primary revenue metric
+    if revenue_sum <= 0:
+        return 0  # No revenue, no magnitude score
+
+    # Normalize using log scale
+    magnitude_score = 100 * np.log(revenue_sum + 1) / np.log(max_revenue_sum + 1)
+    return round(magnitude_score, 2)
+
+
+def calculate_revenue_quality(row: pd.Series, max_revenue_sum: float) -> Tuple[Optional[float], Dict[str, Any]]:
+    """
+    Calculate the combined revenue quality score (0-100) based on stability and magnitude.
+
+    Args:
+        row: A pandas Series representing a single row of the DataFrame.
+        max_revenue_sum: The maximum revenue sum across all projects.
+
+    Returns:
+        Tuple of (Revenue Quality Score, Explanation Dictionary).
+    """
+    # Calculate Stability Score
+    analyzer = EarningsQualityAnalyzer(df)  # Create an instance of the class
+    stability_score, stability_explanation = analyzer.calculate_stability_score(row)
+
+    # Calculate Magnitude Score
+    magnitude_score = calculate_revenue_magnitude(row, max_revenue_sum)
+
+    # Combine Stability and Magnitude Scores
+    if stability_score is not None and magnitude_score > 0:
+        revenue_quality_score = (stability_score * magnitude_score) / 100
+    else:
+        revenue_quality_score = 0  # If either score is missing or zero, quality is zero
+
+    # Explanation
+    explanation = {
+        'stability_score': stability_score,
+        'magnitude_score': magnitude_score,
+        'revenue_quality_score': round(revenue_quality_score, 2),
+        'method': 'Combined magnitude (log-scaled) and stability (trend-based)'
+    }
+
+    return revenue_quality_score, explanation
+
+
 def enhance_earnings_quality_analysis(df: pd.DataFrame) -> pd.DataFrame:
     """
     Enhance earnings quality analysis for all projects in the dataset.
-    
+
     Args:
-        df: DataFrame with crypto project metrics
-        
+        df: DataFrame with crypto project metrics.
+
     Returns:
-        DataFrame with enhanced earnings quality scores
+        DataFrame with enhanced earnings quality scores.
     """
-    # Create analyzer
-    analyzer = EarningsQualityAnalyzer(df)
-    
+    # Find the maximum revenue sum for normalization
+    max_revenue_sum = df['Revenue_30d sum'].max()
+
     # Create result columns
     results = []
-    
+
     # Process each project
     for idx, row in df.iterrows():
         project_name = row.get('Project', "Unknown")
@@ -530,133 +542,64 @@ def enhance_earnings_quality_analysis(df: pd.DataFrame) -> pd.DataFrame:
 
         print(f"Processing {project_name} ({market_sector})...")
 
-        quality_results = analyzer.calculate_earnings_quality(row, min_projects_for_percentile=3)
+        # Calculate Revenue Quality Score
+        revenue_quality_score, quality_explanation = calculate_revenue_quality(row, max_revenue_sum)
 
+        # Add results to the output
         result = {
             'Project': project_name,
             'Market Sector': market_sector,
-            'Revenue Stability Score': quality_results['stability']['score'],
-            'Revenue Diversification Score': quality_results['diversification']['score'],
-            'Earnings Quality Score': quality_results['overall_score'],
-            'Metrics Used': ', '.join(quality_results['metrics_used']),
-            'Complete Score': quality_results['complete_score']
+            'Revenue Quality Score': revenue_quality_score,
+            'Quality Explanation': quality_explanation
         }
-
         results.append(result)
 
+    # Convert to DataFrame
     results_df = pd.DataFrame(results)
-    
     return results_df
 
 
 def visualize_earnings_quality(results_df: pd.DataFrame, top_n: int = 10) -> None:
     """
     Create visualizations for earnings quality analysis.
-    
+
     Args:
-        results_df: DataFrame with earnings quality results
-        top_n: Number of top projects to show in visualizations
+        results_df: DataFrame with earnings quality results.
+        top_n: Number of top projects to show in visualizations.
     """
-    if results_df.empty:
-        print("No results to visualize.")
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+
+    # Check if required columns exist
+    required_cols = ["Revenue Quality Score"]
+    for col in required_cols:
+        if col not in results_df.columns:
+            print(f"Column '{col}' is missing from results. Visualization skipped.")
+            return
+
+    # Drop rows with NaNs in key columns
+    clean_results = results_df.dropna(subset=required_cols)
+
+    if clean_results.empty:
+        print("No valid data points available after cleaning. Visualization skipped.")
         return
-    
-    # Set style
-    plt.style.use('seaborn-v0_8-whitegrid')
-    sns.set_palette("viridis")
-    
-    # Create figure
-    fig, axes = plt.subplots(2, 2, figsize=(16, 14))
-    
-    # 1. Top projects by Earnings Quality Score
-    if 'Earnings Quality Score' in results_df.columns:
-        top_projects = results_df.dropna(subset=['Earnings Quality Score']).sort_values('Earnings Quality Score', ascending=False).head(top_n)
-        
-        if not top_projects.empty:
-            ax = axes[0, 0]
-            sns.barplot(x='Earnings Quality Score', y='Project', data=top_projects, ax=ax)
-            ax.set_title(f'Top {top_n} Projects by Earnings Quality')
-            ax.set_xlim(0, 100)
-    
-    # 2. Distribution of Stability Scores
-    if 'Revenue Stability Score' in results_df.columns:
-        stability_scores = results_df['Revenue Stability Score'].dropna()
-        if not stability_scores.empty:
-            ax = axes[0, 1]
-            sns.histplot(stability_scores, kde=True, ax=ax)
-            ax.set_title('Distribution of Revenue Stability Scores')
-            ax.set_xlim(0, 100)
-    
-    # 3. Scatter plot of Stability vs Diversification
-    if 'Revenue Stability Score' in results_df.columns and 'Revenue Diversification Score' in results_df.columns:
-        scatter_data = results_df.dropna(subset=['Revenue Stability Score', 'Revenue Diversification Score'])
-        if not scatter_data.empty:
-            ax = axes[1, 0]
-            
-            # Check if we have enough unique sectors for hue
-            if 'Market Sector' in scatter_data.columns and scatter_data['Market Sector'].nunique() > 1:
-                sns.scatterplot(
-                    x='Revenue Stability Score', 
-                    y='Revenue Diversification Score', 
-                    hue='Market Sector',
-                    size='Earnings Quality Score',
-                    sizes=(20, 200),
-                    alpha=0.7,
-                    data=scatter_data,
-                    ax=ax
-                )
-            else:
-                # If no sector information, use simpler plot
-                sns.scatterplot(
-                    x='Revenue Stability Score', 
-                    y='Revenue Diversification Score', 
-                    size='Earnings Quality Score',
-                    sizes=(20, 200),
-                    alpha=0.7,
-                    data=scatter_data,
-                    ax=ax
-                )
-            
-            ax.set_title('Revenue Stability vs Diversification')
-            ax.set_xlim(0, 100)
-            ax.set_ylim(0, 100)
-            
-            # Add legend if we have multiple sectors
-            if 'Market Sector' in scatter_data.columns and scatter_data['Market Sector'].nunique() > 1:
-                ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
-    
-    # 4. Average Earnings Quality by Market Sector
-    if 'Earnings Quality Score' in results_df.columns and 'Market Sector' in results_df.columns:
-        # Only proceed if we have multiple sectors
-        if results_df['Market Sector'].nunique() > 1:
-            ax = axes[1, 1]
-            
-            # Calculate average scores by sector
-            sector_scores = results_df.groupby('Market Sector')['Earnings Quality Score'].mean().sort_values(ascending=False)
-            sector_counts = results_df.groupby('Market Sector').size()
-            
-            # Filter to sectors with enough data
-            valid_sectors = sector_scores[sector_counts >= 3].index
-            filtered_sector_scores = sector_scores[valid_sectors]
-            
-            # Plot if we have data
-            if not filtered_sector_scores.empty:
-                sns.barplot(x=filtered_sector_scores.values, y=filtered_sector_scores.index, ax=ax)
-                ax.set_title('Average Earnings Quality by Market Sector')
-                ax.set_xlim(0, 100)
-            else:
-                ax.text(0.5, 0.5, 'Not enough data per sector\nfor meaningful comparison', 
-                       ha='center', va='center', transform=ax.transAxes)
-        else:
-            # No multiple sectors
-            ax = axes[1, 1]
-            ax.text(0.5, 0.5, 'Only one market sector found\nCannot compare across sectors', 
-                   ha='center', va='center', transform=ax.transAxes)
-    
-    # Adjust layout
+
+    # Bar plot: Top projects by Revenue Quality Score
+    top_results = clean_results.nlargest(top_n, "Revenue Quality Score")
+    plt.figure(figsize=(12, 8))
+    sns.barplot(
+        data=top_results,
+        x="Revenue Quality Score",
+        y="Project",
+        palette="viridis"
+    )
+
+    plt.title("Top Projects by Revenue Quality Score")
+    plt.xlabel("Revenue Quality Score")
+    plt.ylabel("Project")
     plt.tight_layout()
-    plt.savefig('earnings_quality_analysis.png', dpi=300, bbox_inches='tight')
-    plt.close()
+    plt.savefig("revenue_quality_scores.png")
+    plt.show()
 
 
 def debug_data_structure(file_path: str) -> None:
@@ -720,6 +663,13 @@ df = load_excel(file_path)
 print("Flattened Columns:")
 print(df.columns.tolist())
 
+# Verify column names in the CSV
+output_file = 'earnings_quality_results.csv'
+df_results = pd.read_csv(output_file)
+
+print("Columns in the CSV file:")
+print(df_results.columns.tolist())
+
 if __name__ == "__main__":
     import sys
     import os
@@ -764,8 +714,18 @@ if __name__ == "__main__":
         print(f"Error loading data: {e}")
         sys.exit(1)
     
-    # Run enhanced analysis
-    results = enhance_earnings_quality_analysis(df)
+    # Filter projects by market cap
+    MIN_MARKET_CAP = 115_000_000  # 115 million
+
+    if ('Market cap (circulating)', 'Latest') in df.columns:
+        df_filtered = df[df[('Market cap (circulating)', 'Latest')] >= MIN_MARKET_CAP]
+        print(f"Filtered data to {len(df_filtered)} projects with market cap >= {MIN_MARKET_CAP}")
+    else:
+        print("Market cap column not found. Proceeding without filtering.")
+        df_filtered = df
+
+    # Run analysis on filtered data
+    results = enhance_earnings_quality_analysis(df_filtered)
     
     # Check if we got results
     if results.empty:
@@ -779,4 +739,4 @@ if __name__ == "__main__":
     
     # Create visualizations
     visualize_earnings_quality(results)
-    print("Visualizations saved to earnings_quality_analysis.png")
+    print("Visualizations saved to revenue_quality_scores.png")
