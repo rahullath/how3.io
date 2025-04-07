@@ -437,60 +437,60 @@ class UserGrowthAnalyzer:
         
         return results
     
-    def analyze_all_projects(self, output_file: Optional[str] = None) -> pd.DataFrame:
+    def analyze_all_projects(self, output_file: Optional[str] = None, include_explanations: bool = False) -> pd.DataFrame:
         """
         Analyze user growth for all projects in the dataset.
-        
+
         Args:
-            output_file: Optional path to save results CSV
-            
+            output_file: Optional path to save results CSV.
+            include_explanations: Whether to include detailed explanations.
+
         Returns:
-            DataFrame with user growth scores
+            DataFrame with user growth scores and optional explanations.
         """
         results = []
-        
+
         # Process each project
         for idx, row in self.df.iterrows():
             project_name = row.get('Project')
-            
+
             # Skip if no project name
             if pd.isna(project_name):
                 continue
-                
+
             print(f"Analyzing user growth for {project_name}...")
-            
+
             # Calculate user growth score
             project_results = self.calculate_user_growth_score(idx)
-            
+
             # Add to results
             results.append({
                 'Project': project_name,
                 'Market Sector': project_results['sector'],
                 'User Growth Score': project_results['overall_score'],
                 'Growth Category': project_results.get('growth_category'),
-                'Details': project_results
+                **{f"{metric}_score": project_results['metrics'][metric]['score']
+                   for metric in project_results['metrics']}
             })
-        
+
         # Convert to DataFrame
         results_df = pd.DataFrame(results)
-        
+
+        # Generate explanations if requested
+        if include_explanations:
+            results_df = self.generate_explanations(results_df)
+
         # Save to file if specified
         if output_file:
-            # Save only the main columns, not the details
-            columns_to_save = ['Project', 'Market Sector', 'User Growth Score']
-            
-            # Only include Growth Category if it exists in the DataFrame
-            if 'Growth Category' in results_df.columns:
-                columns_to_save.append('Growth Category')
-                
-            # Filter to only columns that exist
+            # Save only the main columns and explanations
+            columns_to_save = ['Project', 'Market Sector', 'User Growth Score', 'Growth Category', 'Explanation']
             save_cols = [col for col in columns_to_save if col in results_df.columns]
-            
+
             # Save the results
             save_df = results_df[save_cols]
             save_df.to_csv(output_file, index=False)
             print(f"Results saved to {output_file}")
-        
+
         return results_df
     
     def visualize_sector_growth(self, output_file: Optional[str] = None) -> None:
@@ -545,6 +545,42 @@ class UserGrowthAnalyzer:
             print(f"Visualization saved to {output_file}")
             
         plt.show()
+    
+    def generate_explanations(self, results_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Generate detailed explanations for user growth scores.
+
+        Args:
+            results_df: DataFrame with user growth scores.
+
+        Returns:
+            DataFrame with an additional 'Explanation' column.
+        """
+        explanations = []
+
+        for idx, row in results_df.iterrows():
+            project = row.get('Project', 'Unknown')
+            sector = row.get('Market Sector', 'Unknown')
+            score = row.get('User Growth Score', None)
+            category = row.get('Growth Category', 'Unknown')
+
+            # Get weights for the sector
+            weights = self.sector_metrics.get(sector, self.sector_metrics['default'])
+
+            # Build explanation
+            explanation = f"Project '{project}' in the '{sector}' sector has an overall User Growth Score of {score:.2f}, categorized as '{category}'.\n"
+            explanation += "The score is based on the following weighted metrics:\n"
+
+            for metric, weight in weights.items():
+                metric_score = row.get(f"{metric}_score", None)
+                if metric_score is not None:
+                    explanation += f"  - {metric.replace('_', ' ').title()}: {metric_score:.2f} (Weight: {weight:.2f})\n"
+
+            explanations.append(explanation.strip())
+
+        # Add the explanations to the DataFrame
+        results_df['Explanation'] = explanations
+        return results_df
 
 
 def load_data(file_path: str) -> pd.DataFrame:
@@ -597,7 +633,7 @@ def load_data(file_path: str) -> pd.DataFrame:
 def main():
     """Main function to run the user growth analysis."""
     parser = argparse.ArgumentParser(description='Analyze user growth for crypto projects')
-    parser.add_argument('--data', type=str, required=True, 
+    parser.add_argument('--data', type=str, required=True,
                         help='Path to data file (CSV or Excel)')
     parser.add_argument('--output', type=str, default='user_growth_results.csv',
                         help='Path to output CSV file')
@@ -605,47 +641,35 @@ def main():
                         help='Create visualizations')
     parser.add_argument('--viz-output', type=str,
                         help='Path to save visualization (PNG)')
+    parser.add_argument('--explain', action='store_true',
+                        help='Include detailed explanations in the results')
     parser.add_argument('--debug', action='store_true',
                         help='Print debug information')
-    
+
     args = parser.parse_args()
-    
+
     try:
         # Load data
         df = load_data(args.data)
-        
+
         # Show columns for debugging
         if args.debug:
             print("\nDataFrame Columns:")
             for i, col in enumerate(df.columns):
                 print(f"{i}: {col}")
-            
-            # Check if we have key columns
-            required_cols = ['Project', 'Market sector']
-            for col in required_cols:
-                if col in df.columns:
-                    print(f"Found required column: {col}")
-                    print(f"Sample values: {df[col].dropna().head(3).tolist()}")
-                else:
-                    print(f"Missing required column: {col}")
-                    
-                    # Try to find similar columns
-                    similar = [c for c in df.columns if col.lower() in str(c).lower()]
-                    if similar:
-                        print(f"Similar columns found: {similar}")
-        
+
         # Initialize the analyzer
         analyzer = UserGrowthAnalyzer(df)
-        
+
         # Run analysis
-        results = analyzer.analyze_all_projects(args.output)
-        
+        results = analyzer.analyze_all_projects(args.output, include_explanations=args.explain)
+
         # Create visualizations if requested
         if args.visualize:
             analyzer.visualize_sector_growth(args.viz_output)
-        
+
         print(f"Analysis complete. Found {len(results)} projects with growth data.")
-        
+
     except Exception as e:
         print(f"Error during analysis: {e}")
         import traceback
