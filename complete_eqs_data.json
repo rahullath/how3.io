@@ -1,0 +1,7184 @@
+{
+  "Tether": {
+    "name": "Tether",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 97.69,
+      "stability": 97.69303459043628,
+      "magnitude": 100.0
+    }
+  },
+  "Tron": {
+    "name": "Tron",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 89.21,
+      "stability": 91.07113658114136,
+      "magnitude": 97.96
+    }
+  },
+  "Circle": {
+    "name": "Circle",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 76.88,
+      "stability": 80.29824512921843,
+      "magnitude": 95.74
+    }
+  },
+  "Uniswap": {
+    "name": "Uniswap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 82.09277898547886,
+      "magnitude": 0
+    }
+  },
+  "Lido Finance": {
+    "name": "Lido Finance",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": 62.6,
+      "stability": 80.18573143668108,
+      "magnitude": 78.07
+    }
+  },
+  "Aave": {
+    "name": "Aave",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 62.67,
+      "stability": 79.7436997420562,
+      "magnitude": 78.59
+    }
+  },
+  "PancakeSwap": {
+    "name": "PancakeSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 20.61,
+      "stability": 24.754418163997173,
+      "magnitude": 83.26
+    }
+  },
+  "Jito": {
+    "name": "Jito",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": 40.58,
+      "stability": 55.626885054563225,
+      "magnitude": 72.95
+    }
+  },
+  "Flashbots": {
+    "name": "Flashbots",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 83.65847892856915,
+      "magnitude": 0
+    }
+  },
+  "Solana": {
+    "name": "Solana",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 36.12,
+      "stability": 47.27180097945407,
+      "magnitude": 76.41
+    }
+  },
+  "Ethereum": {
+    "name": "Ethereum",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 26.4,
+      "stability": 32.56366945366578,
+      "magnitude": 81.08
+    }
+  },
+  "Sky": {
+    "name": "Sky",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 77.67,
+      "stability": 90.55284900823304,
+      "magnitude": 85.77
+    }
+  },
+  "BNB Chain": {
+    "name": "BNB Chain",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 48.5,
+      "stability": 65.5417880748704,
+      "magnitude": 74.0
+    }
+  },
+  "Ethena": {
+    "name": "Ethena",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 58.23,
+      "stability": 69.41055787443494,
+      "magnitude": 83.89
+    }
+  },
+  "Bitcoin": {
+    "name": "Bitcoin",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 67.3327550273475,
+      "magnitude": 0
+    }
+  },
+  "Aerodrome": {
+    "name": "Aerodrome",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 60.79,
+      "stability": 73.50498470541888,
+      "magnitude": 82.7
+    }
+  },
+  "Morpho": {
+    "name": "Morpho",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 46.41404877556942,
+      "magnitude": 0
+    }
+  },
+  "Fluid": {
+    "name": "Fluid",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 43.23,
+      "stability": 65.55777442204085,
+      "magnitude": 65.94
+    }
+  },
+  "Venus": {
+    "name": "Venus",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 58.73,
+      "stability": 83.38686638598291,
+      "magnitude": 70.43
+    }
+  },
+  "Base": {
+    "name": "Base",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 64.81,
+      "stability": 83.08801102520296,
+      "magnitude": 78.0
+    }
+  },
+  "GMX": {
+    "name": "GMX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 50.32,
+      "stability": 69.24332994712307,
+      "magnitude": 72.67
+    }
+  },
+  "Uniswap Labs": {
+    "name": "Uniswap Labs",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 53.83,
+      "stability": 70.25918741131278,
+      "magnitude": 76.62
+    }
+  },
+  "Convex Finance": {
+    "name": "Convex Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 52.47,
+      "stability": 77.86116211170855,
+      "magnitude": 67.39
+    }
+  },
+  "Curve": {
+    "name": "Curve",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 56.85,
+      "stability": 78.65673587311286,
+      "magnitude": 72.27
+    }
+  },
+  "Compound": {
+    "name": "Compound",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 32.43,
+      "stability": 53.91662471422238,
+      "magnitude": 60.15
+    }
+  },
+  "Usual": {
+    "name": "Usual",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 22.92,
+      "stability": 30.720070336026225,
+      "magnitude": 74.6
+    }
+  },
+  "Thena": {
+    "name": "Thena",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 57.16,
+      "stability": 80.44490852746624,
+      "magnitude": 71.05
+    }
+  },
+  "LFJ": {
+    "name": "LFJ",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 42.24,
+      "stability": 66.32209457385977,
+      "magnitude": 63.69
+    }
+  },
+  "Euler": {
+    "name": "Euler",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 61.12
+    }
+  },
+  "Maple Finance": {
+    "name": "Maple Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 54.32,
+      "stability": 85.49248843341651,
+      "magnitude": 63.54
+    }
+  },
+  "Pharaoh": {
+    "name": "Pharaoh",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 11.79,
+      "stability": 16.20215886429679,
+      "magnitude": 72.74
+    }
+  },
+  "SynFutures": {
+    "name": "SynFutures",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 44.47,
+      "stability": 64.71736621410497,
+      "magnitude": 68.72
+    }
+  },
+  "Arbitrum One": {
+    "name": "Arbitrum One",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 64.95,
+      "stability": 90.51688086856396,
+      "magnitude": 71.76
+    }
+  },
+  "Internet Computer": {
+    "name": "Internet Computer",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 34.99,
+      "stability": 48.85808633201244,
+      "magnitude": 71.62
+    }
+  },
+  "QuickSwap": {
+    "name": "QuickSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 51.75,
+      "stability": 84.37997179485244,
+      "magnitude": 61.33
+    }
+  },
+  "Solv Protocol": {
+    "name": "Solv Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "OpenSea": {
+    "name": "OpenSea",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 28.24,
+      "stability": 44.0323633027316,
+      "magnitude": 64.14
+    }
+  },
+  "OP Mainnet": {
+    "name": "OP Mainnet",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 52.07,
+      "stability": 74.12585593070725,
+      "magnitude": 70.24
+    }
+  },
+  "ParaSwap": {
+    "name": "ParaSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 58.47,
+      "stability": 83.47796349018726,
+      "magnitude": 70.04
+    }
+  },
+  "Velodrome": {
+    "name": "Velodrome",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 50.96,
+      "stability": 73.05886289259647,
+      "magnitude": 69.75
+    }
+  },
+  "BENQI Liquid Staking": {
+    "name": "BENQI Liquid Staking",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SushiSwap": {
+    "name": "SushiSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 47.83,
+      "stability": 77.53633763429877,
+      "magnitude": 61.69
+    }
+  },
+  "Vertex": {
+    "name": "Vertex",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 69.27
+    }
+  },
+  "StakeWise": {
+    "name": "StakeWise",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": 31.52,
+      "stability": 58.420163774258185,
+      "magnitude": 53.96
+    }
+  },
+  "Moonwell": {
+    "name": "Moonwell",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 42.36,
+      "stability": 69.26052032100212,
+      "magnitude": 61.16
+    }
+  },
+  "Tokenlon": {
+    "name": "Tokenlon",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 62.0,
+      "stability": 90.47805855874282,
+      "magnitude": 68.53
+    }
+  },
+  "Balancer": {
+    "name": "Balancer",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 49.79,
+      "stability": 76.68128436807751,
+      "magnitude": 64.93
+    }
+  },
+  "TON": {
+    "name": "TON",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 32.06,
+      "stability": 49.61812455382382,
+      "magnitude": 64.62
+    }
+  },
+  "Immutable": {
+    "name": "Immutable",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 62.74,
+      "stability": 92.19245160480568,
+      "magnitude": 68.05
+    }
+  },
+  "ApolloX": {
+    "name": "ApolloX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 37.94,
+      "stability": 59.07882588271133,
+      "magnitude": 64.22
+    }
+  },
+  "Aura Finance": {
+    "name": "Aura Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 46.98,
+      "stability": 78.17522210729894,
+      "magnitude": 60.1
+    }
+  },
+  "DeFi Saver": {
+    "name": "DeFi Saver",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 1.95,
+      "stability": 2.9137990949709973,
+      "magnitude": 66.9
+    }
+  },
+  "Frax Ether": {
+    "name": "Frax Ether",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": 43.88,
+      "stability": 79.58282708897849,
+      "magnitude": 55.14
+    }
+  },
+  "Camelot": {
+    "name": "Camelot",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 37.01,
+      "stability": 64.45623753764977,
+      "magnitude": 57.42
+    }
+  },
+  "Avalanche": {
+    "name": "Avalanche",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 39.96,
+      "stability": 60.385055661689044,
+      "magnitude": 66.18
+    }
+  },
+  "Layer3": {
+    "name": "Layer3",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 46.27,
+      "stability": 70.03314660226116,
+      "magnitude": 66.07
+    }
+  },
+  "Merkle Trade": {
+    "name": "Merkle Trade",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 43.99,
+      "stability": 70.31981259335413,
+      "magnitude": 62.56
+    }
+  },
+  "KyberSwap": {
+    "name": "KyberSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 65.81
+    }
+  },
+  "Polygon": {
+    "name": "Polygon",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 44.84,
+      "stability": 74.00266109997209,
+      "magnitude": 60.59
+    }
+  },
+  "BENQI": {
+    "name": "BENQI",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 40.2,
+      "stability": 70.74482160841329,
+      "magnitude": 56.83
+    }
+  },
+  "deBridge DLN": {
+    "name": "deBridge DLN",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": 42.24,
+      "stability": 64.75577131264194,
+      "magnitude": 65.23
+    }
+  },
+  "StakeStone": {
+    "name": "StakeStone",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 63.28281338055521,
+      "magnitude": 0
+    }
+  },
+  "NEAR Protocol": {
+    "name": "NEAR Protocol",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 45.61,
+      "stability": 70.91956835401166,
+      "magnitude": 64.31
+    }
+  },
+  "Houdini Swap": {
+    "name": "Houdini Swap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 35.94,
+      "stability": 55.81854897636311,
+      "magnitude": 64.38
+    }
+  },
+  "Katana": {
+    "name": "Katana",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 34.77,
+      "stability": 62.94901776950916,
+      "magnitude": 55.23
+    }
+  },
+  "Origin Protocol": {
+    "name": "Origin Protocol",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 41.77,
+      "stability": 75.09991572893912,
+      "magnitude": 55.62
+    }
+  },
+  "DODO": {
+    "name": "DODO",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 47.69,
+      "stability": 85.40521828427907,
+      "magnitude": 55.84
+    }
+  },
+  "HMX": {
+    "name": "HMX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 40.96,
+      "stability": 70.03275495291979,
+      "magnitude": 58.49
+    }
+  },
+  "Cardano": {
+    "name": "Cardano",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 78.30762868347323,
+      "magnitude": 0
+    }
+  },
+  "BMX": {
+    "name": "BMX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 44.4,
+      "stability": 70.35723249374767,
+      "magnitude": 63.11
+    }
+  },
+  "Pendle": {
+    "name": "Pendle",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 44.2,
+      "stability": 70.7926852992608,
+      "magnitude": 62.44
+    }
+  },
+  "Sonic": {
+    "name": "Sonic",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Manifold.xyz": {
+    "name": "Manifold.xyz",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 27.85
+    }
+  },
+  "Allbridge Core": {
+    "name": "Allbridge Core",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": 46.13,
+      "stability": 84.7834056759244,
+      "magnitude": 54.41
+    }
+  },
+  "Helium": {
+    "name": "Helium",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 53.58,
+      "stability": 86.25845188695318,
+      "magnitude": 62.11
+    }
+  },
+  "Tokemak": {
+    "name": "Tokemak",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 37.32,
+      "stability": 74.06924843097501,
+      "magnitude": 50.39
+    }
+  },
+  "BendDAO": {
+    "name": "BendDAO",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 54.99
+    }
+  },
+  "Gamma Strategies": {
+    "name": "Gamma Strategies",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 22.36,
+      "stability": 42.44421892193566,
+      "magnitude": 52.69
+    }
+  },
+  "Cronos": {
+    "name": "Cronos",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 81.42764935405899,
+      "magnitude": 0
+    }
+  },
+  "Synthetix": {
+    "name": "Synthetix",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 30.54,
+      "stability": 50.65712018052771,
+      "magnitude": 60.28
+    }
+  },
+  "ZeroLend": {
+    "name": "ZeroLend",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 56.0
+    }
+  },
+  "Tornado Cash": {
+    "name": "Tornado Cash",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 40.64,
+      "stability": 67.9634260586776,
+      "magnitude": 59.8
+    }
+  },
+  "Injective": {
+    "name": "Injective",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 49.72,
+      "stability": 74.13230995374897,
+      "magnitude": 67.07
+    }
+  },
+  "SyncSwap": {
+    "name": "SyncSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 19.92,
+      "stability": 36.59842150244737,
+      "magnitude": 54.42
+    }
+  },
+  "Stader": {
+    "name": "Stader",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": 39.25,
+      "stability": 81.84050913208125,
+      "magnitude": 47.96
+    }
+  },
+  "Gearbox": {
+    "name": "Gearbox",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 24.17,
+      "stability": 46.95086112162309,
+      "magnitude": 51.47
+    }
+  },
+  "Blur": {
+    "name": "Blur",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 44.80008307553618,
+      "magnitude": 0
+    }
+  },
+  "Hegic": {
+    "name": "Hegic",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 54.79,
+      "stability": 92.77126431898995,
+      "magnitude": 59.06
+    }
+  },
+  "Dogecoin": {
+    "name": "Dogecoin",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 61.17527580001126,
+      "magnitude": 0
+    }
+  },
+  "Nexus Mutual": {
+    "name": "Nexus Mutual",
+    "sector": "Insurance",
+    "scores": {
+      "earnings_quality": 34.31,
+      "stability": 58.36781731219089,
+      "magnitude": 58.79
+    }
+  },
+  "Aptos": {
+    "name": "Aptos",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 43.49,
+      "stability": 74.19785626546755,
+      "magnitude": 58.62
+    }
+  },
+  "Liquity": {
+    "name": "Liquity",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 56.2,
+      "stability": 96.84242775348731,
+      "magnitude": 58.03
+    }
+  },
+  "Thruster": {
+    "name": "Thruster",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 20.19,
+      "stability": 37.0403711616323,
+      "magnitude": 54.51
+    }
+  },
+  "Filecoin": {
+    "name": "Filecoin",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 22.24,
+      "stability": 39.273839731120866,
+      "magnitude": 56.62
+    }
+  },
+  "Bancor": {
+    "name": "Bancor",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 33.47,
+      "stability": 60.25134962372892,
+      "magnitude": 55.55
+    }
+  },
+  "Goldfinch": {
+    "name": "Goldfinch",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 31.44,
+      "stability": 68.62822977193903,
+      "magnitude": 45.81
+    }
+  },
+  "MUX": {
+    "name": "MUX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 31.49,
+      "stability": 56.21509326214266,
+      "magnitude": 56.02
+    }
+  },
+  "Biswap": {
+    "name": "Biswap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 28.74,
+      "stability": 58.37331046055751,
+      "magnitude": 49.23
+    }
+  },
+  "Kwenta": {
+    "name": "Kwenta",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 49.333532447116625,
+      "magnitude": 0
+    }
+  },
+  "Thetanuts": {
+    "name": "Thetanuts",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 89.88253006327425,
+      "magnitude": 0
+    }
+  },
+  "Seamless Protocol": {
+    "name": "Seamless Protocol",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 37.88,
+      "stability": 72.99099773093545,
+      "magnitude": 51.89
+    }
+  },
+  "Gravity Alpha Mainnet": {
+    "name": "Gravity Alpha Mainnet",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 33.3,
+      "stability": 59.865277734764014,
+      "magnitude": 55.63
+    }
+  },
+  "Ribbon Finance": {
+    "name": "Ribbon Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 40.51,
+      "stability": 88.02670793160007,
+      "magnitude": 46.02
+    }
+  },
+  "Ronin": {
+    "name": "Ronin",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 19.76,
+      "stability": 60.844562285367395,
+      "magnitude": 32.48
+    }
+  },
+  "zkSync Era": {
+    "name": "zkSync Era",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 37.33,
+      "stability": 68.15416911245445,
+      "magnitude": 54.77
+    }
+  },
+  "Blast": {
+    "name": "Blast",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 30.36,
+      "stability": 55.521967103206535,
+      "magnitude": 54.69
+    }
+  },
+  "Livepeer": {
+    "name": "Livepeer",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 57.855233468597646,
+      "magnitude": 0
+    }
+  },
+  "Celo": {
+    "name": "Celo",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 35.31,
+      "stability": 67.77799303412107,
+      "magnitude": 52.09
+    }
+  },
+  "Pangolin": {
+    "name": "Pangolin",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 35.8,
+      "stability": 80.95143734096506,
+      "magnitude": 44.23
+    }
+  },
+  "MultiversX": {
+    "name": "MultiversX",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 30.99,
+      "stability": 74.26518192071731,
+      "magnitude": 41.73
+    }
+  },
+  "Litecoin": {
+    "name": "Litecoin",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 77.91730442306735,
+      "magnitude": 0
+    }
+  },
+  "Ramses Exchange": {
+    "name": "Ramses Exchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 23.84,
+      "stability": 46.59020645652944,
+      "magnitude": 51.18
+    }
+  },
+  "deBridge": {
+    "name": "deBridge",
+    "sector": "Interoperability",
+    "scores": {
+      "earnings_quality": 34.07,
+      "stability": 65.23770674920019,
+      "magnitude": 52.23
+    }
+  },
+  "Polkadot": {
+    "name": "Polkadot",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 29.47,
+      "stability": 58.24489253767852,
+      "magnitude": 50.6
+    }
+  },
+  "Stargate": {
+    "name": "Stargate",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": 36.97,
+      "stability": 71.93562408698176,
+      "magnitude": 51.39
+    }
+  },
+  "Stellar": {
+    "name": "Stellar",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 51.43
+    }
+  },
+  "Cosmos Hub": {
+    "name": "Cosmos Hub",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 26.16,
+      "stability": 66.55952223470598,
+      "magnitude": 39.3
+    }
+  },
+  "Integral": {
+    "name": "Integral",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 42.3,
+      "stability": 83.21634956241874,
+      "magnitude": 50.83
+    }
+  },
+  "The Graph": {
+    "name": "The Graph",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 27.47,
+      "stability": 54.058442978073536,
+      "magnitude": 50.81
+    }
+  },
+  "Index Cooperative": {
+    "name": "Index Cooperative",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 41.69,
+      "stability": 82.07372221369347,
+      "magnitude": 50.8
+    }
+  },
+  "Synapse": {
+    "name": "Synapse",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": 23.62,
+      "stability": 46.52458209622484,
+      "magnitude": 50.76
+    }
+  },
+  "Algorand": {
+    "name": "Algorand",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 38.52,
+      "stability": 75.91063122887793,
+      "magnitude": 50.74
+    }
+  },
+  "Ink": {
+    "name": "Ink",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Abracadabra.money": {
+    "name": "Abracadabra.money",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 46.57,
+      "stability": 92.63169205186031,
+      "magnitude": 50.27
+    }
+  },
+  "Maverick Protocol": {
+    "name": "Maverick Protocol",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 84.81067207761029,
+      "magnitude": 0
+    }
+  },
+  "Manta": {
+    "name": "Manta",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 36.56,
+      "stability": 73.02835161233855,
+      "magnitude": 50.06
+    }
+  },
+  "ApeSwap": {
+    "name": "ApeSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 27.39,
+      "stability": 63.57577393857602,
+      "magnitude": 43.09
+    }
+  },
+  "Beets": {
+    "name": "Beets",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 24.74,
+      "stability": 53.80805920840869,
+      "magnitude": 45.98
+    }
+  },
+  "Zcash": {
+    "name": "Zcash",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 0,
+      "magnitude": 0
+    }
+  },
+  "Holdstation": {
+    "name": "Holdstation",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 17.76,
+      "stability": 45.37630302573231,
+      "magnitude": 39.14
+    }
+  },
+  "Starknet": {
+    "name": "Starknet",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Clipper": {
+    "name": "Clipper",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 40.83,
+      "stability": 91.72274499215868,
+      "magnitude": 44.51
+    }
+  },
+  "Rarible": {
+    "name": "Rarible",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 36.22,
+      "stability": 77.28337141084484,
+      "magnitude": 46.87
+    }
+  },
+  "Chainlink": {
+    "name": "Chainlink",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 26.85,
+      "stability": 55.8837647107777,
+      "magnitude": 48.05
+    }
+  },
+  "Radiant Capital": {
+    "name": "Radiant Capital",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 14.17,
+      "stability": 30.50147561533187,
+      "magnitude": 46.46
+    }
+  },
+  "Zerion": {
+    "name": "Zerion",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 35.12,
+      "stability": 73.37913517697092,
+      "magnitude": 47.86
+    }
+  },
+  "NFTX": {
+    "name": "NFTX",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 65.8032794115731,
+      "magnitude": 0
+    }
+  },
+  "Angle": {
+    "name": "Angle",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 28.18,
+      "stability": 59.410181435329015,
+      "magnitude": 47.44
+    }
+  },
+  "Hop Protocol": {
+    "name": "Hop Protocol",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": 10.92,
+      "stability": 24.04902734866738,
+      "magnitude": 45.39
+    }
+  },
+  "Perpetual Protocol": {
+    "name": "Perpetual Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 17.29,
+      "stability": 53.19766522105231,
+      "magnitude": 32.5
+    }
+  },
+  "Fantom": {
+    "name": "Fantom",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 21.67,
+      "stability": 53.609783187157895,
+      "magnitude": 40.43
+    }
+  },
+  "Foundation": {
+    "name": "Foundation",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 22.29,
+      "stability": 49.07894846290578,
+      "magnitude": 45.42
+    }
+  },
+  "Equalizer Exchange": {
+    "name": "Equalizer Exchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 11.94,
+      "stability": 26.541913708203964,
+      "magnitude": 44.97
+    }
+  },
+  "SpookySwap": {
+    "name": "SpookySwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 20.87,
+      "stability": 57.12191492071125,
+      "magnitude": 36.54
+    }
+  },
+  "X2Y2": {
+    "name": "X2Y2",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 39.1,
+      "stability": 86.34112071777783,
+      "magnitude": 45.28
+    }
+  },
+  "Gnosis": {
+    "name": "Gnosis",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 22.96
+    }
+  },
+  "OpenChat": {
+    "name": "OpenChat",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": 31.71,
+      "stability": 72.35495124403911,
+      "magnitude": 43.83
+    }
+  },
+  "IPOR Protocol": {
+    "name": "IPOR Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 23.53,
+      "stability": 80.87492764185313,
+      "magnitude": 29.09
+    }
+  },
+  "Verse": {
+    "name": "Verse",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 27.03,
+      "stability": 79.97109877156392,
+      "magnitude": 33.8
+    }
+  },
+  "Level Finance": {
+    "name": "Level Finance",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 14.08,
+      "stability": 36.141168721223174,
+      "magnitude": 38.95
+    }
+  },
+  "Unichain": {
+    "name": "Unichain",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "friend.tech": {
+    "name": "friend.tech",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": 0.8,
+      "stability": 17.59394271618801,
+      "magnitude": 4.52
+    }
+  },
+  "Kusama": {
+    "name": "Kusama",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 20.89,
+      "stability": 54.90668428984931,
+      "magnitude": 38.05
+    }
+  },
+  "Tezos": {
+    "name": "Tezos",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 82.07762194987184,
+      "magnitude": 0
+    }
+  },
+  "1inch": {
+    "name": "1inch",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 38.99
+    }
+  },
+  "Axelar Network": {
+    "name": "Axelar Network",
+    "sector": "Interoperability",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 60.08935399606585,
+      "magnitude": 0
+    }
+  },
+  "Reflexer": {
+    "name": "Reflexer",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": 34.77,
+      "stability": 91.6330730163338,
+      "magnitude": 37.95
+    }
+  },
+  "Mean Finance": {
+    "name": "Mean Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 10.69,
+      "stability": 34.93741423856149,
+      "magnitude": 30.61
+    }
+  },
+  "Sudoswap": {
+    "name": "Sudoswap",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 5.51,
+      "stability": 22.713133292978412,
+      "magnitude": 24.27
+    }
+  },
+  "Kleros": {
+    "name": "Kleros",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 45.596929646157804,
+      "magnitude": 0
+    }
+  },
+  "AirSwap": {
+    "name": "AirSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 26.12,
+      "stability": 73.90362087523901,
+      "magnitude": 35.35
+    }
+  },
+  "Shoebill Finance": {
+    "name": "Shoebill Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 20.95,
+      "stability": 68.4011696287412,
+      "magnitude": 30.63
+    }
+  },
+  "Aperture": {
+    "name": "Aperture",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 43.037923856132295,
+      "magnitude": 0
+    }
+  },
+  "Mina Protocol": {
+    "name": "Mina Protocol",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 26.98010127478608,
+      "magnitude": 0
+    }
+  },
+  "Zyberswap": {
+    "name": "Zyberswap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 14.2,
+      "stability": 66.41848516208069,
+      "magnitude": 21.38
+    }
+  },
+  "Mummy Finance": {
+    "name": "Mummy Finance",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 10.67,
+      "stability": 38.98343601304069,
+      "magnitude": 27.38
+    }
+  },
+  "Wombat Exchange": {
+    "name": "Wombat Exchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 16.96,
+      "stability": 61.915597975681926,
+      "magnitude": 27.4
+    }
+  },
+  "Aleph Zero EVM": {
+    "name": "Aleph Zero EVM",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 23.01,
+      "stability": 85.85103526971045,
+      "magnitude": 26.8
+    }
+  },
+  "Conflux Core Space": {
+    "name": "Conflux Core Space",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 0,
+      "magnitude": 0
+    }
+  },
+  "Everclear": {
+    "name": "Everclear",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 27.521561434297126,
+      "magnitude": 0
+    }
+  },
+  "Zora": {
+    "name": "Zora",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": 12.76,
+      "stability": 52.34008763806924,
+      "magnitude": 24.38
+    }
+  },
+  "Cap": {
+    "name": "Cap",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SolidLizard": {
+    "name": "SolidLizard",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 4.58,
+      "stability": 39.477727152097366,
+      "magnitude": 11.59
+    }
+  },
+  "Thales": {
+    "name": "Thales",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 5.55,
+      "stability": 27.503151823984084,
+      "magnitude": 20.17
+    }
+  },
+  "Viction": {
+    "name": "Viction",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 2.479681912825626,
+      "magnitude": 0
+    }
+  },
+  "Sound.xyz": {
+    "name": "Sound.xyz",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Cryptex": {
+    "name": "Cryptex",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": 11.43,
+      "stability": 68.49009042047726,
+      "magnitude": 16.69
+    }
+  },
+  "Polynomial Protocol": {
+    "name": "Polynomial Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 11.534381275545627,
+      "magnitude": 0
+    }
+  },
+  "XAI": {
+    "name": "XAI",
+    "sector": "Blockchains (L3)",
+    "scores": {
+      "earnings_quality": 4.11,
+      "stability": 28.556570866804122,
+      "magnitude": 14.4
+    }
+  },
+  "DFX Finance": {
+    "name": "DFX Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 0.0,
+      "stability": 0,
+      "magnitude": 6.32
+    }
+  },
+  "Volmex": {
+    "name": "Volmex",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Deri Protocol": {
+    "name": "Deri Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Karura": {
+    "name": "Karura",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 2.09,
+      "stability": 71.45927015289314,
+      "magnitude": 2.93
+    }
+  },
+  "Pika Protocol": {
+    "name": "Pika Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "dYdX": {
+    "name": "dYdX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Premia": {
+    "name": "Premia",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lighter": {
+    "name": "Lighter",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Osmosis": {
+    "name": "Osmosis",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aragon": {
+    "name": "Aragon",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Optimism Gateway": {
+    "name": "Optimism Gateway",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Pocket Network": {
+    "name": "Pocket Network",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Swarm": {
+    "name": "Swarm",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "XOXNO": {
+    "name": "XOXNO",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "IDEX": {
+    "name": "IDEX",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "TrueFi": {
+    "name": "TrueFi",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Toucan Protocol": {
+    "name": "Toucan Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Opyn": {
+    "name": "Opyn",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Alongside": {
+    "name": "Alongside",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ren": {
+    "name": "Ren",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Notional Finance": {
+    "name": "Notional Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "CoW Protocol": {
+    "name": "CoW Protocol",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "PoolTogether": {
+    "name": "PoolTogether",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Across": {
+    "name": "Across",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "LooksRare": {
+    "name": "LooksRare",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Metavault.Trade": {
+    "name": "Metavault.Trade",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "zkSync Era Bridge": {
+    "name": "zkSync Era Bridge",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lens Protocol": {
+    "name": "Lens Protocol",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hashflow": {
+    "name": "Hashflow",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Voltz": {
+    "name": "Voltz",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "KAP Games": {
+    "name": "KAP Games",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "0x": {
+    "name": "0x",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Dopex": {
+    "name": "Dopex",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BetSwirl": {
+    "name": "BetSwirl",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Arbitrum Bridge": {
+    "name": "Arbitrum Bridge",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Buffer Finance": {
+    "name": "Buffer Finance",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "xExchange": {
+    "name": "xExchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Polymarket": {
+    "name": "Polymarket",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bounce Finance": {
+    "name": "Bounce Finance",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SX": {
+    "name": "SX",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Axie Infinity": {
+    "name": "Axie Infinity",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Vesta Finance": {
+    "name": "Vesta Finance",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rhino.fi": {
+    "name": "Rhino.fi",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "zkLend": {
+    "name": "zkLend",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "PayPal": {
+    "name": "PayPal",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ApeX Protocol": {
+    "name": "ApeX Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "LI.FI": {
+    "name": "LI.FI",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "peaq": {
+    "name": "peaq",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mereo": {
+    "name": "Mereo",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "DeGate": {
+    "name": "DeGate",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ocean Protocol": {
+    "name": "Ocean Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "WELL3": {
+    "name": "WELL3",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "VibrantX": {
+    "name": "VibrantX",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "xNINJA": {
+    "name": "xNINJA",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Berachain": {
+    "name": "Berachain",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Zeitgeist": {
+    "name": "Zeitgeist",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "M^0": {
+    "name": "M^0",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "XCAD Network": {
+    "name": "XCAD Network",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "STON.fi": {
+    "name": "STON.fi",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "TrueMarkets": {
+    "name": "TrueMarkets",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Typus Finance": {
+    "name": "Typus Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hedera": {
+    "name": "Hedera",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Taiko": {
+    "name": "Taiko",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "AlienX": {
+    "name": "AlienX",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Movement": {
+    "name": "Movement",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ankr": {
+    "name": "Ankr",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ZKX": {
+    "name": "ZKX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "RabbitHole": {
+    "name": "RabbitHole",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "KiloEx": {
+    "name": "KiloEx",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "WOO": {
+    "name": "WOO",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SideShift": {
+    "name": "SideShift",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kadena": {
+    "name": "Kadena",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Metis": {
+    "name": "Metis",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "PRDT": {
+    "name": "PRDT",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hypr": {
+    "name": "Hypr",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Star Atlas": {
+    "name": "Star Atlas",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "B3": {
+    "name": "B3",
+    "sector": "Blockchains (L3)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Dymension": {
+    "name": "Dymension",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Litentry": {
+    "name": "Litentry",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Superform": {
+    "name": "Superform",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Neptune Finance": {
+    "name": "Neptune Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Photon": {
+    "name": "Photon",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Cat Town": {
+    "name": "Cat Town",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "AVNU": {
+    "name": "AVNU",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Venice": {
+    "name": "Venice",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Pyth Network": {
+    "name": "Pyth Network",
+    "sector": "Oracles",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Succinct": {
+    "name": "Succinct",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "InterCrone Swap": {
+    "name": "InterCrone Swap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lagoon": {
+    "name": "Lagoon",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Scallop": {
+    "name": "Scallop",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ABEL Finance": {
+    "name": "ABEL Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Econia": {
+    "name": "Econia",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ethervista": {
+    "name": "Ethervista",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Overtake": {
+    "name": "Overtake",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "inkySwap": {
+    "name": "inkySwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Solayer": {
+    "name": "Solayer",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Astar": {
+    "name": "Astar",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Render Network": {
+    "name": "Render Network",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hedgey Finance": {
+    "name": "Hedgey Finance",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "zkMe": {
+    "name": "zkMe",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Banana Gun": {
+    "name": "Banana Gun",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ethereum Attestation Service": {
+    "name": "Ethereum Attestation Service",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Derivio": {
+    "name": "Derivio",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sophon": {
+    "name": "Sophon",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Layerswap": {
+    "name": "Layerswap",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "FlowX Finance": {
+    "name": "FlowX Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Coinally": {
+    "name": "Coinally",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "LUKSO": {
+    "name": "LUKSO",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Echelon Prime Foundation": {
+    "name": "Echelon Prime Foundation",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Energy Web X": {
+    "name": "Energy Web X",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Infrared Finance": {
+    "name": "Infrared Finance",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "StarryNift": {
+    "name": "StarryNift",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Pixels": {
+    "name": "Pixels",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Global Dollar Network": {
+    "name": "Global Dollar Network",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Metropolis": {
+    "name": "Metropolis",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Burrow": {
+    "name": "Burrow",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hinkal Protocol": {
+    "name": "Hinkal Protocol",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "unshETH": {
+    "name": "unshETH",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sellix": {
+    "name": "Sellix",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Time.fun": {
+    "name": "Time.fun",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Raydium": {
+    "name": "Raydium",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Orderly Network": {
+    "name": "Orderly Network",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Efi Hub": {
+    "name": "Efi Hub",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Metal": {
+    "name": "Metal",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ICHI": {
+    "name": "ICHI",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "HunnyFinance": {
+    "name": "HunnyFinance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Robonomics Network": {
+    "name": "Robonomics Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "WhiteSwap": {
+    "name": "WhiteSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Avalon Finance": {
+    "name": "Avalon Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Orca": {
+    "name": "Orca",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "iZUMi Finance": {
+    "name": "iZUMi Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Nibiru": {
+    "name": "Nibiru",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ReactorFusion": {
+    "name": "ReactorFusion",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mint Club": {
+    "name": "Mint Club",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kodiak Finance": {
+    "name": "Kodiak Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Beam": {
+    "name": "Beam",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mountain Protocol": {
+    "name": "Mountain Protocol",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "PlayEmber": {
+    "name": "PlayEmber",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mansa Finance": {
+    "name": "Mansa Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Amnis Finance": {
+    "name": "Amnis Finance",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Eclipse": {
+    "name": "Eclipse",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mole": {
+    "name": "Mole",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hyperbridge": {
+    "name": "Hyperbridge",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ondo Finance": {
+    "name": "Ondo Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Levana": {
+    "name": "Levana",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Shuffle": {
+    "name": "Shuffle",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Shadow": {
+    "name": "Shadow",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Arbitrum Nova": {
+    "name": "Arbitrum Nova",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Agora": {
+    "name": "Agora",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Zyfi": {
+    "name": "Zyfi",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Trojan": {
+    "name": "Trojan",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Spark Protocol": {
+    "name": "Spark Protocol",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Scroll": {
+    "name": "Scroll",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Gemini": {
+    "name": "Gemini",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Alkimi Exchange": {
+    "name": "Alkimi Exchange",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BitDAO": {
+    "name": "BitDAO",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Moonbeam": {
+    "name": "Moonbeam",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Coin98": {
+    "name": "Coin98",
+    "sector": "Exchanges (CEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Wild Forest": {
+    "name": "Wild Forest",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "XPLA": {
+    "name": "XPLA",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fableborne": {
+    "name": "Fableborne",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kana": {
+    "name": "Kana",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "PACT": {
+    "name": "PACT",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Silo Finance": {
+    "name": "Silo Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 43.02,
+      "stability": 83.63384383510544,
+      "magnitude": 51.44
+    }
+  },
+  "Frax Stablecoin": {
+    "name": "Frax Stablecoin",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Polkadex": {
+    "name": "Polkadex",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Blitz": {
+    "name": "Blitz",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rubic": {
+    "name": "Rubic",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "UniDex": {
+    "name": "UniDex",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ninja Blaze": {
+    "name": "Ninja Blaze",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mito Finance": {
+    "name": "Mito Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "WigoSwap": {
+    "name": "WigoSwap",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "REVOX (ex ReadON)": {
+    "name": "REVOX (ex ReadON)",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rebalance": {
+    "name": "Rebalance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Glo Dollar": {
+    "name": "Glo Dollar",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Evmos": {
+    "name": "Evmos",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Baki Exchange": {
+    "name": "Baki Exchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Argent": {
+    "name": "Argent",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fuul Protocol": {
+    "name": "Fuul Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "XGamble": {
+    "name": "XGamble",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Talent Protocol": {
+    "name": "Talent Protocol",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Nillion": {
+    "name": "Nillion",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Decentral Games": {
+    "name": "Decentral Games",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Extra Finance": {
+    "name": "Extra Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ubeswap": {
+    "name": "Ubeswap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "vfat.io": {
+    "name": "vfat.io",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hyperliquid": {
+    "name": "Hyperliquid",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SPACE ID": {
+    "name": "SPACE ID",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Coinbase Wrapped Staked Ether": {
+    "name": "Coinbase Wrapped Staked Ether",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SingSing": {
+    "name": "SingSing",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Clave": {
+    "name": "Clave",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ref Finance": {
+    "name": "Ref Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lisk": {
+    "name": "Lisk",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Symbiosis": {
+    "name": "Symbiosis",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Astar zkEVM": {
+    "name": "Astar zkEVM",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Shrapnel": {
+    "name": "Shrapnel",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Spin": {
+    "name": "Spin",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "QuestN": {
+    "name": "QuestN",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hydration": {
+    "name": "Hydration",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "HYCHAIN": {
+    "name": "HYCHAIN",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lifinity": {
+    "name": "Lifinity",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Chingari": {
+    "name": "Chingari",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bittensor": {
+    "name": "Bittensor",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Merlin Chain": {
+    "name": "Merlin Chain",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Membrane Finance": {
+    "name": "Membrane Finance",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Stride": {
+    "name": "Stride",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Arrow Markets": {
+    "name": "Arrow Markets",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "DojoSwap": {
+    "name": "DojoSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "zkDX": {
+    "name": "zkDX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "KlimaDAO": {
+    "name": "KlimaDAO",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Turbos Finance": {
+    "name": "Turbos Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Brave": {
+    "name": "Brave",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Invarch": {
+    "name": "Invarch",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sofamon": {
+    "name": "Sofamon",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Level": {
+    "name": "Level",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Renzo": {
+    "name": "Renzo",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Azuro": {
+    "name": "Azuro",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SKALE": {
+    "name": "SKALE",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "briq": {
+    "name": "briq",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "DeSo": {
+    "name": "DeSo",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hook": {
+    "name": "Hook",
+    "sector": "Blockchains (L3)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SuperSwap": {
+    "name": "SuperSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "defi.money": {
+    "name": "defi.money",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fren Pet": {
+    "name": "Fren Pet",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "NinjaVault": {
+    "name": "NinjaVault",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Eigenpie": {
+    "name": "Eigenpie",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mantle": {
+    "name": "Mantle",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Valeria Games": {
+    "name": "Valeria Games",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Swell": {
+    "name": "Swell",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ERA Name Service": {
+    "name": "ERA Name Service",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Marinade": {
+    "name": "Marinade",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Alien Base": {
+    "name": "Alien Base",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Element": {
+    "name": "Element",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kroma Network": {
+    "name": "Kroma Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Suilend": {
+    "name": "Suilend",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BaseSwap": {
+    "name": "BaseSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SwapX": {
+    "name": "SwapX",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ionic Protocol": {
+    "name": "Ionic Protocol",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Yield Guild Games": {
+    "name": "Yield Guild Games",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Primex Finance": {
+    "name": "Primex Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Baryon": {
+    "name": "Baryon",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bucket Protocol": {
+    "name": "Bucket Protocol",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "OpenOcean": {
+    "name": "OpenOcean",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aurora": {
+    "name": "Aurora",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Meta Pool DAO": {
+    "name": "Meta Pool DAO",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Odos": {
+    "name": "Odos",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kine Protocol": {
+    "name": "Kine Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hooked Protocol": {
+    "name": "Hooked Protocol",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Openbook": {
+    "name": "Openbook",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ZKEX": {
+    "name": "ZKEX",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Magic Eden": {
+    "name": "Magic Eden",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sei Network": {
+    "name": "Sei Network",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ether.fi": {
+    "name": "Ether.fi",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "COTI": {
+    "name": "COTI",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Panora Exchange": {
+    "name": "Panora Exchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Carv": {
+    "name": "Carv",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Numerai": {
+    "name": "Numerai",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "API3": {
+    "name": "API3",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Reya": {
+    "name": "Reya",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BadgerDAO": {
+    "name": "BadgerDAO",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "zkSwap Finance": {
+    "name": "zkSwap Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Nodle": {
+    "name": "Nodle",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sanko": {
+    "name": "Sanko",
+    "sector": "Blockchains (L3)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Opus": {
+    "name": "Opus",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Stacks": {
+    "name": "Stacks",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Dinero": {
+    "name": "Dinero",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Folks Finance": {
+    "name": "Folks Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Wormhole": {
+    "name": "Wormhole",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sanctum": {
+    "name": "Sanctum",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Squid": {
+    "name": "Squid",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Merkly": {
+    "name": "Merkly",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mellow Protocol": {
+    "name": "Mellow Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MyShell": {
+    "name": "MyShell",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Karak": {
+    "name": "Karak",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lista DAO": {
+    "name": "Lista DAO",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ready Games Network": {
+    "name": "Ready Games Network",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Term Structure": {
+    "name": "Term Structure",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Harmony": {
+    "name": "Harmony",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Enzyme Finance": {
+    "name": "Enzyme Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MetaDAO": {
+    "name": "MetaDAO",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Koi Finance": {
+    "name": "Koi Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mimic": {
+    "name": "Mimic",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Nostra": {
+    "name": "Nostra",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Inverse Finance": {
+    "name": "Inverse Finance",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Satori Finance": {
+    "name": "Satori Finance",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "re.al": {
+    "name": "re.al",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Zircuit": {
+    "name": "Zircuit",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Subsocial": {
+    "name": "Subsocial",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Reservoir.xyz": {
+    "name": "Reservoir.xyz",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "B.Protocol": {
+    "name": "B.Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SPOT Protocol (ex Ampleforth)": {
+    "name": "SPOT Protocol (ex Ampleforth)",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aspect": {
+    "name": "Aspect",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Illuvium": {
+    "name": "Illuvium",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ERAGON": {
+    "name": "ERAGON",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Tapos": {
+    "name": "Tapos",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Veax": {
+    "name": "Veax",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Phala": {
+    "name": "Phala",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Celo Dollar": {
+    "name": "Celo Dollar",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Homora": {
+    "name": "Homora",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BOB": {
+    "name": "BOB",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Slingshot": {
+    "name": "Slingshot",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ajuna Network": {
+    "name": "Ajuna Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mars Protocol": {
+    "name": "Mars Protocol",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "usdx.money": {
+    "name": "usdx.money",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Polimec": {
+    "name": "Polimec",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Black Panther": {
+    "name": "Black Panther",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Blackbird": {
+    "name": "Blackbird",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "X Layer": {
+    "name": "X Layer",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ring Protocol": {
+    "name": "Ring Protocol",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "EYWA": {
+    "name": "EYWA",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Meteor Wallet": {
+    "name": "Meteor Wallet",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Wapal": {
+    "name": "Wapal",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Meso Finance": {
+    "name": "Meso Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Monerium": {
+    "name": "Monerium",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lynex": {
+    "name": "Lynex",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Alchemix Finance": {
+    "name": "Alchemix Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "The Standard": {
+    "name": "The Standard",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Metaplex": {
+    "name": "Metaplex",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sologenic": {
+    "name": "Sologenic",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Coinshift": {
+    "name": "Coinshift",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rootstock": {
+    "name": "Rootstock",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Zeta Markets": {
+    "name": "Zeta Markets",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hydro Protocol": {
+    "name": "Hydro Protocol",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Blast Bridge": {
+    "name": "Blast Bridge",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Allstake": {
+    "name": "Allstake",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MANTRA": {
+    "name": "MANTRA",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Anzen": {
+    "name": "Anzen",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MYX.Finance": {
+    "name": "MYX.Finance",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rhea Finance": {
+    "name": "Rhea Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Baseline": {
+    "name": "Baseline",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Pac Finance": {
+    "name": "Pac Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Planet IX": {
+    "name": "Planet IX",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "UXUY": {
+    "name": "UXUY",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aave GHO": {
+    "name": "Aave GHO",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "KAI-CHING": {
+    "name": "KAI-CHING",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Predict Fun": {
+    "name": "Predict Fun",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "TrueUSD": {
+    "name": "TrueUSD",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kamino": {
+    "name": "Kamino",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fraxtal": {
+    "name": "Fraxtal",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Impermax Finance": {
+    "name": "Impermax Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "UXLINK": {
+    "name": "UXLINK",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "AptoSwap": {
+    "name": "AptoSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fluxbeam": {
+    "name": "Fluxbeam",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Micro3": {
+    "name": "Micro3",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Degen": {
+    "name": "Degen",
+    "sector": "Blockchains (L3)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Celestia": {
+    "name": "Celestia",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Frequency": {
+    "name": "Frequency",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Acala Network": {
+    "name": "Acala Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Nile Exchange": {
+    "name": "Nile Exchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Switchboard": {
+    "name": "Switchboard",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Idle Finance": {
+    "name": "Idle Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aptin Finance": {
+    "name": "Aptin Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "karpatkey": {
+    "name": "karpatkey",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Alaya AI": {
+    "name": "Alaya AI",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Arkham": {
+    "name": "Arkham",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Botto": {
+    "name": "Botto",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Out": {
+    "name": "Out",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MELD": {
+    "name": "MELD",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Juice Finance": {
+    "name": "Juice Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hercules": {
+    "name": "Hercules",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Garden Finance": {
+    "name": "Garden Finance",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Akash Network": {
+    "name": "Akash Network",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Universal": {
+    "name": "Universal",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Spectra": {
+    "name": "Spectra",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Barnbridge": {
+    "name": "Barnbridge",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Meridian": {
+    "name": "Meridian",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "marginfi": {
+    "name": "marginfi",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kaito": {
+    "name": "Kaito",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "StaFi": {
+    "name": "StaFi",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Pragma": {
+    "name": "Pragma",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Socket": {
+    "name": "Socket",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "PumpBTC": {
+    "name": "PumpBTC",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Phoenix Bonds": {
+    "name": "Phoenix Bonds",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Linea": {
+    "name": "Linea",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Archblock": {
+    "name": "Archblock",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Privy": {
+    "name": "Privy",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ParagonsDAO": {
+    "name": "ParagonsDAO",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mythos": {
+    "name": "Mythos",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ApePro": {
+    "name": "ApePro",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Gyroscope (Gyro Finance)": {
+    "name": "Gyroscope (Gyro Finance)",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ambient": {
+    "name": "Ambient",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lava Network": {
+    "name": "Lava Network",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Dexalot": {
+    "name": "Dexalot",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "The Lost Glitches": {
+    "name": "The Lost Glitches",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Robots.Farm": {
+    "name": "Robots.Farm",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Stabble": {
+    "name": "Stabble",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "DeDust": {
+    "name": "DeDust",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aethir": {
+    "name": "Aethir",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "pump.fun": {
+    "name": "pump.fun",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BlackRock (BUIDL)": {
+    "name": "BlackRock (BUIDL)",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "StarkGate": {
+    "name": "StarkGate",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Galxe": {
+    "name": "Galxe",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Paradise Tycoon": {
+    "name": "Paradise Tycoon",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Revert Finance": {
+    "name": "Revert Finance",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Echelon Market": {
+    "name": "Echelon Market",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ResearchHub": {
+    "name": "ResearchHub",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Polygon zkEVM": {
+    "name": "Polygon zkEVM",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "IO.net": {
+    "name": "IO.net",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Impossible Finance": {
+    "name": "Impossible Finance",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fibrous": {
+    "name": "Fibrous",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Term Finance": {
+    "name": "Term Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SendingMe": {
+    "name": "SendingMe",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Baby Shark Universe": {
+    "name": "Baby Shark Universe",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Unique Network": {
+    "name": "Unique Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Reservoir": {
+    "name": "Reservoir",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Synonym Finance": {
+    "name": "Synonym Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "DIN (ex Web3Go)": {
+    "name": "DIN (ex Web3Go)",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mento": {
+    "name": "Mento",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Europe Fantasy League": {
+    "name": "Europe Fantasy League",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rain.fi": {
+    "name": "Rain.fi",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Limitless": {
+    "name": "Limitless",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Worldcoin": {
+    "name": "Worldcoin",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Stake DAO": {
+    "name": "Stake DAO",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "HOT Protocol": {
+    "name": "HOT Protocol",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Axiom": {
+    "name": "Axiom",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Midas": {
+    "name": "Midas",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lybra Finance": {
+    "name": "Lybra Finance",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Nouns DAO": {
+    "name": "Nouns DAO",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "UMA": {
+    "name": "UMA",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Router Protocol": {
+    "name": "Router Protocol",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "JOJO": {
+    "name": "JOJO",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bedrock": {
+    "name": "Bedrock",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aventus": {
+    "name": "Aventus",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fraxlend": {
+    "name": "Fraxlend",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hippo Labs": {
+    "name": "Hippo Labs",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "OpenLeverage": {
+    "name": "OpenLeverage",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "WAGMI (ex Popsicle Finance)": {
+    "name": "WAGMI (ex Popsicle Finance)",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Injera": {
+    "name": "Injera",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Liquidswap": {
+    "name": "Liquidswap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MOOAR": {
+    "name": "MOOAR",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Resolv": {
+    "name": "Resolv",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Unipilot": {
+    "name": "Unipilot",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Arrakis Finance": {
+    "name": "Arrakis Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BounceBit": {
+    "name": "BounceBit",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "UWON Coin": {
+    "name": "UWON Coin",
+    "sector": "ERC20 Tokens",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Slime Revolution": {
+    "name": "Slime Revolution",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Avantis": {
+    "name": "Avantis",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Darwinia Network": {
+    "name": "Darwinia Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "RabbitX": {
+    "name": "RabbitX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Echo Protocol": {
+    "name": "Echo Protocol",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Biconomy": {
+    "name": "Biconomy",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Hyperlane": {
+    "name": "Hyperlane",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Virtuals Protocol": {
+    "name": "Virtuals Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Proof of Play": {
+    "name": "Proof of Play",
+    "sector": "Blockchains (L3)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Dmail Network": {
+    "name": "Dmail Network",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Paradex": {
+    "name": "Paradex",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Overnight": {
+    "name": "Overnight",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fenix": {
+    "name": "Fenix",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Shape": {
+    "name": "Shape",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "JustLend DAO": {
+    "name": "JustLend DAO",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Tevi": {
+    "name": "Tevi",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kilt": {
+    "name": "Kilt",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ethereum Name Service": {
+    "name": "Ethereum Name Service",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Arweave": {
+    "name": "Arweave",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Prisma Finance": {
+    "name": "Prisma Finance",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Cellana Finance": {
+    "name": "Cellana Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MySwap": {
+    "name": "MySwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BSX Exchange": {
+    "name": "BSX Exchange",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "zkSync Lite": {
+    "name": "zkSync Lite",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Redstone": {
+    "name": "Redstone",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "IPMB": {
+    "name": "IPMB",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Gains Network": {
+    "name": "Gains Network",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Superstate": {
+    "name": "Superstate",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "WINR Protocol": {
+    "name": "WINR Protocol",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Wasabi": {
+    "name": "Wasabi",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Chiliz": {
+    "name": "Chiliz",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "KGen": {
+    "name": "KGen",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Superposition": {
+    "name": "Superposition",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ImmortalX": {
+    "name": "ImmortalX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Raft": {
+    "name": "Raft",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Gitcoin": {
+    "name": "Gitcoin",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Cygnus Finance": {
+    "name": "Cygnus Finance",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aries Markets": {
+    "name": "Aries Markets",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mint Blockchain": {
+    "name": "Mint Blockchain",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mendi Finance": {
+    "name": "Mendi Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Goat Protocol": {
+    "name": "Goat Protocol",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "GoodDollar": {
+    "name": "GoodDollar",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BladeSwap": {
+    "name": "BladeSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ZetaChain": {
+    "name": "ZetaChain",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "World of Dypians": {
+    "name": "World of Dypians",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Stability": {
+    "name": "Stability",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Crust Network": {
+    "name": "Crust Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SUN": {
+    "name": "SUN",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sun Swap": {
+    "name": "Sun Swap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "The Arena": {
+    "name": "The Arena",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Terra": {
+    "name": "Terra",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SmarDex": {
+    "name": "SmarDex",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "SatLayer": {
+    "name": "SatLayer",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Parallel": {
+    "name": "Parallel",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "TapiocaDAO": {
+    "name": "TapiocaDAO",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Octopus Network": {
+    "name": "Octopus Network",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Save": {
+    "name": "Save",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "OmniBTC (OmniSwap)": {
+    "name": "OmniBTC (OmniSwap)",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Super Champs": {
+    "name": "Super Champs",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "NeuroWeb": {
+    "name": "NeuroWeb",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Boba Network": {
+    "name": "Boba Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "EigenLayer": {
+    "name": "EigenLayer",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bluefin": {
+    "name": "Bluefin",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Moola Market": {
+    "name": "Moola Market",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "YOLO Games": {
+    "name": "YOLO Games",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Clique": {
+    "name": "Clique",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BoomLand": {
+    "name": "BoomLand",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ekubo Protocol": {
+    "name": "Ekubo Protocol",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Catalyst": {
+    "name": "Catalyst",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Thorchain": {
+    "name": "Thorchain",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "pods.media": {
+    "name": "pods.media",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Starbase": {
+    "name": "Starbase",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Loopring": {
+    "name": "Loopring",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Nearlend DAO": {
+    "name": "Nearlend DAO",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Stryke": {
+    "name": "Stryke",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Drift Protocol": {
+    "name": "Drift Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "LogX": {
+    "name": "LogX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kiln": {
+    "name": "Kiln",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Cetus": {
+    "name": "Cetus",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Celer Network": {
+    "name": "Celer Network",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aark": {
+    "name": "Aark",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ancient8": {
+    "name": "Ancient8",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Storj": {
+    "name": "Storj",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Magpie XYZ": {
+    "name": "Magpie XYZ",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Jupiter": {
+    "name": "Jupiter",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rings": {
+    "name": "Rings",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Soneium": {
+    "name": "Soneium",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Puffer Finance": {
+    "name": "Puffer Finance",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Thetis Market": {
+    "name": "Thetis Market",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lombard Finance": {
+    "name": "Lombard Finance",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Reserve": {
+    "name": "Reserve",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Superseed": {
+    "name": "Superseed",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "RARI Chain": {
+    "name": "RARI Chain",
+    "sector": "Blockchains (L3)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sorare": {
+    "name": "Sorare",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Abstract": {
+    "name": "Abstract",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "TruFin": {
+    "name": "TruFin",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Meteora": {
+    "name": "Meteora",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "XDC Network": {
+    "name": "XDC Network",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ion Protocol": {
+    "name": "Ion Protocol",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Paxos": {
+    "name": "Paxos",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Talis Protocol": {
+    "name": "Talis Protocol",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Optopia": {
+    "name": "Optopia",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Gram": {
+    "name": "Gram",
+    "sector": "ERC20 Tokens",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Guild of Guardians": {
+    "name": "Guild of Guardians",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Eggs Finance": {
+    "name": "Eggs Finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Astroport": {
+    "name": "Astroport",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ZNS Connect Name Service": {
+    "name": "ZNS Connect Name Service",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Pendulum": {
+    "name": "Pendulum",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Particle": {
+    "name": "Particle",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Coreum": {
+    "name": "Coreum",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sui": {
+    "name": "Sui",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Apeiron": {
+    "name": "Apeiron",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ShapeShift": {
+    "name": "ShapeShift",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Dypius": {
+    "name": "Dypius",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "DYORSWAP": {
+    "name": "DYORSWAP",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bifrost": {
+    "name": "Bifrost",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Polter Finance": {
+    "name": "Polter Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Gamic": {
+    "name": "Gamic",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Definitive": {
+    "name": "Definitive",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Liquid Collective": {
+    "name": "Liquid Collective",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rocket Pool": {
+    "name": "Rocket Pool",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Jumbo Exchange": {
+    "name": "Jumbo Exchange",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "FD121 Limited": {
+    "name": "FD121 Limited",
+    "sector": "Stablecoin issuers",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Emojicoin.fun": {
+    "name": "Emojicoin.fun",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "4EVERLAND": {
+    "name": "4EVERLAND",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bitwise (ETHW)": {
+    "name": "Bitwise (ETHW)",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Pichi Finance": {
+    "name": "Pichi Finance",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aftermath Finance": {
+    "name": "Aftermath Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Stake.com": {
+    "name": "Stake.com",
+    "sector": "Prediction markets",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Secret Network": {
+    "name": "Secret Network",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Spacebar": {
+    "name": "Spacebar",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "RabbitSwap": {
+    "name": "RabbitSwap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "NAVI Protocol": {
+    "name": "NAVI Protocol",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Beefy": {
+    "name": "Beefy",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Rho Protocol": {
+    "name": "Rho Protocol",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Exactly Protocol": {
+    "name": "Exactly Protocol",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "XY Finance": {
+    "name": "XY Finance",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "yearn.finance": {
+    "name": "yearn.finance",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Colony": {
+    "name": "Colony",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Helix": {
+    "name": "Helix",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Bungee": {
+    "name": "Bungee",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Vana": {
+    "name": "Vana",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Everyworld": {
+    "name": "Everyworld",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Synthswap": {
+    "name": "Synthswap",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Alkimiya": {
+    "name": "Alkimiya",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "MetaMask": {
+    "name": "MetaMask",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Interlay": {
+    "name": "Interlay",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fuel Ignition": {
+    "name": "Fuel Ignition",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Phoenix": {
+    "name": "Phoenix",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Vaultka": {
+    "name": "Vaultka",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sweatcoin": {
+    "name": "Sweatcoin",
+    "sector": "Social",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Plume Network": {
+    "name": "Plume Network",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Kage Finance": {
+    "name": "Kage Finance",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Thala": {
+    "name": "Thala",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Sakai Vault": {
+    "name": "Sakai Vault",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Aevo": {
+    "name": "Aevo",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Dolomite": {
+    "name": "Dolomite",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Symbiotic": {
+    "name": "Symbiotic",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "AI Protocol": {
+    "name": "AI Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "XRP": {
+    "name": "XRP",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Skip Protocol": {
+    "name": "Skip Protocol",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Lagrange": {
+    "name": "Lagrange",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "RealT": {
+    "name": "RealT",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Navigator": {
+    "name": "Navigator",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Seraph": {
+    "name": "Seraph",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Franklin Templeton (FOBXX)": {
+    "name": "Franklin Templeton (FOBXX)",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fantasy": {
+    "name": "Fantasy",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "dHedge": {
+    "name": "dHedge",
+    "sector": "Asset management",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Mode Network": {
+    "name": "Mode Network",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Ellipsis Finance": {
+    "name": "Ellipsis Finance",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "nftperp": {
+    "name": "nftperp",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "dForce": {
+    "name": "dForce",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Safe": {
+    "name": "Safe",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Centrifuge": {
+    "name": "Centrifuge",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Getgems": {
+    "name": "Getgems",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Forgotten Runiverse": {
+    "name": "Forgotten Runiverse",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Flow": {
+    "name": "Flow",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "AZERO ID": {
+    "name": "AZERO ID",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Fragmetric": {
+    "name": "Fragmetric",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "Orbiter Finance": {
+    "name": "Orbiter Finance",
+    "sector": "Bridges",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "ZKFair": {
+    "name": "ZKFair",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "BasePaint": {
+    "name": "BasePaint",
+    "sector": "NFT marketplaces",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "White Whale": {
+    "name": "White Whale",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  },
+  "STEPN": {
+    "name": "STEPN",
+    "sector": "Gaming",
+    "scores": {
+      "earnings_quality": null,
+      "stability": null,
+      "magnitude": null
+    }
+  }
+}

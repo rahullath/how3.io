@@ -1,0 +1,2573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earnings Quality Score</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #4285F4;
+            --secondary: #F1C40F; 
+            --good: #34A853;
+            --average: #FBBC05;
+            --poor: #EA4335;
+            --bg-light: #f8f9fa;
+            --text-dark: #202124;
+            --text-light: #5f6368;
+            --border: #dadce0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.5;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .project-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        
+        .project-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .project-title {
+            margin: 0;
+            font-size: 32px;
+            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+        }
+        
+        .project-subtitle {
+            color: var(--text-light);
+            font-weight: normal;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        
+        .score-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+        
+        .score-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            background-color: var(--bg-light);
+        }
+        
+        .score-pill.eqs {
+            background-color: var(--good);
+            color: white;
+        }
+        
+        .score-pill.average {
+            background-color: var(--average);
+            color: black;
+        }
+        
+        .score-pill.poor {
+            background-color: var(--poor);
+            color: white;
+        }
+        
+        .metrics-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            background-color: var(--border);
+        }
+        
+        .metric-box {
+            background-color: white;
+            padding: 24px;
+        }
+        
+        .metric-box.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .metric-title {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .info-icon {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: var(--text-light);
+            color: white;
+            text-align: center;
+            font-size: 12px;
+            line-height: 16px;
+            margin-left: 8px;
+            cursor: help;
+        }
+        
+        .metric-description {
+            color: var(--text-light);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .score-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .score-label {
+            width: 120px;
+            font-weight: 500;
+        }
+        
+        .score-value {
+            font-size: 24px;
+            font-weight: bold;
+            width: 60px;
+            text-align: right;
+        }
+        
+        .score-chart {
+            flex-grow: 1;
+            height: 24px;
+            position: relative;
+            margin: 0 15px;
+        }
+        
+        .score-bar {
+            height: 12px;
+            background-color: var(--bg-light);
+            border-radius: 6px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .score-fill {
+            position: absolute;
+            height: 100%;
+            border-radius: 6px;
+            transition: width 1s ease-in-out;
+        }
+        
+        .score-fill.project {
+            background-color: var(--primary);
+            z-index: 2;
+        }
+        
+        .score-fill.industry {
+            background-color: var(--text-light);
+            opacity: 0.4;
+            z-index: 1;
+        }
+        
+        .marker {
+            position: absolute;
+            top: -6px;
+            transform: translateX(-50%);
+        }
+        
+        .marker.project {
+            color: var(--primary);
+            font-weight: 500;
+            font-size: 13px;
+        }
+        
+        .marker.industry {
+            color: var(--text-light);
+            font-size: 13px;
+        }
+        
+        .calc-box {
+            background-color: var(--bg-light);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .calc-formula {
+            font-family: monospace;
+            font-size: 16px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        
+        .calc-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .calc-label {
+            flex: 1;
+        }
+        
+        .calc-value {
+            font-weight: 500;
+            width: 60px;
+            text-align: right;
+        }
+        
+        .revenue-chart {
+            height: 300px;
+            margin-top: 20px;
+        }
+        
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltip-text {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .metrics-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Earnings Quality Score Analysis</h1>
+        <p>Compare project metrics against industry averages to understand performance in context.</p>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Aave <span class="project-subtitle">(Lending)</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 62.67</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">55.82</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">23.58</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">62.67</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 79.74%;"></div>
+                                <div class="score-fill industry" style="width: 73.05%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 79.74%;">79.74</div>
+                            <div class="marker industry" style="left: 73.05%;">Avg: 73.05</div>
+                        </div>
+                        <div class="score-value">79.74</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Aave's stability score is <strong>79.74</strong>, which is
+                         higher than 
+                        the Lending industry average of <strong>73.05</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 78.59%;"></div>
+                                <div class="score-fill industry" style="width: 67.42666666666666%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 78.59%;">78.59</div>
+                            <div class="marker industry" style="left: 67.42666666666666%;">Avg: 67.43</div>
+                        </div>
+                        <div class="score-value">78.59</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Aave's magnitude score is <strong>78.59</strong>, which is
+                         higher than 
+                        the Lending industry average of <strong>67.43</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="aave_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('aave_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [71893756.36, 117568905.78, 115681149.83, 94934539.65],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $71.89M", "Quarterly revenue (annualized): $117.57M", "Semi-annual revenue (annualized): $115.68M", "Annual revenue: $94.93M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">GMX <span class="project-subtitle">(Derivative exchanges)</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 50.32</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">48.47</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">21.80</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">50.32</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 69.24%;"></div>
+                                <div class="score-fill industry" style="width: 70.015%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 69.24%;">69.24</div>
+                            <div class="marker industry" style="left: 70.015%;">Avg: 70.02</div>
+                        </div>
+                        <div class="score-value">69.24</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        GMX's stability score is <strong>69.24</strong>, which is
+                         lower than 
+                        the Derivative exchanges industry average of <strong>70.02</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 72.67%;"></div>
+                                <div class="score-fill industry" style="width: 67.555%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 72.67%;">72.67</div>
+                            <div class="marker industry" style="left: 67.555%;">Avg: 67.56</div>
+                        </div>
+                        <div class="score-value">72.67</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        GMX's magnitude score is <strong>72.67</strong>, which is
+                         higher than 
+                        the Derivative exchanges industry average of <strong>67.56</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="gmx_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('gmx_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [22204729.94, 32928039.09, 36029455.8, 31671548.68],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $22.20M", "Quarterly revenue (annualized): $32.93M", "Semi-annual revenue (annualized): $36.03M", "Annual revenue: $31.67M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Lido Finance <span class="project-subtitle">(Liquid staking)</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 62.60</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">56.13</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">23.42</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">62.60</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 80.19%;"></div>
+                                <div class="score-fill industry" style="width: 80.19%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 80.19%;">80.19</div>
+                            <div class="marker industry" style="left: 80.19%;">Avg: 80.19</div>
+                        </div>
+                        <div class="score-value">80.19</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Lido Finance's stability score is <strong>80.19</strong>, which is
+                         equal to 
+                        the Liquid staking industry average of <strong>80.19</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 78.07%;"></div>
+                                <div class="score-fill industry" style="width: 78.07%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 78.07%;">78.07</div>
+                            <div class="marker industry" style="left: 78.07%;">Avg: 78.07</div>
+                        </div>
+                        <div class="score-value">78.07</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Lido Finance's magnitude score is <strong>78.07</strong>, which is
+                         equal to 
+                        the Liquid staking industry average of <strong>78.07</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="lido_finance_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('lido_finance_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [64857708.46, 86453388.81, 91719859.23, 98360876.7],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $64.86M", "Quarterly revenue (annualized): $86.45M", "Semi-annual revenue (annualized): $91.72M", "Annual revenue: $98.36M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Bitcoin <span class="project-subtitle">(Blockchains (L1))</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill ">EQS: 0.00</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">47.13</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">0.00</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">0.00</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 67.33%;"></div>
+                                <div class="score-fill industry" style="width: 56.455%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 67.33%;">67.33</div>
+                            <div class="marker industry" style="left: 56.455%;">Avg: 56.45</div>
+                        </div>
+                        <div class="score-value">67.33</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Bitcoin's stability score is <strong>67.33</strong>, which is
+                         higher than 
+                        the Blockchains (L1) industry average of <strong>56.45</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 0%;"></div>
+                                <div class="score-fill industry" style="width: 55.315%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 0%;">0.00</div>
+                            <div class="marker industry" style="left: 55.315%;">Avg: 55.31</div>
+                        </div>
+                        <div class="score-value">0.00</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Bitcoin's magnitude score is <strong>0.00</strong>, which is
+                         lower than 
+                        the Blockchains (L1) industry average of <strong>55.31</strong>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Uniswap Labs <span class="project-subtitle">(Exchanges (DEX))</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 53.83</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">49.18</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">22.99</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">53.83</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 70.26%;"></div>
+                                <div class="score-fill industry" style="width: 74.46000000000001%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 70.26%;">70.26</div>
+                            <div class="marker industry" style="left: 74.46000000000001%;">Avg: 74.46</div>
+                        </div>
+                        <div class="score-value">70.26</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Uniswap Labs's stability score is <strong>70.26</strong>, which is
+                         lower than 
+                        the Exchanges (DEX) industry average of <strong>74.46</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 76.62%;"></div>
+                                <div class="score-fill industry" style="width: 74.445%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 76.62%;">76.62</div>
+                            <div class="marker industry" style="left: 74.445%;">Avg: 74.44</div>
+                        </div>
+                        <div class="score-value">76.62</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Uniswap Labs's magnitude score is <strong>76.62</strong>, which is
+                         higher than 
+                        the Exchanges (DEX) industry average of <strong>74.44</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="uniswap_labs_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('uniswap_labs_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [48569805.38, 83094309.9, 100168603.1, 99266322.66],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $48.57M", "Quarterly revenue (annualized): $83.09M", "Semi-annual revenue (annualized): $100.17M", "Annual revenue: $99.27M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">BNB Chain <span class="project-subtitle">(Blockchains (L1))</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 48.50</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">45.88</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">22.20</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">48.50</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 65.54%;"></div>
+                                <div class="score-fill industry" style="width: 56.455%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 65.54%;">65.54</div>
+                            <div class="marker industry" style="left: 56.455%;">Avg: 56.45</div>
+                        </div>
+                        <div class="score-value">65.54</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        BNB Chain's stability score is <strong>65.54</strong>, which is
+                         higher than 
+                        the Blockchains (L1) industry average of <strong>56.45</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 74.0%;"></div>
+                                <div class="score-fill industry" style="width: 55.315%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 74.0%;">74.00</div>
+                            <div class="marker industry" style="left: 55.315%;">Avg: 55.31</div>
+                        </div>
+                        <div class="score-value">74.00</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        BNB Chain's magnitude score is <strong>74.00</strong>, which is
+                         higher than 
+                        the Blockchains (L1) industry average of <strong>55.31</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="bnb_chain_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('bnb_chain_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [28877244.6, 27386673.61, 22737226.27, 20249375.82],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $28.88M", "Quarterly revenue (annualized): $27.39M", "Semi-annual revenue (annualized): $22.74M", "Annual revenue: $20.25M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">OP Mainnet <span class="project-subtitle">(Blockchains (L2))</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 52.07</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">51.89</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">21.07</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">52.07</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 74.13%;"></div>
+                                <div class="score-fill industry" style="width: 74.13%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 74.13%;">74.13</div>
+                            <div class="marker industry" style="left: 74.13%;">Avg: 74.13</div>
+                        </div>
+                        <div class="score-value">74.13</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        OP Mainnet's stability score is <strong>74.13</strong>, which is
+                         equal to 
+                        the Blockchains (L2) industry average of <strong>74.13</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 70.24%;"></div>
+                                <div class="score-fill industry" style="width: 70.24%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 70.24%;">70.24</div>
+                            <div class="marker industry" style="left: 70.24%;">Avg: 70.24</div>
+                        </div>
+                        <div class="score-value">70.24</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        OP Mainnet's magnitude score is <strong>70.24</strong>, which is
+                         equal to 
+                        the Blockchains (L2) industry average of <strong>70.24</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="op_mainnet_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('op_mainnet_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [13690650.23, 21902174.69, 22833401.87, 26333084.94],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $13.69M", "Quarterly revenue (annualized): $21.90M", "Semi-annual revenue (annualized): $22.83M", "Annual revenue: $26.33M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Pendle <span class="project-subtitle">(Derivative exchanges)</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 44.20</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">49.55</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">18.73</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">44.20</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 70.79%;"></div>
+                                <div class="score-fill industry" style="width: 70.015%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 70.79%;">70.79</div>
+                            <div class="marker industry" style="left: 70.015%;">Avg: 70.02</div>
+                        </div>
+                        <div class="score-value">70.79</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Pendle's stability score is <strong>70.79</strong>, which is
+                         higher than 
+                        the Derivative exchanges industry average of <strong>70.02</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 62.44%;"></div>
+                                <div class="score-fill industry" style="width: 67.555%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 62.44%;">62.44</div>
+                            <div class="marker industry" style="left: 67.555%;">Avg: 67.56</div>
+                        </div>
+                        <div class="score-value">62.44</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Pendle's magnitude score is <strong>62.44</strong>, which is
+                         lower than 
+                        the Derivative exchanges industry average of <strong>67.56</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="pendle_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('pendle_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [2911160.17, 9914377.53, 9745875.84, 12616154.94],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $2.91M", "Quarterly revenue (annualized): $9.91M", "Semi-annual revenue (annualized): $9.75M", "Annual revenue: $12.62M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Curve <span class="project-subtitle">(Exchanges (DEX))</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 56.85</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">55.06</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">21.68</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">56.85</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 78.66%;"></div>
+                                <div class="score-fill industry" style="width: 74.46000000000001%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 78.66%;">78.66</div>
+                            <div class="marker industry" style="left: 74.46000000000001%;">Avg: 74.46</div>
+                        </div>
+                        <div class="score-value">78.66</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Curve's stability score is <strong>78.66</strong>, which is
+                         higher than 
+                        the Exchanges (DEX) industry average of <strong>74.46</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 72.27%;"></div>
+                                <div class="score-fill industry" style="width: 74.445%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 72.27%;">72.27</div>
+                            <div class="marker industry" style="left: 74.445%;">Avg: 74.44</div>
+                        </div>
+                        <div class="score-value">72.27</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Curve's magnitude score is <strong>72.27</strong>, which is
+                         lower than 
+                        the Exchanges (DEX) industry average of <strong>74.44</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="curve_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('curve_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [20473853.3, 31925111.86, 33190523.5, 40199688.6],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $20.47M", "Quarterly revenue (annualized): $31.93M", "Semi-annual revenue (annualized): $33.19M", "Annual revenue: $40.20M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Maple Finance <span class="project-subtitle">(Lending)</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill average">EQS: 54.32</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">59.84</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">19.06</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">54.32</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 85.49%;"></div>
+                                <div class="score-fill industry" style="width: 73.05%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 85.49%;">85.49</div>
+                            <div class="marker industry" style="left: 73.05%;">Avg: 73.05</div>
+                        </div>
+                        <div class="score-value">85.49</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Maple Finance's stability score is <strong>85.49</strong>, which is
+                         higher than 
+                        the Lending industry average of <strong>73.05</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 63.54%;"></div>
+                                <div class="score-fill industry" style="width: 67.42666666666666%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 63.54%;">63.54</div>
+                            <div class="marker industry" style="left: 67.42666666666666%;">Avg: 67.43</div>
+                        </div>
+                        <div class="score-value">63.54</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Maple Finance's magnitude score is <strong>63.54</strong>, which is
+                         lower than 
+                        the Lending industry average of <strong>67.43</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="maple_finance_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('maple_finance_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [3620640.04, 3960155.87, 4317286.5, 3243481.85],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $3.62M", "Quarterly revenue (annualized): $3.96M", "Semi-annual revenue (annualized): $4.32M", "Annual revenue: $3.24M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Compound <span class="project-subtitle">(Lending)</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill poor">EQS: 32.43</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">37.74</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">18.04</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">32.43</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 53.92%;"></div>
+                                <div class="score-fill industry" style="width: 73.05%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 53.92%;">53.92</div>
+                            <div class="marker industry" style="left: 73.05%;">Avg: 73.05</div>
+                        </div>
+                        <div class="score-value">53.92</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Compound's stability score is <strong>53.92</strong>, which is
+                         lower than 
+                        the Lending industry average of <strong>73.05</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 60.15%;"></div>
+                                <div class="score-fill industry" style="width: 67.42666666666666%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 60.15%;">60.15</div>
+                            <div class="marker industry" style="left: 67.42666666666666%;">Avg: 67.43</div>
+                        </div>
+                        <div class="score-value">60.15</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Compound's magnitude score is <strong>60.15</strong>, which is
+                         lower than 
+                        the Lending industry average of <strong>67.43</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="compound_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('compound_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [1848150.16, 5081461.73, 5896869.34, 7555853.44],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $1.85M", "Quarterly revenue (annualized): $5.08M", "Semi-annual revenue (annualized): $5.90M", "Annual revenue: $7.56M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Ethereum <span class="project-subtitle">(Blockchains (L1))</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill poor">EQS: 26.40</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">22.79</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">24.32</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">26.40</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 32.56%;"></div>
+                                <div class="score-fill industry" style="width: 56.455%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 32.56%;">32.56</div>
+                            <div class="marker industry" style="left: 56.455%;">Avg: 56.45</div>
+                        </div>
+                        <div class="score-value">32.56</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Ethereum's stability score is <strong>32.56</strong>, which is
+                         lower than 
+                        the Blockchains (L1) industry average of <strong>56.45</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 81.08%;"></div>
+                                <div class="score-fill industry" style="width: 55.315%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 81.08%;">81.08</div>
+                            <div class="marker industry" style="left: 55.315%;">Avg: 55.31</div>
+                        </div>
+                        <div class="score-value">81.08</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Ethereum's magnitude score is <strong>81.08</strong>, which is
+                         higher than 
+                        the Blockchains (L1) industry average of <strong>55.31</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="ethereum_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('ethereum_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [117831646.86, 660083758.82, 1188543567.4, 1175306508.17],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $117.83M", "Quarterly revenue (annualized): $660.08M", "Semi-annual revenue (annualized): $1.19B", "Annual revenue: $1.18B"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Avalanche <span class="project-subtitle">(Blockchains (L1))</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill poor">EQS: 39.96</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">42.27</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">19.85</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">39.96</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 60.39%;"></div>
+                                <div class="score-fill industry" style="width: 56.455%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 60.39%;">60.39</div>
+                            <div class="marker industry" style="left: 56.455%;">Avg: 56.45</div>
+                        </div>
+                        <div class="score-value">60.39</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Avalanche's stability score is <strong>60.39</strong>, which is
+                         higher than 
+                        the Blockchains (L1) industry average of <strong>56.45</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 66.18%;"></div>
+                                <div class="score-fill industry" style="width: 55.315%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 66.18%;">66.18</div>
+                            <div class="marker industry" style="left: 55.315%;">Avg: 55.31</div>
+                        </div>
+                        <div class="score-value">66.18</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Avalanche's magnitude score is <strong>66.18</strong>, which is
+                         higher than 
+                        the Blockchains (L1) industry average of <strong>55.31</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="avalanche_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('avalanche_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [6116307.3, 6034783.38, 11028513.66, 11523568.23],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $6.12M", "Quarterly revenue (annualized): $6.03M", "Semi-annual revenue (annualized): $11.03M", "Annual revenue: $11.52M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Chainlink <span class="project-subtitle">(Infrastructure)</span></h2>
+                <div class="score-pills">
+                    <div class="score-pill poor">EQS: 26.85</div>
+                </div>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- Calculation Box -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        How is the EQS Score Calculated? 
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">The Earnings Quality Score combines stability (70% weight) and magnitude (30% weight) to measure overall earnings quality.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="calc-box">
+                        <div class="calc-formula">
+                            EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Stability Score × 0.7</div>
+                            <div class="calc-value">39.12</div>
+                        </div>
+                        
+                        <div class="calc-row">
+                            <div class="calc-label">Magnitude Score × 0.3</div>
+                            <div class="calc-value">14.41</div>
+                        </div>
+                        
+                        <div class="calc-row" style="font-weight: bold;">
+                            <div class="calc-label">Earnings Quality Score</div>
+                            <div class="calc-value">26.85</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Stability Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures how consistent revenue is over time. Higher scores indicate less volatility.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 55.88%;"></div>
+                                <div class="score-fill industry" style="width: 55.88%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 55.88%;">55.88</div>
+                            <div class="marker industry" style="left: 55.88%;">Avg: 55.88</div>
+                        </div>
+                        <div class="score-value">55.88</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Chainlink's stability score is <strong>55.88</strong>, which is
+                         equal to 
+                        the Infrastructure industry average of <strong>55.88</strong>.
+                    </p>
+                </div>
+                
+                <!-- Magnitude Score -->
+                <div class="metric-box">
+                    <h3 class="metric-title">
+                        Magnitude Score
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Measures the relative size of revenue compared to peers. Higher scores indicate larger revenue.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="score-row">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-chart">
+                            <div class="score-bar">
+                                <div class="score-fill project" style="width: 48.05%;"></div>
+                                <div class="score-fill industry" style="width: 48.05%;"></div>
+                            </div>
+                            <div class="marker project" style="left: 48.05%;">48.05</div>
+                            <div class="marker industry" style="left: 48.05%;">Avg: 48.05</div>
+                        </div>
+                        <div class="score-value">48.05</div>
+                    </div>
+                    
+                    <p class="metric-description">
+                        Chainlink's magnitude score is <strong>48.05</strong>, which is
+                         equal to 
+                        the Infrastructure industry average of <strong>48.05</strong>.
+                    </p>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box full-width">
+                    <h3 class="metric-title">
+                        Revenue Consistency
+                        <div class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltip-text">Shows revenue across different time periods, annualized for easier comparison.</span>
+                        </div>
+                    </h3>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="chainlink_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('chainlink_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [167169.98, 377652.28, 480993.48, 632965.72],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $167.17K", "Quarterly revenue (annualized): $377.65K", "Semi-annual revenue (annualized): $480.99K", "Annual revenue: $632.97K"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

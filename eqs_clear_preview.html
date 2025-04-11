@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earnings Quality Score</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #4285F4;
+            --secondary: #F1C40F; 
+            --good: #34A853;
+            --average: #FBBC05;
+            --poor: #EA4335;
+            --bg-light: #f8f9fa;
+            --text-dark: #202124;
+            --text-light: #5f6368;
+            --border: #dadce0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.5;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .project-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        
+        .project-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .project-title {
+            margin: 0;
+            font-size: 32px;
+            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+        }
+        
+        .project-subtitle {
+            color: var(--text-light);
+            font-weight: normal;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        
+        .metrics-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background-color: var(--border);
+        }
+        
+        .metric-box {
+            background-color: white;
+            padding: 24px;
+        }
+        
+        .metric-title {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        
+        .metric-description {
+            color: var(--text-light);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .score-display {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        
+        .good-score {
+            color: var(--good);
+        }
+        
+        .average-score {
+            color: var(--average);
+        }
+        
+        .poor-score {
+            color: var(--poor);
+        }
+        
+        .calculation-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .calculation-label {
+            flex: 1;
+            font-size: 16px;
+        }
+        
+        .calculation-formula {
+            font-family: monospace;
+            font-size: 15px;
+            color: var(--text-light);
+            margin-bottom: 16px;
+            background-color: var(--bg-light);
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+        
+        .calculation-value {
+            font-weight: 500;
+            font-size: 16px;
+            width: 60px;
+            text-align: right;
+        }
+        
+        .bar-outer {
+            height: 8px;
+            background-color: var(--bg-light);
+            border-radius: 4px;
+            overflow: hidden;
+            flex: 2;
+            margin: 0 16px;
+        }
+        
+        .bar-inner {
+            height: 100%;
+            border-radius: 4px;
+        }
+        
+        .bar-inner.stability {
+            background-color: var(--primary);
+        }
+        
+        .bar-inner.magnitude {
+            background-color: var(--secondary);
+        }
+        
+        .bar-inner.eqs {
+            background: linear-gradient(90deg, var(--primary) 70%, var(--secondary) 30%);
+        }
+        
+        .revenue-chart {
+            height: 300px;
+            margin-top: 20px;
+        }
+        
+        .metric-additional {
+            margin-top: 16px;
+            font-size: 14px;
+            color: var(--text-light);
+        }
+        
+        .revenue-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .metrics-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Aave <span class="project-subtitle">(Lending)</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">62.67</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 79.74%;"></div>
+                        </div>
+                        <div class="calculation-value">55.82</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 78.59%;"></div>
+                        </div>
+                        <div class="calculation-value">23.58</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">79.74</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">78.59</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$94.93M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="aave_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('aave_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [71893756.36, 117568905.78, 115681149.83, 94934539.65],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $71.89M", "Quarterly revenue (annualized): $117.57M", "Semi-annual revenue (annualized): $115.68M", "Annual revenue: $94.93M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">GMX <span class="project-subtitle">(Derivative exchanges)</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">50.32</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 69.24%;"></div>
+                        </div>
+                        <div class="calculation-value">48.47</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 72.67%;"></div>
+                        </div>
+                        <div class="calculation-value">21.8</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">69.24</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">72.67</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$31.67M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="gmx_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('gmx_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [22204729.94, 32928039.09, 36029455.8, 31671548.68],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $22.20M", "Quarterly revenue (annualized): $32.93M", "Semi-annual revenue (annualized): $36.03M", "Annual revenue: $31.67M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Lido Finance <span class="project-subtitle">(Liquid staking)</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">62.6</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 80.19%;"></div>
+                        </div>
+                        <div class="calculation-value">56.13</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 78.07%;"></div>
+                        </div>
+                        <div class="calculation-value">23.42</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">80.19</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">78.07</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$98.36M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="lido_finance_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('lido_finance_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [64857708.46, 86453388.81, 91719859.23, 98360876.7],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $64.86M", "Quarterly revenue (annualized): $86.45M", "Semi-annual revenue (annualized): $91.72M", "Annual revenue: $98.36M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Bitcoin <span class="project-subtitle">(Blockchains (L1))</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display ">0</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 67.33%;"></div>
+                        </div>
+                        <div class="calculation-value">47.13</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 0%;"></div>
+                        </div>
+                        <div class="calculation-value">0.0</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">67.33</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">0</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Uniswap Labs <span class="project-subtitle">(Exchanges (DEX))</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">53.83</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 70.26%;"></div>
+                        </div>
+                        <div class="calculation-value">49.18</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 76.62%;"></div>
+                        </div>
+                        <div class="calculation-value">22.99</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">70.26</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">76.62</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$99.27M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="uniswap_labs_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('uniswap_labs_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [48569805.38, 83094309.9, 100168603.1, 99266322.66],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $48.57M", "Quarterly revenue (annualized): $83.09M", "Semi-annual revenue (annualized): $100.17M", "Annual revenue: $99.27M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">BNB Chain <span class="project-subtitle">(Blockchains (L1))</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">48.5</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 65.54%;"></div>
+                        </div>
+                        <div class="calculation-value">45.88</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 74.0%;"></div>
+                        </div>
+                        <div class="calculation-value">22.2</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">65.54</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">74.0</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$20.25M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="bnb_chain_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('bnb_chain_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [28877244.6, 27386673.61, 22737226.27, 20249375.82],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $28.88M", "Quarterly revenue (annualized): $27.39M", "Semi-annual revenue (annualized): $22.74M", "Annual revenue: $20.25M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">OP Mainnet <span class="project-subtitle">(Blockchains (L2))</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">52.07</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 74.13%;"></div>
+                        </div>
+                        <div class="calculation-value">51.89</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 70.24%;"></div>
+                        </div>
+                        <div class="calculation-value">21.07</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">74.13</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">70.24</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$26.33M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="op_mainnet_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('op_mainnet_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [13690650.23, 21902174.69, 22833401.87, 26333084.94],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $13.69M", "Quarterly revenue (annualized): $21.90M", "Semi-annual revenue (annualized): $22.83M", "Annual revenue: $26.33M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Pendle <span class="project-subtitle">(Derivative exchanges)</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">44.2</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 70.79%;"></div>
+                        </div>
+                        <div class="calculation-value">49.55</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 62.44%;"></div>
+                        </div>
+                        <div class="calculation-value">18.73</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">70.79</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">62.44</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$12.62M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="pendle_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('pendle_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [2911160.17, 9914377.53, 9745875.84, 12616154.94],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $2.91M", "Quarterly revenue (annualized): $9.91M", "Semi-annual revenue (annualized): $9.75M", "Annual revenue: $12.62M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Curve <span class="project-subtitle">(Exchanges (DEX))</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">56.85</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 78.66%;"></div>
+                        </div>
+                        <div class="calculation-value">55.06</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 72.27%;"></div>
+                        </div>
+                        <div class="calculation-value">21.68</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">78.66</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">72.27</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$40.20M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="curve_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('curve_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [20473853.3, 31925111.86, 33190523.5, 40199688.6],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $20.47M", "Quarterly revenue (annualized): $31.93M", "Semi-annual revenue (annualized): $33.19M", "Annual revenue: $40.20M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Maple Finance <span class="project-subtitle">(Lending)</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display average">54.32</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 85.49%;"></div>
+                        </div>
+                        <div class="calculation-value">59.84</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 63.54%;"></div>
+                        </div>
+                        <div class="calculation-value">19.06</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">85.49</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">63.54</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$3.24M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="maple_finance_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('maple_finance_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [3620640.04, 3960155.87, 4317286.5, 3243481.85],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $3.62M", "Quarterly revenue (annualized): $3.96M", "Semi-annual revenue (annualized): $4.32M", "Annual revenue: $3.24M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Compound <span class="project-subtitle">(Lending)</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display poor">32.43</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 53.92%;"></div>
+                        </div>
+                        <div class="calculation-value">37.74</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 60.15%;"></div>
+                        </div>
+                        <div class="calculation-value">18.04</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">53.92</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">60.15</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$7.56M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="compound_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('compound_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [1848150.16, 5081461.73, 5896869.34, 7555853.44],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $1.85M", "Quarterly revenue (annualized): $5.08M", "Semi-annual revenue (annualized): $5.90M", "Annual revenue: $7.56M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Ethereum <span class="project-subtitle">(Blockchains (L1))</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display poor">26.4</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 32.56%;"></div>
+                        </div>
+                        <div class="calculation-value">22.79</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 81.08%;"></div>
+                        </div>
+                        <div class="calculation-value">24.32</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">32.56</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">81.08</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$1.18B</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="ethereum_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('ethereum_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [117831646.86, 660083758.82, 1188543567.4, 1175306508.17],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $117.83M", "Quarterly revenue (annualized): $660.08M", "Semi-annual revenue (annualized): $1.19B", "Annual revenue: $1.18B"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Avalanche <span class="project-subtitle">(Blockchains (L1))</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display poor">39.96</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 60.39%;"></div>
+                        </div>
+                        <div class="calculation-value">42.27</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 66.18%;"></div>
+                        </div>
+                        <div class="calculation-value">19.85</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">60.39</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">66.18</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$11.52M</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="avalanche_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('avalanche_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [6116307.3, 6034783.38, 11028513.66, 11523568.23],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $6.12M", "Quarterly revenue (annualized): $6.03M", "Semi-annual revenue (annualized): $11.03M", "Annual revenue: $11.52M"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h2 class="project-title">Chainlink <span class="project-subtitle">(Infrastructure)</span></h2>
+            </div>
+            
+            <div class="metrics-container">
+                <!-- EQS Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Earnings Quality Score</h3>
+                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+                    
+                    <div class="score-display poor">26.85</div>
+                    
+                    <div class="calculation-formula">
+                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Stability Score × 0.7</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner stability" style="width: 55.88%;"></div>
+                        </div>
+                        <div class="calculation-value">39.12</div>
+                    </div>
+                    
+                    <div class="calculation-row">
+                        <div class="calculation-label">Magnitude Score × 0.3</div>
+                        <div class="bar-outer">
+                            <div class="bar-inner magnitude" style="width: 48.05%;"></div>
+                        </div>
+                        <div class="calculation-value">14.41</div>
+                    </div>
+                </div>
+                
+                <!-- Stability Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Stability Score</h3>
+                    <p class="metric-description">Measures how consistent revenue is over time</p>
+                    
+                    <div class="score-display" style="color: var(--primary);">55.88</div>
+                    
+                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+                </div>
+                
+                <!-- Magnitude Score Box -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Magnitude Score</h3>
+                    <p class="metric-description">Measures the relative size of revenue</p>
+                    
+                    <div class="score-display" style="color: var(--secondary);">48.05</div>
+                    
+                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
+                </div>
+
+                <!-- Annual Revenue -->
+                <div class="metric-box">
+                    <h3 class="metric-title">Annual Revenue</h3>
+                    <p class="metric-description">Total revenue generated over the past year</p>
+                    
+                    <div class="revenue-value">$632.97K</div>
+                </div>
+
+                <!-- Revenue Consistency -->
+                <div class="metric-box" style="grid-column: span 2;">
+                    <h3 class="metric-title">Revenue Consistency</h3>
+                    <p class="metric-description">Revenue across different time periods (annualized)</p>
+                    
+                    <div class="revenue-chart">
+                        <canvas id="chainlink_revenue_consistency"></canvas>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const ctx = document.getElementById('chainlink_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
+                                        label: 'Annualized Revenue',
+                                        data: [167169.98, 377652.28, 480993.48, 632965.72],
+                                        backgroundColor: '#4285F4',
+                                        borderRadius: 6,
+                                        barPercentage: 0.6
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $167.17K", "Quarterly revenue (annualized): $377.65K", "Semi-annual revenue (annualized): $480.99K", "Annual revenue: $632.97K"][context.dataIndex];
+                                                }
+                                            }
+                                        },
+                                        legend: {
+                                            display: false
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            ticks: {
+                                                callback: function(value) {
+                                                    if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+                                                    if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
+                                                    if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
+                                                    return '$' + value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

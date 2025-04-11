@@ -175,7 +175,6 @@ class FairValueAnalyzer:
                 'token_supply': 0.05,
                 'token_distribution': 0.10
             },
-            # Default weights for any other sector
             'default': {
                 'market_cap': 0.20,
                 'revenue': 0.25,
@@ -742,56 +741,57 @@ class FairValueAnalyzer:
     def analyze_all_projects(self, output_file: Optional[str] = None) -> pd.DataFrame:
         """
         Analyze fair value for all projects in the dataset.
-        
+
         Args:
             output_file: Optional path to save results CSV
-            
+
         Returns:
             DataFrame with fair value scores
         """
         results = []
-        
+
         # Process each project
         for idx, row in self.df.iterrows():
             project_name = row.get('Project')
-            
+
             # Skip if no project name
             if pd.isna(project_name):
                 continue
-                
+
             print(f"Analyzing fair value for {project_name}...")
-            
+
             # Calculate fair value score
             project_results = self.calculate_fair_value_score(idx)
-            
+
+            # Extract Market Cap to Revenue Ratio
+            revenue_ratio = None
+            revenue_details = project_results.get('metrics', {}).get('revenue_ratio', {}).get('explanation', {})
+            if revenue_details:
+                revenue_ratio = revenue_details.get('revenue_to_market_cap')
+                if revenue_ratio is not None:
+                    revenue_ratio = f"{revenue_ratio:.1f}x"  # Format as '50.0x', '70.0x', etc.
+
             # Add to results
             results.append({
                 'Project': project_name,
                 'Market Sector': project_results['sector'],
+                'Fair Value Score': project_results.get('overall_score'),  # Include the score
                 'Valuation Category': project_results.get('valuation_category'),
+                'Market Cap to Revenue Ratio': revenue_ratio,  # Add the ratio
                 'Details': project_results
             })
-        
+
         # Convert to DataFrame
         results_df = pd.DataFrame(results)
-        
+
         # Save to file if specified
         if output_file:
-            # Save only the main columns, not the details
-            columns_to_save = ['Project', 'Market Sector', 'Fair Value Score']
-            
-            # Only include Valuation Category if it exists in the DataFrame
-            if 'Valuation Category' in results_df.columns:
-                columns_to_save.append('Valuation Category')
-                
-            # Filter to only columns that exist
-            save_cols = [col for col in columns_to_save if col in results_df.columns]
-            
-            # Save the results
-            save_df = results_df[save_cols]
+            # Save only the main columns, including the new ratio
+            columns_to_save = ['Project', 'Market Sector', 'Fair Value Score', 'Valuation Category', 'Market Cap to Revenue Ratio']
+            save_df = results_df[columns_to_save]
             save_df.to_csv(output_file, index=False)
             print(f"Results saved to {output_file}")
-        
+
         return results_df
     
     def visualize_sector_valuations(self, output_file: Optional[str] = None) -> None:

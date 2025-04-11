@@ -1,0 +1,1483 @@
+{
+  "Aave": {
+    "name": "Aave",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 62.67,
+      "stability": 79.74,
+      "magnitude": 78.59
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 62.7,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 79.7,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 94934539.6541447,
+          "formatted_value": "$94.93M",
+          "industry_average": 8512816.214819923,
+          "formatted_industry_average": "$8.51M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 5991146.36,
+            "formatted_value": "$5.99M",
+            "annualized_value": 71893756.36,
+            "formatted_annualized": "$71.89M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 29392226.45,
+            "formatted_value": "$29.39M",
+            "annualized_value": 117568905.78,
+            "formatted_annualized": "$117.57M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 57840574.92,
+            "formatted_value": "$57.84M",
+            "annualized_value": 115681149.83,
+            "formatted_annualized": "$115.68M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 94934539.65,
+            "formatted_value": "$94.93M",
+            "annualized_value": 94934539.65,
+            "formatted_annualized": "$94.93M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "GMX": {
+    "name": "GMX",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 50.32,
+      "stability": 69.24,
+      "magnitude": 72.67
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 50.3,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 69.2,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 31671548.682075195,
+          "formatted_value": "$31.67M",
+          "industry_average": 5643022.764767684,
+          "formatted_industry_average": "$5.64M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 1850394.16,
+            "formatted_value": "$1.85M",
+            "annualized_value": 22204729.94,
+            "formatted_annualized": "$22.20M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 8232009.77,
+            "formatted_value": "$8.23M",
+            "annualized_value": 32928039.09,
+            "formatted_annualized": "$32.93M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 18014727.9,
+            "formatted_value": "$18.01M",
+            "annualized_value": 36029455.8,
+            "formatted_annualized": "$36.03M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 31671548.68,
+            "formatted_value": "$31.67M",
+            "annualized_value": 31671548.68,
+            "formatted_annualized": "$31.67M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Lido Finance": {
+    "name": "Lido Finance",
+    "sector": "Liquid staking",
+    "scores": {
+      "earnings_quality": 62.6,
+      "stability": 80.19,
+      "magnitude": 78.07
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 62.6,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 80.2,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 98360876.69839276,
+          "formatted_value": "$98.36M",
+          "industry_average": 26304580.922462422,
+          "formatted_industry_average": "$26.30M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 5404809.04,
+            "formatted_value": "$5.40M",
+            "annualized_value": 64857708.46,
+            "formatted_annualized": "$64.86M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 21613347.2,
+            "formatted_value": "$21.61M",
+            "annualized_value": 86453388.81,
+            "formatted_annualized": "$86.45M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 45859929.62,
+            "formatted_value": "$45.86M",
+            "annualized_value": 91719859.23,
+            "formatted_annualized": "$91.72M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 98360876.7,
+            "formatted_value": "$98.36M",
+            "annualized_value": 98360876.7,
+            "formatted_annualized": "$98.36M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Bitcoin": {
+    "name": "Bitcoin",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 0,
+      "stability": 67.33,
+      "magnitude": 0
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 0,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 67.3,
+          "industry_average": NaN,
+          "max": 100
+        }
+      }
+    }
+  },
+  "Uniswap Labs": {
+    "name": "Uniswap Labs",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 53.83,
+      "stability": 70.26,
+      "magnitude": 76.62
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 53.8,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 70.3,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 99266322.65617947,
+          "formatted_value": "$99.27M",
+          "industry_average": 16799028.923687413,
+          "formatted_industry_average": "$16.80M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 4047483.78,
+            "formatted_value": "$4.05M",
+            "annualized_value": 48569805.38,
+            "formatted_annualized": "$48.57M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 20773577.47,
+            "formatted_value": "$20.77M",
+            "annualized_value": 83094309.9,
+            "formatted_annualized": "$83.09M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 50084301.55,
+            "formatted_value": "$50.08M",
+            "annualized_value": 100168603.1,
+            "formatted_annualized": "$100.17M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 99266322.66,
+            "formatted_value": "$99.27M",
+            "annualized_value": 99266322.66,
+            "formatted_annualized": "$99.27M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "BNB Chain": {
+    "name": "BNB Chain",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 48.5,
+      "stability": 65.54,
+      "magnitude": 74.0
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 48.5,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 65.5,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 20249375.821588505,
+          "formatted_value": "$20.25M",
+          "industry_average": 172741462.77461088,
+          "formatted_industry_average": "$172.74M",
+          "comparison": "below"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 2406437.05,
+            "formatted_value": "$2.41M",
+            "annualized_value": 28877244.6,
+            "formatted_annualized": "$28.88M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 6846668.4,
+            "formatted_value": "$6.85M",
+            "annualized_value": 27386673.61,
+            "formatted_annualized": "$27.39M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 11368613.14,
+            "formatted_value": "$11.37M",
+            "annualized_value": 22737226.27,
+            "formatted_annualized": "$22.74M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 20249375.82,
+            "formatted_value": "$20.25M",
+            "annualized_value": 20249375.82,
+            "formatted_annualized": "$20.25M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "OP Mainnet": {
+    "name": "OP Mainnet",
+    "sector": "Blockchains (L2)",
+    "scores": {
+      "earnings_quality": 52.07,
+      "stability": 74.13,
+      "magnitude": 70.24
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 52.1,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 74.1,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 26333084.94252284,
+          "formatted_value": "$26.33M",
+          "industry_average": 14983941.675406588,
+          "formatted_industry_average": "$14.98M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 1140887.52,
+            "formatted_value": "$1.14M",
+            "annualized_value": 13690650.23,
+            "formatted_annualized": "$13.69M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 5475543.67,
+            "formatted_value": "$5.48M",
+            "annualized_value": 21902174.69,
+            "formatted_annualized": "$21.90M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 11416700.94,
+            "formatted_value": "$11.42M",
+            "annualized_value": 22833401.87,
+            "formatted_annualized": "$22.83M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 26333084.94,
+            "formatted_value": "$26.33M",
+            "annualized_value": 26333084.94,
+            "formatted_annualized": "$26.33M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Pendle": {
+    "name": "Pendle",
+    "sector": "Derivative exchanges",
+    "scores": {
+      "earnings_quality": 44.2,
+      "stability": 70.79,
+      "magnitude": 62.44
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 44.2,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 70.8,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 12616154.939872477,
+          "formatted_value": "$12.62M",
+          "industry_average": 5643022.764767684,
+          "formatted_industry_average": "$5.64M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 242596.68,
+            "formatted_value": "$242.60K",
+            "annualized_value": 2911160.17,
+            "formatted_annualized": "$2.91M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 2478594.38,
+            "formatted_value": "$2.48M",
+            "annualized_value": 9914377.53,
+            "formatted_annualized": "$9.91M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 4872937.92,
+            "formatted_value": "$4.87M",
+            "annualized_value": 9745875.84,
+            "formatted_annualized": "$9.75M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 12616154.94,
+            "formatted_value": "$12.62M",
+            "annualized_value": 12616154.94,
+            "formatted_annualized": "$12.62M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Curve": {
+    "name": "Curve",
+    "sector": "Exchanges (DEX)",
+    "scores": {
+      "earnings_quality": 56.85,
+      "stability": 78.66,
+      "magnitude": 72.27
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 56.8,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 78.7,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 40199688.60389132,
+          "formatted_value": "$40.20M",
+          "industry_average": 16799028.923687413,
+          "formatted_industry_average": "$16.80M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 1706154.44,
+            "formatted_value": "$1.71M",
+            "annualized_value": 20473853.3,
+            "formatted_annualized": "$20.47M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 7981277.96,
+            "formatted_value": "$7.98M",
+            "annualized_value": 31925111.86,
+            "formatted_annualized": "$31.93M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 16595261.75,
+            "formatted_value": "$16.60M",
+            "annualized_value": 33190523.5,
+            "formatted_annualized": "$33.19M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 40199688.6,
+            "formatted_value": "$40.20M",
+            "annualized_value": 40199688.6,
+            "formatted_annualized": "$40.20M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Maple Finance": {
+    "name": "Maple Finance",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 54.32,
+      "stability": 85.49,
+      "magnitude": 63.54
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 54.3,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 85.5,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 3243481.850870087,
+          "formatted_value": "$3.24M",
+          "industry_average": 8512816.214819923,
+          "formatted_industry_average": "$8.51M",
+          "comparison": "below"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 301720.0,
+            "formatted_value": "$301.72K",
+            "annualized_value": 3620640.04,
+            "formatted_annualized": "$3.62M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 990038.97,
+            "formatted_value": "$990.04K",
+            "annualized_value": 3960155.87,
+            "formatted_annualized": "$3.96M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 2158643.25,
+            "formatted_value": "$2.16M",
+            "annualized_value": 4317286.5,
+            "formatted_annualized": "$4.32M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 3243481.85,
+            "formatted_value": "$3.24M",
+            "annualized_value": 3243481.85,
+            "formatted_annualized": "$3.24M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Compound": {
+    "name": "Compound",
+    "sector": "Lending",
+    "scores": {
+      "earnings_quality": 32.43,
+      "stability": 53.92,
+      "magnitude": 60.15
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 32.4,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 53.9,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 7555853.437312704,
+          "formatted_value": "$7.56M",
+          "industry_average": 8512816.214819923,
+          "formatted_industry_average": "$8.51M",
+          "comparison": "below"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 154012.51,
+            "formatted_value": "$154.01K",
+            "annualized_value": 1848150.16,
+            "formatted_annualized": "$1.85M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 1270365.43,
+            "formatted_value": "$1.27M",
+            "annualized_value": 5081461.73,
+            "formatted_annualized": "$5.08M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 2948434.67,
+            "formatted_value": "$2.95M",
+            "annualized_value": 5896869.34,
+            "formatted_annualized": "$5.90M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 7555853.44,
+            "formatted_value": "$7.56M",
+            "annualized_value": 7555853.44,
+            "formatted_annualized": "$7.56M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Ethereum": {
+    "name": "Ethereum",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 26.4,
+      "stability": 32.56,
+      "magnitude": 81.08
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 26.4,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 32.6,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 1175306508.16639,
+          "formatted_value": "$1.18B",
+          "industry_average": 172741462.77461088,
+          "formatted_industry_average": "$172.74M",
+          "comparison": "above"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 9819303.9,
+            "formatted_value": "$9.82M",
+            "annualized_value": 117831646.86,
+            "formatted_annualized": "$117.83M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 165020939.71,
+            "formatted_value": "$165.02M",
+            "annualized_value": 660083758.82,
+            "formatted_annualized": "$660.08M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 594271783.7,
+            "formatted_value": "$594.27M",
+            "annualized_value": 1188543567.4,
+            "formatted_annualized": "$1.19B",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 1175306508.17,
+            "formatted_value": "$1.18B",
+            "annualized_value": 1175306508.17,
+            "formatted_annualized": "$1.18B",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Avalanche": {
+    "name": "Avalanche",
+    "sector": "Blockchains (L1)",
+    "scores": {
+      "earnings_quality": 39.96,
+      "stability": 60.39,
+      "magnitude": 66.18
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 40.0,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 60.4,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 11523568.226907723,
+          "formatted_value": "$11.52M",
+          "industry_average": 172741462.77461088,
+          "formatted_industry_average": "$172.74M",
+          "comparison": "below"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 509692.28,
+            "formatted_value": "$509.69K",
+            "annualized_value": 6116307.3,
+            "formatted_annualized": "$6.12M",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 1508695.84,
+            "formatted_value": "$1.51M",
+            "annualized_value": 6034783.38,
+            "formatted_annualized": "$6.03M",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 5514256.83,
+            "formatted_value": "$5.51M",
+            "annualized_value": 11028513.66,
+            "formatted_annualized": "$11.03M",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 11523568.23,
+            "formatted_value": "$11.52M",
+            "annualized_value": 11523568.23,
+            "formatted_annualized": "$11.52M",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  },
+  "Chainlink": {
+    "name": "Chainlink",
+    "sector": "Infrastructure",
+    "scores": {
+      "earnings_quality": 26.85,
+      "stability": 55.88,
+      "magnitude": 48.05
+    },
+    "charts": {
+      "eqs_gauge": {
+        "type": "gauge",
+        "title": "Earnings Quality Score",
+        "description": "Overall score based on revenue stability and magnitude",
+        "data": {
+          "value": 26.9,
+          "min": 0,
+          "max": 100,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 40,
+              "label": "Poor",
+              "color": "#FF5252"
+            },
+            {
+              "min": 40,
+              "max": 70,
+              "label": "Average",
+              "color": "#FFC107"
+            },
+            {
+              "min": 70,
+              "max": 100,
+              "label": "Excellent",
+              "color": "#4CAF50"
+            }
+          ]
+        }
+      },
+      "stability_comparison": {
+        "type": "comparison",
+        "title": "Revenue Stability",
+        "description": "How consistent is this project's revenue compared to others in its category",
+        "data": {
+          "project": 55.9,
+          "industry_average": NaN,
+          "max": 100
+        }
+      },
+      "annual_revenue": {
+        "type": "stat",
+        "title": "Annual Revenue",
+        "description": "Total revenue generated over the past year",
+        "data": {
+          "value": 632965.7243558844,
+          "formatted_value": "$632.97K",
+          "industry_average": 3105681.159014317,
+          "formatted_industry_average": "$3.11M",
+          "comparison": "below"
+        }
+      },
+      "revenue_consistency": {
+        "type": "bar",
+        "title": "Revenue Consistency Check",
+        "description": "Revenue across different time periods (annualized to show consistency)",
+        "data": [
+          {
+            "period": "30d",
+            "period_name": "1 Month",
+            "value": 13930.83,
+            "formatted_value": "$13.93K",
+            "annualized_value": 167169.98,
+            "formatted_annualized": "$167.17K",
+            "description": "Monthly revenue (annualized)",
+            "order": 0
+          },
+          {
+            "period": "90d",
+            "period_name": "3 Months",
+            "value": 94413.07,
+            "formatted_value": "$94.41K",
+            "annualized_value": 377652.28,
+            "formatted_annualized": "$377.65K",
+            "description": "Quarterly revenue (annualized)",
+            "order": 1
+          },
+          {
+            "period": "180d",
+            "period_name": "6 Months",
+            "value": 240496.74,
+            "formatted_value": "$240.50K",
+            "annualized_value": 480993.48,
+            "formatted_annualized": "$480.99K",
+            "description": "Semi-annual revenue (annualized)",
+            "order": 2
+          },
+          {
+            "period": "365d",
+            "period_name": "12 Months",
+            "value": 632965.72,
+            "formatted_value": "$632.97K",
+            "annualized_value": 632965.72,
+            "formatted_annualized": "$632.97K",
+            "description": "Annual revenue",
+            "order": 3
+          }
+        ]
+      }
+    }
+  }
+}
