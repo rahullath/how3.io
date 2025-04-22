@@ -1,0 +1,13 @@
+{
+  "name": "Immutable X",
+  "mainScore": 90.06,
+  "rating": "AA",
+  "subScores": {
+    "CS": 87.15,
+    "M": 88.78,
+    "O": 89.36,
+    "C": 92.36,
+    "G": 90.14,
+    "F": 92.57
+  }
+}

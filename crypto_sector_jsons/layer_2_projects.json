@@ -1,0 +1,262 @@
+{
+  "Base": {
+    "project": "Base",
+    "symbol": "BAS",
+    "position": {
+      "x": 64.81,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Arbitrum One": {
+    "project": "Arbitrum One",
+    "symbol": "ARB",
+    "position": {
+      "x": 64.95,
+      "y": 96.3
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "OP Mainnet": {
+    "project": "OP Mainnet",
+    "symbol": "OP",
+    "position": {
+      "x": 52.07,
+      "y": 89.78
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Immutable": {
+    "project": "Immutable",
+    "symbol": "IMM",
+    "position": {
+      "x": 62.74,
+      "y": 90.02
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Gravity Alpha Mainnet": {
+    "project": "Gravity Alpha Mainnet",
+    "symbol": "GRA",
+    "position": {
+      "x": 33.3,
+      "y": 81.36
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "zkSync Era": {
+    "project": "zkSync Era",
+    "symbol": "ZKS",
+    "position": {
+      "x": 37.33,
+      "y": 76.68
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Blast": {
+    "project": "Blast",
+    "symbol": "BLA",
+    "position": {
+      "x": 30.36,
+      "y": 77.6
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Manta": {
+    "project": "Manta",
+    "symbol": "MAN",
+    "position": {
+      "x": 36.56,
+      "y": 63.15
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Starknet": {
+    "project": "Starknet",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 74.83
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Aleph Zero EVM": {
+    "project": "Aleph Zero EVM",
+    "symbol": "ALE",
+    "position": {
+      "x": 23.01,
+      "y": 59.28
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "XAI": {
+    "project": "XAI",
+    "symbol": "XAI",
+    "position": {
+      "x": 4.11,
+      "y": 85.0
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L3)"
+    },
+    "highlight": false
+  },
+  "Zeitgeist": {
+    "project": "Zeitgeist",
+    "symbol": "ZEI",
+    "position": {
+      "x": 0.0,
+      "y": 17.01
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Taiko": {
+    "project": "Taiko",
+    "symbol": "TAI",
+    "position": {
+      "x": 0.0,
+      "y": 58.54
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Metis": {
+    "project": "Metis",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 66.54
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "B3": {
+    "project": "B3",
+    "symbol": "B3",
+    "position": {
+      "x": 0.0,
+      "y": 70.0
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L3)"
+    },
+    "highlight": false
+  },
+  "Litentry": {
+    "project": "Litentry",
+    "symbol": "LIT",
+    "position": {
+      "x": 0.0,
+      "y": 22.56
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Astar": {
+    "project": "Astar",
+    "symbol": "AST",
+    "position": {
+      "x": 0.0,
+      "y": 48.94
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Energy Web X": {
+    "project": "Energy Web X",
+    "symbol": "ENE",
+    "position": {
+      "x": 0.0,
+      "y": 48.94
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Metal": {
+    "project": "Metal",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 54.44
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Robonomics Network": {
+    "project": "Robonomics Network",
+    "symbol": "ROB",
+    "position": {
+      "x": 0.0,
+      "y": 45.46
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "Flashbots": {
+    "project": "Flashbots",
+    "symbol": "FLA",
+    "position": {
+      "x": 0.0,
+      "y": 50.83
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "DeFi Saver": {
+    "project": "DeFi Saver",
+    "symbol": "DEF",
+    "position": {
+      "x": 1.95,
+      "y": 0
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Layer3": {
+    "project": "Layer3",
+    "symbol": "LAY",
+    "position": {
+      "x": 46.27,
+      "y": 75.34
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "deBridge DLN": {
+    "project": "deBridge DLN",
+    "symbol": "DEB",
+    "position": {
+      "x": 42.24,
+      "y": 28.57
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Allbridge Core": {
+    "project": "Allbridge Core",
+    "symbol": "ALL",
+    "position": {
+      "x": 46.13,
+      "y": 65.23
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Helium": {
+    "project": "Helium",
+    "symbol": "HEL",
+    "position": {
+      "x": 53.58,
+      "y": 51.01
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Tornado Cash": {
+    "project": "Tornado Cash",
+    "symbol": "TOR",
+    "position": {
+      "x": 40.64,
+      "y": 54.88
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Livepeer": {
+    "project": "Livepeer",
+    "symbol": "LIV",
+    "position": {
+      "x": 0.0,
+      "y": 85.64
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Stargate": {
+    "project": "Stargate",
+    "symbol": "STA",
+    "position": {
+      "x": 36.97,
+      "y": 53.23
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "The Graph": {
+    "project": "The Graph",
+    "symbol": "THE",
+    "position": {
+      "x": 27.47,
+      "y": 66.67
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Synapse": {
+    "project": "Synapse",
+    "symbol": "SYN",
+    "position": {
+      "x": 23.62,
+      "y": 37.83
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Chainlink": {
+    "project": "Chainlink",
+    "symbol": "LINK",
+    "position": {
+      "x": 26.85,
+      "y": 85.72
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Zerion": {
+    "project": "Zerion",
+    "symbol": "ZER",
+    "position": {
+      "x": 35.12,
+      "y": 77.78
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Hop Protocol": {
+    "project": "Hop Protocol",
+    "symbol": "HOP",
+    "position": {
+      "x": 10.92,
+      "y": 79.55
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Kleros": {
+    "project": "Kleros",
+    "symbol": "KLE",
+    "position": {
+      "x": 0.0,
+      "y": 29.24
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Everclear": {
+    "project": "Everclear",
+    "symbol": "EVE",
+    "position": {
+      "x": 0.0,
+      "y": 40.06
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Aragon": {
+    "project": "Aragon",
+    "symbol": "ARA",
+    "position": {
+      "x": 0.0,
+      "y": 11.79
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Optimism Gateway": {
+    "project": "Optimism Gateway",
+    "symbol": "OPT",
+    "position": {
+      "x": 0.0,
+      "y": 75.96
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Pocket Network": {
+    "project": "Pocket Network",
+    "symbol": "POC",
+    "position": {
+      "x": 0.0,
+      "y": 39.79
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Swarm": {
+    "project": "Swarm",
+    "symbol": "SWA",
+    "position": {
+      "x": 0.0,
+      "y": 41.41
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  }
+}

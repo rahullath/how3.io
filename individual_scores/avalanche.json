@@ -1,0 +1,13 @@
+{
+  "name": "Avalanche",
+  "mainScore": 94.12,
+  "rating": "AAA",
+  "subScores": {
+    "CS": 94.87,
+    "M": 93.73,
+    "O": 97.53,
+    "C": 90.16,
+    "G": 97.89,
+    "F": 90.53
+  }
+}

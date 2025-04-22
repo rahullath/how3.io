@@ -1,0 +1,262 @@
+{
+  "Uniswap": {
+    "project": "Uniswap",
+    "symbol": "UNI",
+    "position": {
+      "x": 0.0,
+      "y": 98.45
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Lido Finance": {
+    "project": "Lido Finance",
+    "symbol": "LDO",
+    "position": {
+      "x": 62.6,
+      "y": 79.25
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Aave": {
+    "project": "Aave",
+    "symbol": "AAVE",
+    "position": {
+      "x": 62.67,
+      "y": 99.07
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "PancakeSwap": {
+    "project": "PancakeSwap",
+    "symbol": "PAN",
+    "position": {
+      "x": 20.61,
+      "y": 99.15
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Jito": {
+    "project": "Jito",
+    "symbol": "JIT",
+    "position": {
+      "x": 40.58,
+      "y": 92.94
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Aerodrome": {
+    "project": "Aerodrome",
+    "symbol": "AER",
+    "position": {
+      "x": 60.79,
+      "y": 88.64
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Morpho": {
+    "project": "Morpho",
+    "symbol": "MOR",
+    "position": {
+      "x": 0.0,
+      "y": 81.08
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Fluid": {
+    "project": "Fluid",
+    "symbol": "FLU",
+    "position": {
+      "x": 43.23,
+      "y": 74.63
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Venus": {
+    "project": "Venus",
+    "symbol": "VEN",
+    "position": {
+      "x": 58.73,
+      "y": 86.17
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "GMX": {
+    "project": "GMX",
+    "symbol": "GMX",
+    "position": {
+      "x": 50.32,
+      "y": 95.65
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Uniswap Labs": {
+    "project": "Uniswap Labs",
+    "symbol": "UNI",
+    "position": {
+      "x": 53.83,
+      "y": 90.91
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Convex Finance": {
+    "project": "Convex Finance",
+    "symbol": "CON",
+    "position": {
+      "x": 52.47,
+      "y": 94.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Curve": {
+    "project": "Curve",
+    "symbol": "CRV",
+    "position": {
+      "x": 56.85,
+      "y": 80.46
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Compound": {
+    "project": "Compound",
+    "symbol": "COMP",
+    "position": {
+      "x": 32.43,
+      "y": 80.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Thena": {
+    "project": "Thena",
+    "symbol": "THE",
+    "position": {
+      "x": 57.16,
+      "y": 80.86
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "LFJ": {
+    "project": "LFJ",
+    "symbol": "LFJ",
+    "position": {
+      "x": 42.24,
+      "y": 76.75
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Euler": {
+    "project": "Euler",
+    "symbol": "EUL",
+    "position": {
+      "x": 0.0,
+      "y": 61.47
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Maple Finance": {
+    "project": "Maple Finance",
+    "symbol": "MPL",
+    "position": {
+      "x": 54.32,
+      "y": 63.63
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Pharaoh": {
+    "project": "Pharaoh",
+    "symbol": "PHA",
+    "position": {
+      "x": 11.79,
+      "y": 57.98
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "SynFutures": {
+    "project": "SynFutures",
+    "symbol": "SYN",
+    "position": {
+      "x": 44.47,
+      "y": 81.22
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  }
+}

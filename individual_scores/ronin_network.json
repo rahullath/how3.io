@@ -1,0 +1,13 @@
+{
+  "name": "Ronin Network",
+  "mainScore": 75.52,
+  "rating": "BBB",
+  "subScores": {
+    "CS": 67.2,
+    "M": 78.69,
+    "O": 76.52,
+    "C": 78.74,
+    "G": 79.98,
+    "F": 71.99
+  }
+}

@@ -1,0 +1,6281 @@
+{
+  "Tron": {
+    "project": "Tron",
+    "symbol": "TRX",
+    "position": {
+      "x": 89.21,
+      "y": 88.24
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Uniswap": {
+    "project": "Uniswap",
+    "symbol": "UNI",
+    "position": {
+      "x": 0.0,
+      "y": 98.45
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Lido Finance": {
+    "project": "Lido Finance",
+    "symbol": "LDO",
+    "position": {
+      "x": 62.6,
+      "y": 79.25
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Aave": {
+    "project": "Aave",
+    "symbol": "AAVE",
+    "position": {
+      "x": 62.67,
+      "y": 99.07
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "PancakeSwap": {
+    "project": "PancakeSwap",
+    "symbol": "PAN",
+    "position": {
+      "x": 20.61,
+      "y": 99.15
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Jito": {
+    "project": "Jito",
+    "symbol": "JIT",
+    "position": {
+      "x": 40.58,
+      "y": 92.94
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Flashbots": {
+    "project": "Flashbots",
+    "symbol": "FLA",
+    "position": {
+      "x": 0.0,
+      "y": 50.83
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Solana": {
+    "project": "Solana",
+    "symbol": "SOL",
+    "position": {
+      "x": 36.12,
+      "y": 96.22
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Ethereum": {
+    "project": "Ethereum",
+    "symbol": "ETH",
+    "position": {
+      "x": 26.4,
+      "y": 80.75
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "BNB Chain": {
+    "project": "BNB Chain",
+    "symbol": "BNB",
+    "position": {
+      "x": 48.5,
+      "y": 94.41
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Bitcoin": {
+    "project": "Bitcoin",
+    "symbol": "BTC",
+    "position": {
+      "x": 0.0,
+      "y": 73.61
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Aerodrome": {
+    "project": "Aerodrome",
+    "symbol": "AER",
+    "position": {
+      "x": 60.79,
+      "y": 88.64
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Morpho": {
+    "project": "Morpho",
+    "symbol": "MOR",
+    "position": {
+      "x": 0.0,
+      "y": 81.08
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Fluid": {
+    "project": "Fluid",
+    "symbol": "FLU",
+    "position": {
+      "x": 43.23,
+      "y": 74.63
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Venus": {
+    "project": "Venus",
+    "symbol": "VEN",
+    "position": {
+      "x": 58.73,
+      "y": 86.17
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Base": {
+    "project": "Base",
+    "symbol": "BAS",
+    "position": {
+      "x": 64.81,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "GMX": {
+    "project": "GMX",
+    "symbol": "GMX",
+    "position": {
+      "x": 50.32,
+      "y": 95.65
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Uniswap Labs": {
+    "project": "Uniswap Labs",
+    "symbol": "UNI",
+    "position": {
+      "x": 53.83,
+      "y": 90.91
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Convex Finance": {
+    "project": "Convex Finance",
+    "symbol": "CON",
+    "position": {
+      "x": 52.47,
+      "y": 94.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Curve": {
+    "project": "Curve",
+    "symbol": "CRV",
+    "position": {
+      "x": 56.85,
+      "y": 80.46
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Compound": {
+    "project": "Compound",
+    "symbol": "COMP",
+    "position": {
+      "x": 32.43,
+      "y": 80.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Thena": {
+    "project": "Thena",
+    "symbol": "THE",
+    "position": {
+      "x": 57.16,
+      "y": 80.86
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "LFJ": {
+    "project": "LFJ",
+    "symbol": "LFJ",
+    "position": {
+      "x": 42.24,
+      "y": 76.75
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Euler": {
+    "project": "Euler",
+    "symbol": "EUL",
+    "position": {
+      "x": 0.0,
+      "y": 61.47
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Maple Finance": {
+    "project": "Maple Finance",
+    "symbol": "MPL",
+    "position": {
+      "x": 54.32,
+      "y": 63.63
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Pharaoh": {
+    "project": "Pharaoh",
+    "symbol": "PHA",
+    "position": {
+      "x": 11.79,
+      "y": 57.98
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "SynFutures": {
+    "project": "SynFutures",
+    "symbol": "SYN",
+    "position": {
+      "x": 44.47,
+      "y": 81.22
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Arbitrum One": {
+    "project": "Arbitrum One",
+    "symbol": "ARB",
+    "position": {
+      "x": 64.95,
+      "y": 96.3
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Internet Computer": {
+    "project": "Internet Computer",
+    "symbol": "INT",
+    "position": {
+      "x": 34.99,
+      "y": 74.21
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "QuickSwap": {
+    "project": "QuickSwap",
+    "symbol": "QUI",
+    "position": {
+      "x": 51.75,
+      "y": 80.13
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Solv Protocol": {
+    "project": "Solv Protocol",
+    "symbol": "SOL",
+    "position": {
+      "x": 0.0,
+      "y": 86.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "OpenSea": {
+    "project": "OpenSea",
+    "symbol": "OPE",
+    "position": {
+      "x": 28.24,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "OP Mainnet": {
+    "project": "OP Mainnet",
+    "symbol": "OP",
+    "position": {
+      "x": 52.07,
+      "y": 89.78
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "ParaSwap": {
+    "project": "ParaSwap",
+    "symbol": "PAR",
+    "position": {
+      "x": 58.47,
+      "y": 44.93
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Velodrome": {
+    "project": "Velodrome",
+    "symbol": "VEL",
+    "position": {
+      "x": 50.96,
+      "y": 71.54
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "BENQI Liquid Staking": {
+    "project": "BENQI Liquid Staking",
+    "symbol": "BEN",
+    "position": {
+      "x": 0.0,
+      "y": 57.5
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "SushiSwap": {
+    "project": "SushiSwap",
+    "symbol": "SUS",
+    "position": {
+      "x": 47.83,
+      "y": 88.88
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Vertex": {
+    "project": "Vertex",
+    "symbol": "VER",
+    "position": {
+      "x": 0.0,
+      "y": 76.62
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "StakeWise": {
+    "project": "StakeWise",
+    "symbol": "STA",
+    "position": {
+      "x": 31.52,
+      "y": 27.6
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Moonwell": {
+    "project": "Moonwell",
+    "symbol": "MOO",
+    "position": {
+      "x": 42.36,
+      "y": 75.56
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Tokenlon": {
+    "project": "Tokenlon",
+    "symbol": "TOK",
+    "position": {
+      "x": 62.0,
+      "y": 41.16
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Balancer": {
+    "project": "Balancer",
+    "symbol": "BAL",
+    "position": {
+      "x": 49.79,
+      "y": 72.55
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "TON": {
+    "project": "TON",
+    "symbol": "TON",
+    "position": {
+      "x": 32.06,
+      "y": 68.97
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Immutable": {
+    "project": "Immutable",
+    "symbol": "IMM",
+    "position": {
+      "x": 62.74,
+      "y": 90.02
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "ApolloX": {
+    "project": "ApolloX",
+    "symbol": "APO",
+    "position": {
+      "x": 37.94,
+      "y": 77.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Aura Finance": {
+    "project": "Aura Finance",
+    "symbol": "AUR",
+    "position": {
+      "x": 46.98,
+      "y": 65.03
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "DeFi Saver": {
+    "project": "DeFi Saver",
+    "symbol": "DEF",
+    "position": {
+      "x": 1.95,
+      "y": 0
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Frax Ether": {
+    "project": "Frax Ether",
+    "symbol": "FRA",
+    "position": {
+      "x": 43.88,
+      "y": 36.67
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Camelot": {
+    "project": "Camelot",
+    "symbol": "CAM",
+    "position": {
+      "x": 37.01,
+      "y": 67.32
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Avalanche": {
+    "project": "Avalanche",
+    "symbol": "AVAX",
+    "position": {
+      "x": 39.96,
+      "y": 63.6
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Layer3": {
+    "project": "Layer3",
+    "symbol": "LAY",
+    "position": {
+      "x": 46.27,
+      "y": 75.34
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Merkle Trade": {
+    "project": "Merkle Trade",
+    "symbol": "MER",
+    "position": {
+      "x": 43.99,
+      "y": 52.53
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "KyberSwap": {
+    "project": "KyberSwap",
+    "symbol": "KYB",
+    "position": {
+      "x": 0.0,
+      "y": 76.79
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Polygon": {
+    "project": "Polygon",
+    "symbol": "POL",
+    "position": {
+      "x": 44.84,
+      "y": 72.32
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "BENQI": {
+    "project": "BENQI",
+    "symbol": "BEN",
+    "position": {
+      "x": 40.2,
+      "y": 70.43
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "deBridge DLN": {
+    "project": "deBridge DLN",
+    "symbol": "DEB",
+    "position": {
+      "x": 42.24,
+      "y": 28.57
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "StakeStone": {
+    "project": "StakeStone",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 62.5
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "NEAR Protocol": {
+    "project": "NEAR Protocol",
+    "symbol": "NEA",
+    "position": {
+      "x": 45.61,
+      "y": 34.01
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Houdini Swap": {
+    "project": "Houdini Swap",
+    "symbol": "HOU",
+    "position": {
+      "x": 35.94,
+      "y": 40.28
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Katana": {
+    "project": "Katana",
+    "symbol": "KAT",
+    "position": {
+      "x": 34.77,
+      "y": 75.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "DODO": {
+    "project": "DODO",
+    "symbol": "DOD",
+    "position": {
+      "x": 47.69,
+      "y": 70.11
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "HMX": {
+    "project": "HMX",
+    "symbol": "HMX",
+    "position": {
+      "x": 40.96,
+      "y": 45.89
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Cardano": {
+    "project": "Cardano",
+    "symbol": "ADA",
+    "position": {
+      "x": 0.0,
+      "y": 90.91
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "BMX": {
+    "project": "BMX",
+    "symbol": "BMX",
+    "position": {
+      "x": 44.4,
+      "y": 65.89
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Pendle": {
+    "project": "Pendle",
+    "symbol": "PENDLE",
+    "position": {
+      "x": 44.2,
+      "y": 94.4
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Allbridge Core": {
+    "project": "Allbridge Core",
+    "symbol": "ALL",
+    "position": {
+      "x": 46.13,
+      "y": 65.23
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Helium": {
+    "project": "Helium",
+    "symbol": "HEL",
+    "position": {
+      "x": 53.58,
+      "y": 51.01
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Tokemak": {
+    "project": "Tokemak",
+    "symbol": "TOK",
+    "position": {
+      "x": 37.32,
+      "y": 60.27
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "BendDAO": {
+    "project": "BendDAO",
+    "symbol": "BEN",
+    "position": {
+      "x": 0.0,
+      "y": 37.61
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Gamma Strategies": {
+    "project": "Gamma Strategies",
+    "symbol": "GAM",
+    "position": {
+      "x": 22.36,
+      "y": 60.57
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Cronos": {
+    "project": "Cronos",
+    "symbol": "CRO",
+    "position": {
+      "x": 0.0,
+      "y": 58.11
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Synthetix": {
+    "project": "Synthetix",
+    "symbol": "SYN",
+    "position": {
+      "x": 30.54,
+      "y": 80.07
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "ZeroLend": {
+    "project": "ZeroLend",
+    "symbol": "ZER",
+    "position": {
+      "x": 0.0,
+      "y": 57.26
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Tornado Cash": {
+    "project": "Tornado Cash",
+    "symbol": "TOR",
+    "position": {
+      "x": 40.64,
+      "y": 54.88
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Injective": {
+    "project": "Injective",
+    "symbol": "INJ",
+    "position": {
+      "x": 49.72,
+      "y": 64.15
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "SyncSwap": {
+    "project": "SyncSwap",
+    "symbol": "SYN",
+    "position": {
+      "x": 19.92,
+      "y": 43.07
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Stader": {
+    "project": "Stader",
+    "symbol": "STA",
+    "position": {
+      "x": 39.25,
+      "y": 44.74
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Gearbox": {
+    "project": "Gearbox",
+    "symbol": "GEA",
+    "position": {
+      "x": 24.17,
+      "y": 39.78
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Blur": {
+    "project": "Blur",
+    "symbol": "BLU",
+    "position": {
+      "x": 0.0,
+      "y": 88.75
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Hegic": {
+    "project": "Hegic",
+    "symbol": "HEG",
+    "position": {
+      "x": 54.79,
+      "y": 56.72
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Dogecoin": {
+    "project": "Dogecoin",
+    "symbol": "DOGE",
+    "position": {
+      "x": 0.0,
+      "y": 93.94
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Aptos": {
+    "project": "Aptos",
+    "symbol": "APT",
+    "position": {
+      "x": 43.49,
+      "y": 74.58
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Thruster": {
+    "project": "Thruster",
+    "symbol": "THR",
+    "position": {
+      "x": 20.19,
+      "y": 45.26
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Filecoin": {
+    "project": "Filecoin",
+    "symbol": "FIL",
+    "position": {
+      "x": 22.24,
+      "y": 64.09
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Bancor": {
+    "project": "Bancor",
+    "symbol": "BAN",
+    "position": {
+      "x": 33.47,
+      "y": 44.7
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Goldfinch": {
+    "project": "Goldfinch",
+    "symbol": "GOL",
+    "position": {
+      "x": 31.44,
+      "y": 39.74
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "MUX": {
+    "project": "MUX",
+    "symbol": "MUX",
+    "position": {
+      "x": 31.49,
+      "y": 54.75
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Biswap": {
+    "project": "Biswap",
+    "symbol": "BIS",
+    "position": {
+      "x": 28.74,
+      "y": 66.92
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Kwenta": {
+    "project": "Kwenta",
+    "symbol": "KWE",
+    "position": {
+      "x": 0.0,
+      "y": 50.46
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Thetanuts": {
+    "project": "Thetanuts",
+    "symbol": "THE",
+    "position": {
+      "x": 0.0,
+      "y": 45.62
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Seamless Protocol": {
+    "project": "Seamless Protocol",
+    "symbol": "SEA",
+    "position": {
+      "x": 37.88,
+      "y": 62.47
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Gravity Alpha Mainnet": {
+    "project": "Gravity Alpha Mainnet",
+    "symbol": "GRA",
+    "position": {
+      "x": 33.3,
+      "y": 81.36
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Ribbon Finance": {
+    "project": "Ribbon Finance",
+    "symbol": "RIB",
+    "position": {
+      "x": 40.51,
+      "y": 51.9
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Ronin": {
+    "project": "Ronin",
+    "symbol": "RON",
+    "position": {
+      "x": 19.76,
+      "y": 54.89
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "zkSync Era": {
+    "project": "zkSync Era",
+    "symbol": "ZKS",
+    "position": {
+      "x": 37.33,
+      "y": 76.68
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Blast": {
+    "project": "Blast",
+    "symbol": "BLA",
+    "position": {
+      "x": 30.36,
+      "y": 77.6
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Livepeer": {
+    "project": "Livepeer",
+    "symbol": "LIV",
+    "position": {
+      "x": 0.0,
+      "y": 85.64
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Celo": {
+    "project": "Celo",
+    "symbol": "CEL",
+    "position": {
+      "x": 35.31,
+      "y": 56.74
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Pangolin": {
+    "project": "Pangolin",
+    "symbol": "PAN",
+    "position": {
+      "x": 35.8,
+      "y": 56.61
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "MultiversX": {
+    "project": "MultiversX",
+    "symbol": "MUL",
+    "position": {
+      "x": 30.99,
+      "y": 52.54
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Litecoin": {
+    "project": "Litecoin",
+    "symbol": "LIT",
+    "position": {
+      "x": 0.0,
+      "y": 84.85
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Ramses Exchange": {
+    "project": "Ramses Exchange",
+    "symbol": "RAM",
+    "position": {
+      "x": 23.84,
+      "y": 44.57
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Polkadot": {
+    "project": "Polkadot",
+    "symbol": "DOT",
+    "position": {
+      "x": 29.47,
+      "y": 43.34
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Stargate": {
+    "project": "Stargate",
+    "symbol": "STA",
+    "position": {
+      "x": 36.97,
+      "y": 53.23
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Stellar": {
+    "project": "Stellar",
+    "symbol": "STE",
+    "position": {
+      "x": 0.0,
+      "y": 75.76
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Cosmos Hub": {
+    "project": "Cosmos Hub",
+    "symbol": "COS",
+    "position": {
+      "x": 26.16,
+      "y": 55.0
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Integral": {
+    "project": "Integral",
+    "symbol": "INT",
+    "position": {
+      "x": 42.3,
+      "y": 16.1
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "The Graph": {
+    "project": "The Graph",
+    "symbol": "THE",
+    "position": {
+      "x": 27.47,
+      "y": 66.67
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Index Cooperative": {
+    "project": "Index Cooperative",
+    "symbol": "IND",
+    "position": {
+      "x": 41.69,
+      "y": 60.26
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Synapse": {
+    "project": "Synapse",
+    "symbol": "SYN",
+    "position": {
+      "x": 23.62,
+      "y": 37.83
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Algorand": {
+    "project": "Algorand",
+    "symbol": "ALG",
+    "position": {
+      "x": 38.52,
+      "y": 57.27
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Maverick Protocol": {
+    "project": "Maverick Protocol",
+    "symbol": "MAV",
+    "position": {
+      "x": 0.0,
+      "y": 65.43
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Manta": {
+    "project": "Manta",
+    "symbol": "MAN",
+    "position": {
+      "x": 36.56,
+      "y": 63.15
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "ApeSwap": {
+    "project": "ApeSwap",
+    "symbol": "APE",
+    "position": {
+      "x": 27.39,
+      "y": 38.5
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Beets": {
+    "project": "Beets",
+    "symbol": "BEE",
+    "position": {
+      "x": 24.74,
+      "y": 41.18
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Zcash": {
+    "project": "Zcash",
+    "symbol": "ZCA",
+    "position": {
+      "x": 0.0,
+      "y": 62.95
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Holdstation": {
+    "project": "Holdstation",
+    "symbol": "HOL",
+    "position": {
+      "x": 17.76,
+      "y": 70.37
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Starknet": {
+    "project": "Starknet",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 74.83
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Clipper": {
+    "project": "Clipper",
+    "symbol": "CLI",
+    "position": {
+      "x": 40.83,
+      "y": 41.88
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Rarible": {
+    "project": "Rarible",
+    "symbol": "RAR",
+    "position": {
+      "x": 36.22,
+      "y": 65.62
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Chainlink": {
+    "project": "Chainlink",
+    "symbol": "LINK",
+    "position": {
+      "x": 26.85,
+      "y": 85.72
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Radiant Capital": {
+    "project": "Radiant Capital",
+    "symbol": "RAD",
+    "position": {
+      "x": 14.17,
+      "y": 51.7
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Zerion": {
+    "project": "Zerion",
+    "symbol": "ZER",
+    "position": {
+      "x": 35.12,
+      "y": 77.78
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "NFTX": {
+    "project": "NFTX",
+    "symbol": "NFT",
+    "position": {
+      "x": 0.0,
+      "y": 34.58
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Hop Protocol": {
+    "project": "Hop Protocol",
+    "symbol": "HOP",
+    "position": {
+      "x": 10.92,
+      "y": 79.55
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Perpetual Protocol": {
+    "project": "Perpetual Protocol",
+    "symbol": "PER",
+    "position": {
+      "x": 17.29,
+      "y": 70.24
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Fantom": {
+    "project": "Fantom",
+    "symbol": "FAN",
+    "position": {
+      "x": 21.67,
+      "y": 32.89
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Foundation": {
+    "project": "Foundation",
+    "symbol": "FOU",
+    "position": {
+      "x": 22.29,
+      "y": 55.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Equalizer Exchange": {
+    "project": "Equalizer Exchange",
+    "symbol": "EQU",
+    "position": {
+      "x": 11.94,
+      "y": 24.45
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "SpookySwap": {
+    "project": "SpookySwap",
+    "symbol": "SPO",
+    "position": {
+      "x": 20.87,
+      "y": 48.97
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "X2Y2": {
+    "project": "X2Y2",
+    "symbol": "X2Y",
+    "position": {
+      "x": 39.1,
+      "y": 40.94
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Gnosis": {
+    "project": "Gnosis",
+    "symbol": "GNO",
+    "position": {
+      "x": 0.0,
+      "y": 40.54
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "IPOR Protocol": {
+    "project": "IPOR Protocol",
+    "symbol": "IPO",
+    "position": {
+      "x": 23.53,
+      "y": 39.93
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Verse": {
+    "project": "Verse",
+    "symbol": "VER",
+    "position": {
+      "x": 27.03,
+      "y": 40.23
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Level Finance": {
+    "project": "Level Finance",
+    "symbol": "LEV",
+    "position": {
+      "x": 14.08,
+      "y": 53.56
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Kusama": {
+    "project": "Kusama",
+    "symbol": "KUS",
+    "position": {
+      "x": 20.89,
+      "y": 20.56
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Tezos": {
+    "project": "Tezos",
+    "symbol": "TEZ",
+    "position": {
+      "x": 0.0,
+      "y": 38.79
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "1inch": {
+    "project": "1inch",
+    "symbol": "1IN",
+    "position": {
+      "x": 0.0,
+      "y": 87.78
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Mean Finance": {
+    "project": "Mean Finance",
+    "symbol": "MEA",
+    "position": {
+      "x": 10.69,
+      "y": 0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Sudoswap": {
+    "project": "Sudoswap",
+    "symbol": "SUD",
+    "position": {
+      "x": 5.51,
+      "y": 35.83
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Kleros": {
+    "project": "Kleros",
+    "symbol": "KLE",
+    "position": {
+      "x": 0.0,
+      "y": 29.24
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "AirSwap": {
+    "project": "AirSwap",
+    "symbol": "AIR",
+    "position": {
+      "x": 26.12,
+      "y": 59.37
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Shoebill Finance": {
+    "project": "Shoebill Finance",
+    "symbol": "SHO",
+    "position": {
+      "x": 20.95,
+      "y": 56.97
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Aperture": {
+    "project": "Aperture",
+    "symbol": "APE",
+    "position": {
+      "x": 0.0,
+      "y": 30.45
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Mina Protocol": {
+    "project": "Mina Protocol",
+    "symbol": "MIN",
+    "position": {
+      "x": 0.0,
+      "y": 28.09
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Zyberswap": {
+    "project": "Zyberswap",
+    "symbol": "ZYB",
+    "position": {
+      "x": 14.2,
+      "y": 30.67
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Mummy Finance": {
+    "project": "Mummy Finance",
+    "symbol": "MUM",
+    "position": {
+      "x": 10.67,
+      "y": 48.53
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Wombat Exchange": {
+    "project": "Wombat Exchange",
+    "symbol": "WOM",
+    "position": {
+      "x": 16.96,
+      "y": 37.9
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Aleph Zero EVM": {
+    "project": "Aleph Zero EVM",
+    "symbol": "ALE",
+    "position": {
+      "x": 23.01,
+      "y": 59.28
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Conflux Core Space": {
+    "project": "Conflux Core Space",
+    "symbol": "CON",
+    "position": {
+      "x": 0.0,
+      "y": 36.5
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Everclear": {
+    "project": "Everclear",
+    "symbol": "EVE",
+    "position": {
+      "x": 0.0,
+      "y": 40.06
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Zora": {
+    "project": "Zora",
+    "symbol": "ZOR",
+    "position": {
+      "x": 12.76,
+      "y": 80.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "SolidLizard": {
+    "project": "SolidLizard",
+    "symbol": "SOL",
+    "position": {
+      "x": 4.58,
+      "y": 20.33
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Thales": {
+    "project": "Thales",
+    "symbol": "THA",
+    "position": {
+      "x": 5.55,
+      "y": 57.49
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Viction": {
+    "project": "Viction",
+    "symbol": "VIC",
+    "position": {
+      "x": 0.0,
+      "y": 43.76
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Cryptex": {
+    "project": "Cryptex",
+    "symbol": "CRY",
+    "position": {
+      "x": 11.43,
+      "y": 59.46
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Polynomial Protocol": {
+    "project": "Polynomial Protocol",
+    "symbol": "POL",
+    "position": {
+      "x": 0.0,
+      "y": 45.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "XAI": {
+    "project": "XAI",
+    "symbol": "XAI",
+    "position": {
+      "x": 4.11,
+      "y": 85.0
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L3)"
+    },
+    "highlight": false
+  },
+  "DFX Finance": {
+    "project": "DFX Finance",
+    "symbol": "DFX",
+    "position": {
+      "x": 0.0,
+      "y": 13.77
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Karura": {
+    "project": "Karura",
+    "symbol": "KAR",
+    "position": {
+      "x": 2.09,
+      "y": 6.06
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "dYdX": {
+    "project": "dYdX",
+    "symbol": "DYD",
+    "position": {
+      "x": 0.0,
+      "y": 84.94
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Premia": {
+    "project": "Premia",
+    "symbol": "PRE",
+    "position": {
+      "x": 0.0,
+      "y": 43.76
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Lighter": {
+    "project": "Lighter",
+    "symbol": "LIG",
+    "position": {
+      "x": 0.0,
+      "y": 18.18
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Osmosis": {
+    "project": "Osmosis",
+    "symbol": "OSM",
+    "position": {
+      "x": 0.0,
+      "y": 47.35
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Aragon": {
+    "project": "Aragon",
+    "symbol": "ARA",
+    "position": {
+      "x": 0.0,
+      "y": 11.79
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Optimism Gateway": {
+    "project": "Optimism Gateway",
+    "symbol": "OPT",
+    "position": {
+      "x": 0.0,
+      "y": 75.96
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Pocket Network": {
+    "project": "Pocket Network",
+    "symbol": "POC",
+    "position": {
+      "x": 0.0,
+      "y": 39.79
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Swarm": {
+    "project": "Swarm",
+    "symbol": "SWA",
+    "position": {
+      "x": 0.0,
+      "y": 41.41
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "XOXNO": {
+    "project": "XOXNO",
+    "symbol": "XOX",
+    "position": {
+      "x": 0.0,
+      "y": 20.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "IDEX": {
+    "project": "IDEX",
+    "symbol": "IDE",
+    "position": {
+      "x": 0.0,
+      "y": 70.77
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "TrueFi": {
+    "project": "TrueFi",
+    "symbol": "TRU",
+    "position": {
+      "x": 0.0,
+      "y": 43.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Toucan Protocol": {
+    "project": "Toucan Protocol",
+    "symbol": "TOU",
+    "position": {
+      "x": 0.0,
+      "y": 32.22
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Opyn": {
+    "project": "Opyn",
+    "symbol": "OPY",
+    "position": {
+      "x": 0.0,
+      "y": 48.64
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Ren": {
+    "project": "Ren",
+    "symbol": "REN",
+    "position": {
+      "x": 0.0,
+      "y": 45.45
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Notional Finance": {
+    "project": "Notional Finance",
+    "symbol": "NOT",
+    "position": {
+      "x": 0.0,
+      "y": 17.98
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "CoW Protocol": {
+    "project": "CoW Protocol",
+    "symbol": "COW",
+    "position": {
+      "x": 0.0,
+      "y": 69.22
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "PoolTogether": {
+    "project": "PoolTogether",
+    "symbol": "POO",
+    "position": {
+      "x": 0.0,
+      "y": 49.8
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Across": {
+    "project": "Across",
+    "symbol": "ACR",
+    "position": {
+      "x": 0.0,
+      "y": 42.45
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "LooksRare": {
+    "project": "LooksRare",
+    "symbol": "LOO",
+    "position": {
+      "x": 0.0,
+      "y": 57.81
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Metavault.Trade": {
+    "project": "Metavault.Trade",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 45.44
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "zkSync Era Bridge": {
+    "project": "zkSync Era Bridge",
+    "symbol": "ZKS",
+    "position": {
+      "x": 0.0,
+      "y": 59.07
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Hashflow": {
+    "project": "Hashflow",
+    "symbol": "HAS",
+    "position": {
+      "x": 0.0,
+      "y": 55.77
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Voltz": {
+    "project": "Voltz",
+    "symbol": "VOL",
+    "position": {
+      "x": 0.0,
+      "y": 45.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "KAP Games": {
+    "project": "KAP Games",
+    "symbol": "KAP",
+    "position": {
+      "x": 0.0,
+      "y": 33.89
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "0x": {
+    "project": "0x",
+    "symbol": "0X",
+    "position": {
+      "x": 0.0,
+      "y": 64.69
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Dopex": {
+    "project": "Dopex",
+    "symbol": "DOP",
+    "position": {
+      "x": 0.0,
+      "y": 41.59
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Arbitrum Bridge": {
+    "project": "Arbitrum Bridge",
+    "symbol": "ARB",
+    "position": {
+      "x": 0.0,
+      "y": 97.4
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "Buffer Finance": {
+    "project": "Buffer Finance",
+    "symbol": "BUF",
+    "position": {
+      "x": 0.0,
+      "y": 35.49
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "xExchange": {
+    "project": "xExchange",
+    "symbol": "XEX",
+    "position": {
+      "x": 0.0,
+      "y": 41.64
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Bounce Finance": {
+    "project": "Bounce Finance",
+    "symbol": "BOU",
+    "position": {
+      "x": 0.0,
+      "y": 53.95
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Axie Infinity": {
+    "project": "Axie Infinity",
+    "symbol": "AXI",
+    "position": {
+      "x": 0.0,
+      "y": 94.12
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Rhino.fi": {
+    "project": "Rhino.fi",
+    "symbol": "RHI",
+    "position": {
+      "x": 0.0,
+      "y": 6.9
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "zkLend": {
+    "project": "zkLend",
+    "symbol": "ZKL",
+    "position": {
+      "x": 0.0,
+      "y": 41.62
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "ApeX Protocol": {
+    "project": "ApeX Protocol",
+    "symbol": "APE",
+    "position": {
+      "x": 0.0,
+      "y": 77.66
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "peaq": {
+    "project": "peaq",
+    "symbol": "PEA",
+    "position": {
+      "x": 0.0,
+      "y": 29.15
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "DeGate": {
+    "project": "DeGate",
+    "symbol": "DEG",
+    "position": {
+      "x": 0.0,
+      "y": 32.55
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Ocean Protocol": {
+    "project": "Ocean Protocol",
+    "symbol": "OCE",
+    "position": {
+      "x": 0.0,
+      "y": 39.72
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Berachain": {
+    "project": "Berachain",
+    "symbol": "BER",
+    "position": {
+      "x": 0.0,
+      "y": 53.58
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Zeitgeist": {
+    "project": "Zeitgeist",
+    "symbol": "ZEI",
+    "position": {
+      "x": 0.0,
+      "y": 17.01
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "STON.fi": {
+    "project": "STON.fi",
+    "symbol": "STO",
+    "position": {
+      "x": 0.0,
+      "y": 32.99
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Hedera": {
+    "project": "Hedera",
+    "symbol": "HED",
+    "position": {
+      "x": 0.0,
+      "y": 78.79
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Taiko": {
+    "project": "Taiko",
+    "symbol": "TAI",
+    "position": {
+      "x": 0.0,
+      "y": 58.54
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Movement": {
+    "project": "Movement",
+    "symbol": "MOV",
+    "position": {
+      "x": 0.0,
+      "y": 89.39
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Ankr": {
+    "project": "Ankr",
+    "symbol": "ANK",
+    "position": {
+      "x": 0.0,
+      "y": 60.09
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "ZKX": {
+    "project": "ZKX",
+    "symbol": "ZKX",
+    "position": {
+      "x": 0.0,
+      "y": 20.89
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "WOO": {
+    "project": "WOO",
+    "symbol": "WOO",
+    "position": {
+      "x": 0.0,
+      "y": 77.26
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "SideShift": {
+    "project": "SideShift",
+    "symbol": "SID",
+    "position": {
+      "x": 0.0,
+      "y": 15.2
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Kadena": {
+    "project": "Kadena",
+    "symbol": "KAD",
+    "position": {
+      "x": 0.0,
+      "y": 31.21
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Metis": {
+    "project": "Metis",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 66.54
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Star Atlas": {
+    "project": "Star Atlas",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 67.5
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "B3": {
+    "project": "B3",
+    "symbol": "B3",
+    "position": {
+      "x": 0.0,
+      "y": 70.0
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L3)"
+    },
+    "highlight": false
+  },
+  "Dymension": {
+    "project": "Dymension",
+    "symbol": "DYM",
+    "position": {
+      "x": 0.0,
+      "y": 65.23
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Litentry": {
+    "project": "Litentry",
+    "symbol": "LIT",
+    "position": {
+      "x": 0.0,
+      "y": 22.56
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Cat Town": {
+    "project": "Cat Town",
+    "symbol": "CAT",
+    "position": {
+      "x": 0.0,
+      "y": 45.01
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Venice": {
+    "project": "Venice",
+    "symbol": "VEN",
+    "position": {
+      "x": 0.0,
+      "y": 60.16
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Scallop": {
+    "project": "Scallop",
+    "symbol": "SCA",
+    "position": {
+      "x": 0.0,
+      "y": 55.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "ABEL Finance": {
+    "project": "ABEL Finance",
+    "symbol": "ABE",
+    "position": {
+      "x": 0.0,
+      "y": 45.13
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Ethervista": {
+    "project": "Ethervista",
+    "symbol": "ETH",
+    "position": {
+      "x": 0.0,
+      "y": 58.96
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Solayer": {
+    "project": "Solayer",
+    "symbol": "SOL",
+    "position": {
+      "x": 0.0,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Astar": {
+    "project": "Astar",
+    "symbol": "AST",
+    "position": {
+      "x": 0.0,
+      "y": 48.94
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Render Network": {
+    "project": "Render Network",
+    "symbol": "REN",
+    "position": {
+      "x": 0.0,
+      "y": 91.7
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Banana Gun": {
+    "project": "Banana Gun",
+    "symbol": "BAN",
+    "position": {
+      "x": 0.0,
+      "y": 69.36
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "FlowX Finance": {
+    "project": "FlowX Finance",
+    "symbol": "FLO",
+    "position": {
+      "x": 0.0,
+      "y": 26.09
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "LUKSO": {
+    "project": "LUKSO",
+    "symbol": "LUK",
+    "position": {
+      "x": 0.0,
+      "y": 9.09
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Echelon Prime Foundation": {
+    "project": "Echelon Prime Foundation",
+    "symbol": "ECH",
+    "position": {
+      "x": 0.0,
+      "y": 61.07
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Energy Web X": {
+    "project": "Energy Web X",
+    "symbol": "ENE",
+    "position": {
+      "x": 0.0,
+      "y": 48.94
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "StarryNift": {
+    "project": "StarryNift",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 81.26
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Pixels": {
+    "project": "Pixels",
+    "symbol": "PIX",
+    "position": {
+      "x": 0.0,
+      "y": 64.77
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Metropolis": {
+    "project": "Metropolis",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 62.72
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "unshETH": {
+    "project": "unshETH",
+    "symbol": "UNS",
+    "position": {
+      "x": 0.0,
+      "y": 5.23
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Raydium": {
+    "project": "Raydium",
+    "symbol": "RAY",
+    "position": {
+      "x": 0.0,
+      "y": 94.25
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Orderly Network": {
+    "project": "Orderly Network",
+    "symbol": "ORD",
+    "position": {
+      "x": 0.0,
+      "y": 80.76
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Metal": {
+    "project": "Metal",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 54.44
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "ICHI": {
+    "project": "ICHI",
+    "symbol": "ICH",
+    "position": {
+      "x": 0.0,
+      "y": 25.13
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "HunnyFinance": {
+    "project": "HunnyFinance",
+    "symbol": "HUN",
+    "position": {
+      "x": 0.0,
+      "y": 27.24
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Robonomics Network": {
+    "project": "Robonomics Network",
+    "symbol": "ROB",
+    "position": {
+      "x": 0.0,
+      "y": 45.46
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Avalon Finance": {
+    "project": "Avalon Finance",
+    "symbol": "AVA",
+    "position": {
+      "x": 0.0,
+      "y": 72.38
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Orca": {
+    "project": "Orca",
+    "symbol": "ORC",
+    "position": {
+      "x": 0.0,
+      "y": 93.1
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "iZUMi Finance": {
+    "project": "iZUMi Finance",
+    "symbol": "IZU",
+    "position": {
+      "x": 0.0,
+      "y": 50.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Nibiru": {
+    "project": "Nibiru",
+    "symbol": "NIB",
+    "position": {
+      "x": 0.0,
+      "y": 18.18
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "ReactorFusion": {
+    "project": "ReactorFusion",
+    "symbol": "REA",
+    "position": {
+      "x": 0.0,
+      "y": 23.39
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Beam": {
+    "project": "Beam",
+    "symbol": "BEA",
+    "position": {
+      "x": 0.0,
+      "y": 58.18
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Hyperbridge": {
+    "project": "Hyperbridge",
+    "symbol": "HYP",
+    "position": {
+      "x": 0.0,
+      "y": 19.98
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Ondo Finance": {
+    "project": "Ondo Finance",
+    "symbol": "OND",
+    "position": {
+      "x": 0.0,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Levana": {
+    "project": "Levana",
+    "symbol": "LEV",
+    "position": {
+      "x": 0.0,
+      "y": 75.51
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Shadow": {
+    "project": "Shadow",
+    "symbol": "SHA",
+    "position": {
+      "x": 0.0,
+      "y": 72.51
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Spark Protocol": {
+    "project": "Spark Protocol",
+    "symbol": "SPA",
+    "position": {
+      "x": 0.0,
+      "y": 45.13
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Scroll": {
+    "project": "Scroll",
+    "symbol": "SCR",
+    "position": {
+      "x": 0.0,
+      "y": 65.95
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Alkimi Exchange": {
+    "project": "Alkimi Exchange",
+    "symbol": "ALK",
+    "position": {
+      "x": 0.0,
+      "y": 37.24
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "BitDAO": {
+    "project": "BitDAO",
+    "symbol": "BIT",
+    "position": {
+      "x": 0.0,
+      "y": 51.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Moonbeam": {
+    "project": "Moonbeam",
+    "symbol": "MOO",
+    "position": {
+      "x": 0.0,
+      "y": 63.06
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "XPLA": {
+    "project": "XPLA",
+    "symbol": "XPL",
+    "position": {
+      "x": 0.0,
+      "y": 28.7
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "PACT": {
+    "project": "PACT",
+    "symbol": "PAC",
+    "position": {
+      "x": 0.0,
+      "y": 23.05
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Silo Finance": {
+    "project": "Silo Finance",
+    "symbol": "SIL",
+    "position": {
+      "x": 43.02,
+      "y": 45.3
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Polkadex": {
+    "project": "Polkadex",
+    "symbol": "POL",
+    "position": {
+      "x": 0.0,
+      "y": 22.35
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Rubic": {
+    "project": "Rubic",
+    "symbol": "RUB",
+    "position": {
+      "x": 0.0,
+      "y": 31.53
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "UniDex": {
+    "project": "UniDex",
+    "symbol": "UNI",
+    "position": {
+      "x": 0.0,
+      "y": 28.18
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "WigoSwap": {
+    "project": "WigoSwap",
+    "symbol": "WIG",
+    "position": {
+      "x": 0.0,
+      "y": 48.6
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Evmos": {
+    "project": "Evmos",
+    "symbol": "EVM",
+    "position": {
+      "x": 0.0,
+      "y": 26.67
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Nillion": {
+    "project": "Nillion",
+    "symbol": "NIL",
+    "position": {
+      "x": 0.0,
+      "y": 81.82
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Decentral Games": {
+    "project": "Decentral Games",
+    "symbol": "DEC",
+    "position": {
+      "x": 0.0,
+      "y": 32.44
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Extra Finance": {
+    "project": "Extra Finance",
+    "symbol": "EXT",
+    "position": {
+      "x": 0.0,
+      "y": 48.04
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Ubeswap": {
+    "project": "Ubeswap",
+    "symbol": "UBE",
+    "position": {
+      "x": 0.0,
+      "y": 36.26
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Hyperliquid": {
+    "project": "Hyperliquid",
+    "symbol": "HYP",
+    "position": {
+      "x": 0.0,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "SPACE ID": {
+    "project": "SPACE ID",
+    "symbol": "SPA",
+    "position": {
+      "x": 0.0,
+      "y": 71.54
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Ref Finance": {
+    "project": "Ref Finance",
+    "symbol": "REF",
+    "position": {
+      "x": 0.0,
+      "y": 43.36
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Lisk": {
+    "project": "Lisk",
+    "symbol": "LIS",
+    "position": {
+      "x": 0.0,
+      "y": 57.43
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Symbiosis": {
+    "project": "Symbiosis",
+    "symbol": "SYM",
+    "position": {
+      "x": 0.0,
+      "y": 56.38
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Shrapnel": {
+    "project": "Shrapnel",
+    "symbol": "SHR",
+    "position": {
+      "x": 0.0,
+      "y": 57.04
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Hydration": {
+    "project": "Hydration",
+    "symbol": "HYD",
+    "position": {
+      "x": 0.0,
+      "y": 47.48
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "HYCHAIN": {
+    "project": "HYCHAIN",
+    "symbol": "HYC",
+    "position": {
+      "x": 0.0,
+      "y": 36.92
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Lifinity": {
+    "project": "Lifinity",
+    "symbol": "LIF",
+    "position": {
+      "x": 0.0,
+      "y": 36.44
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Bittensor": {
+    "project": "Bittensor",
+    "symbol": "BIT",
+    "position": {
+      "x": 0.0,
+      "y": 55.0
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Merlin Chain": {
+    "project": "Merlin Chain",
+    "symbol": "MER",
+    "position": {
+      "x": 0.0,
+      "y": 69.42
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Stride": {
+    "project": "Stride",
+    "symbol": "STR",
+    "position": {
+      "x": 0.0,
+      "y": 33.53
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Arrow Markets": {
+    "project": "Arrow Markets",
+    "symbol": "ARR",
+    "position": {
+      "x": 0.0,
+      "y": 29.33
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "DojoSwap": {
+    "project": "DojoSwap",
+    "symbol": "DOJ",
+    "position": {
+      "x": 0.0,
+      "y": 20.34
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "zkDX": {
+    "project": "zkDX",
+    "symbol": "ZKD",
+    "position": {
+      "x": 0.0,
+      "y": 26.82
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "KlimaDAO": {
+    "project": "KlimaDAO",
+    "symbol": "KLI",
+    "position": {
+      "x": 0.0,
+      "y": 36.07
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Turbos Finance": {
+    "project": "Turbos Finance",
+    "symbol": "TUR",
+    "position": {
+      "x": 0.0,
+      "y": 53.71
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Brave": {
+    "project": "Brave",
+    "symbol": "BRA",
+    "position": {
+      "x": 0.0,
+      "y": 74.01
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Invarch": {
+    "project": "Invarch",
+    "symbol": "INV",
+    "position": {
+      "x": 0.0,
+      "y": 28.97
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Renzo": {
+    "project": "Renzo",
+    "symbol": "REN",
+    "position": {
+      "x": 0.0,
+      "y": 73.08
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "SKALE": {
+    "project": "SKALE",
+    "symbol": "SKA",
+    "position": {
+      "x": 0.0,
+      "y": 34.02
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "DeSo": {
+    "project": "DeSo",
+    "symbol": "DES",
+    "position": {
+      "x": 0.0,
+      "y": 25.15
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Fren Pet": {
+    "project": "Fren Pet",
+    "symbol": "FRE",
+    "position": {
+      "x": 0.0,
+      "y": 50.18
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Mantle": {
+    "project": "Mantle",
+    "symbol": "MAN",
+    "position": {
+      "x": 0.0,
+      "y": 89.47
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Swell": {
+    "project": "Swell",
+    "symbol": "SWE",
+    "position": {
+      "x": 0.0,
+      "y": 38.36
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "ERA Name Service": {
+    "project": "ERA Name Service",
+    "symbol": "ERA",
+    "position": {
+      "x": 0.0,
+      "y": 16.72
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Marinade": {
+    "project": "Marinade",
+    "symbol": "MAR",
+    "position": {
+      "x": 0.0,
+      "y": 65.12
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Alien Base": {
+    "project": "Alien Base",
+    "symbol": "ALI",
+    "position": {
+      "x": 0.0,
+      "y": 53.53
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "BaseSwap": {
+    "project": "BaseSwap",
+    "symbol": "BAS",
+    "position": {
+      "x": 0.0,
+      "y": 40.73
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "SwapX": {
+    "project": "SwapX",
+    "symbol": "SWA",
+    "position": {
+      "x": 0.0,
+      "y": 30.6
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Ionic Protocol": {
+    "project": "Ionic Protocol",
+    "symbol": "ION",
+    "position": {
+      "x": 0.0,
+      "y": 38.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Yield Guild Games": {
+    "project": "Yield Guild Games",
+    "symbol": "YIE",
+    "position": {
+      "x": 0.0,
+      "y": 79.8
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "OpenOcean": {
+    "project": "OpenOcean",
+    "symbol": "OPE",
+    "position": {
+      "x": 0.0,
+      "y": 49.76
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Aurora": {
+    "project": "Aurora",
+    "symbol": "AUR",
+    "position": {
+      "x": 0.0,
+      "y": 47.62
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Meta Pool DAO": {
+    "project": "Meta Pool DAO",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 11.76
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Kine Protocol": {
+    "project": "Kine Protocol",
+    "symbol": "KIN",
+    "position": {
+      "x": 0.0,
+      "y": 44.65
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Magic Eden": {
+    "project": "Magic Eden",
+    "symbol": "MAG",
+    "position": {
+      "x": 0.0,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Sei Network": {
+    "project": "Sei Network",
+    "symbol": "SEI",
+    "position": {
+      "x": 0.0,
+      "y": 56.14
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Ether.fi": {
+    "project": "Ether.fi",
+    "symbol": "ETH",
+    "position": {
+      "x": 0.0,
+      "y": 68.39
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "COTI": {
+    "project": "COTI",
+    "symbol": "COT",
+    "position": {
+      "x": 0.0,
+      "y": 86.54
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Carv": {
+    "project": "Carv",
+    "symbol": "CAR",
+    "position": {
+      "x": 0.0,
+      "y": 59.01
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Numerai": {
+    "project": "Numerai",
+    "symbol": "NUM",
+    "position": {
+      "x": 0.0,
+      "y": 88.37
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "API3": {
+    "project": "API3",
+    "symbol": "API",
+    "position": {
+      "x": 0.0,
+      "y": 84.19
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "BadgerDAO": {
+    "project": "BadgerDAO",
+    "symbol": "BAD",
+    "position": {
+      "x": 0.0,
+      "y": 90.15
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "zkSwap Finance": {
+    "project": "zkSwap Finance",
+    "symbol": "ZKS",
+    "position": {
+      "x": 0.0,
+      "y": 48.15
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Nodle": {
+    "project": "Nodle",
+    "symbol": "NOD",
+    "position": {
+      "x": 0.0,
+      "y": 29.31
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Stacks": {
+    "project": "Stacks",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 90.38
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Dinero": {
+    "project": "Dinero",
+    "symbol": "DIN",
+    "position": {
+      "x": 0.0,
+      "y": 8.71
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Sanctum": {
+    "project": "Sanctum",
+    "symbol": "SAN",
+    "position": {
+      "x": 0.0,
+      "y": 39.41
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Enzyme Finance": {
+    "project": "Enzyme Finance",
+    "symbol": "ENZ",
+    "position": {
+      "x": 0.0,
+      "y": 78.63
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "MetaDAO": {
+    "project": "MetaDAO",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 24.89
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Koi Finance": {
+    "project": "Koi Finance",
+    "symbol": "KOI",
+    "position": {
+      "x": 0.0,
+      "y": 22.71
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Nostra": {
+    "project": "Nostra",
+    "symbol": "NOS",
+    "position": {
+      "x": 0.0,
+      "y": 38.57
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "re.al": {
+    "project": "re.al",
+    "symbol": "RE.",
+    "position": {
+      "x": 0.0,
+      "y": 11.54
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Zircuit": {
+    "project": "Zircuit",
+    "symbol": "ZIR",
+    "position": {
+      "x": 0.0,
+      "y": 78.14
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Subsocial": {
+    "project": "Subsocial",
+    "symbol": "SUB",
+    "position": {
+      "x": 0.0,
+      "y": 14.87
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Illuvium": {
+    "project": "Illuvium",
+    "symbol": "ILL",
+    "position": {
+      "x": 0.0,
+      "y": 88.45
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Phala": {
+    "project": "Phala",
+    "symbol": "PHA",
+    "position": {
+      "x": 0.0,
+      "y": 65.99
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Homora": {
+    "project": "Homora",
+    "symbol": "HOM",
+    "position": {
+      "x": 0.0,
+      "y": 73.68
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "BOB": {
+    "project": "BOB",
+    "symbol": "BOB",
+    "position": {
+      "x": 0.0,
+      "y": 65.44
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Ajuna Network": {
+    "project": "Ajuna Network",
+    "symbol": "AJU",
+    "position": {
+      "x": 0.0,
+      "y": 25.38
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Mars Protocol": {
+    "project": "Mars Protocol",
+    "symbol": "MAR",
+    "position": {
+      "x": 0.0,
+      "y": 3.03
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Polimec": {
+    "project": "Polimec",
+    "symbol": "POL",
+    "position": {
+      "x": 0.0,
+      "y": 31.75
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Black Panther": {
+    "project": "Black Panther",
+    "symbol": "BLA",
+    "position": {
+      "x": 0.0,
+      "y": 25.15
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Ring Protocol": {
+    "project": "Ring Protocol",
+    "symbol": "RIN",
+    "position": {
+      "x": 0.0,
+      "y": 9.78
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Lynex": {
+    "project": "Lynex",
+    "symbol": "LYN",
+    "position": {
+      "x": 0.0,
+      "y": 51.12
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Alchemix Finance": {
+    "project": "Alchemix Finance",
+    "symbol": "ALC",
+    "position": {
+      "x": 0.0,
+      "y": 77.22
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "The Standard": {
+    "project": "The Standard",
+    "symbol": "THE",
+    "position": {
+      "x": 0.0,
+      "y": 36.32
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Metaplex": {
+    "project": "Metaplex",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 77.78
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Sologenic": {
+    "project": "Sologenic",
+    "symbol": "SOL",
+    "position": {
+      "x": 0.0,
+      "y": 66.64
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Zeta Markets": {
+    "project": "Zeta Markets",
+    "symbol": "ZET",
+    "position": {
+      "x": 0.0,
+      "y": 66.48
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Hydro Protocol": {
+    "project": "Hydro Protocol",
+    "symbol": "HYD",
+    "position": {
+      "x": 0.0,
+      "y": 27.65
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Blast Bridge": {
+    "project": "Blast Bridge",
+    "symbol": "BLA",
+    "position": {
+      "x": 0.0,
+      "y": 55.9
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "MANTRA": {
+    "project": "MANTRA",
+    "symbol": "MAN",
+    "position": {
+      "x": 0.0,
+      "y": 49.28
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Planet IX": {
+    "project": "Planet IX",
+    "symbol": "PLA",
+    "position": {
+      "x": 0.0,
+      "y": 61.67
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Kamino": {
+    "project": "Kamino",
+    "symbol": "KAM",
+    "position": {
+      "x": 0.0,
+      "y": 78.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Impermax Finance": {
+    "project": "Impermax Finance",
+    "symbol": "IMP",
+    "position": {
+      "x": 0.0,
+      "y": 17.7
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Celestia": {
+    "project": "Celestia",
+    "symbol": "CEL",
+    "position": {
+      "x": 0.0,
+      "y": 53.86
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Frequency": {
+    "project": "Frequency",
+    "symbol": "FRE",
+    "position": {
+      "x": 0.0,
+      "y": 32.37
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Acala Network": {
+    "project": "Acala Network",
+    "symbol": "ACA",
+    "position": {
+      "x": 0.0,
+      "y": 51.1
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Nile Exchange": {
+    "project": "Nile Exchange",
+    "symbol": "NIL",
+    "position": {
+      "x": 0.0,
+      "y": 31.84
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Idle Finance": {
+    "project": "Idle Finance",
+    "symbol": "IDL",
+    "position": {
+      "x": 0.0,
+      "y": 14.15
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Arkham": {
+    "project": "Arkham",
+    "symbol": "ARK",
+    "position": {
+      "x": 0.0,
+      "y": 80.32
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Botto": {
+    "project": "Botto",
+    "symbol": "BOT",
+    "position": {
+      "x": 0.0,
+      "y": 42.5
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Juice Finance": {
+    "project": "Juice Finance",
+    "symbol": "JUI",
+    "position": {
+      "x": 0.0,
+      "y": 51.54
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Hercules": {
+    "project": "Hercules",
+    "symbol": "HER",
+    "position": {
+      "x": 0.0,
+      "y": 23.79
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Akash Network": {
+    "project": "Akash Network",
+    "symbol": "AKA",
+    "position": {
+      "x": 0.0,
+      "y": 65.37
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Spectra": {
+    "project": "Spectra",
+    "symbol": "SPE",
+    "position": {
+      "x": 0.0,
+      "y": 34.4
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Barnbridge": {
+    "project": "Barnbridge",
+    "symbol": "BAR",
+    "position": {
+      "x": 0.0,
+      "y": 73.67
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Kaito": {
+    "project": "Kaito",
+    "symbol": "KAI",
+    "position": {
+      "x": 0.0,
+      "y": 85.92
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "StaFi": {
+    "project": "StaFi",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 19.35
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "ParagonsDAO": {
+    "project": "ParagonsDAO",
+    "symbol": "PAR",
+    "position": {
+      "x": 0.0,
+      "y": 11.33
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Mythos": {
+    "project": "Mythos",
+    "symbol": "MYT",
+    "position": {
+      "x": 0.0,
+      "y": 60.21
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Lava Network": {
+    "project": "Lava Network",
+    "symbol": "LAV",
+    "position": {
+      "x": 0.0,
+      "y": 20.61
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Dexalot": {
+    "project": "Dexalot",
+    "symbol": "DEX",
+    "position": {
+      "x": 0.0,
+      "y": 53.07
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Robots.Farm": {
+    "project": "Robots.Farm",
+    "symbol": "ROB",
+    "position": {
+      "x": 0.0,
+      "y": 28.73
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Aethir": {
+    "project": "Aethir",
+    "symbol": "AET",
+    "position": {
+      "x": 0.0,
+      "y": 69.84
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "ResearchHub": {
+    "project": "ResearchHub",
+    "symbol": "RES",
+    "position": {
+      "x": 0.0,
+      "y": 36.23
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "IO.net": {
+    "project": "IO.net",
+    "symbol": "IO.",
+    "position": {
+      "x": 0.0,
+      "y": 76.6
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Impossible Finance": {
+    "project": "Impossible Finance",
+    "symbol": "IMP",
+    "position": {
+      "x": 0.0,
+      "y": 20.64
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Unique Network": {
+    "project": "Unique Network",
+    "symbol": "UNI",
+    "position": {
+      "x": 0.0,
+      "y": 30.87
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Synonym Finance": {
+    "project": "Synonym Finance",
+    "symbol": "SYN",
+    "position": {
+      "x": 0.0,
+      "y": 18.97
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Europe Fantasy League": {
+    "project": "Europe Fantasy League",
+    "symbol": "EUR",
+    "position": {
+      "x": 0.0,
+      "y": 16.13
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Worldcoin": {
+    "project": "Worldcoin",
+    "symbol": "WOR",
+    "position": {
+      "x": 0.0,
+      "y": 89.51
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Stake DAO": {
+    "project": "Stake DAO",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 47.43
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "UMA": {
+    "project": "UMA",
+    "symbol": "UMA",
+    "position": {
+      "x": 0.0,
+      "y": 67.78
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Router Protocol": {
+    "project": "Router Protocol",
+    "symbol": "ROU",
+    "position": {
+      "x": 0.0,
+      "y": 22.5
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "JOJO": {
+    "project": "JOJO",
+    "symbol": "JOJ",
+    "position": {
+      "x": 0.0,
+      "y": 29.48
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Aventus": {
+    "project": "Aventus",
+    "symbol": "AVE",
+    "position": {
+      "x": 0.0,
+      "y": 31.45
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Fraxlend": {
+    "project": "Fraxlend",
+    "symbol": "FRA",
+    "position": {
+      "x": 0.0,
+      "y": 41.18
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "OpenLeverage": {
+    "project": "OpenLeverage",
+    "symbol": "OPE",
+    "position": {
+      "x": 0.0,
+      "y": 48.29
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "WAGMI (ex Popsicle Finance)": {
+    "project": "WAGMI (ex Popsicle Finance)",
+    "symbol": "WAG",
+    "position": {
+      "x": 0.0,
+      "y": 54.51
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Liquidswap": {
+    "project": "Liquidswap",
+    "symbol": "LIQ",
+    "position": {
+      "x": 0.0,
+      "y": 55.43
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Unipilot": {
+    "project": "Unipilot",
+    "symbol": "UNI",
+    "position": {
+      "x": 0.0,
+      "y": 42.36
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "BounceBit": {
+    "project": "BounceBit",
+    "symbol": "BOU",
+    "position": {
+      "x": 0.0,
+      "y": 35.76
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Darwinia Network": {
+    "project": "Darwinia Network",
+    "symbol": "DAR",
+    "position": {
+      "x": 0.0,
+      "y": 38.51
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "RabbitX": {
+    "project": "RabbitX",
+    "symbol": "RAB",
+    "position": {
+      "x": 0.0,
+      "y": 56.06
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Biconomy": {
+    "project": "Biconomy",
+    "symbol": "BIC",
+    "position": {
+      "x": 0.0,
+      "y": 57.13
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Virtuals Protocol": {
+    "project": "Virtuals Protocol",
+    "symbol": "VIR",
+    "position": {
+      "x": 0.0,
+      "y": 91.49
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Dmail Network": {
+    "project": "Dmail Network",
+    "symbol": "DMA",
+    "position": {
+      "x": 0.0,
+      "y": 51.21
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Fenix": {
+    "project": "Fenix",
+    "symbol": "FEN",
+    "position": {
+      "x": 0.0,
+      "y": 23.08
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Shape": {
+    "project": "Shape",
+    "symbol": "SHA",
+    "position": {
+      "x": 0.0,
+      "y": 55.89
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "JustLend DAO": {
+    "project": "JustLend DAO",
+    "symbol": "JUS",
+    "position": {
+      "x": 0.0,
+      "y": 90.13
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Kilt": {
+    "project": "Kilt",
+    "symbol": "KIL",
+    "position": {
+      "x": 0.0,
+      "y": 32.68
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Ethereum Name Service": {
+    "project": "Ethereum Name Service",
+    "symbol": "ETH",
+    "position": {
+      "x": 0.0,
+      "y": 84.67
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Arweave": {
+    "project": "Arweave",
+    "symbol": "ARW",
+    "position": {
+      "x": 0.0,
+      "y": 50.45
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Cellana Finance": {
+    "project": "Cellana Finance",
+    "symbol": "CEL",
+    "position": {
+      "x": 0.0,
+      "y": 34.14
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "IPMB": {
+    "project": "IPMB",
+    "symbol": "IPM",
+    "position": {
+      "x": 0.0,
+      "y": 51.65
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Gains Network": {
+    "project": "Gains Network",
+    "symbol": "GAI",
+    "position": {
+      "x": 0.0,
+      "y": 70.18
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Chiliz": {
+    "project": "Chiliz",
+    "symbol": "CHI",
+    "position": {
+      "x": 0.0,
+      "y": 51.59
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Gitcoin": {
+    "project": "Gitcoin",
+    "symbol": "GIT",
+    "position": {
+      "x": 0.0,
+      "y": 60.19
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Mendi Finance": {
+    "project": "Mendi Finance",
+    "symbol": "MEN",
+    "position": {
+      "x": 0.0,
+      "y": 31.05
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Goat Protocol": {
+    "project": "Goat Protocol",
+    "symbol": "GOA",
+    "position": {
+      "x": 0.0,
+      "y": 12.12
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "GoodDollar": {
+    "project": "GoodDollar",
+    "symbol": "GOO",
+    "position": {
+      "x": 0.0,
+      "y": 6.38
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "BladeSwap": {
+    "project": "BladeSwap",
+    "symbol": "BLA",
+    "position": {
+      "x": 0.0,
+      "y": 28.87
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "ZetaChain": {
+    "project": "ZetaChain",
+    "symbol": "ZET",
+    "position": {
+      "x": 0.0,
+      "y": 58.41
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Stability": {
+    "project": "Stability",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 31.21
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Crust Network": {
+    "project": "Crust Network",
+    "symbol": "CRU",
+    "position": {
+      "x": 0.0,
+      "y": 47.42
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "SUN": {
+    "project": "SUN",
+    "symbol": "SUN",
+    "position": {
+      "x": 0.0,
+      "y": 87.21
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Terra": {
+    "project": "Terra",
+    "symbol": "TER",
+    "position": {
+      "x": 0.0,
+      "y": 34.23
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "SmarDex": {
+    "project": "SmarDex",
+    "symbol": "SMA",
+    "position": {
+      "x": 0.0,
+      "y": 46.63
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Octopus Network": {
+    "project": "Octopus Network",
+    "symbol": "OCT",
+    "position": {
+      "x": 0.0,
+      "y": 52.6
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Save": {
+    "project": "Save",
+    "symbol": "SAV",
+    "position": {
+      "x": 0.0,
+      "y": 20.53
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "NeuroWeb": {
+    "project": "NeuroWeb",
+    "symbol": "NEU",
+    "position": {
+      "x": 0.0,
+      "y": 33.58
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Boba Network": {
+    "project": "Boba Network",
+    "symbol": "BOB",
+    "position": {
+      "x": 0.0,
+      "y": 57.88
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "EigenLayer": {
+    "project": "EigenLayer",
+    "symbol": "EIG",
+    "position": {
+      "x": 0.0,
+      "y": 87.65
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Bluefin": {
+    "project": "Bluefin",
+    "symbol": "BLU",
+    "position": {
+      "x": 0.0,
+      "y": 73.47
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Moola Market": {
+    "project": "Moola Market",
+    "symbol": "MOO",
+    "position": {
+      "x": 0.0,
+      "y": 21.3
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "YOLO Games": {
+    "project": "YOLO Games",
+    "symbol": "YOL",
+    "position": {
+      "x": 0.0,
+      "y": 39.79
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Ekubo Protocol": {
+    "project": "Ekubo Protocol",
+    "symbol": "EKU",
+    "position": {
+      "x": 0.0,
+      "y": 63.19
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Thorchain": {
+    "project": "Thorchain",
+    "symbol": "THO",
+    "position": {
+      "x": 0.0,
+      "y": 98.85
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Loopring": {
+    "project": "Loopring",
+    "symbol": "LOO",
+    "position": {
+      "x": 0.0,
+      "y": 84.92
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Stryke": {
+    "project": "Stryke",
+    "symbol": "STR",
+    "position": {
+      "x": 0.0,
+      "y": 36.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Drift Protocol": {
+    "project": "Drift Protocol",
+    "symbol": "DRI",
+    "position": {
+      "x": 0.0,
+      "y": 95.92
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Cetus": {
+    "project": "Cetus",
+    "symbol": "CET",
+    "position": {
+      "x": 0.0,
+      "y": 80.46
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Celer Network": {
+    "project": "Celer Network",
+    "symbol": "CEL",
+    "position": {
+      "x": 0.0,
+      "y": 56.11
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Aark": {
+    "project": "Aark",
+    "symbol": "AAR",
+    "position": {
+      "x": 0.0,
+      "y": 56.84
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Ancient8": {
+    "project": "Ancient8",
+    "symbol": "ANC",
+    "position": {
+      "x": 0.0,
+      "y": 61.55
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Storj": {
+    "project": "Storj",
+    "symbol": "STO",
+    "position": {
+      "x": 0.0,
+      "y": 77.19
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Magpie XYZ": {
+    "project": "Magpie XYZ",
+    "symbol": "MAG",
+    "position": {
+      "x": 0.0,
+      "y": 68.84
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Jupiter": {
+    "project": "Jupiter",
+    "symbol": "JUP",
+    "position": {
+      "x": 0.0,
+      "y": 95.4
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Soneium": {
+    "project": "Soneium",
+    "symbol": "SON",
+    "position": {
+      "x": 0.0,
+      "y": 93.61
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Superseed": {
+    "project": "Superseed",
+    "symbol": "SUP",
+    "position": {
+      "x": 0.0,
+      "y": 46.91
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "XDC Network": {
+    "project": "XDC Network",
+    "symbol": "XDC",
+    "position": {
+      "x": 0.0,
+      "y": 42.5
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Talis Protocol": {
+    "project": "Talis Protocol",
+    "symbol": "TAL",
+    "position": {
+      "x": 0.0,
+      "y": 21.11
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Optopia": {
+    "project": "Optopia",
+    "symbol": "OPT",
+    "position": {
+      "x": 0.0,
+      "y": 22.25
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Guild of Guardians": {
+    "project": "Guild of Guardians",
+    "symbol": "GUI",
+    "position": {
+      "x": 0.0,
+      "y": 49.8
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Eggs Finance": {
+    "project": "Eggs Finance",
+    "symbol": "EGG",
+    "position": {
+      "x": 0.0,
+      "y": 75.69
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Astroport": {
+    "project": "Astroport",
+    "symbol": "AST",
+    "position": {
+      "x": 0.0,
+      "y": 30.69
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Pendulum": {
+    "project": "Pendulum",
+    "symbol": "PEN",
+    "position": {
+      "x": 0.0,
+      "y": 22.88
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Particle": {
+    "project": "Particle",
+    "symbol": "PAR",
+    "position": {
+      "x": 0.0,
+      "y": 51.74
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Coreum": {
+    "project": "Coreum",
+    "symbol": "COR",
+    "position": {
+      "x": 0.0,
+      "y": 15.15
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Sui": {
+    "project": "Sui",
+    "symbol": "SUI",
+    "position": {
+      "x": 0.0,
+      "y": 87.88
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Apeiron": {
+    "project": "Apeiron",
+    "symbol": "APE",
+    "position": {
+      "x": 0.0,
+      "y": 53.4
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "ShapeShift": {
+    "project": "ShapeShift",
+    "symbol": "SHA",
+    "position": {
+      "x": 0.0,
+      "y": 61.21
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Dypius": {
+    "project": "Dypius",
+    "symbol": "DYP",
+    "position": {
+      "x": 0.0,
+      "y": 35.93
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Bifrost": {
+    "project": "Bifrost",
+    "symbol": "BIF",
+    "position": {
+      "x": 0.0,
+      "y": 53.28
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Liquid Collective": {
+    "project": "Liquid Collective",
+    "symbol": "LIQ",
+    "position": {
+      "x": 0.0,
+      "y": 30.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Rocket Pool": {
+    "project": "Rocket Pool",
+    "symbol": "ROC",
+    "position": {
+      "x": 0.0,
+      "y": 52.8
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "Jumbo Exchange": {
+    "project": "Jumbo Exchange",
+    "symbol": "JUM",
+    "position": {
+      "x": 0.0,
+      "y": 6.9
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Pichi Finance": {
+    "project": "Pichi Finance",
+    "symbol": "PIC",
+    "position": {
+      "x": 0.0,
+      "y": 23.6
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Secret Network": {
+    "project": "Secret Network",
+    "symbol": "SEC",
+    "position": {
+      "x": 0.0,
+      "y": 28.18
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "NAVI Protocol": {
+    "project": "NAVI Protocol",
+    "symbol": "NAV",
+    "position": {
+      "x": 0.0,
+      "y": 97.37
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Beefy": {
+    "project": "Beefy",
+    "symbol": "BEE",
+    "position": {
+      "x": 0.0,
+      "y": 59.69
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Exactly Protocol": {
+    "project": "Exactly Protocol",
+    "symbol": "EXA",
+    "position": {
+      "x": 0.0,
+      "y": 36.58
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "XY Finance": {
+    "project": "XY Finance",
+    "symbol": "XY ",
+    "position": {
+      "x": 0.0,
+      "y": 35.0
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Bridges"
+    },
+    "highlight": false
+  },
+  "yearn.finance": {
+    "project": "yearn.finance",
+    "symbol": "YEA",
+    "position": {
+      "x": 0.0,
+      "y": 96.29
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Colony": {
+    "project": "Colony",
+    "symbol": "COL",
+    "position": {
+      "x": 0.0,
+      "y": 27.85
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Everyworld": {
+    "project": "Everyworld",
+    "symbol": "EVE",
+    "position": {
+      "x": 0.0,
+      "y": 10.79
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Synthswap": {
+    "project": "Synthswap",
+    "symbol": "SYN",
+    "position": {
+      "x": 0.0,
+      "y": 32.36
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "MetaMask": {
+    "project": "MetaMask",
+    "symbol": "MET",
+    "position": {
+      "x": 0.0,
+      "y": 81.82
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Interlay": {
+    "project": "Interlay",
+    "symbol": "INT",
+    "position": {
+      "x": 0.0,
+      "y": 33.93
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Fuel Ignition": {
+    "project": "Fuel Ignition",
+    "symbol": "FUE",
+    "position": {
+      "x": 0.0,
+      "y": 49.6
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Vaultka": {
+    "project": "Vaultka",
+    "symbol": "VAU",
+    "position": {
+      "x": 0.0,
+      "y": 33.96
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Plume Network": {
+    "project": "Plume Network",
+    "symbol": "PLU",
+    "position": {
+      "x": 0.0,
+      "y": 40.38
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Kage Finance": {
+    "project": "Kage Finance",
+    "symbol": "KAG",
+    "position": {
+      "x": 0.0,
+      "y": 20.2
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Thala": {
+    "project": "Thala",
+    "symbol": "THA",
+    "position": {
+      "x": 0.0,
+      "y": 45.09
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Exchanges (DEX)"
+    },
+    "highlight": false
+  },
+  "Sakai Vault": {
+    "project": "Sakai Vault",
+    "symbol": "SAK",
+    "position": {
+      "x": 0.0,
+      "y": 49.49
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Aevo": {
+    "project": "Aevo",
+    "symbol": "AEV",
+    "position": {
+      "x": 0.0,
+      "y": 89.38
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Symbiotic": {
+    "project": "Symbiotic",
+    "symbol": "SYM",
+    "position": {
+      "x": 0.0,
+      "y": 80.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Liquid staking"
+    },
+    "highlight": false
+  },
+  "AI Protocol": {
+    "project": "AI Protocol",
+    "symbol": "AI ",
+    "position": {
+      "x": 0.0,
+      "y": 45.9
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "XRP": {
+    "project": "XRP",
+    "symbol": "XRP",
+    "position": {
+      "x": 0.0,
+      "y": 95.45
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "RealT": {
+    "project": "RealT",
+    "symbol": "REA",
+    "position": {
+      "x": 0.0,
+      "y": 46.21
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Navigator": {
+    "project": "Navigator",
+    "symbol": "NAV",
+    "position": {
+      "x": 0.0,
+      "y": 56.83
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Seraph": {
+    "project": "Seraph",
+    "symbol": "SER",
+    "position": {
+      "x": 0.0,
+      "y": 79.52
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "dHedge": {
+    "project": "dHedge",
+    "symbol": "DHE",
+    "position": {
+      "x": 0.0,
+      "y": 47.79
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Asset management"
+    },
+    "highlight": false
+  },
+  "Mode Network": {
+    "project": "Mode Network",
+    "symbol": "MOD",
+    "position": {
+      "x": 0.0,
+      "y": 61.87
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "dForce": {
+    "project": "dForce",
+    "symbol": "DFO",
+    "position": {
+      "x": 0.0,
+      "y": 78.06
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Lending"
+    },
+    "highlight": false
+  },
+  "Safe": {
+    "project": "Safe",
+    "symbol": "SAF",
+    "position": {
+      "x": 0.0,
+      "y": 57.04
+    },
+    "meta": {
+      "sector": "Infrastructure",
+      "original_sector": "Infrastructure"
+    },
+    "highlight": false
+  },
+  "Centrifuge": {
+    "project": "Centrifuge",
+    "symbol": "CEN",
+    "position": {
+      "x": 0.0,
+      "y": 28.97
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Flow": {
+    "project": "Flow",
+    "symbol": "FLO",
+    "position": {
+      "x": 0.0,
+      "y": 43.64
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "ZKFair": {
+    "project": "ZKFair",
+    "symbol": "ZKF",
+    "position": {
+      "x": 0.0,
+      "y": 52.12
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Sonic": {
+    "project": "Sonic",
+    "symbol": "SON",
+    "position": {
+      "x": 0.0,
+      "y": 60.71
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Ink": {
+    "project": "Ink",
+    "symbol": "INK",
+    "position": {
+      "x": 0.0,
+      "y": 85.56
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Unichain": {
+    "project": "Unichain",
+    "symbol": "UNI",
+    "position": {
+      "x": 0.0,
+      "y": 77.58
+    },
+    "meta": {
+      "sector": "Layer 2",
+      "original_sector": "Blockchains (L2)"
+    },
+    "highlight": false
+  },
+  "Cap": {
+    "project": "Cap",
+    "symbol": "CAP",
+    "position": {
+      "x": 0.0,
+      "y": 33.14
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Sound.xyz": {
+    "project": "Sound.xyz",
+    "symbol": "SOU",
+    "position": {
+      "x": 0.0,
+      "y": 20.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Volmex": {
+    "project": "Volmex",
+    "symbol": "VOL",
+    "position": {
+      "x": 0.0,
+      "y": 45.95
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Deri Protocol": {
+    "project": "Deri Protocol",
+    "symbol": "DER",
+    "position": {
+      "x": 0.0,
+      "y": 45.48
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  },
+  "Pika Protocol": {
+    "project": "Pika Protocol",
+    "symbol": "PIK",
+    "position": {
+      "x": 0.0,
+      "y": 30.0
+    },
+    "meta": {
+      "sector": "DeFi",
+      "original_sector": "Derivative exchanges"
+    },
+    "highlight": false
+  }
+}

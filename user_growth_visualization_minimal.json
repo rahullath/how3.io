@@ -53,21 +53,21 @@
           }
         },
         {
+          "name": "Pendle",
+          "scores": {
+            "user_growth": 94.4047485765466
+          }
+        },
+        {
+          "name": "Synthetix",
+          "scores": {
+            "user_growth": 80.07145256221611
+          }
+        },
+        {
           "name": "Hyperliquid",
           "scores": {
             "user_growth": 100.0
-          }
-        },
-        {
-          "name": "Drift Protocol",
-          "scores": {
-            "user_growth": 95.91836734693877
-          }
-        },
-        {
-          "name": "Aevo",
-          "scores": {
-            "user_growth": 89.37847866419295
           }
         }
       ],
@@ -141,9 +141,9 @@
           }
         },
         {
-          "name": "Solana",
+          "name": "Algorand",
           "scores": {
-            "user_growth": 96.22273151684917
+            "user_growth": 57.27272727272727
           }
         }
       ],
@@ -217,9 +217,9 @@
           }
         },
         {
-          "name": "Solana",
+          "name": "Algorand",
           "scores": {
-            "user_growth": 96.22273151684917
+            "user_growth": 57.27272727272727
           }
         }
       ],
@@ -281,21 +281,21 @@
           }
         },
         {
+          "name": "GMX",
+          "scores": {
+            "user_growth": 95.64567206192824
+          }
+        },
+        {
+          "name": "Synthetix",
+          "scores": {
+            "user_growth": 80.07145256221611
+          }
+        },
+        {
           "name": "Hyperliquid",
           "scores": {
             "user_growth": 100.0
-          }
-        },
-        {
-          "name": "Drift Protocol",
-          "scores": {
-            "user_growth": 95.91836734693877
-          }
-        },
-        {
-          "name": "Aevo",
-          "scores": {
-            "user_growth": 89.37847866419295
           }
         }
       ],
@@ -445,9 +445,9 @@
           }
         },
         {
-          "name": "Solana",
+          "name": "Algorand",
           "scores": {
-            "user_growth": 96.22273151684917
+            "user_growth": 57.27272727272727
           }
         }
       ],
@@ -483,9 +483,9 @@
           }
         },
         {
-          "name": "Solana",
+          "name": "Algorand",
           "scores": {
-            "user_growth": 96.22273151684917
+            "user_growth": 57.27272727272727
           }
         }
       ],
@@ -530,6 +530,538 @@
       "sector_averages": {
         "user_growth": 53.32,
         "count": 52
+      }
+    },
+    "Convex Finance": {
+      "name": "Convex Finance",
+      "sector": "Asset management",
+      "scores": {
+        "user_growth": 94.95356793743892,
+        "growth_category": "Exceptional Growth"
+      },
+      "peers": [
+        {
+          "name": "Ondo Finance",
+          "scores": {
+            "user_growth": 100.0
+          }
+        },
+        {
+          "name": "yearn.finance",
+          "scores": {
+            "user_growth": 96.2854349951124
+          }
+        },
+        {
+          "name": "BadgerDAO",
+          "scores": {
+            "user_growth": 90.1466275659824
+          }
+        },
+        {
+          "name": "Numerai",
+          "scores": {
+            "user_growth": 88.36754643206255
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 53.9,
+        "count": 36
+      }
+    },
+    "Algorand": {
+      "name": "Algorand",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 57.27272727272727,
+        "growth_category": "Steady Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Aptos": {
+      "name": "Aptos",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 74.57650162337663,
+        "growth_category": "Strong Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Celo": {
+      "name": "Celo",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 56.73683261183261,
+        "growth_category": "Steady Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Filecoin": {
+      "name": "Filecoin",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 64.0909090909091,
+        "growth_category": "Steady Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Injective": {
+      "name": "Injective",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 64.14820473644002,
+        "growth_category": "Steady Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Internet Computer": {
+      "name": "Internet Computer",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 74.21487603305783,
+        "growth_category": "Strong Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "MultiversX": {
+      "name": "MultiversX",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 52.53787878787879,
+        "growth_category": "Steady Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "NEAR Protocol": {
+      "name": "NEAR Protocol",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 34.00568181818182,
+        "growth_category": "Slow Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Polkadot": {
+      "name": "Polkadot",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 43.33908279220779,
+        "growth_category": "Slow Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Solana": {
+      "name": "Solana",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "user_growth": 96.22273151684917,
+        "growth_category": "Exceptional Growth"
+      },
+      "peers": [
+        {
+          "name": "Bitcoin",
+          "scores": {
+            "user_growth": 73.61458333333334
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "user_growth": 94.40882034632034
+          }
+        },
+        {
+          "name": "Ethereum",
+          "scores": {
+            "user_growth": 80.74585137085137
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "user_growth": 63.59943977591037
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 52.15,
+        "count": 67
+      }
+    },
+    "Synthetix": {
+      "name": "Synthetix",
+      "sector": "Derivative exchanges",
+      "scores": {
+        "user_growth": 80.07145256221611,
+        "growth_category": "Exceptional Growth"
+      },
+      "peers": [
+        {
+          "name": "GMX",
+          "scores": {
+            "user_growth": 95.64567206192824
+          }
+        },
+        {
+          "name": "Pendle",
+          "scores": {
+            "user_growth": 94.4047485765466
+          }
+        },
+        {
+          "name": "GMX",
+          "scores": {
+            "user_growth": 95.64567206192824
+          }
+        },
+        {
+          "name": "Pendle",
+          "scores": {
+            "user_growth": 94.4047485765466
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 56.17,
+        "count": 56
+      }
+    },
+    "Ethena": {
+      "name": "Ethena",
+      "sector": "Stablecoin issuers",
+      "scores": {
+        "user_growth": 85.625,
+        "growth_category": "Exceptional Growth"
+      },
+      "peers": [
+        {
+          "name": "TrueUSD",
+          "scores": {
+            "user_growth": 84.52380952380952
+          }
+        },
+        {
+          "name": "Usual",
+          "scores": {
+            "user_growth": 84.4047619047619
+          }
+        },
+        {
+          "name": "Abracadabra.money",
+          "scores": {
+            "user_growth": 83.48214285714286
+          }
+        },
+        {
+          "name": "Origin Protocol",
+          "scores": {
+            "user_growth": 71.47321428571428
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 54.65,
+        "count": 17
+      }
+    },
+    "PancakeSwap": {
+      "name": "PancakeSwap",
+      "sector": "Exchanges (DEX)",
+      "scores": {
+        "user_growth": 99.14772727272728,
+        "growth_category": "Exceptional Growth"
+      },
+      "peers": [
+        {
+          "name": "Uniswap Labs",
+          "scores": {
+            "user_growth": 90.9090909090909
+          }
+        },
+        {
+          "name": "Curve",
+          "scores": {
+            "user_growth": 80.46152922439074
+          }
+        },
+        {
+          "name": "Thorchain",
+          "scores": {
+            "user_growth": 98.85057471264368
+          }
+        },
+        {
+          "name": "Uniswap",
+          "scores": {
+            "user_growth": 98.44734890619208
+          }
+        }
+      ],
+      "sector_averages": {
+        "user_growth": 53.59,
+        "count": 93
       }
     }
   },

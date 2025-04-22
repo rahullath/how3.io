@@ -8,7 +8,7 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
     Generate both complete and minimal User Growth datasets from the CSV file.
     
     Args:
-        csv_file: Path to the user_growth_results.csv file
+        csv_file: Path to the combined_crypto_scores.csv file
         complete_output_file: Where to save the complete JSON data
         minimal_output_file: Where to save the minimal JSON data for visualization
         focus_protocols: List of protocols to focus on for the minimal dataset
@@ -30,19 +30,19 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
         ug_score = row.get('User Growth Score')
         growth_category = row.get('Growth Category')
         
-        # Convert to numeric and handle NaN
+        # Convert to numeric and handle NaN or empty strings
         try:
-            ug_score = float(ug_score) if not pd.isna(ug_score) else None
+            ug_score = float(ug_score) if pd.notna(ug_score) and ug_score != '' else None
         except (ValueError, TypeError):
             ug_score = None
         
         # Store in the complete dataset
         complete_data[project_name] = {
             "name": project_name,
-            "sector": sector,
+            "sector": sector if pd.notna(sector) and sector != '' else "Unknown",
             "scores": {
                 "user_growth": ug_score,
-                "growth_category": growth_category if not pd.isna(growth_category) else None
+                "growth_category": growth_category if pd.notna(growth_category) and growth_category != '' else None
             }
         }
     
@@ -60,7 +60,7 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
         if not valid_projects:
             continue
             
-        total_ug = sum(p["scores"]["user_growth"] for p in valid_projects if p["scores"]["user_growth"] is not None)
+        total_ug = sum(p["scores"]["user_growth"] for p in valid_projects)
         count = len(valid_projects)
         
         sector_averages[sector] = {
@@ -80,6 +80,12 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
     
     # Keep track of which focus protocols are found
     found_protocols = []
+    
+    # Check for duplicates in focus_protocols
+    seen = set()
+    duplicates = [p for p in focus_protocols if p in seen or seen.add(p)]
+    if duplicates:
+        print(f"Warning: Duplicates found in focus_protocols: {duplicates}")
     
     for name in focus_protocols:
         if name not in complete_data:
@@ -162,64 +168,31 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
 
 if __name__ == "__main__":
     # File paths
-    csv_file = "user_growth_results.csv"
-    complete_output_file = "complete_user_growth_data.json"
-    minimal_output_file = "user_growth_visualization_minimal.json"
+    csv_file = "combined_crypto_scores.csv"
+    complete_output_file = "complete_ugs_data.json"
+    minimal_output_file = "user_growth_visual_minimal.json"
     
-    # List of 14 focus protocols for the visualization
-    focus_protocols = focus_protocols = [
-        "Convex Finance",
-        "Algorand",
-        "Aptos",
-        "Avalanche",
-        "BNB Chain",
-        "Celo",
-        "Cosmos",
-        "Ethereum",
-        "Filecoin",
-        "Injective",
-        "Internet Computer",
-        "MultiversX",
-        "NEAR Protocol",
-        "Polkadot",
-        "RedStone",
-        "Ronin Network",
-        "Solana",
-        "Sonic Labs (prev. Fantom)",
-        "TRON",
-        "Arbitrum",
-        "Gravity",
-        "Immutable X",
-        "zkSync",
-        "GMX",
-        "Pendle",
-        "Synthetix",
-        "Aerodrome Finance",
-        "Curve DAO Token",
-        "Ethena",
-        "Mocaverse",
-        "PancakeSwap",
-        "Sushiswap",
-        "Chainlink",
-        "Aave",
-        "BENQI Liquid Staked AVAX",
-        "Compound",
-        "Maple Finance",
-        "Vechain",
-        "Venus USDT",
-        "Jito Labs",
-        "Lido DAO",
-        "Stader ETHx",
-        "Entangle",
-        "Ethena",
-        "OriginTrail",
-        "Sky (formerly MakerDAO)"
-    ]
-    
-    # Check if CSV file exists
+    # Load CSV to dynamically generate focus_protocols
     if not os.path.exists(csv_file):
         print(f"Error: CSV file {csv_file} not found")
         exit(1)
+    
+    df = pd.read_csv(csv_file)
+    # Select projects with no empty columns (all 10 columns must have non-empty, non-NaN values)
+    required_columns = [
+        'Project', 'Market Sector', 'Safety Score', 'Safety Grade',
+        'Earnings Quality Score', 'User Growth Score', 'Growth Category',
+        'Fair Value Score', 'Valuation Category', 'Market Cap to Revenue Ratio'
+    ]
+    # Check for non-empty, non-NaN values, treating "0.0x" as valid
+    focus_protocols = df[
+        df[required_columns].notna().all(axis=1) & 
+        (df[required_columns].ne('').all(axis=1))
+    ]['Project'].tolist()
+    focus_protocols = sorted(list(set(focus_protocols)))  # Remove duplicates and sort
+    print(f"Generated {len(focus_protocols)} focus protocols with no empty columns:")
+    for protocol in focus_protocols:
+        print(f"- {protocol}")
     
     # Generate both datasets
     found_protocols = generate_ug_datasets(
@@ -231,11 +204,11 @@ if __name__ == "__main__":
     
     # Print which focus protocols were found and used
     print("\nFocus protocols included in the visualization:")
-    for protocol in found_protocols:
+    for protocol in sorted(found_protocols):
         print(f"- {protocol}")
     
     missing = set(focus_protocols) - set(found_protocols)
     if missing:
         print("\nWarning: These focus protocols were not found in the dataset:")
-        for protocol in missing:
+        for protocol in sorted(missing):
             print(f"- {protocol}")

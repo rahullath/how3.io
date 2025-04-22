@@ -1,0 +1,13 @@
+{
+  "name": "PancakeSwap",
+  "mainScore": 91.84,
+  "rating": "AA",
+  "subScores": {
+    "CS": 88.54,
+    "M": 96.26,
+    "O": 96.41,
+    "C": 92.06,
+    "G": 88.73,
+    "F": 89.05
+  }
+}

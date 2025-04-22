@@ -3,21 +3,24 @@ import json
 import os
 from collections import defaultdict
 
-def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, focus_protocols):
+def generate_eqs_datasets(csv_file, complete_output_file, minimal_output_file, focus_protocols):
     """
-    Generate both complete and minimal User Growth datasets from the CSV file.
+    Generate both complete and minimal EQS datasets from the combined_crypto_scores.csv file.
     
     Args:
-        csv_file: Path to the user_growth_results.csv file
+        csv_file: Path to the combined_crypto_scores.csv file
         complete_output_file: Where to save the complete JSON data
         minimal_output_file: Where to save the minimal JSON data for visualization
         focus_protocols: List of protocols to focus on for the minimal dataset
     """
-    print(f"Loading user growth data from {csv_file}...")
+    print(f"Loading data from {csv_file}...")
     
     # Load CSV file
     df = pd.read_csv(csv_file)
     print(f"Loaded {len(df)} projects from CSV")
+    
+    # Override sector for Sky (formerly MakerDAO)
+    df.loc[df['Project'] == 'Sky (formerly MakerDAO)', 'Market Sector'] = 'Lending'
     
     # Create complete dataset
     complete_data = {}
@@ -26,23 +29,21 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
         project_name = row['Project']
         sector = row['Market Sector']
         
-        # Extract user growth score and category
-        ug_score = row.get('User Growth Score')
-        growth_category = row.get('Growth Category')
+        # Extract EQS score
+        eqs_score = row.get('Earnings Quality Score')
         
-        # Convert to numeric and handle NaN
+        # Convert to numeric and handle NaN or empty strings
         try:
-            ug_score = float(ug_score) if not pd.isna(ug_score) else None
+            eqs_score = float(eqs_score) if pd.notna(eqs_score) and eqs_score != '' else None
         except (ValueError, TypeError):
-            ug_score = None
+            eqs_score = None
         
         # Store in the complete dataset
         complete_data[project_name] = {
             "name": project_name,
-            "sector": sector,
+            "sector": sector if pd.notna(sector) and sector != '' else "Unknown",
             "scores": {
-                "user_growth": ug_score,
-                "growth_category": growth_category if not pd.isna(growth_category) else None
+                "earnings_quality": eqs_score
             }
         }
     
@@ -55,16 +56,16 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
     # Calculate sector averages
     sector_averages = {}
     for sector, projects in projects_by_sector.items():
-        valid_projects = [p for p in projects if p["scores"]["user_growth"] is not None]
+        valid_projects = [p for p in projects if p["scores"]["earnings_quality"] is not None]
         
         if not valid_projects:
             continue
             
-        total_ug = sum(p["scores"]["user_growth"] for p in valid_projects if p["scores"]["user_growth"] is not None)
+        total_eqs = sum(p["scores"]["earnings_quality"] for p in valid_projects)
         count = len(valid_projects)
         
         sector_averages[sector] = {
-            "user_growth": round(total_ug / count, 2) if count > 0 else None,
+            "earnings_quality": round(total_eqs / count, 2) if count > 0 else None,
             "count": count
         }
     
@@ -81,9 +82,19 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
     # Keep track of which focus protocols are found
     found_protocols = []
     
+    # Check for duplicates in focus_protocols
+    seen = set()
+    duplicates = [p for p in focus_protocols if p in seen or seen.add(p)]
+    if duplicates:
+        print(f"Warning: Duplicates found in focus_protocols: {duplicates}")
+    
     for name in focus_protocols:
         if name not in complete_data:
             print(f"Warning: Focus protocol '{name}' not found in dataset")
+            continue
+            
+        if complete_data[name]["scores"]["earnings_quality"] is None:
+            print(f"Warning: Focus protocol '{name}' has no Earnings Quality Score")
             continue
             
         found_protocols.append(name)
@@ -95,11 +106,11 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
         
         # First add focus protocols that are peers
         for peer_name in focus_protocols:
-            if peer_name != name and peer_name in complete_data and complete_data[peer_name]["sector"] == sector:
+            if peer_name != name and peer_name in complete_data and complete_data[peer_name]["sector"] == sector and complete_data[peer_name]["scores"]["earnings_quality"] is not None:
                 peers.append({
                     "name": peer_name,
                     "scores": {
-                        "user_growth": complete_data[peer_name]["scores"]["user_growth"]
+                        "earnings_quality": complete_data[peer_name]["scores"]["earnings_quality"]
                     }
                 })
         
@@ -107,11 +118,11 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
         other_projects = [
             p for p in projects_by_sector[sector] 
             if p["name"] not in focus_protocols and p["name"] != name
-            and p["scores"]["user_growth"] is not None
+            and p["scores"]["earnings_quality"] is not None
         ]
         
-        # Sort by User Growth score
-        other_projects.sort(key=lambda x: x["scores"]["user_growth"] or 0, reverse=True)
+        # Sort by EQS score
+        other_projects.sort(key=lambda x: x["scores"]["earnings_quality"] or 0, reverse=True)
         
         # Add top projects to reach 4 total peers
         needed = 4 - len(peers)
@@ -119,7 +130,7 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
             peers.append({
                 "name": p["name"],
                 "scores": {
-                    "user_growth": p["scores"]["user_growth"]
+                    "earnings_quality": p["scores"]["earnings_quality"]
                 }
             })
         
@@ -130,7 +141,7 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
             "scores": protocol["scores"],
             "peers": peers[:4],
             "sector_averages": sector_averages.get(sector, {
-                "user_growth": None,
+                "earnings_quality": None,
                 "count": 0
             })
         }
@@ -154,67 +165,30 @@ def generate_ug_datasets(csv_file, complete_output_file, minimal_output_file, fo
     
     # Print summary for verification
     print("\nSector averages:")
-    for sector, averages in sorted(sector_averages.items(), key=lambda x: x[1]["user_growth"] or 0, reverse=True):
-        if averages["user_growth"] is not None:
-            print(f"{sector}: User Growth={averages['user_growth']:.2f} (from {averages['count']} projects)")
+    for sector, averages in sorted(sector_averages.items(), key=lambda x: x[1]["earnings_quality"] or 0, reverse=True):
+        if averages["earnings_quality"] is not None:
+            print(f"{sector}: EQS={averages['earnings_quality']:.2f} (from {averages['count']} projects)")
     
     return found_protocols
 
 if __name__ == "__main__":
     # File paths
-    csv_file = "user_growth_results.csv"
-    complete_output_file = "complete_user_growth_data.json"
-    minimal_output_file = "user_growth_visualization_minimal.json"
+    csv_file = "combined_crypto_scores.csv"
+    complete_output_file = "complete_eqs_data.json"
+    minimal_output_file = "eqs_visualization_minimal.json"
     
-    # List of 14 focus protocols for the visualization
-    focus_protocols = focus_protocols = [
-        "Convex Finance",
-        "Algorand",
-        "Aptos",
-        "Avalanche",
-        "BNB Chain",
-        "Celo",
-        "Cosmos",
-        "Ethereum",
-        "Filecoin",
-        "Injective",
-        "Internet Computer",
-        "MultiversX",
-        "NEAR Protocol",
-        "Polkadot",
-        "RedStone",
-        "Ronin Network",
-        "Solana",
-        "Sonic Labs (prev. Fantom)",
-        "TRON",
-        "Arbitrum",
-        "Gravity",
-        "Immutable X",
-        "zkSync",
-        "GMX",
-        "Pendle",
-        "Synthetix",
-        "Aerodrome Finance",
-        "Curve DAO Token",
-        "Ethena",
-        "Mocaverse",
-        "PancakeSwap",
-        "Sushiswap",
-        "Chainlink",
-        "Aave",
-        "BENQI Liquid Staked AVAX",
-        "Compound",
-        "Maple Finance",
-        "Vechain",
-        "Venus USDT",
-        "Jito Labs",
-        "Lido DAO",
-        "Stader ETHx",
-        "Entangle",
-        "Ethena",
-        "OriginTrail",
+    # List of 47 focus protocols (deduplicated)
+    focus_protocols = sorted(list(set([
+        "Convex Finance", "Algorand", "Aptos", "Avalanche", "BNB Chain", "Celo",
+        "Cosmos", "Ethereum", "Filecoin", "Injective", "Internet Computer", "MultiversX",
+        "NEAR Protocol", "Polkadot", "RedStone", "Ronin Network", "Solana",
+        "Sonic Labs (prev. Fantom)", "TRON", "Arbitrum", "Gravity", "Immutable X",
+        "zkSync", "GMX", "Pendle", "Synthetix", "Aerodrome Finance", "Curve DAO Token",
+        "Ethena", "Mocaverse", "PancakeSwap", "Sushiswap", "Chainlink", "Aave",
+        "BENQI Liquid Staked AVAX", "Compound", "Maple Finance", "Vechain", "Venus USDT",
+        "Jito Labs", "Lido DAO", "Stader ETHx", "Entangle", "OriginTrail",
         "Sky (formerly MakerDAO)"
-    ]
+    ])))  # Removed duplicate Ethena
     
     # Check if CSV file exists
     if not os.path.exists(csv_file):
@@ -222,7 +196,7 @@ if __name__ == "__main__":
         exit(1)
     
     # Generate both datasets
-    found_protocols = generate_ug_datasets(
+    found_protocols = generate_eqs_datasets(
         csv_file, 
         complete_output_file, 
         minimal_output_file,
@@ -231,11 +205,11 @@ if __name__ == "__main__":
     
     # Print which focus protocols were found and used
     print("\nFocus protocols included in the visualization:")
-    for protocol in found_protocols:
+    for protocol in sorted(found_protocols):
         print(f"- {protocol}")
     
     missing = set(focus_protocols) - set(found_protocols)
     if missing:
-        print("\nWarning: These focus protocols were not found in the dataset:")
-        for protocol in missing:
+        print("\nWarning: These focus protocols were not found in the dataset or lack EQS:")
+        for protocol in sorted(missing):
             print(f"- {protocol}")

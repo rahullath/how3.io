@@ -4,724 +4,1603 @@
       "name": "Aave",
       "sector": "Lending",
       "scores": {
-        "earnings_quality": 62.67,
-        "stability": 79.7436997420562,
-        "magnitude": 78.59
+        "earnings_quality": 62.67057362728197
       },
       "peers": [
-        {
-          "name": "Maple Finance",
-          "scores": {
-            "earnings_quality": 54.32
-          }
-        },
         {
           "name": "Compound",
           "scores": {
-            "earnings_quality": 32.43
+            "earnings_quality": 32.43084976560476
           }
         },
         {
-          "name": "Venus",
+          "name": "Maple Finance",
           "scores": {
-            "earnings_quality": 58.73
+            "earnings_quality": 54.32192715059285
           }
         },
         {
-          "name": "Fluid",
+          "name": "Vechain",
           "scores": {
-            "earnings_quality": 43.23
+            "earnings_quality": 62.67057362728197
+          }
+        },
+        {
+          "name": "Venus USDT",
+          "scores": {
+            "earnings_quality": 58.729369995647765
           }
         }
       ],
       "sector_averages": {
-        "earnings_quality": 29.74,
-        "stability": 54.45,
-        "magnitude": 53.32,
-        "count": 17
+        "earnings_quality": 8.52,
+        "count": 62
       }
     },
-    "GMX": {
-      "name": "GMX",
-      "sector": "Derivative exchanges",
+    "Aerodrome Finance": {
+      "name": "Aerodrome Finance",
+      "sector": "Exchanges (DEX)",
       "scores": {
-        "earnings_quality": 50.32,
-        "stability": 69.24332994712307,
-        "magnitude": 72.67
+        "earnings_quality": 60.788622351381406
       },
       "peers": [
         {
-          "name": "Pendle",
+          "name": "Curve DAO Token",
           "scores": {
-            "earnings_quality": 44.2
+            "earnings_quality": 56.84522301549867
           }
         },
         {
-          "name": "Hegic",
+          "name": "Ethena",
           "scores": {
-            "earnings_quality": 54.79
+            "earnings_quality": 57.15610750876476
           }
         },
         {
-          "name": "SynFutures",
+          "name": "PancakeSwap",
           "scores": {
-            "earnings_quality": 44.47
+            "earnings_quality": 20.610528563344047
           }
         },
         {
-          "name": "BMX",
+          "name": "Sushiswap",
           "scores": {
-            "earnings_quality": 44.4
+            "earnings_quality": 47.83216668659891
           }
         }
       ],
       "sector_averages": {
-        "earnings_quality": 26.95,
-        "stability": 53.53,
-        "magnitude": 46.53,
-        "count": 19
+        "earnings_quality": 8.69,
+        "count": 136
       }
     },
-    "Lido Finance": {
-      "name": "Lido Finance",
-      "sector": "Liquid staking",
-      "scores": {
-        "earnings_quality": 62.6,
-        "stability": 80.18573143668108,
-        "magnitude": 78.07
-      },
-      "peers": [
-        {
-          "name": "Frax Ether",
-          "scores": {
-            "earnings_quality": 43.88
-          }
-        },
-        {
-          "name": "Jito",
-          "scores": {
-            "earnings_quality": 40.58
-          }
-        },
-        {
-          "name": "Stader",
-          "scores": {
-            "earnings_quality": 39.25
-          }
-        },
-        {
-          "name": "StakeWise",
-          "scores": {
-            "earnings_quality": 31.52
-          }
-        }
-      ],
-      "sector_averages": {
-        "earnings_quality": 36.3,
-        "stability": 69.82,
-        "magnitude": 51.35,
-        "count": 6
-      }
-    },
-    "Bitcoin": {
-      "name": "Bitcoin",
+    "Algorand": {
+      "name": "Algorand",
       "sector": "Blockchains (L1)",
       "scores": {
-        "earnings_quality": 0,
-        "stability": 67.3327550273475,
-        "magnitude": 0
+        "earnings_quality": 38.517054285532666
       },
       "peers": [
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
         {
           "name": "BNB Chain",
           "scores": {
-            "earnings_quality": 48.5
+            "earnings_quality": 48.5009231754041
           }
         },
         {
-          "name": "Ethereum",
+          "name": "Celo",
           "scores": {
-            "earnings_quality": 26.4
-          }
-        },
-        {
-          "name": "Avalanche",
-          "scores": {
-            "earnings_quality": 39.96
-          }
-        },
-        {
-          "name": "Tron",
-          "scores": {
-            "earnings_quality": 89.21
+            "earnings_quality": 35.305556571473666
           }
         }
       ],
       "sector_averages": {
-        "earnings_quality": 22.36,
-        "stability": 54.22,
-        "magnitude": 38.24,
-        "count": 33
+        "earnings_quality": 10.76,
+        "count": 69
       }
     },
-    "Uniswap Labs": {
-      "name": "Uniswap Labs",
-      "sector": "Exchanges (DEX)",
-      "scores": {
-        "earnings_quality": 53.83,
-        "stability": 70.25918741131278,
-        "magnitude": 76.62
-      },
-      "peers": [
-        {
-          "name": "Curve",
-          "scores": {
-            "earnings_quality": 56.85
-          }
-        },
-        {
-          "name": "Tokenlon",
-          "scores": {
-            "earnings_quality": 62.0
-          }
-        },
-        {
-          "name": "Aerodrome",
-          "scores": {
-            "earnings_quality": 60.79
-          }
-        },
-        {
-          "name": "ParaSwap",
-          "scores": {
-            "earnings_quality": 58.47
-          }
-        }
-      ],
-      "sector_averages": {
-        "earnings_quality": 29.49,
-        "stability": 59.19,
-        "magnitude": 48.73,
-        "count": 41
-      }
-    },
-    "BNB Chain": {
-      "name": "BNB Chain",
+    "Aptos": {
+      "name": "Aptos",
       "sector": "Blockchains (L1)",
       "scores": {
-        "earnings_quality": 48.5,
-        "stability": 65.5417880748704,
-        "magnitude": 74.0
+        "earnings_quality": 43.49478334281707
       },
       "peers": [
         {
-          "name": "Bitcoin",
+          "name": "Algorand",
           "scores": {
-            "earnings_quality": 0
-          }
-        },
-        {
-          "name": "Ethereum",
-          "scores": {
-            "earnings_quality": 26.4
+            "earnings_quality": 38.517054285532666
           }
         },
         {
           "name": "Avalanche",
           "scores": {
-            "earnings_quality": 39.96
+            "earnings_quality": 39.96282983690581
           }
         },
         {
-          "name": "Tron",
+          "name": "BNB Chain",
           "scores": {
-            "earnings_quality": 89.21
+            "earnings_quality": 48.5009231754041
+          }
+        },
+        {
+          "name": "Celo",
+          "scores": {
+            "earnings_quality": 35.305556571473666
           }
         }
       ],
       "sector_averages": {
-        "earnings_quality": 22.36,
-        "stability": 54.22,
-        "magnitude": 38.24,
-        "count": 33
+        "earnings_quality": 10.76,
+        "count": 69
       }
     },
-    "OP Mainnet": {
-      "name": "OP Mainnet",
+    "Arbitrum": {
+      "name": "Arbitrum",
       "sector": "Blockchains (L2)",
       "scores": {
-        "earnings_quality": 52.07,
-        "stability": 74.12585593070725,
-        "magnitude": 70.24
+        "earnings_quality": 64.9549137112815
       },
       "peers": [
+        {
+          "name": "Gravity",
+          "scores": {
+            "earnings_quality": 33.303054003849226
+          }
+        },
+        {
+          "name": "Immutable X",
+          "scores": {
+            "earnings_quality": 62.73696331707027
+          }
+        },
+        {
+          "name": "zkSync",
+          "scores": {
+            "earnings_quality": 37.3280384228913
+          }
+        },
         {
           "name": "Arbitrum One",
           "scores": {
-            "earnings_quality": 64.95
-          }
-        },
-        {
-          "name": "Base",
-          "scores": {
-            "earnings_quality": 64.81
-          }
-        },
-        {
-          "name": "Immutable",
-          "scores": {
-            "earnings_quality": 62.74
-          }
-        },
-        {
-          "name": "zkSync Era",
-          "scores": {
-            "earnings_quality": 37.33
+            "earnings_quality": 64.9549137112815
           }
         }
       ],
       "sector_averages": {
-        "earnings_quality": 45.01,
-        "stability": 75.82,
-        "magnitude": 58.89,
-        "count": 9
-      }
-    },
-    "Pendle": {
-      "name": "Pendle",
-      "sector": "Derivative exchanges",
-      "scores": {
-        "earnings_quality": 44.2,
-        "stability": 70.7926852992608,
-        "magnitude": 62.44
-      },
-      "peers": [
-        {
-          "name": "GMX",
-          "scores": {
-            "earnings_quality": 50.32
-          }
-        },
-        {
-          "name": "Hegic",
-          "scores": {
-            "earnings_quality": 54.79
-          }
-        },
-        {
-          "name": "SynFutures",
-          "scores": {
-            "earnings_quality": 44.47
-          }
-        },
-        {
-          "name": "BMX",
-          "scores": {
-            "earnings_quality": 44.4
-          }
-        }
-      ],
-      "sector_averages": {
-        "earnings_quality": 26.95,
-        "stability": 53.53,
-        "magnitude": 46.53,
-        "count": 19
-      }
-    },
-    "Curve": {
-      "name": "Curve",
-      "sector": "Exchanges (DEX)",
-      "scores": {
-        "earnings_quality": 56.85,
-        "stability": 78.65673587311286,
-        "magnitude": 72.27
-      },
-      "peers": [
-        {
-          "name": "Uniswap Labs",
-          "scores": {
-            "earnings_quality": 53.83
-          }
-        },
-        {
-          "name": "Tokenlon",
-          "scores": {
-            "earnings_quality": 62.0
-          }
-        },
-        {
-          "name": "Aerodrome",
-          "scores": {
-            "earnings_quality": 60.79
-          }
-        },
-        {
-          "name": "ParaSwap",
-          "scores": {
-            "earnings_quality": 58.47
-          }
-        }
-      ],
-      "sector_averages": {
-        "earnings_quality": 29.49,
-        "stability": 59.19,
-        "magnitude": 48.73,
-        "count": 41
-      }
-    },
-    "Maple Finance": {
-      "name": "Maple Finance",
-      "sector": "Lending",
-      "scores": {
-        "earnings_quality": 54.32,
-        "stability": 85.49248843341651,
-        "magnitude": 63.54
-      },
-      "peers": [
-        {
-          "name": "Aave",
-          "scores": {
-            "earnings_quality": 62.67
-          }
-        },
-        {
-          "name": "Compound",
-          "scores": {
-            "earnings_quality": 32.43
-          }
-        },
-        {
-          "name": "Venus",
-          "scores": {
-            "earnings_quality": 58.73
-          }
-        },
-        {
-          "name": "Fluid",
-          "scores": {
-            "earnings_quality": 43.23
-          }
-        }
-      ],
-      "sector_averages": {
-        "earnings_quality": 29.74,
-        "stability": 54.45,
-        "magnitude": 53.32,
-        "count": 17
-      }
-    },
-    "Compound": {
-      "name": "Compound",
-      "sector": "Lending",
-      "scores": {
-        "earnings_quality": 32.43,
-        "stability": 53.91662471422238,
-        "magnitude": 60.15
-      },
-      "peers": [
-        {
-          "name": "Aave",
-          "scores": {
-            "earnings_quality": 62.67
-          }
-        },
-        {
-          "name": "Maple Finance",
-          "scores": {
-            "earnings_quality": 54.32
-          }
-        },
-        {
-          "name": "Venus",
-          "scores": {
-            "earnings_quality": 58.73
-          }
-        },
-        {
-          "name": "Fluid",
-          "scores": {
-            "earnings_quality": 43.23
-          }
-        }
-      ],
-      "sector_averages": {
-        "earnings_quality": 29.74,
-        "stability": 54.45,
-        "magnitude": 53.32,
-        "count": 17
-      }
-    },
-    "Ethereum": {
-      "name": "Ethereum",
-      "sector": "Blockchains (L1)",
-      "scores": {
-        "earnings_quality": 26.4,
-        "stability": 32.56366945366578,
-        "magnitude": 81.08
-      },
-      "peers": [
-        {
-          "name": "Bitcoin",
-          "scores": {
-            "earnings_quality": 0
-          }
-        },
-        {
-          "name": "BNB Chain",
-          "scores": {
-            "earnings_quality": 48.5
-          }
-        },
-        {
-          "name": "Avalanche",
-          "scores": {
-            "earnings_quality": 39.96
-          }
-        },
-        {
-          "name": "Tron",
-          "scores": {
-            "earnings_quality": 89.21
-          }
-        }
-      ],
-      "sector_averages": {
-        "earnings_quality": 22.36,
-        "stability": 54.22,
-        "magnitude": 38.24,
-        "count": 33
+        "earnings_quality": 5.67,
+        "count": 84
       }
     },
     "Avalanche": {
       "name": "Avalanche",
       "sector": "Blockchains (L1)",
       "scores": {
-        "earnings_quality": 39.96,
-        "stability": 60.385055661689044,
-        "magnitude": 66.18
+        "earnings_quality": 39.96282983690581
       },
       "peers": [
         {
-          "name": "Bitcoin",
+          "name": "Algorand",
           "scores": {
-            "earnings_quality": 0
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
           }
         },
         {
           "name": "BNB Chain",
           "scores": {
-            "earnings_quality": 48.5
+            "earnings_quality": 48.5009231754041
           }
         },
         {
-          "name": "Ethereum",
+          "name": "Celo",
           "scores": {
-            "earnings_quality": 26.4
-          }
-        },
-        {
-          "name": "Tron",
-          "scores": {
-            "earnings_quality": 89.21
+            "earnings_quality": 35.305556571473666
           }
         }
       ],
       "sector_averages": {
-        "earnings_quality": 22.36,
-        "stability": 54.22,
-        "magnitude": 38.24,
-        "count": 33
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "BNB Chain": {
+      "name": "BNB Chain",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 48.5009231754041
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "Celo",
+          "scores": {
+            "earnings_quality": 35.305556571473666
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Celo": {
+      "name": "Celo",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 35.305556571473666
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
       }
     },
     "Chainlink": {
       "name": "Chainlink",
       "sector": "Infrastructure",
       "scores": {
-        "earnings_quality": 26.85,
-        "stability": 55.8837647107777,
-        "magnitude": 48.05
+        "earnings_quality": 26.85214894352868
       },
       "peers": [
         {
           "name": "Helium",
           "scores": {
-            "earnings_quality": 53.58
+            "earnings_quality": 53.575124466986615
           }
         },
         {
           "name": "Layer3",
           "scores": {
-            "earnings_quality": 46.27
+            "earnings_quality": 46.27089996011394
           }
         },
         {
           "name": "Tornado Cash",
           "scores": {
-            "earnings_quality": 40.64
+            "earnings_quality": 40.6421287830892
           }
         },
         {
           "name": "Zerion",
           "scores": {
-            "earnings_quality": 35.12
+            "earnings_quality": 35.11925409569828
           }
         }
       ],
       "sector_averages": {
-        "earnings_quality": 23.19,
-        "stability": 59.76,
-        "magnitude": 40.16,
-        "count": 10
+        "earnings_quality": 2.39,
+        "count": 97
+      }
+    },
+    "Compound": {
+      "name": "Compound",
+      "sector": "Lending",
+      "scores": {
+        "earnings_quality": 32.43084976560476
+      },
+      "peers": [
+        {
+          "name": "Aave",
+          "scores": {
+            "earnings_quality": 62.67057362728197
+          }
+        },
+        {
+          "name": "Maple Finance",
+          "scores": {
+            "earnings_quality": 54.32192715059285
+          }
+        },
+        {
+          "name": "Vechain",
+          "scores": {
+            "earnings_quality": 62.67057362728197
+          }
+        },
+        {
+          "name": "Venus USDT",
+          "scores": {
+            "earnings_quality": 58.729369995647765
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.52,
+        "count": 62
+      }
+    },
+    "Convex Finance": {
+      "name": "Convex Finance",
+      "sector": "Asset management",
+      "scores": {
+        "earnings_quality": 52.4706371470804
+      },
+      "peers": [
+        {
+          "name": "Aura Finance",
+          "scores": {
+            "earnings_quality": 46.983308486486656
+          }
+        },
+        {
+          "name": "Index Cooperative",
+          "scores": {
+            "earnings_quality": 41.69345088455628
+          }
+        },
+        {
+          "name": "Ribbon Finance",
+          "scores": {
+            "earnings_quality": 40.50989099012236
+          }
+        },
+        {
+          "name": "Tokemak",
+          "scores": {
+            "earnings_quality": 37.32349428436831
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 4.43,
+        "count": 57
+      }
+    },
+    "Cosmos": {
+      "name": "Cosmos",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 26.157892238239448
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Curve DAO Token": {
+      "name": "Curve DAO Token",
+      "sector": "Exchanges (DEX)",
+      "scores": {
+        "earnings_quality": 56.84522301549867
+      },
+      "peers": [
+        {
+          "name": "Aerodrome Finance",
+          "scores": {
+            "earnings_quality": 60.788622351381406
+          }
+        },
+        {
+          "name": "Ethena",
+          "scores": {
+            "earnings_quality": 57.15610750876476
+          }
+        },
+        {
+          "name": "PancakeSwap",
+          "scores": {
+            "earnings_quality": 20.610528563344047
+          }
+        },
+        {
+          "name": "Sushiswap",
+          "scores": {
+            "earnings_quality": 47.83216668659891
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.69,
+        "count": 136
+      }
+    },
+    "Ethena": {
+      "name": "Ethena",
+      "sector": "Exchanges (DEX)",
+      "scores": {
+        "earnings_quality": 57.15610750876476
+      },
+      "peers": [
+        {
+          "name": "Aerodrome Finance",
+          "scores": {
+            "earnings_quality": 60.788622351381406
+          }
+        },
+        {
+          "name": "Curve DAO Token",
+          "scores": {
+            "earnings_quality": 56.84522301549867
+          }
+        },
+        {
+          "name": "PancakeSwap",
+          "scores": {
+            "earnings_quality": 20.610528563344047
+          }
+        },
+        {
+          "name": "Sushiswap",
+          "scores": {
+            "earnings_quality": 47.83216668659891
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.69,
+        "count": 136
+      }
+    },
+    "Ethereum": {
+      "name": "Ethereum",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 26.402623193032213
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Filecoin": {
+      "name": "Filecoin",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 22.236848055760632
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "GMX": {
+      "name": "GMX",
+      "sector": "Derivative exchanges",
+      "scores": {
+        "earnings_quality": 50.319127872574335
+      },
+      "peers": [
+        {
+          "name": "Pendle",
+          "scores": {
+            "earnings_quality": 44.20295270085844
+          }
+        },
+        {
+          "name": "Synthetix",
+          "scores": {
+            "earnings_quality": 30.536112044822108
+          }
+        },
+        {
+          "name": "Hegic",
+          "scores": {
+            "earnings_quality": 54.79070870679547
+          }
+        },
+        {
+          "name": "SynFutures",
+          "scores": {
+            "earnings_quality": 44.47377406233293
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.13,
+        "count": 63
+      }
+    },
+    "Gravity": {
+      "name": "Gravity",
+      "sector": "Blockchains (L2)",
+      "scores": {
+        "earnings_quality": 33.303054003849226
+      },
+      "peers": [
+        {
+          "name": "Arbitrum",
+          "scores": {
+            "earnings_quality": 64.9549137112815
+          }
+        },
+        {
+          "name": "Immutable X",
+          "scores": {
+            "earnings_quality": 62.73696331707027
+          }
+        },
+        {
+          "name": "zkSync",
+          "scores": {
+            "earnings_quality": 37.3280384228913
+          }
+        },
+        {
+          "name": "Arbitrum One",
+          "scores": {
+            "earnings_quality": 64.9549137112815
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 5.67,
+        "count": 84
+      }
+    },
+    "Immutable X": {
+      "name": "Immutable X",
+      "sector": "Blockchains (L2)",
+      "scores": {
+        "earnings_quality": 62.73696331707027
+      },
+      "peers": [
+        {
+          "name": "Arbitrum",
+          "scores": {
+            "earnings_quality": 64.9549137112815
+          }
+        },
+        {
+          "name": "Gravity",
+          "scores": {
+            "earnings_quality": 33.303054003849226
+          }
+        },
+        {
+          "name": "zkSync",
+          "scores": {
+            "earnings_quality": 37.3280384228913
+          }
+        },
+        {
+          "name": "Arbitrum One",
+          "scores": {
+            "earnings_quality": 64.9549137112815
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 5.67,
+        "count": 84
+      }
+    },
+    "Injective": {
+      "name": "Injective",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 49.72054028597943
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Internet Computer": {
+      "name": "Internet Computer",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 34.99216143098731
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Jito Labs": {
+      "name": "Jito Labs",
+      "sector": "Liquid staking",
+      "scores": {
+        "earnings_quality": 40.57981264730388
+      },
+      "peers": [
+        {
+          "name": "Lido DAO",
+          "scores": {
+            "earnings_quality": 62.60100053261692
+          }
+        },
+        {
+          "name": "Stader ETHx",
+          "scores": {
+            "earnings_quality": 39.25070817974617
+          }
+        },
+        {
+          "name": "StakeWise",
+          "scores": {
+            "earnings_quality": 31.52352037258972
+          }
+        },
+        {
+          "name": "Allstake",
+          "scores": {
+            "earnings_quality": 0.0
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 4.83,
+        "count": 36
+      }
+    },
+    "Lido DAO": {
+      "name": "Lido DAO",
+      "sector": "Liquid staking",
+      "scores": {
+        "earnings_quality": 62.60100053261692
+      },
+      "peers": [
+        {
+          "name": "Jito Labs",
+          "scores": {
+            "earnings_quality": 40.57981264730388
+          }
+        },
+        {
+          "name": "Stader ETHx",
+          "scores": {
+            "earnings_quality": 39.25070817974617
+          }
+        },
+        {
+          "name": "StakeWise",
+          "scores": {
+            "earnings_quality": 31.52352037258972
+          }
+        },
+        {
+          "name": "Allstake",
+          "scores": {
+            "earnings_quality": 0.0
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 4.83,
+        "count": 36
+      }
+    },
+    "Maple Finance": {
+      "name": "Maple Finance",
+      "sector": "Lending",
+      "scores": {
+        "earnings_quality": 54.32192715059285
+      },
+      "peers": [
+        {
+          "name": "Aave",
+          "scores": {
+            "earnings_quality": 62.67057362728197
+          }
+        },
+        {
+          "name": "Compound",
+          "scores": {
+            "earnings_quality": 32.43084976560476
+          }
+        },
+        {
+          "name": "Vechain",
+          "scores": {
+            "earnings_quality": 62.67057362728197
+          }
+        },
+        {
+          "name": "Venus USDT",
+          "scores": {
+            "earnings_quality": 58.729369995647765
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.52,
+        "count": 62
+      }
+    },
+    "MultiversX": {
+      "name": "MultiversX",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 30.99086041551533
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "NEAR Protocol": {
+      "name": "NEAR Protocol",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 45.6083744084649
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "PancakeSwap": {
+      "name": "PancakeSwap",
+      "sector": "Exchanges (DEX)",
+      "scores": {
+        "earnings_quality": 20.610528563344047
+      },
+      "peers": [
+        {
+          "name": "Aerodrome Finance",
+          "scores": {
+            "earnings_quality": 60.788622351381406
+          }
+        },
+        {
+          "name": "Curve DAO Token",
+          "scores": {
+            "earnings_quality": 56.84522301549867
+          }
+        },
+        {
+          "name": "Ethena",
+          "scores": {
+            "earnings_quality": 57.15610750876476
+          }
+        },
+        {
+          "name": "Sushiswap",
+          "scores": {
+            "earnings_quality": 47.83216668659891
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.69,
+        "count": 136
+      }
+    },
+    "Pendle": {
+      "name": "Pendle",
+      "sector": "Derivative exchanges",
+      "scores": {
+        "earnings_quality": 44.20295270085844
+      },
+      "peers": [
+        {
+          "name": "GMX",
+          "scores": {
+            "earnings_quality": 50.319127872574335
+          }
+        },
+        {
+          "name": "Synthetix",
+          "scores": {
+            "earnings_quality": 30.536112044822108
+          }
+        },
+        {
+          "name": "Hegic",
+          "scores": {
+            "earnings_quality": 54.79070870679547
+          }
+        },
+        {
+          "name": "SynFutures",
+          "scores": {
+            "earnings_quality": 44.47377406233293
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.13,
+        "count": 63
+      }
+    },
+    "Polkadot": {
+      "name": "Polkadot",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 29.47191562406533
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "RedStone": {
+      "name": "RedStone",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 32.063232086680955
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Ronin Network": {
+      "name": "Ronin Network",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 19.76231383028733
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Solana": {
+      "name": "Solana",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 36.12038312840085
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Stader ETHx": {
+      "name": "Stader ETHx",
+      "sector": "Liquid staking",
+      "scores": {
+        "earnings_quality": 39.25070817974617
+      },
+      "peers": [
+        {
+          "name": "Jito Labs",
+          "scores": {
+            "earnings_quality": 40.57981264730388
+          }
+        },
+        {
+          "name": "Lido DAO",
+          "scores": {
+            "earnings_quality": 62.60100053261692
+          }
+        },
+        {
+          "name": "StakeWise",
+          "scores": {
+            "earnings_quality": 31.52352037258972
+          }
+        },
+        {
+          "name": "Allstake",
+          "scores": {
+            "earnings_quality": 0.0
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 4.83,
+        "count": 36
+      }
+    },
+    "Sushiswap": {
+      "name": "Sushiswap",
+      "sector": "Exchanges (DEX)",
+      "scores": {
+        "earnings_quality": 47.83216668659891
+      },
+      "peers": [
+        {
+          "name": "Aerodrome Finance",
+          "scores": {
+            "earnings_quality": 60.788622351381406
+          }
+        },
+        {
+          "name": "Curve DAO Token",
+          "scores": {
+            "earnings_quality": 56.84522301549867
+          }
+        },
+        {
+          "name": "Ethena",
+          "scores": {
+            "earnings_quality": 57.15610750876476
+          }
+        },
+        {
+          "name": "PancakeSwap",
+          "scores": {
+            "earnings_quality": 20.610528563344047
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.69,
+        "count": 136
+      }
+    },
+    "Synthetix": {
+      "name": "Synthetix",
+      "sector": "Derivative exchanges",
+      "scores": {
+        "earnings_quality": 30.536112044822108
+      },
+      "peers": [
+        {
+          "name": "GMX",
+          "scores": {
+            "earnings_quality": 50.319127872574335
+          }
+        },
+        {
+          "name": "Pendle",
+          "scores": {
+            "earnings_quality": 44.20295270085844
+          }
+        },
+        {
+          "name": "Hegic",
+          "scores": {
+            "earnings_quality": 54.79070870679547
+          }
+        },
+        {
+          "name": "SynFutures",
+          "scores": {
+            "earnings_quality": 44.47377406233293
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.13,
+        "count": 63
+      }
+    },
+    "TRON": {
+      "name": "TRON",
+      "sector": "Blockchains (L1)",
+      "scores": {
+        "earnings_quality": 89.21328539488609
+      },
+      "peers": [
+        {
+          "name": "Algorand",
+          "scores": {
+            "earnings_quality": 38.517054285532666
+          }
+        },
+        {
+          "name": "Aptos",
+          "scores": {
+            "earnings_quality": 43.49478334281707
+          }
+        },
+        {
+          "name": "Avalanche",
+          "scores": {
+            "earnings_quality": 39.96282983690581
+          }
+        },
+        {
+          "name": "BNB Chain",
+          "scores": {
+            "earnings_quality": 48.5009231754041
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      }
+    },
+    "Vechain": {
+      "name": "Vechain",
+      "sector": "Lending",
+      "scores": {
+        "earnings_quality": 62.67057362728197
+      },
+      "peers": [
+        {
+          "name": "Aave",
+          "scores": {
+            "earnings_quality": 62.67057362728197
+          }
+        },
+        {
+          "name": "Compound",
+          "scores": {
+            "earnings_quality": 32.43084976560476
+          }
+        },
+        {
+          "name": "Maple Finance",
+          "scores": {
+            "earnings_quality": 54.32192715059285
+          }
+        },
+        {
+          "name": "Venus USDT",
+          "scores": {
+            "earnings_quality": 58.729369995647765
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.52,
+        "count": 62
+      }
+    },
+    "Venus USDT": {
+      "name": "Venus USDT",
+      "sector": "Lending",
+      "scores": {
+        "earnings_quality": 58.729369995647765
+      },
+      "peers": [
+        {
+          "name": "Aave",
+          "scores": {
+            "earnings_quality": 62.67057362728197
+          }
+        },
+        {
+          "name": "Compound",
+          "scores": {
+            "earnings_quality": 32.43084976560476
+          }
+        },
+        {
+          "name": "Maple Finance",
+          "scores": {
+            "earnings_quality": 54.32192715059285
+          }
+        },
+        {
+          "name": "Vechain",
+          "scores": {
+            "earnings_quality": 62.67057362728197
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 8.52,
+        "count": 62
+      }
+    },
+    "zkSync": {
+      "name": "zkSync",
+      "sector": "Blockchains (L2)",
+      "scores": {
+        "earnings_quality": 37.3280384228913
+      },
+      "peers": [
+        {
+          "name": "Arbitrum",
+          "scores": {
+            "earnings_quality": 64.9549137112815
+          }
+        },
+        {
+          "name": "Gravity",
+          "scores": {
+            "earnings_quality": 33.303054003849226
+          }
+        },
+        {
+          "name": "Immutable X",
+          "scores": {
+            "earnings_quality": 62.73696331707027
+          }
+        },
+        {
+          "name": "Arbitrum One",
+          "scores": {
+            "earnings_quality": 64.9549137112815
+          }
+        }
+      ],
+      "sector_averages": {
+        "earnings_quality": 5.67,
+        "count": 84
       }
     }
   },
   "sectors": {
-    "Stablecoin issuers": {
-      "name": "Stablecoin issuers",
-      "averages": {
-        "earnings_quality": 54.09,
-        "stability": 78.43,
-        "magnitude": 68.93,
-        "count": 10
-      },
-      "protocol_count": 10
-    },
-    "Blockchains (L1)": {
-      "name": "Blockchains (L1)",
-      "averages": {
-        "earnings_quality": 22.36,
-        "stability": 54.22,
-        "magnitude": 38.24,
-        "count": 33
-      },
-      "protocol_count": 33
-    },
     "Exchanges (DEX)": {
       "name": "Exchanges (DEX)",
       "averages": {
-        "earnings_quality": 29.49,
-        "stability": 59.19,
-        "magnitude": 48.73,
-        "count": 41
+        "earnings_quality": 8.69,
+        "count": 136
       },
-      "protocol_count": 41
-    },
-    "Liquid staking": {
-      "name": "Liquid staking",
-      "averages": {
-        "earnings_quality": 36.3,
-        "stability": 69.82,
-        "magnitude": 51.35,
-        "count": 6
-      },
-      "protocol_count": 6
-    },
-    "Lending": {
-      "name": "Lending",
-      "averages": {
-        "earnings_quality": 29.74,
-        "stability": 54.45,
-        "magnitude": 53.32,
-        "count": 17
-      },
-      "protocol_count": 17
+      "protocol_count": 136
     },
     "Infrastructure": {
       "name": "Infrastructure",
       "averages": {
-        "earnings_quality": 23.19,
-        "stability": 59.76,
-        "magnitude": 40.16,
-        "count": 10
+        "earnings_quality": 2.39,
+        "count": 97
       },
-      "protocol_count": 10
+      "protocol_count": 97
     },
-    "Blockchains (L2)": {
-      "name": "Blockchains (L2)",
+    "Lending": {
+      "name": "Lending",
       "averages": {
-        "earnings_quality": 45.01,
-        "stability": 75.82,
-        "magnitude": 58.89,
-        "count": 9
+        "earnings_quality": 8.52,
+        "count": 62
       },
-      "protocol_count": 9
+      "protocol_count": 62
     },
     "Derivative exchanges": {
       "name": "Derivative exchanges",
       "averages": {
-        "earnings_quality": 26.95,
-        "stability": 53.53,
-        "magnitude": 46.53,
-        "count": 19
+        "earnings_quality": 8.13,
+        "count": 63
       },
-      "protocol_count": 19
+      "protocol_count": 63
     },
-    "Asset management": {
-      "name": "Asset management",
+    "Stablecoin issuers": {
+      "name": "Stablecoin issuers",
       "averages": {
-        "earnings_quality": 31.59,
-        "stability": 75.13,
-        "magnitude": 43.01,
-        "count": 8
+        "earnings_quality": 7.79,
+        "count": 43
       },
-      "protocol_count": 8
+      "protocol_count": 43
     },
-    "NFT marketplaces": {
-      "name": "NFT marketplaces",
+    "Blockchains (L2)": {
+      "name": "Blockchains (L2)",
       "averages": {
-        "earnings_quality": 16.01,
-        "stability": 49.15,
-        "magnitude": 30.91,
-        "count": 9
+        "earnings_quality": 5.67,
+        "count": 84
       },
-      "protocol_count": 9
+      "protocol_count": 84
     },
     "Bridges": {
       "name": "Bridges",
       "averages": {
-        "earnings_quality": 26.65,
-        "stability": 53.26,
-        "magnitude": 44.53,
-        "count": 6
+        "earnings_quality": 6.66,
+        "count": 24
       },
-      "protocol_count": 6
+      "protocol_count": 24
     },
-    "Insurance": {
-      "name": "Insurance",
+    "Asset management": {
+      "name": "Asset management",
       "averages": {
-        "earnings_quality": 34.31,
-        "stability": 58.37,
-        "magnitude": 58.79,
-        "count": 1
+        "earnings_quality": 4.43,
+        "count": 57
       },
-      "protocol_count": 1
+      "protocol_count": 57
+    },
+    "Blockchains (L1)": {
+      "name": "Blockchains (L1)",
+      "averages": {
+        "earnings_quality": 10.76,
+        "count": 69
+      },
+      "protocol_count": 69
+    },
+    "Liquid staking": {
+      "name": "Liquid staking",
+      "averages": {
+        "earnings_quality": 4.83,
+        "count": 36
+      },
+      "protocol_count": 36
+    },
+    "Gaming": {
+      "name": "Gaming",
+      "averages": {
+        "earnings_quality": 0.0,
+        "count": 45
+      },
+      "protocol_count": 45
+    },
+    "NFT marketplaces": {
+      "name": "NFT marketplaces",
+      "averages": {
+        "earnings_quality": 6.55,
+        "count": 22
+      },
+      "protocol_count": 22
     },
     "Interoperability": {
       "name": "Interoperability",
       "averages": {
         "earnings_quality": 17.04,
-        "stability": 62.66,
-        "magnitude": 26.11,
         "count": 2
       },
       "protocol_count": 2
     },
-    "Social": {
-      "name": "Social",
+    "Prediction markets": {
+      "name": "Prediction markets",
       "averages": {
-        "earnings_quality": 16.25,
-        "stability": 44.97,
-        "magnitude": 24.17,
-        "count": 2
+        "earnings_quality": 0.0,
+        "count": 12
       },
-      "protocol_count": 2
+      "protocol_count": 12
     },
     "Blockchains (L3)": {
       "name": "Blockchains (L3)",
       "averages": {
-        "earnings_quality": 4.11,
-        "stability": 28.56,
-        "magnitude": 14.4,
+        "earnings_quality": 0.59,
+        "count": 7
+      },
+      "protocol_count": 7
+    },
+    "Social": {
+      "name": "Social",
+      "averages": {
+        "earnings_quality": 1.48,
+        "count": 22
+      },
+      "protocol_count": 22
+    },
+    "Exchanges (CEX)": {
+      "name": "Exchanges (CEX)",
+      "averages": {
+        "earnings_quality": 0.0,
+        "count": 1
+      },
+      "protocol_count": 1
+    },
+    "ERC20 Tokens": {
+      "name": "ERC20 Tokens",
+      "averages": {
+        "earnings_quality": 0.0,
+        "count": 2
+      },
+      "protocol_count": 2
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "averages": {
+        "earnings_quality": 34.31,
+        "count": 1
+      },
+      "protocol_count": 1
+    },
+    "Oracles": {
+      "name": "Oracles",
+      "averages": {
+        "earnings_quality": 0.0,
         "count": 1
       },
       "protocol_count": 1

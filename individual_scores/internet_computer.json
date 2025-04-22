@@ -1,0 +1,13 @@
+{
+  "name": "Internet Computer",
+  "mainScore": 88.3,
+  "rating": "AA",
+  "subScores": {
+    "CS": 88.69,
+    "M": 84.62,
+    "O": 87.59,
+    "C": 85.52,
+    "G": 95.44,
+    "F": 87.95
+  }
+}

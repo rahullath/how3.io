@@ -1,0 +1,13 @@
+{
+  "name": "NEAR Protocol",
+  "mainScore": 90.96,
+  "rating": "AA",
+  "subScores": {
+    "CS": 93.28,
+    "M": 94.56,
+    "O": 88.74,
+    "C": 88.05,
+    "G": 93.43,
+    "F": 87.7
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Arbitrum",
+  "mainScore": 94.3,
+  "rating": "AAA",
+  "subScores": {
+    "CS": 90.57,
+    "M": 95.24,
+    "O": 91.88,
+    "C": 90.65,
+    "G": 99.46,
+    "F": 97.99
+  }
+}

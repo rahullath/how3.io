@@ -1,0 +1,262 @@
+{
+  "OpenSea": {
+    "project": "OpenSea",
+    "symbol": "OPE",
+    "position": {
+      "x": 28.24,
+      "y": 100.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Blur": {
+    "project": "Blur",
+    "symbol": "BLU",
+    "position": {
+      "x": 0.0,
+      "y": 88.75
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Rarible": {
+    "project": "Rarible",
+    "symbol": "RAR",
+    "position": {
+      "x": 36.22,
+      "y": 65.62
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "NFTX": {
+    "project": "NFTX",
+    "symbol": "NFT",
+    "position": {
+      "x": 0.0,
+      "y": 34.58
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Foundation": {
+    "project": "Foundation",
+    "symbol": "FOU",
+    "position": {
+      "x": 22.29,
+      "y": 55.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "X2Y2": {
+    "project": "X2Y2",
+    "symbol": "X2Y",
+    "position": {
+      "x": 39.1,
+      "y": 40.94
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Sudoswap": {
+    "project": "Sudoswap",
+    "symbol": "SUD",
+    "position": {
+      "x": 5.51,
+      "y": 35.83
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "Zora": {
+    "project": "Zora",
+    "symbol": "ZOR",
+    "position": {
+      "x": 12.76,
+      "y": 80.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "XOXNO": {
+    "project": "XOXNO",
+    "symbol": "XOX",
+    "position": {
+      "x": 0.0,
+      "y": 20.0
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "LooksRare": {
+    "project": "LooksRare",
+    "symbol": "LOO",
+    "position": {
+      "x": 0.0,
+      "y": 57.81
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "NFT marketplaces"
+    },
+    "highlight": false
+  },
+  "KAP Games": {
+    "project": "KAP Games",
+    "symbol": "KAP",
+    "position": {
+      "x": 0.0,
+      "y": 33.89
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Axie Infinity": {
+    "project": "Axie Infinity",
+    "symbol": "AXI",
+    "position": {
+      "x": 0.0,
+      "y": 94.12
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Star Atlas": {
+    "project": "Star Atlas",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 67.5
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Cat Town": {
+    "project": "Cat Town",
+    "symbol": "CAT",
+    "position": {
+      "x": 0.0,
+      "y": 45.01
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "StarryNift": {
+    "project": "StarryNift",
+    "symbol": "STA",
+    "position": {
+      "x": 0.0,
+      "y": 81.26
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Pixels": {
+    "project": "Pixels",
+    "symbol": "PIX",
+    "position": {
+      "x": 0.0,
+      "y": 64.77
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Decentral Games": {
+    "project": "Decentral Games",
+    "symbol": "DEC",
+    "position": {
+      "x": 0.0,
+      "y": 32.44
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Shrapnel": {
+    "project": "Shrapnel",
+    "symbol": "SHR",
+    "position": {
+      "x": 0.0,
+      "y": 57.04
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Fren Pet": {
+    "project": "Fren Pet",
+    "symbol": "FRE",
+    "position": {
+      "x": 0.0,
+      "y": 50.18
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  },
+  "Yield Guild Games": {
+    "project": "Yield Guild Games",
+    "symbol": "YIE",
+    "position": {
+      "x": 0.0,
+      "y": 79.8
+    },
+    "meta": {
+      "sector": "GameFi",
+      "original_sector": "Gaming"
+    },
+    "highlight": false
+  }
+}

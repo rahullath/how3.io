@@ -1,428 +1,414 @@
-import json
-import os
-import sys
-from typing import Dict, Any, List
-
-def load_json_data(file_path: str) -> Dict[str, Any]:
-    """Load EQS data from JSON file."""
-    try:
-        with open(file_path, 'r') as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error loading JSON data: {e}")
-        return {}
-
-def create_clear_preview(json_data: Dict[str, Any], output_file: str, project_filter: List[str] = None):
-    """
-    Create a crystal-clear HTML preview that mimics RevvInvest style.
-    
-    Args:
-        json_data: Dictionary with EQS data
-        output_file: Path to save HTML file
-        project_filter: Optional list of project names to include (None = include all)
-    """
-    # HTML header with styles inspired by RevvInvest
-    html = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earnings Quality Score</title>
+    <title>Earnings Quality Score Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
-            --primary: #4285F4;
-            --secondary: #F1C40F; 
-            --good: #34A853;
-            --average: #FBBC05;
-            --poor: #EA4335;
-            --bg-light: #f8f9fa;
-            --text-dark: #202124;
-            --text-light: #5f6368;
-            --border: #dadce0;
+            --primary-color: #4285F4;
+            --secondary-color: #34A853;
+            --warning-color: #FBBC05;
+            --error-color: #EA4335;
+            --stability-color: #4285F4;
+            --magnitude-color: #FBBC05;
+            --light-gray: #f8f9fa;
+            --dark-gray: #5f6368;
+            --border-color: #dadce0;
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: var(--bg-light);
-            color: var(--text-dark);
-            line-height: 1.5;
+            background-color: var(--light-gray);
+            color: #202124;
         }
         
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
         
+        .header {
+            background-color: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        
         .project-card {
             background-color: white;
-            border-radius: 12px;
+            border-radius: 8px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             overflow: hidden;
         }
         
         .project-header {
-            padding: 24px;
-            border-bottom: 1px solid var(--border);
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
         }
         
         .project-title {
             margin: 0;
-            font-size: 32px;
-            color: var(--text-dark);
-            display: flex;
-            align-items: center;
+            font-size: 24px;
+            color: #202124;
         }
         
         .project-subtitle {
-            color: var(--text-light);
+            color: var(--dark-gray);
             font-weight: normal;
-            font-size: 18px;
             margin-left: 10px;
         }
         
-        .metrics-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1px;
-            background-color: var(--border);
+        .project-scores {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
         }
         
-        .metric-box {
-            background-color: white;
-            padding: 24px;
-        }
-        
-        .metric-title {
-            font-size: 20px;
+        .score-pill {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
             font-weight: 500;
-            margin-top: 0;
-            margin-bottom: 8px;
+            font-size: 14px;
+            background-color: var(--light-gray);
         }
         
-        .metric-description {
-            color: var(--text-light);
-            font-size: 14px;
+        .score-pill.eqs {
+            background-color: #F1C40F;
+            color: #000;
+        }
+        
+        .score-pill.stability {
+            background-color: var(--stability-color);
+            color: white;
+        }
+        
+        .score-pill.magnitude {
+            background-color: var(--magnitude-color);
+            color: black;
+        }
+        
+        .charts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .chart-wrapper {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        
+        .chart-wrapper.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .chart-title {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: #202124;
+        }
+        
+        .chart-description {
+            color: var(--dark-gray);
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 250px;
+        }
+        
+        .eqs-breakdown {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 10px;
+        }
+        
+        .eqs-formula {
+            font-size: 18px;
+            text-align: center;
+            padding: 15px;
+            background-color: var(--light-gray);
+            border-radius: 8px;
             margin-bottom: 20px;
         }
         
-        .score-display {
-            font-size: 48px;
+        .formula-highlight {
             font-weight: bold;
-            margin-bottom: 16px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin: 0 2px;
         }
         
-        .good-score {
-            color: var(--good);
+        .formula-highlight.stability {
+            background-color: var(--stability-color);
+            color: white;
         }
         
-        .average-score {
-            color: var(--average);
+        .formula-highlight.magnitude {
+            background-color: var(--magnitude-color);
+            color: black;
         }
         
-        .poor-score {
-            color: var(--poor);
-        }
-        
-        .calculation-row {
+        .component-bar {
             display: flex;
             align-items: center;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
         }
         
-        .calculation-label {
-            flex: 1;
-            font-size: 16px;
-        }
-        
-        .calculation-formula {
-            font-family: monospace;
-            font-size: 15px;
-            color: var(--text-light);
-            margin-bottom: 16px;
-            background-color: var(--bg-light);
-            padding: 8px 12px;
-            border-radius: 4px;
-        }
-        
-        .calculation-value {
+        .component-label {
+            width: 120px;
             font-weight: 500;
+            font-size: 14px;
+        }
+        
+        .progress-container {
+            flex-grow: 1;
+            height: 30px;
+            background-color: var(--light-gray);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 0 10px;
+            position: relative;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            border-radius: 15px;
+            transition: width 1s ease-in-out;
+        }
+        
+        .progress-bar.stability {
+            background-color: var(--stability-color);
+        }
+        
+        .progress-bar.magnitude {
+            background-color: var(--magnitude-color);
+        }
+        
+        .component-value {
+            font-weight: bold;
             font-size: 16px;
-            width: 60px;
+            min-width: 60px;
             text-align: right;
         }
         
-        .bar-outer {
-            height: 8px;
-            background-color: var(--bg-light);
-            border-radius: 4px;
-            overflow: hidden;
-            flex: 2;
-            margin: 0 16px;
+        .contribution-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
         }
         
-        .bar-inner {
+        .stat-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             height: 100%;
-            border-radius: 4px;
+            padding: 20px;
         }
         
-        .bar-inner.stability {
-            background-color: var(--primary);
-        }
-        
-        .bar-inner.magnitude {
-            background-color: var(--secondary);
-        }
-        
-        .bar-inner.eqs {
-            background: linear-gradient(90deg, var(--primary) 70%, var(--secondary) 30%);
-        }
-        
-        .revenue-chart {
-            height: 300px;
-            margin-top: 20px;
-        }
-        
-        .metric-additional {
-            margin-top: 16px;
-            font-size: 14px;
-            color: var(--text-light);
-        }
-        
-        .revenue-value {
-            font-size: 32px;
+        .stat-value {
+            font-size: 36px;
             font-weight: bold;
-            color: var(--primary);
-            margin-bottom: 8px;
+            color: var(--primary-color);
+            margin-bottom: 10px;
         }
         
+        .stat-label {
+            font-size: 14px;
+            color: var(--dark-gray);
+            text-align: center;
+        }
+
+        /* Make charts responsive */
         @media (max-width: 768px) {
-            .metrics-container {
+            .charts-container {
                 grid-template-columns: 1fr;
+            }
+            
+            .project-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .project-scores {
+                margin-top: 15px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-"""
+        <div class="header">
+            <h1>Earnings Quality Score Visualization</h1>
+            <p>Detailed breakdown of how earnings quality scores are calculated based on revenue stability and magnitude.</p>
+        </div>
 
-    # Filter projects if needed
-    projects_to_show = json_data.keys() if project_filter is None else [p for p in project_filter if p in json_data]
-    
-    # Process each project
-    for project_name in projects_to_show:
-        project_data = json_data[project_name]
-        sector = project_data.get('sector', 'Unknown')
-        scores = project_data.get('scores', {})
-        
-        # Get scores with defaults if missing
-        eqs = scores.get('earnings_quality')
-        stability = scores.get('stability')
-        magnitude = scores.get('magnitude')
-        
-        # Calculate weighted values
-        stability_weighted = None if stability is None else round(stability * 0.7, 2)
-        magnitude_weighted = None if magnitude is None else round(magnitude * 0.3, 2)
-        
-        # Determine score category
-        eqs_category = "good" if eqs and eqs >= 70 else "average" if eqs and eqs >= 40 else "poor" if eqs else ""
-        
-        # Add project card
-        html += f"""
         <div class="project-card">
             <div class="project-header">
-                <h2 class="project-title">{project_name} <span class="project-subtitle">({sector})</span></h2>
+                <div>
+                    <h2 class="project-title">Aave <span class="project-subtitle">(Lending)</span></h2>
+                </div>
+                <div class="project-scores">
+                    <div class="score-pill eqs">EQS: 62.67</div>
+                    <div class="score-pill stability">Stability: 79.74</div>
+                    <div class="score-pill magnitude">Magnitude: 78.59</div>
+                </div>
             </div>
             
-            <div class="metrics-container">
-                <!-- EQS Score Box -->
-                <div class="metric-box">
-                    <h3 class="metric-title">Earnings Quality Score</h3>
-                    <p class="metric-description">Overall score based on revenue stability and magnitude</p>
+            <div class="charts-container">
+                <!-- EQS Breakdown Chart -->
+                <div class="chart-wrapper full-width">
+                    <h3 class="chart-title">Earnings Quality Score Breakdown</h3>
+                    <p class="chart-description">How stability and magnitude components contribute to the overall EQS</p>
                     
-                    <div class="score-display {eqs_category}">{eqs if eqs is not None else 'N/A'}</div>
-                    
-                    <div class="calculation-formula">
-                        EQS = (Stability × 0.7) + (Magnitude × 0.3)
-                    </div>
-                    
-                    <div class="calculation-row">
-                        <div class="calculation-label">Stability Score × 0.7</div>
-                        <div class="bar-outer">
-                            <div class="bar-inner stability" style="width: {stability if stability is not None else 0}%;"></div>
+                    <div class="eqs-breakdown">
+                        <div class="eqs-formula">
+                            EQS = (<span class="formula-highlight stability">Stability</span> � 0.7) + (<span class="formula-highlight magnitude">Magnitude</span> � 0.3)
                         </div>
-                        <div class="calculation-value">{stability_weighted if stability_weighted is not None else 'N/A'}</div>
-                    </div>
-                    
-                    <div class="calculation-row">
-                        <div class="calculation-label">Magnitude Score × 0.3</div>
-                        <div class="bar-outer">
-                            <div class="bar-inner magnitude" style="width: {magnitude if magnitude is not None else 0}%;"></div>
+                        
+                        <!-- Stability Component -->
+                        <div class="component-bar">
+                            <div class="component-label">Stability (70%)</div>
+                            <div class="progress-container">
+                                <div class="progress-bar stability" style="width: 79.74%;">
+                                    <span class="contribution-label">55.82</span>
+                                </div>
+                            </div>
+                            <div class="component-value">79.74</div>
                         </div>
-                        <div class="calculation-value">{magnitude_weighted if magnitude_weighted is not None else 'N/A'}</div>
+                        
+                        <!-- Magnitude Component -->
+                        <div class="component-bar">
+                            <div class="component-label">Magnitude (30%)</div>
+                            <div class="progress-container">
+                                <div class="progress-bar magnitude" style="width: 78.59%;">
+                                    <span class="contribution-label">23.58</span>
+                                </div>
+                            </div>
+                            <div class="component-value">78.59</div>
+                        </div>
+                        
+                        <!-- Final EQS Score -->
+                        <div class="component-bar">
+                            <div class="component-label">Final EQS</div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 62.67%; background: linear-gradient(90deg, var(--stability-color) 70%, var(--magnitude-color) 30%);">
+                                </div>
+                            </div>
+                            <div class="component-value">62.67</div>
+                        </div>
                     </div>
                 </div>
-                
-                <!-- Stability Score Box -->
-                <div class="metric-box">
-                    <h3 class="metric-title">Stability Score</h3>
-                    <p class="metric-description">Measures how consistent revenue is over time</p>
-                    
-                    <div class="score-display" style="color: var(--primary);">{stability if stability is not None else 'N/A'}</div>
-                    
-                    <p class="metric-additional">Higher scores indicate more stable, consistent revenue with less volatility between time periods.</p>
+
+                <div class="chart-wrapper">
+                    <h3 class="chart-title">Annual Revenue</h3>
+                    <p class="chart-description">Total revenue generated over the past year</p>
+                    <div class="stat-card">
+                        <div class="stat-value">$94.93M</div>
+                        <div class="stat-label">Total annual revenue</div>
+                    </div>
                 </div>
-                
-                <!-- Magnitude Score Box -->
-                <div class="metric-box">
-                    <h3 class="metric-title">Magnitude Score</h3>
-                    <p class="metric-description">Measures the relative size of revenue</p>
-                    
-                    <div class="score-display" style="color: var(--secondary);">{magnitude if magnitude is not None else 'N/A'}</div>
-                    
-                    <p class="metric-additional">Higher scores indicate larger revenue relative to other projects in the same category.</p>
-                </div>
-"""
-        
-        # Revenue charts section
-        charts = project_data.get('charts', {})
-        
-        # Add annual revenue if available
-        if 'annual_revenue' in charts:
-            chart = charts['annual_revenue']
-            formatted_value = chart['data']['formatted_value']
-            
-            html += f"""
-                <!-- Annual Revenue -->
-                <div class="metric-box">
-                    <h3 class="metric-title">Annual Revenue</h3>
-                    <p class="metric-description">Total revenue generated over the past year</p>
-                    
-                    <div class="revenue-value">{formatted_value}</div>
-                </div>
-"""
-        
-        # Add revenue consistency chart if available
-        if 'revenue_consistency' in charts:
-            chart = charts['revenue_consistency']
-            chart_id = f"{project_name.lower().replace(' ', '_')}_revenue_consistency"
-            
-            labels = [item['period_name'] for item in chart['data']]
-            values = [item['annualized_value'] for item in chart['data']]
-            tooltips = [item['description'] + ": " + item['formatted_annualized'] for item in chart['data']]
-            
-            html += f"""
-                <!-- Revenue Consistency -->
-                <div class="metric-box" style="grid-column: span 2;">
-                    <h3 class="metric-title">Revenue Consistency</h3>
-                    <p class="metric-description">Revenue across different time periods (annualized)</p>
-                    
-                    <div class="revenue-chart">
-                        <canvas id="{chart_id}"></canvas>
+
+                <div class="chart-wrapper" style="grid-column: span 2;">
+                    <h3 class="chart-title">Revenue Consistency Check</h3>
+                    <p class="chart-description">Revenue across different time periods (annualized to show consistency)</p>
+                    <div class="chart-container">
+                        <canvas id="aave_revenue_consistency"></canvas>
                     </div>
                 </div>
                 <script>
-                    (function() {{
-                        const ctx = document.getElementById('{chart_id}');
-                        if (ctx) {{
-                            new Chart(ctx, {{
+                    (function() {
+                        const ctx = document.getElementById('aave_revenue_consistency');
+                        if (ctx) {
+                            new Chart(ctx, {
                                 type: 'bar',
-                                data: {{
-                                    labels: {json.dumps(labels)},
-                                    datasets: [{{
+                                data: {
+                                    labels: ["1 Month", "3 Months", "6 Months", "12 Months"],
+                                    datasets: [{
                                         label: 'Annualized Revenue',
-                                        data: {json.dumps(values)},
+                                        data: [71893756.36, 117568905.78, 115681149.83, 94934539.65],
                                         backgroundColor: '#4285F4',
-                                        borderRadius: 6,
                                         barPercentage: 0.6
-                                    }}]
-                                }},
-                                options: {{
+                                    }]
+                                },
+                                options: {
                                     responsive: true,
                                     maintainAspectRatio: false,
-                                    plugins: {{
-                                        tooltip: {{
-                                            callbacks: {{
-                                                label: function(context) {{
-                                                    return {json.dumps(tooltips)}[context.dataIndex];
-                                                }}
-                                            }}
-                                        }},
-                                        legend: {{
-                                            display: false
-                                        }}
-                                    }},
-                                    scales: {{
-                                        y: {{
+                                    plugins: {
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return ["Monthly revenue (annualized): $71.89M", "Quarterly revenue (annualized): $117.57M", "Semi-annual revenue (annualized): $115.68M", "Annual revenue: $94.93M"][context.dataIndex];
+                                                }
+                                            }
+                                        }
+                                    },
+                                    scales: {
+                                        y: {
                                             beginAtZero: true,
-                                            ticks: {{
-                                                callback: function(value) {{
+                                            ticks: {
+                                                callback: function(value) {
                                                     if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
                                                     if (value >= 1e6) return '$' + (value / 1e6).toFixed(1) + 'M';
                                                     if (value >= 1e3) return '$' + (value / 1e3).toFixed(1) + 'K';
                                                     return '$' + value;
-                                                }}
-                                            }}
-                                        }}
-                                    }}
-                                }}
-                            }});
-                        }}
-                    }})();
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    })();
                 </script>
-"""
-        
-        # Close metrics container
-        html += """
+
+                <div class="chart-wrapper">
+                    <h3 class="chart-title">Stability Score Explanation</h3>
+                    <p class="chart-description">How the stability score is calculated</p>
+                    <div class="stat-card">
+                        <p>The stability score measures how consistent a project's revenue is over time. Higher values indicate more consistent revenue with less volatility.</p>
+                        <p>It's calculated by analyzing quarter-over-quarter revenue fluctuations, with lower volatility resulting in higher stability scores.</p>
+                    </div>
+                </div>
+                
+                <div class="chart-wrapper">
+                    <h3 class="chart-title">Magnitude Score Explanation</h3>
+                    <p class="chart-description">How the magnitude score is calculated</p>
+                    <div class="stat-card">
+                        <p>The magnitude score represents the relative size of a project's revenue. Higher values mean larger revenue compared to other projects.</p>
+                        <p>It's calculated using a logarithmic scale to prevent very large projects from dominating the score.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
-"""
-    
-    # Close HTML
-    html += """
+
     </div>
 </body>
 </html>
-"""
-    
-    # Write to file
-    with open(output_file, 'w') as f:
-        f.write(html)
-    
-    print(f"Clear visualization preview saved to {output_file}")
-
-def main():
-    """Main function to run the preview generator."""
-    # Parse command line arguments
-    import argparse
-    parser = argparse.ArgumentParser(description='Generate a clear HTML preview for EQS data')
-    parser.add_argument('--input', '-i', type=str, default='eqs_visualization_data.json',
-                      help='Path to input JSON file with EQS data')
-    parser.add_argument('--output', '-o', type=str, default='eqs_clear_preview.html',
-                      help='Path to output HTML file')
-    parser.add_argument('--projects', '-p', type=str, nargs='+',
-                      help='Optional list of project names to include (default: all)')
-    
-    args = parser.parse_args()
-    
-    # Check if input file exists
-    if not os.path.exists(args.input):
-        print(f"Error: Input file {args.input} not found")
-        return
-    
-    # Load JSON data
-    json_data = load_json_data(args.input)
-    if not json_data:
-        print("Error: Failed to load JSON data")
-        return
-    
-    # Create preview
-    create_clear_preview(json_data, args.output, args.projects)
-
-if __name__ == "__main__":
-    main()

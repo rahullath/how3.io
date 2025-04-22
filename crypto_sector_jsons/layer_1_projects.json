@@ -1,0 +1,262 @@
+{
+  "Tron": {
+    "project": "Tron",
+    "symbol": "TRX",
+    "position": {
+      "x": 89.21,
+      "y": 88.24
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Solana": {
+    "project": "Solana",
+    "symbol": "SOL",
+    "position": {
+      "x": 36.12,
+      "y": 96.22
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Ethereum": {
+    "project": "Ethereum",
+    "symbol": "ETH",
+    "position": {
+      "x": 26.4,
+      "y": 80.75
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "BNB Chain": {
+    "project": "BNB Chain",
+    "symbol": "BNB",
+    "position": {
+      "x": 48.5,
+      "y": 94.41
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Bitcoin": {
+    "project": "Bitcoin",
+    "symbol": "BTC",
+    "position": {
+      "x": 0.0,
+      "y": 73.61
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Internet Computer": {
+    "project": "Internet Computer",
+    "symbol": "INT",
+    "position": {
+      "x": 34.99,
+      "y": 74.21
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "TON": {
+    "project": "TON",
+    "symbol": "TON",
+    "position": {
+      "x": 32.06,
+      "y": 68.97
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Avalanche": {
+    "project": "Avalanche",
+    "symbol": "AVAX",
+    "position": {
+      "x": 39.96,
+      "y": 63.6
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Polygon": {
+    "project": "Polygon",
+    "symbol": "POL",
+    "position": {
+      "x": 44.84,
+      "y": 72.32
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "NEAR Protocol": {
+    "project": "NEAR Protocol",
+    "symbol": "NEA",
+    "position": {
+      "x": 45.61,
+      "y": 34.01
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Cardano": {
+    "project": "Cardano",
+    "symbol": "ADA",
+    "position": {
+      "x": 0.0,
+      "y": 90.91
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Cronos": {
+    "project": "Cronos",
+    "symbol": "CRO",
+    "position": {
+      "x": 0.0,
+      "y": 58.11
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Injective": {
+    "project": "Injective",
+    "symbol": "INJ",
+    "position": {
+      "x": 49.72,
+      "y": 64.15
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Dogecoin": {
+    "project": "Dogecoin",
+    "symbol": "DOGE",
+    "position": {
+      "x": 0.0,
+      "y": 93.94
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Aptos": {
+    "project": "Aptos",
+    "symbol": "APT",
+    "position": {
+      "x": 43.49,
+      "y": 74.58
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Filecoin": {
+    "project": "Filecoin",
+    "symbol": "FIL",
+    "position": {
+      "x": 22.24,
+      "y": 64.09
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Ronin": {
+    "project": "Ronin",
+    "symbol": "RON",
+    "position": {
+      "x": 19.76,
+      "y": 54.89
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Celo": {
+    "project": "Celo",
+    "symbol": "CEL",
+    "position": {
+      "x": 35.31,
+      "y": 56.74
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "MultiversX": {
+    "project": "MultiversX",
+    "symbol": "MUL",
+    "position": {
+      "x": 30.99,
+      "y": 52.54
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  },
+  "Litecoin": {
+    "project": "Litecoin",
+    "symbol": "LIT",
+    "position": {
+      "x": 0.0,
+      "y": 84.85
+    },
+    "meta": {
+      "sector": "Layer 1",
+      "original_sector": "Blockchains (L1)"
+    },
+    "highlight": false
+  }
+}
